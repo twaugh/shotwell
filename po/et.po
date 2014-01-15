@@ -2,12 +2,14 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # boamaod <boamaod@gmail.com>, 2011
 # Mattias Põldaru <mahfiaz@gmail.com>, 2011-2013
 # verayin <vera@yorba.org>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -15,7 +17,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
 "Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Estonian (http://www.transifex.com/projects/p/shotwell/language/et/)\n"
+"Language-Team: Estonian (http://www.transifex.com/projects/p/shotwell/"
+"language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +48,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Kaamera lahtihaakimine pole võimalik. Proovi kaamera failihaldurist lahti haakida."
+msgstr ""
+"Kaamera lahtihaakimine pole võimalik. Proovi kaamera failihaldurist lahti "
+"haakida."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -87,7 +92,9 @@ msgstr "Kõigi fotode importimine pildikogusse"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell kaamerale ligipääsemiseks selle failisüsteemist lahti haakima. Kas jätkata?"
+msgstr ""
+"Shotwell kaamerale ligipääsemiseks selle failisüsteemist lahti haakima. Kas "
+"jätkata?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -102,7 +109,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Mingi teine rakendus on lukustanud kaamera kasutuse. Shotwell pääseb kaamerale ligi alles siis, kui lukk on lahti. Palun sulge kõik teised rakendused, mis võiksid kaamerat kasutada ja proovi siis uuesti."
+msgstr ""
+"Mingi teine rakendus on lukustanud kaamera kasutuse. Shotwell pääseb "
+"kaamerale ligi alles siis, kui lukk on lahti. Palun sulge kõik teised "
+"rakendused, mis võiksid kaamerat kasutada ja proovi siis uuesti."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -113,7 +123,9 @@ msgstr "Palun sulge kõik teised rakendused, mis kaamerat kasutavad."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Kaamerast ei suudetud hankida eelvaatepilte:\n%s"
+msgstr ""
+"Kaamerast ei suudetud hankida eelvaatepilte:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -172,10 +184,11 @@ msgstr "Fotode/videote eemaldamine kaamerast"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
-msgstr[0] "%d foto/video kustutamine kaamerast pole võimalik, kuna esines vigu."
-msgstr[1] "%d foto/video kustutamine kaamerast pole võimalik, kuna esines vigu."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
+msgstr[0] ""
+"%d foto/video kustutamine kaamerast pole võimalik, kuna esines vigu."
+msgstr[1] ""
+"%d foto/video kustutamine kaamerast pole võimalik, kuna esines vigu."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
 msgid "S_lideshow"
@@ -400,7 +413,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Sinu fotokogu andmebaas ei ühildu selle Shotwelli versiooniga. Tundub, et see loodi Shotwelli versiooniga %s (skeem %d). Praegune on aga versioon %s (skeem %d). Kasuta Shotwelli kõige värskemat versiooni."
+msgstr ""
+"Sinu fotokogu andmebaas ei ühildu selle Shotwelli versiooniga. Tundub, et "
+"see loodi Shotwelli versiooniga %s (skeem %d). Praegune on aga versioon %s "
+"(skeem %d). Kasuta Shotwelli kõige värskemat versiooni."
 
 #: src/main.vala:59
 #, c-format
@@ -408,7 +424,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell ei suutnud sinu fotokogu uuendada versioonilt %s (skeem %d) versioonile %s (skeem %d). Rohkem teavet on Shotwelli vikis aadressil %s"
+msgstr ""
+"Shotwell ei suutnud sinu fotokogu uuendada versioonilt %s (skeem %d) "
+"versioonile %s (skeem %d). Rohkem teavet on Shotwelli vikis aadressil %s"
 
 #: src/main.vala:65
 #, c-format
@@ -417,7 +435,10 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Sinu fotokogu andmebaas ei ühildu selle Shotwelli versiooniga. Tundub, et see loodi Shotwelli versiooniga %s (skeem %d). See on aga versioon %s (skeem %d). Tühjenda oma kogu kustutades faili %s ja impordi oma fotod uuesti."
+msgstr ""
+"Sinu fotokogu andmebaas ei ühildu selle Shotwelli versiooniga. Tundub, et "
+"see loodi Shotwelli versiooniga %s (skeem %d). See on aga versioon %s (skeem "
+"%d). Tühjenda oma kogu kustutades faili %s ja impordi oma fotod uuesti."
 
 #: src/main.vala:71
 #, c-format
@@ -455,7 +476,9 @@ msgstr "[FAIL]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Käivita '%s --help', et näha täielikku nimekirja võimalikest käsurea valikutest.\n"
+msgstr ""
+"Käivita '%s --help', et näha täielikku nimekirja võimalikest käsurea "
+"valikutest.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -636,8 +659,12 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Ilmutajate vahetamine ennistab kõik muudatused, mis sa oled sellele fotole Shotwellis teinud"
-msgstr[1] "Ilmutajate vahetamine ennistab kõik muudatused, mis sa oled nendele fotodele Shotwellis teinud"
+msgstr[0] ""
+"Ilmutajate vahetamine ennistab kõik muudatused, mis sa oled sellele fotole "
+"Shotwellis teinud"
+msgstr[1] ""
+"Ilmutajate vahetamine ennistab kõik muudatused, mis sa oled nendele fotodele "
+"Shotwellis teinud"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -652,20 +679,27 @@ msgstr "Video eksportimine"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell ei suutnud luua selle foto muutmiseks faili, sest sul pole õigust kirjutada kohta %s."
+msgstr ""
+"Shotwell ei suutnud luua selle foto muutmiseks faili, sest sul pole õigust "
+"kirjutada kohta %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Failitõrke tõttu pole võimalik järgnevat fotot eksportida.\n\n"
+msgstr ""
+"Failitõrke tõttu pole võimalik järgnevat fotot eksportida.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nKas tahad jätkata eksportimisega?"
+msgstr ""
+"\n"
+"\n"
+"Kas tahad jätkata eksportimisega?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -748,28 +782,33 @@ msgid "error message:"
 msgstr "veateade:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "Faile ei imporditud, kuna neid ei ole fotod ega videod:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Fotosid/videoid ei imporditud, kuna need ei olnud Shotwellile arusaadavas vormingus:"
+msgstr ""
+"Fotosid/videoid ei imporditud, kuna need ei olnud Shotwellile arusaadavas "
+"vormingus:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Fotosid/videoid ei imporditud, kuna Shotwel ei suutnud neid oma kogusse kopeerida:"
+msgstr ""
+"Fotosid/videoid ei imporditud, kuna Shotwel ei suutnud neid oma kogusse "
+"kopeerida:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "polnud võimalik kopeerida %s\n\tasukohta %s"
+msgstr ""
+"polnud võimalik kopeerida %s\n"
+"\tasukohta %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -819,8 +858,10 @@ msgstr[1] "%d video importimine nurjus faili- või raudvaralise tõrke tõttu:\n
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "1 foto/video importimine nurjus faili- või raudvaralise tõrke tõttu:\n"
-msgstr[1] "%d foto/video importimine nurjus faili- või raudvaralise tõrke tõttu:\n"
+msgstr[0] ""
+"1 foto/video importimine nurjus faili- või raudvaralise tõrke tõttu:\n"
+msgstr[1] ""
+"%d foto/video importimine nurjus faili- või raudvaralise tõrke tõttu:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
@@ -832,24 +873,26 @@ msgstr[1] "%d faili importimine nurjus raudvaralise vea tõttu:\n"
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 foto importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
-msgstr[1] "%d foto importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[0] ""
+"1 foto importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[1] ""
+"%d foto importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
-msgstr[1] "%d video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[0] ""
+"1 video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[1] ""
+"%d video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -859,8 +902,10 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 foto/video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
-msgstr[1] "%d foto/video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[0] ""
+"1 foto/video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
+msgstr[1] ""
+"%d foto/video importimine nurjus, kuna fotokogu kataloog polnud kirjutatav:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -869,8 +914,10 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 faili importimine nurjus, kuna fotokogu kataloog pole kirjutatav:\n"
-msgstr[1] "%d faili importimine nurjus, kuna fotokogu kataloog pole kirjutatav:\n"
+msgstr[0] ""
+"1 faili importimine nurjus, kuna fotokogu kataloog pole kirjutatav:\n"
+msgstr[1] ""
+"%d faili importimine nurjus, kuna fotokogu kataloog pole kirjutatav:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
@@ -1067,8 +1114,10 @@ msgstr "Kas võtta välised muudatused tagasi?"
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "See kustutab kõik muudatused, mis tehti välisele failile. Kas jätkata?"
-msgstr[1] "See kustutab kõik muudatused, mis tehti %d välisele failile. Kas jätkata?"
+msgstr[0] ""
+"See kustutab kõik muudatused, mis tehti välisele failile. Kas jätkata?"
+msgstr[1] ""
+"See kustutab kõik muudatused, mis tehti %d välisele failile. Kas jätkata?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1155,14 +1204,18 @@ msgstr "%d. %m %Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Pildistamise aega nihutatakse edasi\n%d %s, %d %s, %d %s ja %d %s võrra."
+msgstr ""
+"Pildistamise aega nihutatakse edasi\n"
+"%d %s, %d %s, %d %s ja %d %s võrra."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Pildistamise aega nihutatakse tagasi\n%d %s, %d %s, %d %s ja %d %s võrra."
+msgstr ""
+"Pildistamise aega nihutatakse tagasi\n"
+"%d %s, %d %s, %d %s ja %d %s võrra."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1198,8 +1251,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nja veel %d."
-msgstr[1] "\n\nja veel %d."
+msgstr[0] ""
+"\n"
+"\n"
+"ja veel %d."
+msgstr[1] ""
+"\n"
+"\n"
+"ja veel %d."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1285,7 +1344,9 @@ msgstr "Sobimatu muster"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell võib kopeerida fotod sinu fotokogusse või viidata fotodele ilma neist duplikaate loomata."
+msgstr ""
+"Shotwell võib kopeerida fotod sinu fotokogusse või viidata fotodele ilma "
+"neist duplikaate loomata."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1314,41 +1375,71 @@ msgstr "Fotode eemaldamine kogust"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "See eemaldab foto/video Shotwelli kogust. Kas see fail tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
-msgstr[1] "See eemaldab %d fotot/videot Shotwelli kogust. Kas need failid tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
+msgstr[0] ""
+"See eemaldab foto/video Shotwelli kogust. Kas see fail tuleks visata ka "
+"prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
+msgstr[1] ""
+"See eemaldab %d fotot/videot Shotwelli kogust. Kas need failid tuleks visata "
+"ka prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "See eemaldab video Shotwelli kogust. Kas see fail tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
-msgstr[1] "See eemaldab %d videot Shotwelli kogust. Kas need failid tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
+msgstr[0] ""
+"See eemaldab video Shotwelli kogust. Kas see fail tuleks visata ka "
+"prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
+msgstr[1] ""
+"See eemaldab %d videot Shotwelli kogust. Kas need failid tuleks visata ka "
+"prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "See eemaldab foto Shotwelli kogust. Kas see fail tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
-msgstr[1] "See eemaldab %d fotot Shotwelli kogust. Kas need failid tuleks visata ka prügikasti?\n\nSeda tegevust pole võimalik tagasi võtta."
+msgstr[0] ""
+"See eemaldab foto Shotwelli kogust. Kas see fail tuleks visata ka "
+"prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
+msgstr[1] ""
+"See eemaldab %d fotot Shotwelli kogust. Kas need failid tuleks visata ka "
+"prügikasti?\n"
+"\n"
+"Seda tegevust pole võimalik tagasi võtta."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1356,8 +1447,12 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "Fotot või videot ei ole võimalik töölaua prügikasti visata. Kas kustutada see fail?"
-msgstr[1] "%d fotot/videot ei ole võimalik töölaua prügikasti visata. Kas kustutada need failid?"
+msgstr[0] ""
+"Fotot või videot ei ole võimalik töölaua prügikasti visata. Kas kustutada "
+"see fail?"
+msgstr[1] ""
+"%d fotot/videot ei ole võimalik töölaua prügikasti visata. Kas kustutada "
+"need failid?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1544,7 +1639,8 @@ msgstr "%s meedia importimine ei saa jätkuda, kuna esines viga:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Proovi mõnest teisest teenusest importimist. Vali üks ülal asuvast menüüst."
+msgstr ""
+"Proovi mõnest teisest teenusest importimist. Vali üks ülal asuvast menüüst."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1554,8 +1650,14 @@ msgstr "Andmete importimine"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Sul pole ühtegi andmete importimise pluginat sisse lülitatud.\n\nRakendusest importimise kasutamiseks peab lubatud olema vähemalt üks andmete plugin. Pluginaid saab sisse lülitada eelistuste dialoogist."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Sul pole ühtegi andmete importimise pluginat sisse lülitatud.\n"
+"\n"
+"Rakendusest importimise kasutamiseks peab lubatud olema vähemalt üks andmete "
+"plugin. Pluginaid saab sisse lülitada eelistuste dialoogist."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1739,8 +1841,11 @@ msgstr "Tõrge aja kohendamisel"
 msgid "Time adjustments could not be undone on the following photo file."
 msgid_plural ""
 "Time adjustments could not be undone on the following photo files."
-msgstr[0] "Järgnevale fotole rakendatud kuupäeva kohendust pole võimalik tagasi võtta."
-msgstr[1] "Järgnevatele fotodele rakendatud kuupäeva kohendust pole võimalik tagasi võtta."
+msgstr[0] ""
+"Järgnevale fotole rakendatud kuupäeva kohendust pole võimalik tagasi võtta."
+msgstr[1] ""
+"Järgnevatele fotodele rakendatud kuupäeva kohendust pole võimalik tagasi "
+"võtta."
 
 #: src/Commands.vala:1625 src/Commands.vala:1648
 msgid "Create Tag"
@@ -1966,7 +2071,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Foto printimine pole võimalik:\n\n%s"
+msgstr ""
+"Foto printimine pole võimalik:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1978,7 +2086,9 @@ msgstr "Fotode andmebaasi %s avamine või loomine pole võimalik: veakood %d"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Fotoandmebaasi faili kirjutamine pole võimalik:\n%s"
+msgstr ""
+"Fotoandmebaasi faili kirjutamine pole võimalik:\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1988,7 +2098,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Viga andmebaasifailiga ühendumisel:\n%s\n\nViga oli:\n%s"
+msgstr ""
+"Viga andmebaasifailiga ühendumisel:\n"
+"%s\n"
+"\n"
+"Viga oli:\n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2263,7 +2378,9 @@ msgstr "%s ei ole fail."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s ei toeta järgnevat failivormingut\n%s."
+msgstr ""
+"%s ei toeta järgnevat failivormingut\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -2843,12 +2960,15 @@ msgstr "Sildi \"%s\" eemaldamine fotodelt"
 #: src/Resources.vala:367
 #, c-format
 msgid "Unable to rename tag to \"%s\" because the tag already exists."
-msgstr "Sildi nimeks pole võimalik määrata \"%s\", kuna selline silt on juba olemas."
+msgstr ""
+"Sildi nimeks pole võimalik määrata \"%s\", kuna selline silt on juba olemas."
 
 #: src/Resources.vala:371
 #, c-format
 msgid "Unable to rename search to \"%s\" because the search already exists."
-msgstr "Otsingu nimeks pole võimalik anda \"%s\", kuna sellenimeline otsing on juba olemas."
+msgstr ""
+"Otsingu nimeks pole võimalik anda \"%s\", kuna sellenimeline otsing on juba "
+"olemas."
 
 #: src/Resources.vala:374
 msgid "Saved Search"
@@ -3157,10 +3277,14 @@ msgstr "_Raporteeri veast..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Shotwelli koguga ühendumisel esines tõsine viga. Shotwell ei saa jätkata.\n\n%s"
+msgstr ""
+"Shotwelli koguga ühendumisel esines tõsine viga. Shotwell ei saa jätkata.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3272,7 +3396,9 @@ msgstr "Fotode sorteerimine hinnangu järgi"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell ei suutnud esitada valitud videot:\n%s"
+msgstr ""
+"Shotwell ei suutnud esitada valitud videot:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3475,7 +3601,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell ei saa valitud kirjeid avaldada, kuna ükski ühilduv avaldamise plugin pole sisse lülitatud. Selle parandamiseks vali <b>Redaktor %s Eelistused</b> ja lülita <b>Pluginate</b> alt sisse vähemalt üks avaldamise plugin."
+msgstr ""
+"Shotwell ei saa valitud kirjeid avaldada, kuna ükski ühilduv avaldamise "
+"plugin pole sisse lülitatud. Selle parandamiseks vali <b>Redaktor %s "
+"Eelistused</b> ja lülita <b>Pluginate</b> alt sisse vähemalt üks avaldamise "
+"plugin."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3493,35 +3623,48 @@ msgstr "Avaldamise jätkamine sihtkohta %s pole võimalik, kuna esines viga:"
 
 #: src/publishing/PublishingPluginHost.vala:84
 msgid "To try publishing to another service, select one from the above menu."
-msgstr "Et proovida avaldamist mõnda teise keskkonda, vali see ülalasuvast menüüst."
+msgstr ""
+"Et proovida avaldamist mõnda teise keskkonda, vali see ülalasuvast menüüst."
 
 #: src/sidebar/Tree.vala:199
 msgid "New _Tag..."
 msgstr "Uus _silt..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr "Avaldamise jaoks vajalik ajutine fail pole saadaval"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Sa ei ole praegu Youtube sisse logitud.\n\nJätkamiseks pead sa juba olema registreerinud Google konto ja selle seadistanud kasutamiseks Youtube'ga. Enamasti saab konto luua logides veebibrauserist Youtube'sse ühel korral sisse logides."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Sa ei ole praegu Youtube sisse logitud.\n"
+"\n"
+"Jätkamiseks pead sa juba olema registreerinud Google konto ja selle "
+"seadistanud kasutamiseks Youtube'ga. Enamasti saab konto luua logides "
+"veebibrauserist Youtube'sse ühel korral sisse logides."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Avaldamiseks vajalik fail pole saadaval. Avaldamist Youtube'i pole võimalik jätkata"
+msgstr ""
+"Avaldamiseks vajalik fail pole saadaval. Avaldamist Youtube'i pole võimalik "
+"jätkata"
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3553,14 +3696,24 @@ msgstr "Avaldamise tuumteenus"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Sa ei ole praegu Flickr'isse sisse logitud.\n\nKlõpsa sisselogimise nupule, et veebibrauseris Flickrisse sisse logida. Sa pead Shotwell Connect'i autoriseerima, et seda oma Flickri kontoga linkida."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Sa ei ole praegu Flickr'isse sisse logitud.\n"
+"\n"
+"Klõpsa sisselogimise nupule, et veebibrauseris Flickrisse sisse logida. Sa "
+"pead Shotwell Connect'i autoriseerima, et seda oma Flickri kontoga linkida."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Sa oled pärast Shotwelli käivitamist korra juba Flickr-isse sisse ja jälle välja loginud.\nFotode avaldamiseks Flickr-is tuleb Shotwelli kinni ja uuesti käima panna ning siis võib uuesti proovida."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Sa oled pärast Shotwelli käivitamist korra juba Flickr-isse sisse ja jälle "
+"välja loginud.\n"
+"Fotode avaldamiseks Flickr-is tuleb Shotwelli kinni ja uuesti käima panna "
+"ning siis võib uuesti proovida."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3571,7 +3724,9 @@ msgstr "Sisselogimise ettevalmistamine..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Avaldamiseks vajalik fail pole saadaval. Avaldamist Flickrisse pole võimalik jätkata"
+msgstr ""
+"Avaldamiseks vajalik fail pole saadaval. Avaldamist Flickrisse pole võimalik "
+"jätkata"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3582,14 +3737,19 @@ msgstr "Autoriseerimise kontroll..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Sa oled Flickr-isse sisse logitud kasutajana %s.\n\n"
+msgstr ""
+"Sa oled Flickr-isse sisse logitud kasutajana %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Sinu tasuta Flickri kontol on ühes kuus üleslaaditavate andmete mahupiirang.\nSel kuul on sul veel %d megabaiti üleslaadimise kvoodist alles."
+msgstr ""
+"Sinu tasuta Flickri kontol on ühes kuus üleslaaditavate andmete "
+"mahupiirang.\n"
+"Sel kuul on sul veel %d megabaiti üleslaadimise kvoodist alles."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3632,11 +3792,13 @@ msgstr "Ainult mina"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 pikslit"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 pikslit"
 
@@ -3663,17 +3825,23 @@ msgstr "Piwigosse avaldamisel esines viga. Palun proovi uuesti."
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Sisesta oma Piwigo fotokogu URL koos vastava kasutajanime ja parooliga."
+msgstr ""
+"Sisesta oma Piwigo fotokogu URL koos vastava kasutajanime ja parooliga."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell ei saanud ühendust Piwigo fotokoguga. Palun kontrolli sisestatud URL aadressi"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell ei saanud ühendust Piwigo fotokoguga. Palun kontrolli sisestatud "
+"URL aadressi"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "Kasutajanimi ja/või parool on valed. Palun proovi uuesti."
+msgstr ""
+"Kasutajanimi ja/või parool on valed. Palun proovi uuesti"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3681,6 +3849,7 @@ msgid "Invalid URL"
 msgstr "Sobimatu URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Sobimatu kasutajanimi või parool"
@@ -3711,14 +3880,21 @@ msgstr "Haldurid"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Sa ei ole praegu Picasa veebialbumisse sisse logitud.\n\nKlõpsa sisselogimise nupule, et brauseris sisse logida. Seejärel pead autoriseerima Shotwell Connect'i ühenduse oma Picasa veebialbumite kontoga."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Sa ei ole praegu Picasa veebialbumisse sisse logitud.\n"
+"\n"
+"Klõpsa sisselogimise nupule, et brauseris sisse logida. Seejärel pead "
+"autoriseerima Shotwell Connect'i ühenduse oma Picasa veebialbumite kontoga."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Avaldamiseks vajalik fail pole saadaval. Avaldamist Picasasse pole võimalik jätkata."
+msgstr ""
+"Avaldamiseks vajalik fail pole saadaval. Avaldamist Picasasse pole võimalik "
+"jätkata."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3758,14 +3934,29 @@ msgstr "Google+ (2048 x 1536 pikslit)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Sa ei ole praegu Facebooki sisse logitud.\n\nKui sul pole Facebooki kontot, võid sisselogimise käigus selle luua. Sisselogimise ajal küsib \"Shotwelli ühenduja\" luba pfotode üleslaadimiseks ja sinu voos avaldamiseks. Need õigused on vajalikud, et Shotwelli ühenduja töötaks."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Sa ei ole praegu Facebooki sisse logitud.\n"
+"\n"
+"Kui sul pole Facebooki kontot, võid sisselogimise käigus selle luua. "
+"Sisselogimise ajal küsib \"Shotwelli ühenduja\" luba pfotode üleslaadimiseks "
+"ja sinu voos avaldamiseks. Need õigused on vajalikud, et Shotwelli ühenduja "
+"töötaks."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Sa oled pärast Shotwelli käivitamist korra juba Facebooki sisse ja jälle välja loginud.\nFotode avaldamiseks Facebookis tuleb Shotwelli kinni ja uuesti käima panna ning siis võib uuesti proovida."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Sa oled pärast Shotwelli käivitamist korra juba Facebooki sisse ja jälle "
+"välja loginud.\n"
+"Fotode avaldamiseks Facebookis tuleb Shotwelli kinni ja uuesti käima panna "
+"ning siis võib uuesti proovida."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3783,14 +3974,18 @@ msgstr "Facebooki ühenduse testimine..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Avaldamiseks vajalik fail pole saadaval. Avaldamist Facebooki pole võimalik jätkata"
+msgstr ""
+"Avaldamiseks vajalik fail pole saadaval. Avaldamist Facebooki pole võimalik "
+"jätkata"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Sa oled Facebooki sisse logitud kasutajana %s.\n\n"
+msgstr ""
+"Sa oled Facebooki sisse logitud kasutajana %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3860,15 +4055,24 @@ msgstr "Andmete importimise tuumteenus"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Tere tulemast F-Spoti fotokogu importijasse.\n\nVali mõni fotokogu, mille Shotwell leidis, või mõni muu F-Spoti andmebaasifail."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Tere tulemast F-Spoti fotokogu importijasse.\n"
+"\n"
+"Vali mõni fotokogu, mille Shotwell leidis, või mõni muu F-Spoti "
+"andmebaasifail."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Tere tulemast F-Spoti fotokogu importijasse.\n\nPalun vali F-Spoti andmebaasifail."
+msgstr ""
+"Tere tulemast F-Spoti fotokogu importijasse.\n"
+"\n"
+"Palun vali F-Spoti andmebaasifail."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3876,35 +4080,49 @@ msgstr "Importimiseks käsitsi F-Spoti andmebaasi valimine:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Valitud F-Spoti andmebaasifaili pole võimalik avada: faili pole olemas või pole see F-Spoti andmebaas"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Valitud F-Spoti andmebaasifaili pole võimalik avada: faili pole olemas või "
+"pole see F-Spoti andmebaas"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Valitud F-Spoti andmebaasifaili pole võimalik avada: Shotwell ei toeta F-Spoti andmebaasi seda versiooni"
+msgstr ""
+"Valitud F-Spoti andmebaasifaili pole võimalik avada: Shotwell ei toeta F-"
+"Spoti andmebaasi seda versiooni"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Valitud F-Spoti andmebaasifailid pole võimalik lugeda: viga tags tabeli lugemisel"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Valitud F-Spoti andmebaasifailid pole võimalik lugeda: viga tags tabeli "
+"lugemisel"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Valitud F-Spoti andmebaasi faili pole võimalik lugeda: viga photos tabeli lugemisel"
+msgstr ""
+"Valitud F-Spoti andmebaasi faili pole võimalik lugeda: viga photos tabeli "
+"lugemisel"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell leidis F-Spoti fotokogust %d fotot ning parajasti impordib neid. Duplikaadid tuvastatakse ja eemaldatakse automaatselt.\n\nSelle dialoogi võib sulgeda ning jätkata Shotwelli kasutamist ning importimine jätkub taustal."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell leidis F-Spoti fotokogust %d fotot ning parajasti impordib neid. "
+"Duplikaadid tuvastatakse ja eemaldatakse automaatselt.\n"
+"\n"
+"Selle dialoogi võib sulgeda ning jätkata Shotwelli kasutamist ning "
+"importimine jätkub taustal."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3993,6 +4211,7 @@ msgstr "pikslit tollile"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "silt"
 
@@ -4130,6 +4349,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Logi välja"
 
@@ -4137,6 +4358,8 @@ msgstr "_Logi välja"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Avalda"
 
@@ -4144,7 +4367,9 @@ msgstr "_Avalda"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Sisesta kinnitusnumber, mida kuvatakse veebibrauseris pärast Flickr'isse sisselogimist."
+msgstr ""
+"Sisesta kinnitusnumber, mida kuvatakse veebibrauseris pärast Flickr'isse "
+"sisselogimist."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4163,6 +4388,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Foto _suurus:"
 
@@ -4204,6 +4430,7 @@ msgid "User _name"
 msgstr "_Kasutajanimi"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Parool"
 
@@ -4212,6 +4439,7 @@ msgid "_Remember Password"
 msgstr "_Parooli peetakse meeles"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Logi sisse"
 
@@ -4250,3 +4478,87 @@ msgstr "Logi välja"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Video privaatsuse _säte:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pikslit"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' ei ole sobiv vastus OAuth autentimispäringule"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): ei suutnud käivitada; seda avaldajat pole "
+"võimalik taaskäivitada."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Sisesta oma Tumblri konto kasutajanimi ja parool."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "UI-d polnud võimalik laadida: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Sa oled Tumblrisse sisse logitud kui %s:\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Külasta Yandex.Fotki veebisaiti"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Sa ei ole praegu Yandex.Fotki-sse sisse logitud."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_Meiliaadress"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr "Sa oled Tumblrisse sisse logitud kui (name)."
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Blogid:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Albumid (või loo uus):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "_Ligipääsu liik:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "_Kommentaarid keelatud"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "_Originaalfoto allalaadimine keelatud"

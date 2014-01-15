@@ -2,8 +2,8 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # jui <appukonrad@gmail.com>, 2012
 # David Štancl <dstancl@gmail.com>, 2011, 2012
@@ -12,14 +12,17 @@
 # petr.simacek <petr.simacek@gmail.com>, 2012
 # petr.simacek <petr.simacek@gmail.com>, 2013
 # verayin <vera@yorba.org>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
 "Report-Msgid-Bugs-To: shotwell@yorba.org\n"
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
-"Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/shotwell/language/cs/)\n"
+"Last-Translator: petr.simacek <petr.simacek@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/shotwell/language/"
+"cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,7 +52,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Nepodařilo se odpojit fotoaparát. Pokuste se odpojit fotoaparát pomocí správce souborů."
+msgstr ""
+"Nepodařilo se odpojit fotoaparát. Pokuste se odpojit fotoaparát pomocí "
+"správce souborů."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -91,7 +96,9 @@ msgstr "Importuje všechny fotografie do knihovny"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell kvůli přístupu potřebuje odpojit fotoaparát ze souborového systému. Pokračovat?"
+msgstr ""
+"Shotwell kvůli přístupu potřebuje odpojit fotoaparát ze souborového systému. "
+"Pokračovat?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -106,7 +113,9 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Fotoaparát je používán jinou aplikací. Ukončete všechny aplikace, které ho používají, a zkuste to znovu."
+msgstr ""
+"Fotoaparát je používán jinou aplikací. Ukončete všechny aplikace, které ho "
+"používají, a zkuste to znovu."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -117,7 +126,9 @@ msgstr "Ukončete ostatní aplikace používající fotoaparát."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Nepodařilo se načít náhledy z fotoaparátu:\n%s"
+msgstr ""
+"Nepodařilo se načít náhledy z fotoaparátu:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -180,11 +191,13 @@ msgstr "Odstraňují se videa/fotografie z fotoaparátu"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
-msgstr[0] "Kvůli chybám se nepodařilo z fotoaparátu smazat %d videí/fotografií."
-msgstr[1] "Kvůli chybám se nepodařilo z fotoaparátu smazat %d video/fotografie."
-msgstr[2] "Kvůli chybám se nepodařilo z fotoaparátu smazat %d videa/fotografie."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
+msgstr[0] ""
+"Kvůli chybám se nepodařilo z fotoaparátu smazat %d videí/fotografií."
+msgstr[1] ""
+"Kvůli chybám se nepodařilo z fotoaparátu smazat %d video/fotografie."
+msgstr[2] ""
+"Kvůli chybám se nepodařilo z fotoaparátu smazat %d videa/fotografie."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
 msgid "S_lideshow"
@@ -409,7 +422,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Vaše knihovna fotografií není kompatibilní s touto verzí programu Shotwell. Knihovna je vytvořena ve verzi %s (schéma %d). Spuštěná verze je %s (schéma %d). Používejte, prosím, poslední verzi programu."
+msgstr ""
+"Vaše knihovna fotografií není kompatibilní s touto verzí programu Shotwell. "
+"Knihovna je vytvořena ve verzi %s (schéma %d). Spuštěná verze je %s (schéma "
+"%d). Používejte, prosím, poslední verzi programu."
 
 #: src/main.vala:59
 #, c-format
@@ -417,7 +433,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Programu Shotwell se nepodařilo aktualizovat knihovnu z verze %s (schéma %d) na verzi %s (schéma %d). Více informací naleznete na stránkách %s (anglicky)"
+msgstr ""
+"Programu Shotwell se nepodařilo aktualizovat knihovnu z verze %s (schéma %d) "
+"na verzi %s (schéma %d). Více informací naleznete na stránkách %s (anglicky)"
 
 #: src/main.vala:65
 #, c-format
@@ -426,7 +444,10 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Vaše knihovna fotografií není kompatibilní s touto verzí programu Shotwell. Knihovna je vytvořena ve verzi %s (schéma %d). Spuštěná verze je %s (schéma %d). Smažte %s a znovu naimportujte fotografie."
+msgstr ""
+"Vaše knihovna fotografií není kompatibilní s touto verzí programu Shotwell. "
+"Knihovna je vytvořena ve verzi %s (schéma %d). Spuštěná verze je %s (schéma "
+"%d). Smažte %s a znovu naimportujte fotografie."
 
 #: src/main.vala:71
 #, c-format
@@ -639,7 +660,10 @@ msgstr "S_mazat"
 #: src/Dialogs.vala:25
 #, c-format
 msgid "This will remove the saved search \"%s\".  Continue?"
-msgstr "Tímto bude odstraněno uložené hledání \"%s\".\n\nPokračovat?"
+msgstr ""
+"Tímto bude odstraněno uložené hledání \"%s\".\n"
+"\n"
+"Pokračovat?"
 
 #: src/Dialogs.vala:35
 #, c-format
@@ -649,9 +673,15 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na této fotografii v Shotwellu"
-msgstr[1] "Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na těchto fotografiích v Shotwellu"
-msgstr[2] "Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na těchto fotografiích v Shotwellu"
+msgstr[0] ""
+"Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na této "
+"fotografii v Shotwellu"
+msgstr[1] ""
+"Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na těchto "
+"fotografiích v Shotwellu"
+msgstr[2] ""
+"Přepínání vývojářů vrátí zpět všechny změny, které jste provedli na těchto "
+"fotografiích v Shotwellu"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -666,20 +696,26 @@ msgstr "Exportovat Video"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell nemůže vytvořit editační soubor, protože nemůže zapisovat do %s."
+msgstr ""
+"Shotwell nemůže vytvořit editační soubor, protože nemůže zapisovat do %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Nepodařilo se exportovat následující fotografii kvůli souborové chybě.\r\n\r\n"
+msgstr ""
+"Nepodařilo se exportovat následující fotografii kvůli souborové chybě.\r\n"
+"\r\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nChcete v exportu pokračovat?"
+msgstr ""
+"\n"
+"\n"
+"Chcete v exportu pokračovat?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -764,28 +800,33 @@ msgid "error message:"
 msgstr "chybová zpráva:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "Soubory nebyly importovány, protože nejde o fotografie nebo videa:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Fotografie/Videa nelze importovat, protože nejde o formát, který Shotwell dokáže rozeznat:"
+msgstr ""
+"Fotografie/Videa nelze importovat, protože nejde o formát, který Shotwell "
+"dokáže rozeznat:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Fotografie/Videa nelze importovat, protože Shotwell je nedokáže překopírovat do své databáze:"
+msgstr ""
+"Fotografie/Videa nelze importovat, protože Shotwell je nedokáže překopírovat "
+"do své databáze:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "nebylo možné zkopírovat %s\n »to %s"
+msgstr ""
+"nebylo možné zkopírovat %s\n"
+" »to %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -823,9 +864,12 @@ msgstr[2] "%d duplicitní videa/fotografie nebyla naimportována:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "import 1 fotografie se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
-msgstr[1] "import %d fotografií se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
-msgstr[2] "import %d fotografií se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
+msgstr[0] ""
+"import 1 fotografie se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
+msgstr[1] ""
+"import %d fotografií se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
+msgstr[2] ""
+"import %d fotografií se nepodařil kvůli chybě souboru, nebo hardware:\r\n"
 
 #: src/Dialogs.vala:686
 #, c-format
@@ -840,41 +884,58 @@ msgstr[2] "%d videa nebyla naimportována kvůli hardwarové chybě:\n"
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "%d duplicitních videí/fotografií nebylo naimportováno kvůli hardwarové chybě:\n"
-msgstr[1] "%d duplicitní video/fotografie nebylo naimportováno kvůli hardwarové chybě:\n"
-msgstr[2] "%d duplicitní videa/fotografie nebyly naimportovány kvůli hardwarové chybě:\n"
+msgstr[0] ""
+"%d duplicitních videí/fotografií nebylo naimportováno kvůli hardwarové "
+"chybě:\n"
+msgstr[1] ""
+"%d duplicitní video/fotografie nebylo naimportováno kvůli hardwarové chybě:\n"
+msgstr[2] ""
+"%d duplicitní videa/fotografie nebyly naimportovány kvůli hardwarové chybě:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
 msgid "1 file failed to import due to a file or hardware error:\n"
 msgid_plural "%d files failed to import due to a file or hardware error:\n"
-msgstr[0] "1 soubor se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
-msgstr[1] "%d soubory se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
-msgstr[2] "%d souborů se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
+msgstr[0] ""
+"1 soubor se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
+msgstr[1] ""
+"%d soubory se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
+msgstr[2] ""
+"%d souborů se nepodařilo naimportovat kvůli chybě souboru nebo hardware:\n"
 
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "nepodařilo se importovat jednu fotografii, protože nelze zapisovat do složky s knihovnou:\n"
-msgstr[1] "nepodařilo se importovat %d fotografie, protože nelze zapisovat do složky s knihovnou:\n"
-msgstr[2] "nepodařilo se importovat %d fotografií, protože nelze zapisovat do složky s knihovnou:\n"
+msgstr[0] ""
+"nepodařilo se importovat jednu fotografii, protože nelze zapisovat do složky "
+"s knihovnou:\n"
+msgstr[1] ""
+"nepodařilo se importovat %d fotografie, protože nelze zapisovat do složky s "
+"knihovnou:\n"
+msgstr[2] ""
+"nepodařilo se importovat %d fotografií, protože nelze zapisovat do složky s "
+"knihovnou:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "nepodařilo se importovat jedno video, protože nelze zapisovat do složky s knihovnou:\n"
-msgstr[1] "nepodařilo se importovat %d videa, protože nelze zapisovat do složky s knihovnou:\n"
-msgstr[2] "nepodařilo se importovat %d videí, protože nelze zapisovat do složky s knihovnou:\n"
+msgstr[0] ""
+"nepodařilo se importovat jedno video, protože nelze zapisovat do složky s "
+"knihovnou:\n"
+msgstr[1] ""
+"nepodařilo se importovat %d videa, protože nelze zapisovat do složky s "
+"knihovnou:\n"
+msgstr[2] ""
+"nepodařilo se importovat %d videí, protože nelze zapisovat do složky s "
+"knihovnou:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -884,9 +945,15 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 fotografie/video se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
-msgstr[1] "%d fotografie/videa se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
-msgstr[2] "%d fotografií/videí se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
+msgstr[0] ""
+"1 fotografie/video se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
+msgstr[1] ""
+"%d fotografie/videa se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
+msgstr[2] ""
+"%d fotografií/videí se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -895,9 +962,15 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 fotografie/video se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
-msgstr[1] "%d fotografie/videa se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
-msgstr[2] "%d fotografií/videí se nepodařilo naimportovat, protože se do složky s knihovnou nedá zapisovat:\n"
+msgstr[0] ""
+"1 fotografie/video se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
+msgstr[1] ""
+"%d fotografie/videa se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
+msgstr[2] ""
+"%d fotografií/videí se nepodařilo naimportovat, protože se do složky s "
+"knihovnou nedá zapisovat:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
@@ -928,7 +1001,8 @@ msgstr[2] "%d videa/fotografie nebyly naimportovány kvůli chybě kamery:\n"
 msgid "1 file failed to import due to a camera error:\n"
 msgid_plural "%d files failed to import due to a camera error:\n"
 msgstr[0] "Přidání 1 souboru se nepodařilo kvůli chybě fotoaparátu:\n"
-msgstr[1] "Přidání %d souborůPřidání 1 souboru se nepodařilo kvůli chybě fotoaparátu:\n"
+msgstr[1] ""
+"Přidání %d souborůPřidání 1 souboru se nepodařilo kvůli chybě fotoaparátu:\n"
 msgstr[2] "Přidání %d souborů se nepodařilo kvůli chybě fotoaparátu:\n"
 
 #: src/Dialogs.vala:752
@@ -1115,9 +1189,14 @@ msgstr "Vrátit zpět změny odjinud?"
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Tím se odstraní všechny provedené změny na externím souboru. Pokračovat?"
-msgstr[1] "Tím se odstraní všechny provedené změny na %d externích souborech. Pokračovat?"
-msgstr[2] "Tím se odstraní všechny provedené změny na %d externích souborech. Pokračovat?"
+msgstr[0] ""
+"Tím se odstraní všechny provedené změny na externím souboru. Pokračovat?"
+msgstr[1] ""
+"Tím se odstraní všechny provedené změny na %d externích souborech. "
+"Pokračovat?"
+msgstr[2] ""
+"Tím se odstraní všechny provedené změny na %d externích souborech. "
+"Pokračovat?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1205,14 +1284,18 @@ msgstr "%d. %d. %Y, %I:%M%:S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Čas expozice bude posunut dopředu\no %d %s, %d %s, %d %s a %d %s."
+msgstr ""
+"Čas expozice bude posunut dopředu\n"
+"o %d %s, %d %s, %d %s a %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Exposure time will be shifted backward by\no %d %s, %d %s, %d %s a %d %s."
+msgstr ""
+"Exposure time will be shifted backward by\n"
+"o %d %s, %d %s, %d %s a %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1252,9 +1335,18 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nA %d další."
-msgstr[1] "\n\nA %d další."
-msgstr[2] "\n\nA %d dalších."
+msgstr[0] ""
+"\n"
+"\n"
+"A %d další."
+msgstr[1] ""
+"\n"
+"\n"
+"A %d další."
+msgstr[2] ""
+"\n"
+"\n"
+"A %d dalších."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1277,7 +1369,8 @@ msgstr "Pro začátek můžete importovat fotografie:"
 #: src/Dialogs.vala:2044
 #, c-format
 msgid "Choose <span weight=\"bold\">File %s Import From Folder</span>"
-msgstr "výběrem z menu <span weight=\"bold\">Soubor %s Importovat ze složky</span>"
+msgstr ""
+"výběrem z menu <span weight=\"bold\">Soubor %s Importovat ze složky</span>"
 
 #: src/Dialogs.vala:2045
 msgid "Drag and drop photos onto the Shotwell window"
@@ -1340,7 +1433,9 @@ msgstr "Nesprávný vzor"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell může zkopírovat fotografie do knihovny, nebo je může importovat bez kopírování."
+msgstr ""
+"Shotwell může zkopírovat fotografie do knihovny, nebo je může importovat bez "
+"kopírování."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1369,44 +1464,86 @@ msgstr "Odstraňují se fotografie z knihovny"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/fotografie přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
-msgstr[1] "Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/fotografie přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
-msgstr[2] "Tímto odstraníte %d videa/fotografie z knihovny. Chcete odstraněná videa/fotografie přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
+msgstr[0] ""
+"Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/"
+"fotografie přesunout do koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
+msgstr[1] ""
+"Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/"
+"fotografie přesunout do koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
+msgstr[2] ""
+"Tímto odstraníte %d videa/fotografie z knihovny. Chcete odstraněná videa/"
+"fotografie přesunout do koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/fotografie přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
-msgstr[1] "Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/fotografie přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
-msgstr[2] "Tímto odstraníte %d videa z knihovny. Chcete odstraněná videa přesunout do koše?\n\nTato operace nemůže být vrácena zpět."
+msgstr[0] ""
+"Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/"
+"fotografie přesunout do koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
+msgstr[1] ""
+"Tímto odstraníte %d videí/fotografií z knihovny. Chcete odstraněná videa/"
+"fotografie přesunout do koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
+msgstr[2] ""
+"Tímto odstraníte %d videa z knihovny. Chcete odstraněná videa přesunout do "
+"koše?\n"
+"\n"
+"Tato operace nemůže být vrácena zpět."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Tímto odstraníte fotografii z knihovny programu Shotwell. Chcete také vyhodit fotografii do koše?\n\nTato akce nemůže být vrácena zpět."
-msgstr[1] "Tímto odstraníte %d fotografie z knihovny programu Shotwell. Chcete také vyhodit fotografie do koše?\n\nTato akce nemůže být vrácena zpět."
-msgstr[2] "Tímto odstraníte %d fotografií z knihovny programu Shotwell. Chcete také vyhodit fotografie do koše?\n\nTato akce nemůže být vrácena zpět."
+msgstr[0] ""
+"Tímto odstraníte fotografii z knihovny programu Shotwell. Chcete také "
+"vyhodit fotografii do koše?\n"
+"\n"
+"Tato akce nemůže být vrácena zpět."
+msgstr[1] ""
+"Tímto odstraníte %d fotografie z knihovny programu Shotwell. Chcete také "
+"vyhodit fotografie do koše?\n"
+"\n"
+"Tato akce nemůže být vrácena zpět."
+msgstr[2] ""
+"Tímto odstraníte %d fotografií z knihovny programu Shotwell. Chcete také "
+"vyhodit fotografie do koše?\n"
+"\n"
+"Tato akce nemůže být vrácena zpět."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1414,9 +1551,12 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "%d fotografií, nebo videí nemůže být vyhozeno do koše. Smazat tyto soubory?"
-msgstr[1] "%d fotografií, nebo videí nemůže být vyhozeno do koše. Smazat tyto soubory?"
-msgstr[2] "%d fotografie, nebo videa nemohou být vyhozeny do koše. Smazat tyto soubory?"
+msgstr[0] ""
+"%d fotografií, nebo videí nemůže být vyhozeno do koše. Smazat tyto soubory?"
+msgstr[1] ""
+"%d fotografií, nebo videí nemůže být vyhozeno do koše. Smazat tyto soubory?"
+msgstr[2] ""
+"%d fotografie, nebo videa nemohou být vyhozeny do koše. Smazat tyto soubory?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1614,8 +1754,14 @@ msgstr "Import dat"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Nemáte zapnutý žádný importní plugin.\n\nPokud chcete používat funkci Importovat z aplikace, musíte mít zapnut alespoň jeden plugin zapnut. Pluginy se zapínají v dialogu Nastavení."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Nemáte zapnutý žádný importní plugin.\n"
+"\n"
+"Pokud chcete používat funkci Importovat z aplikace, musíte mít zapnut "
+"alespoň jeden plugin zapnut. Pluginy se zapínají v dialogu Nastavení."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -2029,7 +2175,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Nepodařilo se vytisknout fotografii:\n\n%s"
+msgstr ""
+"Nepodařilo se vytisknout fotografii:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -2041,7 +2190,9 @@ msgstr "Nepodařilo se otevřít/vytvořit databázi fotografií %s: kód chyby 
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Nepodařilo se zapsat do databázového souboru:\n%s"
+msgstr ""
+"Nepodařilo se zapsat do databázového souboru:\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -2051,7 +2202,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Chyba při přístupu k databázovému souboru:\n%s\n\nChyba:\n%s"
+msgstr ""
+"Chyba při přístupu k databázovému souboru:\n"
+"%s\n"
+"\n"
+"Chyba:\n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2235,7 +2391,9 @@ msgstr "Vysypává se koš..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Program Shotwell je připraven k importu vašich fotografií v domovské složce.\n"
+msgstr ""
+"Program Shotwell je připraven k importu vašich fotografií v domovské "
+"složce.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2911,7 +3069,8 @@ msgstr "Nepodařilo se přejmenovat nálepku na \"%s\", protože taková už je.
 #: src/Resources.vala:371
 #, c-format
 msgid "Unable to rename search to \"%s\" because the search already exists."
-msgstr "Nepodařilo se přejmenovat hledání na \"%s\", protože už takové existuje."
+msgstr ""
+"Nepodařilo se přejmenovat hledání na \"%s\", protože už takové existuje."
 
 #: src/Resources.vala:374
 msgid "Saved Search"
@@ -3220,10 +3379,15 @@ msgstr "_Nahlásit problém..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Při přístupu ke knihovně programu došlo k fatální chybě. Program nemůže pokračovat.\n\n%s"
+msgstr ""
+"Při přístupu ke knihovně programu došlo k fatální chybě. Program nemůže "
+"pokračovat.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3231,7 +3395,11 @@ msgstr "Navštivte internetovou stránku Yorba"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr "David Štancl <dstancl@dstancl.cz>\nBlonďák <blondak@neser.cz>\nLukáš Zapletal <lzap@seznam.cz>\nPetr Šimáček <petr.simacek@gmail.com>"
+msgstr ""
+"David Štancl <dstancl@dstancl.cz>\n"
+"Blonďák <blondak@neser.cz>\n"
+"Lukáš Zapletal <lzap@seznam.cz>\n"
+"Petr Šimáček <petr.simacek@gmail.com>"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3335,7 +3503,9 @@ msgstr "Seřadí fotografie podle ohodnocení"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Nepodařilo se přehrát vybrané video:\n%s"
+msgstr ""
+"Nepodařilo se přehrát vybrané video:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3539,7 +3709,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell nemůže publikovat vybrané položky, protože nemáte povolen kompatibilní publikační plugin. Chcete-li tento problém odstranit, zvolte<b>Upravit %s předvolby</b> a pak kartu <b> Pluginy </ b>pro výběr jedenoho, nebo více  publikačních pluginů."
+msgstr ""
+"Shotwell nemůže publikovat vybrané položky, protože nemáte povolen "
+"kompatibilní publikační plugin. Chcete-li tento problém odstranit, "
+"zvolte<b>Upravit %s předvolby</b> a pak kartu <b> Pluginy </ b>pro výběr "
+"jedenoho, nebo více  publikačních pluginů."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3564,28 +3738,41 @@ msgid "New _Tag..."
 msgstr "Nová _značka..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "Dočasný soubor potřebný pro publikování není k dispozici"
+msgstr ""
+"Dočasný soubor pro zveřejnění není dostupný"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "K YouTube nejste přihlášeni.\n\nNejprve musíte mít vytvořen Google účet a spojit jej s YouTube. K přihlášení do YouTube můžete mít účtů více."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"K YouTube nejste přihlášeni.\n"
+"\n"
+"Nejprve musíte mít vytvořen Google účet a spojit jej s YouTube. K přihlášení "
+"do YouTube můžete mít účtů více."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Soubor potřebný pro zveřejnění není k dispozici. Publikování na Youtube bylo zastaveno."
+msgstr ""
+"Soubor potřebný pro zveřejnění není k dispozici. Publikování na Youtube bylo "
+"zastaveno."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3617,14 +3804,23 @@ msgstr "Základní publikační služby"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Nejste přihlášeni ke službě Flickr.\n\nPro přihlášení se na Flickr klikněte na Přihlásit se. Pak musíte povolit Shotwell Connect ve vašem Flickr účtu."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Nejste přihlášeni ke službě Flickr.\n"
+"\n"
+"Pro přihlášení se na Flickr klikněte na Přihlásit se. Pak musíte povolit "
+"Shotwell Connect ve vašem Flickr účtu."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Již jste se přihlásili a odhlásili během spuštění programu Shotwell.\nPřed publikováním na Flickr ukončete a znovu spusťte program Shotwell a pak znovu zvolte Publikovat."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Již jste se přihlásili a odhlásili během spuštění programu Shotwell.\n"
+"Před publikováním na Flickr ukončete a znovu spusťte program Shotwell a pak "
+"znovu zvolte Publikovat."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3635,7 +3831,9 @@ msgstr "Připravuje se přihlášení..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Soubor potřebný pro zveřejnění není k dispozici. Publikování na Flickr bylo zastaveno."
+msgstr ""
+"Soubor potřebný pro zveřejnění není k dispozici. Publikování na Flickr bylo "
+"zastaveno."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3646,14 +3844,19 @@ msgstr "Ověřuje se autorizace..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Jste přihlášeni k Flickr jako %s.\n\n"
+msgstr ""
+"Jste přihlášeni k Flickr jako %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Váš bezplatný Flickr účet má omezení na množství přenesených dat během měsíce.\nTento měsíc vám zbývá %d megabajtů."
+msgstr ""
+"Váš bezplatný Flickr účet má omezení na množství přenesených dat během "
+"měsíce.\n"
+"Tento měsíc vám zbývá %d megabajtů."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3696,13 +3899,19 @@ msgstr "jen mně"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
+#, fuzzy
 msgid "500 x 375 pixels"
-msgstr "500 x 375 bodů"
+msgstr ""
+"500 x 375 pixelů"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
+#, fuzzy
 msgid "1024 x 768 pixels"
-msgstr "1024 x 768 bodů"
+msgstr ""
+"1024 x 768 pixelů"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1231
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1248
@@ -3727,17 +3936,24 @@ msgstr "Při publikování na Piwigo došlo k chybě. Prosím, zkuste to znovu."
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Zadejte adresu URL knihovny fotografií Piwigo stejně jako uživatelské jméno a heslo spojené s vaším Piwigo účtem pro danou knihovnu."
+msgstr ""
+"Zadejte adresu URL knihovny fotografií Piwigo stejně jako uživatelské jméno "
+"a heslo spojené s vaším Piwigo účtem pro danou knihovnu."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell se nemůže připojit do vaší fotogalerie Piwigo. Ověřte prosím adresu URL, kterou jste zadali"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell se nemůže připojit do vaší fotogalerie Piwigo. Ověřte prosím adresu "
+"URL, kterou jste zadali"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "Uživatelské jméno a/nebo heslo není platné. Zkuste to prosím znovu"
+msgstr ""
+"Neplatné uživatelské jméno a / nebo heslo. Zkuste to prosím znovu"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3745,6 +3961,7 @@ msgid "Invalid URL"
 msgstr "Neplatná URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Neplatné uživatelské jméno nebo heslo"
@@ -3775,14 +3992,22 @@ msgstr "Administrátoři"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Nejste přihlášeni do Picasa Webových alb.\n\nKlikněte na tlačítko Přihlásit do Webových alb Picasa ve webovém prohlížeči. Budete muset povolit Shotwell Connect kvůli připojení do webových alb programu Picasa."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Nejste přihlášeni do Picasa Webových alb.\n"
+"\n"
+"Klikněte na tlačítko Přihlásit do Webových alb Picasa ve webovém prohlížeči. "
+"Budete muset povolit Shotwell Connect kvůli připojení do webových alb "
+"programu Picasa."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Soubor potřebný pro zveřejnění není k dispozici. Publikování na Picasa bylo zastaveno."
+msgstr ""
+"Soubor potřebný pro zveřejnění není k dispozici. Publikování na Picasa bylo "
+"zastaveno."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3822,14 +4047,27 @@ msgstr "Google+ (2048 x 1536 pixelů)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Nejste přihlášeni na Facebooku.\n\nJestliže ještě nemáte vytvořen na Facebooku účet, můžete si jej vytvořit během přihlašování. Během přihlašování se může zobrazit žádost o povolení nahrávání fotografií. Povolení je pro připojení k Facebooku vyžadováno."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Nejste přihlášeni na Facebooku.\n"
+"\n"
+"Jestliže ještě nemáte vytvořen na Facebooku účet, můžete si jej vytvořit "
+"během přihlašování. Během přihlašování se může zobrazit žádost o povolení "
+"nahrávání fotografií. Povolení je pro připojení k Facebooku vyžadováno."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Již jste se přihlásili a odhlásili během spuštění programu Shotwell\nPřed publikováním na Facebook ukončete a znovu spusťte program Shotwell a pak znovu zvolte Publikovat."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Již jste se přihlásili a odhlásili během spuštění programu Shotwell\n"
+"Před publikováním na Facebook ukončete a znovu spusťte program Shotwell a "
+"pak znovu zvolte Publikovat."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3847,7 +4085,9 @@ msgstr "Testuji spojení k Facebooku..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Soubor potřebný pro zveřejnění není k dispozici. Publikování na Facebook bylo zastaveno."
+msgstr ""
+"Soubor potřebný pro zveřejnění není k dispozici. Publikování na Facebook "
+"bylo zastaveno."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
@@ -3924,15 +4164,24 @@ msgstr "Hlavní služba importu dat"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Vítejte ve F-Spot knihovně importu služeb. \n\nProsím vyberte knihovnu pro import, a to buď výběrem jedné ze stávajících knihoven nalezených Shotwellem, nebo volbou alternativy, ve F-Spot databázi."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Vítejte ve F-Spot knihovně importu služeb. \n"
+"\n"
+"Prosím vyberte knihovnu pro import, a to buď výběrem jedné ze stávajících "
+"knihoven nalezených Shotwellem, nebo volbou alternativy, ve F-Spot databázi."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Vítejte do služby importu F-Spot knihovny . \n\nProsím vyberte soubor databáze F-Spot."
+msgstr ""
+"Vítejte do služby importu F-Spot knihovny . \n"
+"\n"
+"Prosím vyberte soubor databáze F-Spot."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3940,35 +4189,47 @@ msgstr "Ručně vybrat F-Spot databázový soubor k importu:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Nelze otevřít vybraný F-Spot databázový soubor: soubor neexistuje nebo není souborem F-Spot databáze"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Nelze otevřít vybraný F-Spot databázový soubor: soubor neexistuje nebo není "
+"souborem F-Spot databáze"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Nelze otevřít vybraný F-Spot databázový soubor: tato verze F-Spot databáze není v Shotwell podporována"
+msgstr ""
+"Nelze otevřít vybraný F-Spot databázový soubor: tato verze F-Spot databáze "
+"není v Shotwell podporována"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Nelze přečíst vybraný F-Spot databázový soubor: Chyba při čtení tabulky štítků"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Nelze přečíst vybraný F-Spot databázový soubor: Chyba při čtení tabulky "
+"štítků"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Nelze přečíst vybraný F-Spot databázový soubor: Chyba při čtení tabulky fotografií"
+msgstr ""
+"Nelze přečíst vybraný F-Spot databázový soubor: Chyba při čtení tabulky "
+"fotografií"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell našel %d fotek ve F-Spot knihobně a momentálne je importuje. Duplikáty budou automaticky zjištěné a odstraněné. Můžete zavřít toto okno a začít používat aplikáci Shotwell, zatím co import bude prebíhat na pozadí."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell našel %d fotek ve F-Spot knihobně a momentálne je importuje. "
+"Duplikáty budou automaticky zjištěné a odstraněné. Můžete zavřít toto okno a "
+"začít používat aplikáci Shotwell, zatím co import bude prebíhat na pozadí."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -4057,8 +4318,11 @@ msgstr "bodů na palec"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
+#, fuzzy
 msgid "label"
-msgstr "Nálepka"
+msgstr ""
+"nálepka"
 
 #: ui/shotwell.glade:719
 msgid "Shotwell Preferences"
@@ -4194,6 +4458,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Odhlásit"
 
@@ -4201,6 +4467,8 @@ msgstr "_Odhlásit"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Zveřejnit"
 
@@ -4227,6 +4495,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Velikost _fotografie:"
 
@@ -4268,6 +4537,7 @@ msgid "User _name"
 msgstr "Přihlašovací _jméno"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Heslo"
 
@@ -4276,6 +4546,7 @@ msgid "_Remember Password"
 msgstr "_Zapamatovat si heslo"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Přihlásit"
 
@@ -4314,3 +4585,90 @@ msgstr "Odhlásit"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "_Nastavení soukromí videa:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixelů"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' není platná odpověď na požadavek ověření OAuth"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start (): Nelze spustit, tento vydavatel nelze restartovat."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Vložte uživatelské jméno a heslo k vašemu Tumblr učtu"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "Nelze načíst UI: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Jste přihlášeni do Tumblr jako %s.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Navštivte stránky Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "K Yandex.Fotki nejste přihlášeni."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_Emailová adresa"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Jste přihlášeni do Tumblr jako (jméno).\n"
+"\n"
+"(Tento řetězec je naplněn a nastaven v kódu,\n"
+"takže změny provedené zde nebudou zobrazeny)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Blogy:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Alba (nebo nové):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "_Typ přístupu:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Zakázat _komentáře"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Ne_dovolit stahovat originál"

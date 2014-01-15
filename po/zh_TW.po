@@ -2,11 +2,15 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2011-2013
 # verayin <vera@yorba.org>, 2011
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+# yevlempy <yevlempy@gmail.com>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -14,7 +18,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-21 06:20+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/shotwell/language/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
+"shotwell/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,7 +106,9 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "相機已被另一個應用程式鎖住。Shotwell 只能在相機沒被鎖住的情況下存取它。請關閉任何其它正在使用該相機的應用程式並重試。"
+msgstr ""
+"相機已被另一個應用程式鎖住。Shotwell 只能在相機沒被鎖住的情況下存取它。請關閉"
+"任何其它正在使用該相機的應用程式並重試。"
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -112,7 +119,9 @@ msgstr "請關閉任何其它正在使用相機的應用程式。"
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "無法從相機擷取預覽：\n%s"
+msgstr ""
+"無法從相機擷取預覽：\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -167,8 +176,7 @@ msgstr "正在從相機移除相片/視訊"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "由於錯誤發生，無法從相機刪除 %d 份相片/視訊。"
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
@@ -394,7 +402,9 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "您的相片珍藏館與此版本的 Shotwell 不相容。該珍藏館似乎是由 Shotwell %s (schema %d) 所建立。此版本為 %s (schema %d)。請使用最新版的 Shotwell。"
+msgstr ""
+"您的相片珍藏館與此版本的 Shotwell 不相容。該珍藏館似乎是由 Shotwell %s "
+"(schema %d) 所建立。此版本為 %s (schema %d)。請使用最新版的 Shotwell。"
 
 #: src/main.vala:59
 #, c-format
@@ -402,7 +412,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell 無法將您的珍藏館從版本 %s (schema %d)升級至 %s (schema %d)。若要瞭解更多資訊，請查看位於 %s 的 Shotwell Wiki"
+msgstr ""
+"Shotwell 無法將您的珍藏館從版本 %s (schema %d)升級至 %s (schema %d)。若要瞭解"
+"更多資訊，請查看位於 %s 的 Shotwell Wiki"
 
 #: src/main.vala:65
 #, c-format
@@ -411,7 +423,10 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "您的珍藏館與此版本的 Shotwell 不相容。該珍藏館似乎是由 Shotwell %s (schema %d) 所建立的。此版本為 %s (schema %d)。請刪除 %s 來清除您的珍藏館，並且重新匯入您的相片。"
+msgstr ""
+"您的珍藏館與此版本的 Shotwell 不相容。該珍藏館似乎是由 Shotwell %s (schema "
+"%d) 所建立的。此版本為 %s (schema %d)。請刪除 %s 來清除您的珍藏館，並且重新匯"
+"入您的相片。"
 
 #: src/main.vala:71
 #, c-format
@@ -647,14 +662,19 @@ msgstr "因為您尚未獲取寫入 %s 的授權，Shotwell 無法建立檔案�
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "由於檔案錯誤，無法匯出下列相片。\n\n"
+msgstr ""
+"由於檔案錯誤，無法匯出下列相片。\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\n您想要繼續匯出嗎？"
+msgstr ""
+"\n"
+"\n"
+"您想要繼續匯出嗎？"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -735,8 +755,7 @@ msgid "error message:"
 msgstr "錯誤訊息："
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "檔案因無法辨識出是相片或視訊而未匯入："
 
 #: src/Dialogs.vala:597
@@ -756,7 +775,9 @@ msgstr "相片/視訊因 Shotwell 無法將它們複製到珍藏館中而未匯�
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "無法將 %2$s\n\t複製到 %1$s"
+msgstr ""
+"無法將 %2$s\n"
+"\t複製到 %1$s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -812,8 +833,7 @@ msgstr[0] "由於檔案或硬體錯誤，%d 份檔案未能匯入：\n"
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
@@ -822,8 +842,7 @@ msgstr[0] "因為相片珍藏館資料夾無法寫入，%d 份視訊匯入失敗
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
@@ -1108,14 +1127,18 @@ msgstr "%Y/%m/%d %p %I:%M:%S"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "曝光時間將往前挪動\n%d %s、%d %s、%d %s、%d %s。"
+msgstr ""
+"曝光時間將往前挪動\n"
+"%d %s、%d %s、%d %s、%d %s。"
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "曝光時間將往後挪動\n%d %s、%d %s、%d %s、%d %s。"
+msgstr ""
+"曝光時間將往後挪動\n"
+"%d %s、%d %s、%d %s、%d %s。"
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1147,7 +1170,10 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\n與其它 %d 項。"
+msgstr[0] ""
+"\n"
+"\n"
+"與其它 %d 項。"
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1262,38 +1288,56 @@ msgstr "正在從珍藏館移除相片"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "這會從您的 Shotwell 珍藏館移除 %d 份相片/視訊。您是否也想要將這些檔案移至您的桌面回收筒呢？\n\n這個動作無法還原。"
+msgstr[0] ""
+"這會從您的 Shotwell 珍藏館移除 %d 份相片/視訊。您是否也想要將這些檔案移至您的"
+"桌面回收筒呢？\n"
+"\n"
+"這個動作無法還原。"
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "這會從您的 Shotwell 珍藏館移除 %d 份視訊。您是否也想要將這些檔案移至您的桌面回收筒呢？\n\n這個動作無法還原。"
+msgstr[0] ""
+"這會從您的 Shotwell 珍藏館移除 %d 份視訊。您是否也想要將這些檔案移至您的桌面"
+"回收筒呢？\n"
+"\n"
+"這個動作無法還原。"
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "這會從您的 Shotwell 珍藏館移除 %d 張相片。您是否也想要將這些檔案移至您的桌面回收筒呢？\n\n這個動作無法還原。"
+msgstr[0] ""
+"這會從您的 Shotwell 珍藏館移除 %d 張相片。您是否也想要將這些檔案移至您的桌面"
+"回收筒呢？\n"
+"\n"
+"這個動作無法還原。"
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1497,8 +1541,14 @@ msgstr "資料匯入"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "您尚未啟用任何資料匯入插件。\n\n為了使用「從應用程式匯入」的功能，您至少需要啟用一項資料匯入插件。插件可以透過「偏好設定」對話盒中啟用。"
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"您尚未啟用任何資料匯入插件。\n"
+"\n"
+"為了使用「從應用程式匯入」的功能，您至少需要啟用一項資料匯入插件。插件可以透"
+"過「偏好設定」對話盒中啟用。"
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1906,7 +1956,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "無法列印相片：\n\n%s"
+msgstr ""
+"無法列印相片：\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1918,7 +1971,9 @@ msgstr "無法開啟或建立相片資料庫 %s：錯誤代碼 %d"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "無法寫入相片資料庫檔案：\n%s"
+msgstr ""
+"無法寫入相片資料庫檔案：\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1928,7 +1983,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "存取資料庫檔案時發生錯誤：\n%s\n\n錯誤為：\n%s"
+msgstr ""
+"存取資料庫檔案時發生錯誤：\n"
+"%s\n"
+"\n"
+"錯誤為：\n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2203,7 +2263,9 @@ msgstr "%s 不是檔案。"
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s 不支援檔案格式\n%s。"
+msgstr ""
+"%s 不支援檔案格式\n"
+"%s。"
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -3097,10 +3159,14 @@ msgstr "回報問題(_R)..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "存取 Shotwell 的珍藏館時遭遇到嚴重錯誤。Shotwell 無法繼續執行。\n\n%s"
+msgstr ""
+"存取 Shotwell 的珍藏館時遭遇到嚴重錯誤。Shotwell 無法繼續執行。\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3212,7 +3278,9 @@ msgstr "依評等排序相片"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell 無法播放所選的視訊：\n%s"
+msgstr ""
+"Shotwell 無法播放所選的視訊：\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3414,7 +3482,9 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell 無法發布所選的項目，因為您尚未啟用相容的發布插件。若要修正此問題，請選擇 <b>編輯 %s 偏好設定</b> 並在 <b>插件</b> 分頁啟用一項或多項發布用插件。"
+msgstr ""
+"Shotwell 無法發布所選的項目，因為您尚未啟用相容的發布插件。若要修正此問題，請"
+"選擇 <b>編輯 %s 偏好設定</b> 並在 <b>插件</b> 分頁啟用一項或多項發布用插件。"
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3439,22 +3509,36 @@ msgid "New _Tag..."
 msgstr "新增標籤(_T)..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "一份用來發布的暫存檔案無法使用"
+msgstr ""
+"發布所需的某暫存檔無法使用"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
-msgstr "您已在 Shotwell 工作階段中登入並登出 Google 服務。\n\n若要繼續發布至 Google 服務，請先退出 Shotwell 並重新啟動，接著再重試發布。."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
+msgstr ""
+"您已在 Shotwell 工作階段中登入並登出 Google 服務。\n"
+"\n"
+"若要繼續發布至 Google 服務，請先退出 Shotwell 並重新啟動，接著再重試發布。."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "您目前尚未登入 YouTube。\n\n您必須已經註冊 Google 帳號並將它設定好可以使用 YouTube 才能繼續。對大多數的帳號來說，您都可以使用瀏覽器登入 YouTube 至少一次來將它設定好。"
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"您目前尚未登入 YouTube。\n"
+"\n"
+"您必須已經註冊 Google 帳號並將它設定好可以使用 YouTube 才能繼續。對大多數的帳"
+"號來說，您都可以使用瀏覽器登入 YouTube 至少一次來將它設定好。"
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
@@ -3492,14 +3576,22 @@ msgstr "核心發布服務"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "您目前尚未登入 Flickr。\n\n點擊「登入」來從您的網路瀏覽器中登入 Flickr。您必須授權 Shotwell Connect 可以連結至您的 Flickr 帳號。"
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"您目前尚未登入 Flickr。\n"
+"\n"
+"點擊「登入」來從您的網路瀏覽器中登入 Flickr。您必須授權 Shotwell Connect 可以"
+"連結至您的 Flickr 帳號。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "您已經在此 Shotwell 作業階段內登入過並接著登出 Flickr。\n若要繼續發布至 Flickr，請退出並重新啟動 Shotwell，接著再次嘗試發布。"
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"您已經在此 Shotwell 作業階段內登入過並接著登出 Flickr。\n"
+"若要繼續發布至 Flickr，請退出並重新啟動 Shotwell，接著再次嘗試發布。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3521,14 +3613,18 @@ msgstr "正在驗證授權..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "您正在以 %s 身分登入 Flickr。\n\n"
+msgstr ""
+"您正在以 %s 身分登入 Flickr。\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "您的免費 Flickr 帳號限制您每月只能上傳某個量的資料。\n這個月，您的上傳配額剩餘 %d MB。"
+msgstr ""
+"您的免費 Flickr 帳號限制您每月只能上傳某個量的資料。\n"
+"這個月，您的上傳配額剩餘 %d MB。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3571,11 +3667,13 @@ msgstr "只有我"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 畫素"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 畫素"
 
@@ -3602,15 +3700,18 @@ msgstr "當發布至 Piwigo 時得到錯誤訊息。請重試。"
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "輸入您 Piwigo 相片珍藏館的網址，以及與該珍藏館相關聯的 Piwigo 帳戶其使用者名稱、密碼。"
+msgstr ""
+"輸入您 Piwigo 相片珍藏館的網址，以及與該珍藏館相關聯的 Piwigo 帳戶其使用者名"
+"稱、密碼。"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
 msgstr "Shotwell 無法聯絡您的 Piwigo 相片珍藏館。請驗證您輸入的網址是否正確。"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "使用者名稱與/或密碼無效。請重試"
 
@@ -3620,6 +3721,7 @@ msgid "Invalid URL"
 msgstr "無效的網址"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "無效的使用者名稱或密碼"
@@ -3650,8 +3752,13 @@ msgstr "管理員"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "您目前尚未登入 Picasa 網頁相簿。\n\n請在您的網頁瀏覽器中點擊「登入」以登入 Picasa 網頁相簿。您必須授權 Shotwell Connect 連結您 Picasa 網頁相簿的帳戶。"
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"您目前尚未登入 Picasa 網頁相簿。\n"
+"\n"
+"請在您的網頁瀏覽器中點擊「登入」以登入 Picasa 網頁相簿。您必須授權 Shotwell "
+"Connect 連結您 Picasa 網頁相簿的帳戶。"
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
@@ -3697,14 +3804,26 @@ msgstr "Google+ (2048 x 1536 畫素)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "您目前尚未登入 Facebook。\n\n若您尚未擁有 Facebook 帳號，您可以在登入程序內建立一份帳號。在登入期間，Shotwell Connect 可能會詢問您上傳相片並且發布至您饋流的許可。Shotwell Connect 需要取得這些許可權限才能運作。"
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"您目前尚未登入 Facebook。\n"
+"\n"
+"若您尚未擁有 Facebook 帳號，您可以在登入程序內建立一份帳號。在登入期間，"
+"Shotwell Connect 可能會詢問您上傳相片並且發布至您饋流的許可。Shotwell "
+"Connect 需要取得這些許可權限才能運作。"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "您已經在此 Shotwell 作業階段內登入過並接著登出 Facebook。\n若要繼續發布至 Facebook，請退出並重新啟動 Shotwell，接著再次嘗試發布。"
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"您已經在此 Shotwell 作業階段內登入過並接著登出 Facebook。\n"
+"若要繼續發布至 Facebook，請退出並重新啟動 Shotwell，接著再次嘗試發布。"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3729,7 +3848,9 @@ msgstr "發布所需的某個檔案無法使用。無法繼續發布至 Facebook
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "您正在以 %s 身分登入 Facebook。\n\n"
+msgstr ""
+"您正在以 %s 身分登入 Facebook。\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3799,15 +3920,24 @@ msgstr "核心資料匯入服務"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "歡迎光臨 F-Spot 珍藏館匯入服務。\n\n請選取要匯入的珍藏館，您可以選取 Shotwell 找到的既有珍藏館之一，或是選取其他 F-Spot 資料庫檔案。"
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"歡迎光臨 F-Spot 珍藏館匯入服務。\n"
+"\n"
+"請選取要匯入的珍藏館，您可以選取 Shotwell 找到的既有珍藏館之一，或是選取其他 "
+"F-Spot 資料庫檔案。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "歡迎光臨 F-Spot 珍藏館匯入服務。\n\n請選取一個 F-Spot 資料庫檔案。"
+msgstr ""
+"歡迎光臨 F-Spot 珍藏館匯入服務。\n"
+"\n"
+"請選取一個 F-Spot 資料庫檔案。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3815,20 +3945,20 @@ msgstr "手動選取要匯入的 F-Spot 資料庫檔案："
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
 msgstr "無法開啟所選的 F-Spot 資料庫檔案：檔案不存在或不是 F-Spot 資料庫"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "無法開啟所選的 F-Spot 資料庫檔案：這個版本的 F-Spot 資料庫不受 Shotwell 支援"
+msgstr ""
+"無法開啟所選的 F-Spot 資料庫檔案：這個版本的 F-Spot 資料庫不受 Shotwell 支援"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
+"Cannot read the selected F-Spot database file: error while reading tags table"
 msgstr "無法讀取所選的 F-Spot 資料庫檔案：當讀取標籤表時發生錯誤"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
@@ -3840,10 +3970,16 @@ msgstr "無法讀取所選的 F-Spot 資料庫檔案：當讀取相片表時發�
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell 已從 F-Spot 珍藏館中找到 %d 張相片，目前正在匯入。複本會被自動偵測出來並移除。\n\n您可以關閉對話盒並繼續使用 Shotwell，匯入程序會在背景執行。"
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell 已從 F-Spot 珍藏館中找到 %d 張相片，目前正在匯入。複本會被自動偵測出"
+"來並移除。\n"
+"\n"
+"您可以關閉對話盒並繼續使用 Shotwell，匯入程序會在背景執行。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3932,6 +4068,7 @@ msgstr "每英吋畫素"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "標籤"
 
@@ -4043,7 +4180,9 @@ msgstr "登入(_L)"
 msgid ""
 " (text depends on fb username and is modified in the app - \n"
 "anything put into this field won't display)"
-msgstr " (文字所依賴的是 FB 使用者名稱，由程式中修改 - \n任何輸入於此欄位的字皆不會顯示)"
+msgstr ""
+" (文字所依賴的是 FB 使用者名稱，由程式中修改 - \n"
+"任何輸入於此欄位的字皆不會顯示)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:39
 msgid "Publish to an e_xisting album:"
@@ -4069,6 +4208,8 @@ msgstr "上傳前先移除地理位置、相機、以及其他可供辨識的資
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "登出(_L)"
 
@@ -4076,6 +4217,8 @@ msgstr "登出(_L)"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "發布(_P)"
 
@@ -4095,13 +4238,18 @@ msgid ""
 "\n"
 "(this label's string is populated and set inside the code, \n"
 "so changes made here will not display)"
-msgstr "您已登入 Flickr，帳號為 (name)。\n\n(此標籤的字串會在代碼內部中取出並設定，\n因此此處所作的改動皆不會顯示)"
+msgstr ""
+"您已登入 Flickr，帳號為 (name)。\n"
+"\n"
+"(此標籤的字串會在代碼內部中取出並設定，\n"
+"因此此處所作的改動皆不會顯示)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:44
 msgid "_visibility label (populated in the code)"
 msgstr "_可見性標籤 (在代碼中取出)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "相片大小(_S)："
 
@@ -4109,7 +4257,9 @@ msgstr "相片大小(_S)："
 msgid ""
 "'you are logged in as $name'\n"
 "(populated in the application code)"
-msgstr "'您正以 $name 身份登入'\n(在應用程式代碼中取出)"
+msgstr ""
+"'您正以 $name 身份登入'\n"
+"(在應用程式代碼中取出)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:75
 msgid "An _existing album:"
@@ -4128,7 +4278,9 @@ msgstr "於公眾圖庫內列出相簿(_I)"
 msgid ""
 "$mediatype will appear in\n"
 "(populated in code)"
-msgstr "$mediatype 會出現於\n(在代碼中取出)"
+msgstr ""
+"$mediatype 會出現於\n"
+"(在代碼中取出)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:150
 msgid "Photo _size preset:"
@@ -4143,6 +4295,7 @@ msgid "User _name"
 msgstr "使用者名稱(_N)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "密碼(_P)"
 
@@ -4151,6 +4304,7 @@ msgid "_Remember Password"
 msgstr "記住密碼(_R)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "登入"
 
@@ -4189,3 +4343,89 @@ msgstr "登出"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "視訊隱私設定值(_S)："
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "著作權 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 畫素"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "「%s」不是個對 OAuth 驗證請求的有效回應"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr "TumblrPublisher: start( )：無法啟動；此發布器不能重新啟動。"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "請輸入與您 Tumblr 帳戶相關聯的使用者名稱與密碼。"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "無法載入使用者介面：%s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"您正以 %s 的身份登入 Tumblr。\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "著作權 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "造訪 Yandex.Fotki 網站"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "您目前尚未登入 Yandex.Fotki。"
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "電子郵件位址(_E)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"您正以 (name) 的身份登入 Tumblr。\n"
+"\n"
+"(此標籤的字串會被抽出並在代碼中設定，\n"
+"所有這裡所作的改變都不會顯示出來)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "網誌："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "相簿 (或寫入新的)(_A)："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "存取類型(_T)："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "停用評論(_C)"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "禁止下載原始相片(_F)"

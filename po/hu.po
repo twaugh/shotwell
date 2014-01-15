@@ -2,20 +2,26 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2011-2012
 # kelemeng <kelemeng@gnome.hu>, 2011
 # verayin <vera@yorba.org>, 2011
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2012
+# kelemeng <kelemeng@gnome.hu>, 2012
+# L. Csordas <csola48@gmail.com>, 2012
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
 "Report-Msgid-Bugs-To: shotwell@yorba.org\n"
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
-"Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/shotwell/language/hu/)\n"
+"Last-Translator: kelemeng <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/shotwell/"
+"language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +51,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "A fényképezőgép leválasztása nem sikerült, próbálja meg a fájlkezelőből leválasztani."
+msgstr ""
+"A fényképezőgép leválasztása nem sikerült, próbálja meg a fájlkezelőből "
+"leválasztani."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -87,7 +95,9 @@ msgstr "Minden fénykép importálása a gyűjteményébe"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "A Shotwellnek le kell választania a fényképezőgépet a fájlrendszerről az eléréséhez. Folytatja?"
+msgstr ""
+"A Shotwellnek le kell választania a fényképezőgépet a fájlrendszerről az "
+"eléréséhez. Folytatja?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -102,7 +112,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "A fényképezőgépet egy másik alkalmazás zárolta, így a Shotwell nem tudja használni. Zárja be a fényképezőgépet használó összes alkalmazást, majd próbálja újra."
+msgstr ""
+"A fényképezőgépet egy másik alkalmazás zárolta, így a Shotwell nem tudja "
+"használni. Zárja be a fényképezőgépet használó összes alkalmazást, majd "
+"próbálja újra."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -113,7 +126,9 @@ msgstr "Zárja be a fényképezőgépet használó összes alkalmazást."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Nem tölthetők le az előnézetek a fényképezőgépről:\n%s"
+msgstr ""
+"Nem tölthetők le az előnézetek a fényképezőgépről:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -172,8 +187,7 @@ msgstr "Fényképek/videók eltávolítása a fényképezőgépről"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "Hiba történt, %d fénykép/videó nem törölhető a fényképezőgépről."
 msgstr[1] "Hiba történt, %d fénykép/videó nem törölhető a fényképezőgépről."
 
@@ -400,7 +414,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "A fényképgyűjteménye nem kompatibilis ezzel a Shotwell verzióval. Úgy tűnik, a Shotwell %s verzióval (%d. séma) készült, míg a jelenlegi verzió: %s (%d. séma). Próbálja meg a Shotwell legfrissebb verzióját használni."
+msgstr ""
+"A fényképgyűjteménye nem kompatibilis ezzel a Shotwell verzióval. Úgy tűnik, "
+"a Shotwell %s verzióval (%d. séma) készült, míg a jelenlegi verzió: %s (%d. "
+"séma). Próbálja meg a Shotwell legfrissebb verzióját használni."
 
 #: src/main.vala:59
 #, c-format
@@ -408,7 +425,10 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "A Shotwell nem volt képes frissíteni az Ön fényképgyűjteményét %s verzióról (%d. séma) %s verzióra (%d. séma). További információkért nézze meg a Shotwell wikit itt: %s"
+msgstr ""
+"A Shotwell nem volt képes frissíteni az Ön fényképgyűjteményét %s verzióról "
+"(%d. séma) %s verzióra (%d. séma). További információkért nézze meg a "
+"Shotwell wikit itt: %s"
 
 #: src/main.vala:65
 #, c-format
@@ -417,7 +437,11 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "A fényképgyűjteménye nem kompatibilis ezzel a Shotwell verzióval. Úgy tűnik, a Shotwell %s verzióval (%d. séma) készült, míg a jelenlegi verzió: %s (%d. séma). Ürítse ki a gyűjteményt a(z) %s törlésével, és importálja újra a fényképeit."
+msgstr ""
+"A fényképgyűjteménye nem kompatibilis ezzel a Shotwell verzióval. Úgy tűnik, "
+"a Shotwell %s verzióval (%d. séma) készült, míg a jelenlegi verzió: %s (%d. "
+"séma). Ürítse ki a gyűjteményt a(z) %s törlésével, és importálja újra a "
+"fényképeit."
 
 #: src/main.vala:71
 #, c-format
@@ -455,7 +479,9 @@ msgstr "[FÁJL]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "A parancssori paraméterek teljes listája a „%s --help” paranccsal íratható ki.\n"
+msgstr ""
+"A parancssori paraméterek teljes listája a „%s --help” paranccsal íratható "
+"ki.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -636,8 +662,12 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Az előhívók váltása a fénykép minden, a Shotwellben végzett módosítását visszavonja"
-msgstr[1] "Az előhívók váltása a fényképek minden, a Shotwellben végzett módosítását visszavonja"
+msgstr[0] ""
+"Az előhívók váltása a fénykép minden, a Shotwellben végzett módosítását "
+"visszavonja"
+msgstr[1] ""
+"Az előhívók váltása a fényképek minden, a Shotwellben végzett módosítását "
+"visszavonja"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -652,20 +682,27 @@ msgstr "Videó exportálása"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "A Shotwell nem tudott létrehozni fájlt a fénykép szerkesztéséhez, mert nincs jogosultsága ide írni: %s."
+msgstr ""
+"A Shotwell nem tudott létrehozni fájlt a fénykép szerkesztéséhez, mert nincs "
+"jogosultsága ide írni: %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "A következő fényképek exportálása fájlhiba miatt nem lehetséges.\n\n"
+msgstr ""
+"A következő fényképek exportálása fájlhiba miatt nem lehetséges.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nSzeretné folytatni az exportálást?"
+msgstr ""
+"\n"
+"\n"
+"Szeretné folytatni az exportálást?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -748,28 +785,34 @@ msgid "error message:"
 msgstr "hibaüzenet:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
-msgstr "Fotóként vagy videóként fel nem ismert, és emiatt nem importált fájlok:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgstr ""
+"Fotóként vagy videóként fel nem ismert, és emiatt nem importált fájlok:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "A Shotwell által nem értelmezhető formátumú, és emiatt nem importált fotók/videók:"
+msgstr ""
+"A Shotwell által nem értelmezhető formátumú, és emiatt nem importált fotók/"
+"videók:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "A Shotwell által a gyűjteménybe nem másolható, és emiatt nem importált fotók/videók:"
+msgstr ""
+"A Shotwell által a gyűjteménybe nem másolható, és emiatt nem importált fotók/"
+"videók:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "%s nem másolható\n\tide: %s"
+msgstr ""
+"%s nem másolható\n"
+"\tide: %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -804,8 +847,10 @@ msgstr[1] "%d duplikált fénykép/videó nem lett importálva:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "%d fényképet nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
-msgstr[1] "%d fényképet nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
+msgstr[0] ""
+"%d fényképet nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
+msgstr[1] ""
+"%d fényképet nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
 
 #: src/Dialogs.vala:686
 #, c-format
@@ -819,8 +864,10 @@ msgstr[1] "%d videót nem sikerült importálni fájl- vagy hardverhiba miatt:\n
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "%d fényképet/videót nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
-msgstr[1] "%d fényképet/videót nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
+msgstr[0] ""
+"%d fényképet/videót nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
+msgstr[1] ""
+"%d fényképet/videót nem sikerült importálni fájl- vagy hardverhiba miatt:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
@@ -832,24 +879,30 @@ msgstr[1] "%d fájlt nem sikerült importálni hardver- vagy fájlhiba miatt:\n"
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
-msgstr[1] "%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
+msgstr[0] ""
+"%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem "
+"írható:\n"
+msgstr[1] ""
+"%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem "
+"írható:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d videót nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
-msgstr[1] "%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
+msgstr[0] ""
+"%d videót nem sikerült importálni, mert a fényképgyűjtemény mappája nem "
+"írható:\n"
+msgstr[1] ""
+"%d fényképet nem sikerült importálni, mert a fényképgyűjtemény mappája nem "
+"írható:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -859,8 +912,12 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fényképet/videót nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
-msgstr[1] "%d fényképet/videót nem sikerült importálni, mert a fényképgyűjtemény mappája nem írható:\n"
+msgstr[0] ""
+"%d fényképet/videót nem sikerült importálni, mert a fényképgyűjtemény "
+"mappája nem írható:\n"
+msgstr[1] ""
+"%d fényképet/videót nem sikerült importálni, mert a fényképgyűjtemény "
+"mappája nem írható:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -869,8 +926,12 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "A fényképgyűjtemény mappája nem írható, emiatt %d fájl importálása nem sikerült:\n"
-msgstr[1] "A fényképgyűjtemény mappája nem írható, emiatt %d fájl importálása nem sikerült:\n"
+msgstr[0] ""
+"A fényképgyűjtemény mappája nem írható, emiatt %d fájl importálása nem "
+"sikerült:\n"
+msgstr[1] ""
+"A fényképgyűjtemény mappája nem írható, emiatt %d fájl importálása nem "
+"sikerült:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
@@ -890,8 +951,10 @@ msgstr[1] "%d videót nem sikerült importálni fényképezőgép-hiba miatt:\n"
 #, c-format
 msgid "1 photo/video failed to import due to a camera error:\n"
 msgid_plural "%d photos/videos failed to import due to a camera error:\n"
-msgstr[0] "%d fényképet/videót nem sikerült importálni fényképezőgép-hiba miatt:\n"
-msgstr[1] "%d fényképet/videót nem sikerült importálni fényképezőgép-hiba miatt:\n"
+msgstr[0] ""
+"%d fényképet/videót nem sikerült importálni fényképezőgép-hiba miatt:\n"
+msgstr[1] ""
+"%d fényképet/videót nem sikerült importálni fényképezőgép-hiba miatt:\n"
 
 #: src/Dialogs.vala:738
 #, c-format
@@ -1068,7 +1131,8 @@ msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
 msgstr[0] "Ezzel a külső fájlon végzett minden változtatás elvész. Folytatja?"
-msgstr[1] "Ezzel a külső %d fájlon végzett minden változtatás elvész. Folytatja?"
+msgstr[1] ""
+"Ezzel a külső %d fájlon végzett minden változtatás elvész. Folytatja?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1155,14 +1219,18 @@ msgstr "%Y. %m. %d., %l.%M.%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "A képek készítése előre lesz tolva ennyivel:\n%d %s, %d %s, %d %s, és %d %s."
+msgstr ""
+"A képek készítése előre lesz tolva ennyivel:\n"
+"%d %s, %d %s, %d %s, és %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "A képek készítése vissza lesz tolva ennyivel:\n%d %s, %d %s, %d %s, és %d %s."
+msgstr ""
+"A képek készítése vissza lesz tolva ennyivel:\n"
+"%d %s, %d %s, %d %s, és %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1198,8 +1266,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nÉs %d egyéb."
-msgstr[1] "\n\nÉs %d egyéb."
+msgstr[0] ""
+"\n"
+"\n"
+"És %d egyéb."
+msgstr[1] ""
+"\n"
+"\n"
+"És %d egyéb."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1222,7 +1296,9 @@ msgstr "Az alábbi módokon importálhatja fényképeit:"
 #: src/Dialogs.vala:2044
 #, c-format
 msgid "Choose <span weight=\"bold\">File %s Import From Folder</span>"
-msgstr "Válassza a <span weight=\"bold\">Fájl %s Importálás mappából</span> menüpontot"
+msgstr ""
+"Válassza a <span weight=\"bold\">Fájl %s Importálás mappából</span> "
+"menüpontot"
 
 #: src/Dialogs.vala:2045
 msgid "Drag and drop photos onto the Shotwell window"
@@ -1230,7 +1306,9 @@ msgstr "Húzza fényképeit a Shotwell ablakába"
 
 #: src/Dialogs.vala:2046
 msgid "Connect a camera to your computer and import"
-msgstr "Csatlakoztasson egy fényképezőgépet a számítógéphez, és importálja a fényképeit"
+msgstr ""
+"Csatlakoztasson egy fényképezőgépet a számítógéphez, és importálja a "
+"fényképeit"
 
 #: src/Dialogs.vala:2056
 #, c-format
@@ -1285,7 +1363,9 @@ msgstr "Érvénytelen minta"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "A Shotwell átmásolhatja a fényképeket a gyűjtemény könyvtárába, vagy importálhatja azokat másolás nélkül is."
+msgstr ""
+"A Shotwell átmásolhatja a fényképeket a gyűjtemény könyvtárába, vagy "
+"importálhatja azokat másolás nélkül is."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1314,41 +1394,71 @@ msgstr "Fényképek eltávolítása a gyűjteményből"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Ezzel eltávolítja a Shotwell gyűjteményből a fényképet/videót. Szeretné a fájlt a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
-msgstr[1] "Ezzel eltávolít a Shotwell gyűjteményből %d fényképet/videót. Szeretné a fájlokat a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
+msgstr[0] ""
+"Ezzel eltávolítja a Shotwell gyűjteményből a fényképet/videót. Szeretné a "
+"fájlt a Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
+msgstr[1] ""
+"Ezzel eltávolít a Shotwell gyűjteményből %d fényképet/videót. Szeretné a "
+"fájlokat a Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Ezzel eltávolítja a Shotwell gyűjteményből a videót. Szeretné a fájlt a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
-msgstr[1] "Ezzel eltávolít a Shotwell gyűjteményből %d videót. Szeretné a fájlokat a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
+msgstr[0] ""
+"Ezzel eltávolítja a Shotwell gyűjteményből a videót. Szeretné a fájlt a "
+"Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
+msgstr[1] ""
+"Ezzel eltávolít a Shotwell gyűjteményből %d videót. Szeretné a fájlokat a "
+"Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Ezzel eltávolítja a Shotwell gyűjteményből a fényképet. Szeretné a fájlt a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
-msgstr[1] "Ezzel eltávolít a Shotwell gyűjteményből %d fényképet. Szeretné a fájlt a Kukába is áthelyezni?\n\nEz a művelet nem vonható vissza."
+msgstr[0] ""
+"Ezzel eltávolítja a Shotwell gyűjteményből a fényképet. Szeretné a fájlt a "
+"Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
+msgstr[1] ""
+"Ezzel eltávolít a Shotwell gyűjteményből %d fényképet. Szeretné a fájlt a "
+"Kukába is áthelyezni?\n"
+"\n"
+"Ez a művelet nem vonható vissza."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1542,7 +1652,8 @@ msgstr "Az importálás innen: %s egy hiba miatt nem folytatódhat:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Egy másik szolgáltatásból való importáláshoz válasszon egyet a fenti menüből."
+msgstr ""
+"Egy másik szolgáltatásból való importáláshoz válasszon egyet a fenti menüből."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1552,8 +1663,15 @@ msgstr "Adatimportálások"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Nincsenek engedélyezve adatimportáló bővítmények.\n\nAz Importálás alkalmazásból funkció használatához engedélyeznie kell legalább egy adatimportáló bővítményt. A bővítmények a Beállítások ablakban engedélyezhetők."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Nincsenek engedélyezve adatimportáló bővítmények.\n"
+"\n"
+"Az Importálás alkalmazásból funkció használatához engedélyeznie kell "
+"legalább egy adatimportáló bővítményt. A bővítmények a Beállítások ablakban "
+"engedélyezhetők."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1964,7 +2082,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "A fénykép nem nyomtatható:\n\n%s"
+msgstr ""
+"A fénykép nem nyomtatható:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1976,7 +2097,9 @@ msgstr "A fénykép-adatbázis (%s) nem nyitható meg/hozható létre: hibakód:
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Nem lehet írni a fényképadatbázis-fájlba:\n %s"
+msgstr ""
+"Nem lehet írni a fényképadatbázis-fájlba:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1986,7 +2109,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Hiba az adatbázisfájl elérésekor:\n %s\n\nA hibaüzenet: \n%s"
+msgstr ""
+"Hiba az adatbázisfájl elérésekor:\n"
+" %s\n"
+"\n"
+"A hibaüzenet: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2170,7 +2298,8 @@ msgstr "Kuka ürítése…"
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Shotwell az importált fényképeket az Ön saját könyvtárába helyezi el.\n"
+msgstr ""
+"Shotwell az importált fényképeket az Ön saját könyvtárába helyezi el.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2261,7 +2390,9 @@ msgstr "%s nem fájl."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s nem támogatja a következő fájlformátumát:\n%s."
+msgstr ""
+"%s nem támogatja a következő fájlformátumát:\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -3155,10 +3286,15 @@ msgstr "_Hiba jelentése…"
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Végzetes hiba történt a Shotwell gyűjtemény megnyitása közben, a Shotwell futása nem folytatódhat.\n\n%s"
+msgstr ""
+"Végzetes hiba történt a Shotwell gyűjtemény megnyitása közben, a Shotwell "
+"futása nem folytatódhat.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3166,7 +3302,25 @@ msgstr "Keresse fel a Yorba weboldalát"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr "Peter Bojtos <ptr at ulx dot hu>\nNikolas Slivka <snicore at gmail dot com>\nLaszlo Csordas <csola48 at gmail dot com>\nKelemen Gábor <kelemeng at gnome dot hu>\nKökéndy Ákos https://launchpad.net/~kokendy-akos\nRobert Roth https://launchpad.net/~evfool\n\nLaunchpad Contributions:\n  Adamyno https://launchpad.net/~adam-pretz\n  Gabor Kelemen https://launchpad.net/~kelemeng\n  KAMI https://launchpad.net/~kami911\n  Kökéndy Ákos https://launchpad.net/~kokendy-akos\n  Laura Khalil https://launchpad.net/~loura\n  Peter Bojtos https://launchpad.net/~ptr-ulx\n  Richard Somlói https://launchpad.net/~ricsipontaz\n  Robert Roth https://launchpad.net/~evfool\n  Vera Yin https://launchpad.net/~vera-yorba\n  csola48 https://launchpad.net/~mail-csordaslaszlo"
+msgstr ""
+"Peter Bojtos <ptr at ulx dot hu>\n"
+"Nikolas Slivka <snicore at gmail dot com>\n"
+"Laszlo Csordas <csola48 at gmail dot com>\n"
+"Kelemen Gábor <kelemeng at gnome dot hu>\n"
+"Kökéndy Ákos https://launchpad.net/~kokendy-akos\n"
+"Robert Roth https://launchpad.net/~evfool\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Adamyno https://launchpad.net/~adam-pretz\n"
+"  Gabor Kelemen https://launchpad.net/~kelemeng\n"
+"  KAMI https://launchpad.net/~kami911\n"
+"  Kökéndy Ákos https://launchpad.net/~kokendy-akos\n"
+"  Laura Khalil https://launchpad.net/~loura\n"
+"  Peter Bojtos https://launchpad.net/~ptr-ulx\n"
+"  Richard Somlói https://launchpad.net/~ricsipontaz\n"
+"  Robert Roth https://launchpad.net/~evfool\n"
+"  Vera Yin https://launchpad.net/~vera-yorba\n"
+"  csola48 https://launchpad.net/~mail-csordaslaszlo"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3270,7 +3424,9 @@ msgstr "Fényképek rendezése értékelés szerint"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "A Shotwell nem tudta lejátszani a kijelölt videót:\n%s"
+msgstr ""
+"A Shotwell nem tudta lejátszani a kijelölt videót:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3473,7 +3629,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "A Shotwell nem képes közzétenni a kijelölt elemeket, mert nincs engedélyezve a megfelelő közzétételi bővítmény. Ennek javításához válassza a(z) <b>%s beállításainak szerkesztése</b> menüpontot, és engedélyezze az egyik közzétételi bővítményt a <b>Bővítmények</b> lapon."
+msgstr ""
+"A Shotwell nem képes közzétenni a kijelölt elemeket, mert nincs engedélyezve "
+"a megfelelő közzétételi bővítmény. Ennek javításához válassza a(z) <b>%s "
+"beállításainak szerkesztése</b> menüpontot, és engedélyezze az egyik "
+"közzétételi bővítményt a <b>Bővítmények</b> lapon."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3491,35 +3651,48 @@ msgstr "A közzététel egy hiba miatt nem folytatódhat erre: %s:"
 
 #: src/publishing/PublishingPluginHost.vala:84
 msgid "To try publishing to another service, select one from the above menu."
-msgstr "Próbálja másik szolgáltatáson közzétenni, válasszon egyet a fenti menüből."
+msgstr ""
+"Próbálja másik szolgáltatáson közzétenni, válasszon egyet a fenti menüből."
 
 #: src/sidebar/Tree.vala:199
 msgid "New _Tag..."
 msgstr "Új _címke…"
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr "A közzétételhez szükséges ideiglenes fájl nem érhető el"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Nincs bejelentkezve a YouTube-ra.\n\nA folytatáshoz rendelkeznie kell egy Google fiókkal, és be kell azt állítania a YouTube-bal való használathoz. A legtöbb fiókot a böngészőből is beállíthatja, ha bejelentkezik a YouTube oldalon legalább egyszer."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Nincs bejelentkezve a YouTube-ra.\n"
+"\n"
+"A folytatáshoz rendelkeznie kell egy Google fiókkal, és be kell azt "
+"állítania a YouTube-bal való használathoz. A legtöbb fiókot a böngészőből is "
+"beállíthatja, ha bejelentkezik a YouTube oldalon legalább egyszer."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Youtube-ra nem folytatódhat."
+msgstr ""
+"Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Youtube-ra "
+"nem folytatódhat."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3551,14 +3724,25 @@ msgstr "Alap közzétételi szolgáltatások"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Jelenleg nincs bejelentkezve Flickr-re\n\nKattintson a Bejelentkezés gombra a bejelentkezéshez a Flickr fiókjába a böngészőből. A bejelentkezés során jogosultságot kell adnia a Shotwell Connectnek, hogy hozzáférjen a Flickr fiókjához."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Jelenleg nincs bejelentkezve Flickr-re\n"
+"\n"
+"Kattintson a Bejelentkezés gombra a bejelentkezéshez a Flickr fiókjába a "
+"böngészőből. A bejelentkezés során jogosultságot kell adnia a Shotwell "
+"Connectnek, hogy hozzáférjen a Flickr fiókjához."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "A Shotwell használata közben már bejelentkezett a Flickr-re, és kijelentkezett onnan.\nA Flickr-re való feltöltés folytatásához indítsa újra a Shotwellt, és próbálja újra a feltöltést."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"A Shotwell használata közben már bejelentkezett a Flickr-re, és "
+"kijelentkezett onnan.\n"
+"A Flickr-re való feltöltés folytatásához indítsa újra a Shotwellt, és "
+"próbálja újra a feltöltést."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3569,7 +3753,9 @@ msgstr "Felkészülés a bejelentkezésre…"
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Flickrre nem folytatódhat."
+msgstr ""
+"Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Flickrre "
+"nem folytatódhat."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3580,14 +3766,18 @@ msgstr "Felhatalmazás ellenőrzése…"
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Bejelentkezett a Flickr-re %s néven.\n\n"
+msgstr ""
+"Bejelentkezett a Flickr-re %s néven.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Az ingyenes Flickr fiókja korlátozza a havonta feltölthető adatmennyiséget.\nEbben a hónapban még %d MB feltöltésére van lehetősége."
+msgstr ""
+"Az ingyenes Flickr fiókja korlátozza a havonta feltölthető adatmennyiséget.\n"
+"Ebben a hónapban még %d MB feltöltésére van lehetősége."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3630,11 +3820,13 @@ msgstr "Csak én"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 képpont"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 képpont"
 
@@ -3661,15 +3853,20 @@ msgstr "Hibaüzenet érkezett a Piwigon való közzététel során. Próbálja �
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Adja meg a Piwigo fotógyűjteményének URL-címét, valamint az ahhoz tartozó Piwigo fiókjának felhasználónevét és jelszavát."
+msgstr ""
+"Adja meg a Piwigo fotógyűjteményének URL-címét, valamint az ahhoz tartozó "
+"Piwigo fiókjának felhasználónevét és jelszavát."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "A Shotwell nem éri el a Piwigo fotógyűjteményét. Ellenőrizze a megadott URL-címet."
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"A Shotwell nem éri el a Piwigo fotógyűjteményét. Ellenőrizze a megadott URL-"
+"címet."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "A felhasználónév és/vagy jelszó érvénytelen. Próbálja újra"
 
@@ -3679,9 +3876,11 @@ msgid "Invalid URL"
 msgstr "Érvénytelen URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
-#, c-format
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
+#, fuzzy, c-format
 msgid "Invalid User Name or Password"
-msgstr "Érvénytelen felhasználói név vagy jelszó"
+msgstr ""
+"Érvénytelen felhasználó név vagy jelszó"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1127
 #: plugins/shotwell-publishing/PicasaPublishing.vala:59
@@ -3709,14 +3908,22 @@ msgstr "Adminok"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Jelenleg nincs bejelentkezve Picasa Webalbumokba.\n\nKattintson a Bejelentkezés gombra a bejelentkezéshez a Picasa Webalbumokba a böngészőből. A bejelentkezés során jogosultságot kell adnia a Shotwell Connectnek, hogy hozzáférjen a Picasa Webalbumokhoz."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Jelenleg nincs bejelentkezve Picasa Webalbumokba.\n"
+"\n"
+"Kattintson a Bejelentkezés gombra a bejelentkezéshez a Picasa Webalbumokba a "
+"böngészőből. A bejelentkezés során jogosultságot kell adnia a Shotwell "
+"Connectnek, hogy hozzáférjen a Picasa Webalbumokhoz."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Picasara nem folytatódhat."
+msgstr ""
+"Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Picasara "
+"nem folytatódhat."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3756,14 +3963,28 @@ msgstr "Google+ (2048 x 1536 képpont)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Jelenleg nincs bejelentkezve a Facebookra.\n\nHa nincs még Facebook fiókja, a bejelentkezés során létrehozhat egyet. Engedélyeznie kell a fényképek feltöltését, és a falon való közzétételét. Ezek az engedélyek szükségesek a Shotwell kapcsolat működéséhez."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Jelenleg nincs bejelentkezve a Facebookra.\n"
+"\n"
+"Ha nincs még Facebook fiókja, a bejelentkezés során létrehozhat egyet. "
+"Engedélyeznie kell a fényképek feltöltését, és a falon való közzétételét. "
+"Ezek az engedélyek szükségesek a Shotwell kapcsolat működéséhez."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "A Shotwell használata közben már bejelentkezett a Facebookra, és kijelentkezett onnan.\nA Facebookra való feltöltés folytatásához indítsa újra a Shotwellt, és próbálja újra a feltöltést."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"A Shotwell használata közben már bejelentkezett a Facebookra, és "
+"kijelentkezett onnan.\n"
+"A Facebookra való feltöltés folytatásához indítsa újra a Shotwellt, és "
+"próbálja újra a feltöltést."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3781,14 +4002,18 @@ msgstr "Kapcsolat tesztelése a Facebookhoz…"
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Facebookra nem folytatódhat."
+msgstr ""
+"Egy, a közzétételhez szükséges fájl nem érhető el. A közzététel a Facebookra "
+"nem folytatódhat."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Bejelentkezett a Facebookra %s néven.\n\n"
+msgstr ""
+"Bejelentkezett a Facebookra %s néven.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3858,15 +4083,25 @@ msgstr "Alap adatimportáló szolgáltatások"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Üdvözli az F-Spot gyűjteményimportáló szolgáltatás.\n\nVálasszon egy importálandó gyűjteményt a Shotwell által talált egyik meglévő gyűjtemény kiválasztásával, vagy egy alternatív F-Spot adatbázisfájl kiválasztásával."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Üdvözli az F-Spot gyűjteményimportáló szolgáltatás.\n"
+"\n"
+"Válasszon egy importálandó gyűjteményt a Shotwell által talált egyik meglévő "
+"gyűjtemény kiválasztásával, vagy egy alternatív F-Spot adatbázisfájl "
+"kiválasztásával."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Üdvözli az F-Spot gyűjteményimportáló szolgáltatás.\n\nVálasszon egy F-Spot adatbázisfájlt."
+msgstr ""
+"Üdvözli az F-Spot gyűjteményimportáló szolgáltatás.\n"
+"\n"
+"Válasszon egy F-Spot adatbázisfájlt."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3874,35 +4109,48 @@ msgstr "Importálandó F-Spot adatbázisfájl kiválasztása:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "A kijelölt F-Spot adatbázisfájl nem nyitható meg: a fájl nem létezik, vagy nem F-Spot adatbázis"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"A kijelölt F-Spot adatbázisfájl nem nyitható meg: a fájl nem létezik, vagy "
+"nem F-Spot adatbázis"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "A kijelölt F-Spot adatbázisfájl nem nyitható meg: a Shotwell nem támogatja az F-Spot adatbázis ezen verzióját"
+msgstr ""
+"A kijelölt F-Spot adatbázisfájl nem nyitható meg: a Shotwell nem támogatja "
+"az F-Spot adatbázis ezen verzióját"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "A kijelölt F-Spot adatbázisfájl nem olvasható: hiba a címketábla olvasásakor"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"A kijelölt F-Spot adatbázisfájl nem olvasható: hiba a címketábla olvasásakor"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "A kijelölt F-Spot adatbázisfájl nem olvasható: hiba a fényképtábla olvasásakor"
+msgstr ""
+"A kijelölt F-Spot adatbázisfájl nem olvasható: hiba a fényképtábla "
+"olvasásakor"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "A Shotwell %d fényképet talált az F-Spot gyűjteményben, és éppen importálja ezeket. A többször szereplő képek felismerésre és eltávolításra kerülnek.\n\nBezárhatja ezt az ablakot, és megkezdheti a Shotwell használatát mialatt az importálás a háttérben folytatódik."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"A Shotwell %d fényképet talált az F-Spot gyűjteményben, és éppen importálja "
+"ezeket. A többször szereplő képek felismerésre és eltávolításra kerülnek.\n"
+"\n"
+"Bezárhatja ezt az ablakot, és megkezdheti a Shotwell használatát mialatt az "
+"importálás a háttérben folytatódik."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3991,8 +4239,11 @@ msgstr "képpont hüvelykenként"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
+#, fuzzy
 msgid "label"
-msgstr "címke"
+msgstr ""
+"címke"
 
 #: ui/shotwell.glade:719
 msgid "Shotwell Preferences"
@@ -4128,6 +4379,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Kijelentkezés"
 
@@ -4135,6 +4388,8 @@ msgstr "_Kijelentkezés"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "Közzé_tétel"
 
@@ -4142,7 +4397,9 @@ msgstr "Közzé_tétel"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Írja be a megerősítési számot, amely a Flickr-be való bejelentkezés után jelenik meg a böngészőjében."
+msgstr ""
+"Írja be a megerősítési számot, amely a Flickr-be való bejelentkezés után "
+"jelenik meg a böngészőjében."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4161,6 +4418,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Fénykép _mérete:"
 
@@ -4202,6 +4460,7 @@ msgid "User _name"
 msgstr "_Felhasználónév"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Jelszó"
 
@@ -4210,6 +4469,7 @@ msgid "_Remember Password"
 msgstr "_Jelszó megjegyzése"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Bejelentkezés"
 
@@ -4248,3 +4508,90 @@ msgstr "Kijelentkezés"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Videók _magánszféra-beállítása:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixel"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "„%s” nem érvényes válasz OAuth hitelesítési kérésre"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): nem lehet elindítani, ez a közzétevő nem "
+"indítható újra."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Adja meg a felhasználó nevet és a jelszót a társított Tumblr fiókhoz"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "A felület nem tölthető be: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Bejelentkezett a Tumblr-re %s néven.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "A Yandex.Fotki weboldal felkeresése"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Jelenleg nincs bejelentkezve a Yandex.Fotki oldalra."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_E-mail cím"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Bejelentkezett a Tumblr-re, mint (name).\n"
+"\n"
+"(ez a szöveg a kódon belül lesz feltöltve)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Blogok:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Albumok (vagy új írása):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Hozzáférés típusa:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "H_ozzászólások letiltása"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "_Eredeti kép letöltésének megtiltása"

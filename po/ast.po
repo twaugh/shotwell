@@ -2,19 +2,21 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # verayin <vera@yorba.org>, 2011
 # Xuacu Saturio <xuacusk8@gmail.com>, 2013
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
 "Report-Msgid-Bugs-To: shotwell@yorba.org\n"
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
-"Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Asturian (http://www.transifex.com/projects/p/shotwell/language/ast/)\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"Language-Team: Asturian (http://www.transifex.com/projects/p/shotwell/"
+"language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +46,9 @@ msgstr ""
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Nun puede desmontase la cámara. Tenta de desmontala dende'l xestor de ficheros."
+msgstr ""
+"Nun puede desmontase la cámara. Tenta de desmontala dende'l xestor de "
+"ficheros."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -86,7 +90,9 @@ msgstr ""
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell necesita desmontar la cámara del sistema de ficheros col envís d'acceder a ella. ¿Siguir?"
+msgstr ""
+"Shotwell necesita desmontar la cámara del sistema de ficheros col envís "
+"d'acceder a ella. ¿Siguir?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -101,7 +107,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "La cámara ta bloquiada por otra aplicación. Shotwell namái puede acceder a la cámara cuando ta desbloquiada. Zarra cualesquier otra aplicación que tea usando la cámara y vuelvi a tentalo."
+msgstr ""
+"La cámara ta bloquiada por otra aplicación. Shotwell namái puede acceder a "
+"la cámara cuando ta desbloquiada. Zarra cualesquier otra aplicación que tea "
+"usando la cámara y vuelvi a tentalo."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -112,7 +121,9 @@ msgstr "Por favor zarra cualesquier otra aplicación que tea usando la cámara."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Nun pueden recoyese vistes previes de la cámara:\n%s"
+msgstr ""
+"Nun pueden recoyese vistes previes de la cámara:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -171,8 +182,7 @@ msgstr ""
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -454,7 +464,9 @@ msgstr "[FICHERU]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Executar '%s --help' pa ver una llista completa d'opciones de llinia de comandos.\n"
+msgstr ""
+"Executar '%s --help' pa ver una llista completa d'opciones de llinia de "
+"comandos.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -657,14 +669,18 @@ msgstr ""
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Nun puede esportase la siguiente semeya darréu d'un fallu de ficheru.\n"
+msgstr ""
+"Nun puede esportase la siguiente semeya darréu d'un fallu de ficheru.\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\n¿Prestaríate siguir esportando?"
+msgstr ""
+"\n"
+"\n"
+"¿Prestaríate siguir esportando?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -747,8 +763,7 @@ msgid "error message:"
 msgstr ""
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr ""
 
 #: src/Dialogs.vala:597
@@ -803,23 +818,30 @@ msgstr[1] "%d fotos/videos duplicaos nun s'importaron:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "nun pudo importase 1 semeya, darréu d'un fallu de ficheru o hardware\n"
-msgstr[1] "nun pudieron importase %d semeyes, darréu d'un fallu de ficheru o hardware\n"
+msgstr[0] ""
+"nun pudo importase 1 semeya, darréu d'un fallu de ficheru o hardware\n"
+msgstr[1] ""
+"nun pudieron importase %d semeyes, darréu d'un fallu de ficheru o hardware\n"
 
 #: src/Dialogs.vala:686
 #, c-format
 msgid "1 video failed to import due to a file or hardware error:\n"
 msgid_plural "%d videos failed to import due to a file or hardware error:\n"
-msgstr[0] "nun pudo importase 1 videu, darréu d'un fallu de ficheru o hardware\n"
-msgstr[1] "nun pudieron importase %d videos, darréu d'un fallu de ficheru o hardware\n"
+msgstr[0] ""
+"nun pudo importase 1 videu, darréu d'un fallu de ficheru o hardware\n"
+msgstr[1] ""
+"nun pudieron importase %d videos, darréu d'un fallu de ficheru o hardware\n"
 
 #: src/Dialogs.vala:689
 #, c-format
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "nun pudo importase 1 semeya/videu, darréu d'un fallu de ficheru o hardware\n"
-msgstr[1] "nun pudieron importase %d semeyes/videos, darréu d'un fallu de ficheru o hardware\n"
+msgstr[0] ""
+"nun pudo importase 1 semeya/videu, darréu d'un fallu de ficheru o hardware\n"
+msgstr[1] ""
+"nun pudieron importase %d semeyes/videos, darréu d'un fallu de ficheru o "
+"hardware\n"
 
 #: src/Dialogs.vala:692
 #, c-format
@@ -831,8 +853,7 @@ msgstr[1] ""
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
@@ -842,8 +863,7 @@ msgstr[1] ""
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
@@ -876,7 +896,8 @@ msgstr[1] ""
 msgid "1 photo failed to import due to a camera error:\n"
 msgid_plural "%d photos failed to import due to a camera error:\n"
 msgstr[0] "nun pudo importase 1 semeya, darréu d'un fallu de la cámara:\n"
-msgstr[1] "nun pudieron importase %d semeyes, darréu d'un fallu de la cámara:\n"
+msgstr[1] ""
+"nun pudieron importase %d semeyes, darréu d'un fallu de la cámara:\n"
 
 #: src/Dialogs.vala:732
 #, c-format
@@ -889,8 +910,10 @@ msgstr[1] "nun pudieron importase %d videos, darréu d'un fallu de la cámara:\n
 #, c-format
 msgid "1 photo/video failed to import due to a camera error:\n"
 msgid_plural "%d photos/videos failed to import due to a camera error:\n"
-msgstr[0] "nun pudo importase 1 semeya/videu, darréu d'un fallu de la cámara:\n"
-msgstr[1] "nun pudieron importase %d semeyes/videos, darréu d'un fallu de la cámara:\n"
+msgstr[0] ""
+"nun pudo importase 1 semeya/videu, darréu d'un fallu de la cámara:\n"
+msgstr[1] ""
+"nun pudieron importase %d semeyes/videos, darréu d'un fallu de la cámara:\n"
 
 #: src/Dialogs.vala:738
 #, c-format
@@ -1066,8 +1089,10 @@ msgstr ""
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Esto va desaniciar tolos cambeos fechos nel ficheru esternu.  ¿Siguir?"
-msgstr[1] "Esto va desaniciar tolos cambeos fechos nos %d ficheros esternos.  ¿Siguir?"
+msgstr[0] ""
+"Esto va desaniciar tolos cambeos fechos nel ficheru esternu.  ¿Siguir?"
+msgstr[1] ""
+"Esto va desaniciar tolos cambeos fechos nos %d ficheros esternos.  ¿Siguir?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1154,14 +1179,18 @@ msgstr "%d/%m/%Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "El tiempu d'esposición va allanciase por\n%d %s, %d %s, %d %s, y %d %s."
+msgstr ""
+"El tiempu d'esposición va allanciase por\n"
+"%d %s, %d %s, %d %s, y %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "El tiempu d'esposición va desplazase haza darrera por\n%d %s, %d %s, %d %s, y %d %s."
+msgstr ""
+"El tiempu d'esposición va desplazase haza darrera por\n"
+"%d %s, %d %s, %d %s, y %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1197,8 +1226,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nY %d más."
-msgstr[1] "\n\nY otres %d más."
+msgstr[0] ""
+"\n"
+"\n"
+"Y %d más."
+msgstr[1] ""
+"\n"
+"\n"
+"Y otres %d más."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1216,12 +1251,14 @@ msgstr "Afáyate en Shotwell!"
 #: src/Dialogs.vala:2025
 #, c-format
 msgid "To get started, import photos in any of these ways:"
-msgstr "Pa escomencipiar, importa semeyes de cualesquiera de les siguientes formes:"
+msgstr ""
+"Pa escomencipiar, importa semeyes de cualesquiera de les siguientes formes:"
 
 #: src/Dialogs.vala:2044
 #, c-format
 msgid "Choose <span weight=\"bold\">File %s Import From Folder</span>"
-msgstr "Esbillar <span weight=\"bold\">Importar ficheru %s dende la carpeta</span>"
+msgstr ""
+"Esbillar <span weight=\"bold\">Importar ficheru %s dende la carpeta</span>"
 
 #: src/Dialogs.vala:2045
 msgid "Drag and drop photos onto the Shotwell window"
@@ -1238,7 +1275,8 @@ msgstr "Importar semeyes dende la carpeta %s"
 
 #: src/Dialogs.vala:2063
 msgid "You can also import photos in any of these ways:"
-msgstr "Tamién puedes importar semeyes de cualesquiera de les siguientes formes:"
+msgstr ""
+"Tamién puedes importar semeyes de cualesquiera de les siguientes formes:"
 
 #: src/Dialogs.vala:2073
 msgid "_Don't show this message again"
@@ -1313,11 +1351,13 @@ msgstr ""
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgstr[0] ""
@@ -1326,11 +1366,13 @@ msgstr[1] ""
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgstr[0] ""
@@ -1339,15 +1381,25 @@ msgstr[1] ""
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Esto va desaniciar la semeya de la biblioteca Shotwell. ¿Prestaríate mover el ficheru a la papelera del escritoriu?\r\n\r\nEsta aición nun puede desfacese."
-msgstr[1] "Esto va desaniciar %d semeyes de la biblioteca Shotwell. ¿Prestaríate mover los ficheros a la papelera del escritoriu?\r\n\r\nEsta aición nun puede desfacese."
+msgstr[0] ""
+"Esto va desaniciar la semeya de la biblioteca Shotwell. ¿Prestaríate mover "
+"el ficheru a la papelera del escritoriu?\r\n"
+"\r\n"
+"Esta aición nun puede desfacese."
+msgstr[1] ""
+"Esto va desaniciar %d semeyes de la biblioteca Shotwell. ¿Prestaríate mover "
+"los ficheros a la papelera del escritoriu?\r\n"
+"\r\n"
+"Esta aición nun puede desfacese."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1553,7 +1605,9 @@ msgstr ""
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
 msgstr ""
 
 #: src/data_imports/DataImportsUI.vala:100
@@ -1738,8 +1792,11 @@ msgstr "Fallu al axustar hora"
 msgid "Time adjustments could not be undone on the following photo file."
 msgid_plural ""
 "Time adjustments could not be undone on the following photo files."
-msgstr[0] "L'axuste de la hora nun puede desfacese nel ficheru de la semeya siguiente."
-msgstr[1] "L'axuste de la hora nun puede desfacese nos ficheros de les semeyes siguiente."
+msgstr[0] ""
+"L'axuste de la hora nun puede desfacese nel ficheru de la semeya siguiente."
+msgstr[1] ""
+"L'axuste de la hora nun puede desfacese nos ficheros de les semeyes "
+"siguiente."
 
 #: src/Commands.vala:1625 src/Commands.vala:1648
 msgid "Create Tag"
@@ -1965,12 +2022,16 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Nun ye dable imprentar semeya:\n\n%s"
+msgstr ""
+"Nun ye dable imprentar semeya:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
 msgid "Unable to open/create photo database %s: error code %d"
-msgstr "Nun se pudo abrir/crear la base de datos de fotos %s: códigu d'error %d"
+msgstr ""
+"Nun se pudo abrir/crear la base de datos de fotos %s: códigu d'error %d"
 
 #: src/db/DatabaseTable.vala:46
 #, c-format
@@ -2171,7 +2232,8 @@ msgstr "Vaciando papelera..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Shotwell ta configuráu pa importar semeyes dende'l to direutoriu home.\n"
+msgstr ""
+"Shotwell ta configuráu pa importar semeyes dende'l to direutoriu home.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2262,7 +2324,9 @@ msgstr "%s nun ye un ficheru."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s nun ye compatible col formato de ficheru de\n%s."
+msgstr ""
+"%s nun ye compatible col formato de ficheru de\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -3156,10 +3220,15 @@ msgstr ""
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Hebo un fallu fatal al acceder a la biblioteca de Shotwell. Shotwell nun pue continuar.\n\n%s"
+msgstr ""
+"Hebo un fallu fatal al acceder a la biblioteca de Shotwell. Shotwell nun pue "
+"continuar.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3499,21 +3568,26 @@ msgid "New _Tag..."
 msgstr ""
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr ""
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
@@ -3552,14 +3626,19 @@ msgstr ""
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
 msgstr ""
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Yá aniciaste y zarraste sesión de Flickr durante esta sesión de Shotwell.\nPara siguir espublizando en Flickr, zarra ya reanicia Shotwell, ya intenta espublizar de nueves."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Yá aniciaste y zarraste sesión de Flickr durante esta sesión de Shotwell.\n"
+"Para siguir espublizando en Flickr, zarra ya reanicia Shotwell, ya intenta "
+"espublizar de nueves."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3581,14 +3660,19 @@ msgstr ""
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Tas coneutáu en Flickr como %s.\n\n"
+msgstr ""
+"Tas coneutáu en Flickr como %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "La to cuenta de baldre de Flickr llenda la cantidá de datos que puedes xubir al mes.\nEsti mes, tienes %d megabytes restantes de la to cuota de carga."
+msgstr ""
+"La to cuenta de baldre de Flickr llenda la cantidá de datos que puedes xubir "
+"al mes.\n"
+"Esti mes, tienes %d megabytes restantes de la to cuota de carga."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3631,11 +3715,13 @@ msgstr "Yo namái"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 pixels"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 pixels"
 
@@ -3666,11 +3752,12 @@ msgstr ""
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
 msgstr ""
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "Nome d'usuariu y/o contraseña inválidu. Vuelva a intentalo"
 
@@ -3680,6 +3767,7 @@ msgid "Invalid URL"
 msgstr ""
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr ""
@@ -3710,7 +3798,8 @@ msgstr ""
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
 msgstr ""
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
@@ -3757,14 +3846,28 @@ msgstr ""
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Anguaño nun tas rexistráu en Facebook.\n\nSi entá nun tienes una de Facebook, puedes creala durante'l procesu d'aniciu de sesión. Durante l'aniciu de la sesión, Shotwell Connect puede pedite permisu pa xubir semeyes ya espublizales nel to feed. Estos permisos son necesarios pa que Shotwell Connect funcione."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Anguaño nun tas rexistráu en Facebook.\n"
+"\n"
+"Si entá nun tienes una de Facebook, puedes creala durante'l procesu d'aniciu "
+"de sesión. Durante l'aniciu de la sesión, Shotwell Connect puede pedite "
+"permisu pa xubir semeyes ya espublizales nel to feed. Estos permisos son "
+"necesarios pa que Shotwell Connect funcione."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Yá aniciaste y zarraste sesión de Facebook durante esta sesión de Shotwell.\nPara siguir espublizando en Facebook, zarra ya reanicia Shotwell, ya intenta espublizar de nueves."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Yá aniciaste y zarraste sesión de Facebook durante esta sesión de Shotwell.\n"
+"Para siguir espublizando en Facebook, zarra ya reanicia Shotwell, ya intenta "
+"espublizar de nueves."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3789,7 +3892,9 @@ msgstr ""
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Tas coneutáu en Facebook como %s.\n\n"
+msgstr ""
+"Tas coneutáu en Facebook como %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3859,7 +3964,9 @@ msgstr ""
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
@@ -3875,8 +3982,8 @@ msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
@@ -3887,8 +3994,7 @@ msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
+"Cannot read the selected F-Spot database file: error while reading tags table"
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
@@ -3900,9 +4006,11 @@ msgstr ""
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
@@ -3992,6 +4100,7 @@ msgstr "pixels por pulgada"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "etiqueta"
 
@@ -4129,6 +4238,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Zarrar sesión"
 
@@ -4136,6 +4247,8 @@ msgstr "_Zarrar sesión"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "Es_publizar"
 
@@ -4162,6 +4275,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Tamañu _semeya:"
 
@@ -4203,6 +4317,7 @@ msgid "User _name"
 msgstr ""
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "Contrase_ña"
 
@@ -4211,6 +4326,7 @@ msgid "_Remember Password"
 msgstr ""
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Aniciar sesión"
 
@@ -4249,3 +4365,83 @@ msgstr ""
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr ""
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixels"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Visite'l sitiu web Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Anguaño nun anició sesión en Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Blogs:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Álbumes (o escribir nuevu):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Triba d'accesu:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Desactivar _comentarios"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Torgar la descarga de la _foto orixinal"

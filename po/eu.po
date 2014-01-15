@@ -2,21 +2,25 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # assar <asiersar@yahoo.com>, 2013
 # assar <asiersar@yahoo.com>, 2011-2012
 # assar <asiersar@yahoo.com>, 2011
 # verayin <vera@yorba.org>, 2011
+# assar <asiersar@yahoo.com>, 2012
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
 "Report-Msgid-Bugs-To: shotwell@yorba.org\n"
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
-"Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Basque (http://www.transifex.com/projects/p/shotwell/language/eu/)\n"
+"Last-Translator: assar <asiersar@yahoo.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/shotwell/language/"
+"eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +50,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Ezin  izan da kamera desmuntatu.  Saiatu kamera fitxategi-kudeatzailetik desmuntatzen."
+msgstr ""
+"Ezin  izan da kamera desmuntatu.  Saiatu kamera fitxategi-kudeatzailetik "
+"desmuntatzen."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -88,7 +94,8 @@ msgstr "Inportatu argazki guztiak zure liburutegira"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell-ek kamera desmuntatu behar du hura atzitu ahal izateko.  Jarraitu?"
+msgstr ""
+"Shotwell-ek kamera desmuntatu behar du hura atzitu ahal izateko.  Jarraitu?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -103,7 +110,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Beste aplikazio batek kamera blokeatuta dauka.  Kamerak desblokeatuta egon behar du Shotwell-ek hura atzitu ahal dezan.  Itxi kamera erabiltzen ari den beste edozein aplikazioa eta saiatu berriro."
+msgstr ""
+"Beste aplikazio batek kamera blokeatuta dauka.  Kamerak desblokeatuta egon "
+"behar du Shotwell-ek hura atzitu ahal dezan.  Itxi kamera erabiltzen ari den "
+"beste edozein aplikazioa eta saiatu berriro."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -114,7 +124,9 @@ msgstr "Itxi kamera erabiltzen ari den beste edozein aplikazio."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Ezin izan dira aurrebistak kameratik hartu:\n%s"
+msgstr ""
+"Ezin izan dira aurrebistak kameratik hartu:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -173,10 +185,11 @@ msgstr "Argazkiak/bideoak kameratik kentzen"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
-msgstr[0] "Ezin izan da argazki/bideo %d ezabatu kameratik erroreak gertatu direlako."
-msgstr[1] "Ezin izan dira %d argazki/bideo ezabatu kameratik erroreak gertatu direlako."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
+msgstr[0] ""
+"Ezin izan da argazki/bideo %d ezabatu kameratik erroreak gertatu direlako."
+msgstr[1] ""
+"Ezin izan dira %d argazki/bideo ezabatu kameratik erroreak gertatu direlako."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
 msgid "S_lideshow"
@@ -401,7 +414,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Zure argazki-liburutegia ez da bateragarria Shotwell-en bertsio honekin.  Itxura batean Shotwell %s bertsioarekin (%d eskema) sortu zen.  Bertsio hau %s (%d eskema) da.  Erabili Shotwell-en azken bertsioa."
+msgstr ""
+"Zure argazki-liburutegia ez da bateragarria Shotwell-en bertsio honekin.  "
+"Itxura batean Shotwell %s bertsioarekin (%d eskema) sortu zen.  Bertsio hau "
+"%s (%d eskema) da.  Erabili Shotwell-en azken bertsioa."
 
 #: src/main.vala:59
 #, c-format
@@ -409,7 +425,10 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell-ek ezin izan du zure argazki-liburutegia eguneratu %s bertsiotik (%d eskema) %s bertsiora (%d eskema).  Informazio gehiagorako begiartu Shotwell-en wiki-a %s helbidean"
+msgstr ""
+"Shotwell-ek ezin izan du zure argazki-liburutegia eguneratu %s bertsiotik "
+"(%d eskema) %s bertsiora (%d eskema).  Informazio gehiagorako begiartu "
+"Shotwell-en wiki-a %s helbidean"
 
 #: src/main.vala:65
 #, c-format
@@ -418,7 +437,11 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Zure argazki-liburutegia ez da bateragarria Shotwell-en bertsio honekin.  Itxura batean Shotwell %s bertsioarekin (%d eskema) sortu zen.  Bertsio hau %s (%d eskema) da.  Garbitu zure liburutegia %s ezabatuta eta inportatu berriro zure argazkiak."
+msgstr ""
+"Zure argazki-liburutegia ez da bateragarria Shotwell-en bertsio honekin.  "
+"Itxura batean Shotwell %s bertsioarekin (%d eskema) sortu zen.  Bertsio hau "
+"%s (%d eskema) da.  Garbitu zure liburutegia %s ezabatuta eta inportatu "
+"berriro zure argazkiak."
 
 #: src/main.vala:71
 #, c-format
@@ -439,7 +462,8 @@ msgstr "DIREKTORIOA"
 
 #: src/main.vala:298
 msgid "Do not monitor library directory at runtime for changes"
-msgstr "Ez monitorizatu liburutegien direktorioa aldaketen bila exekuzio-denboran"
+msgstr ""
+"Ez monitorizatu liburutegien direktorioa aldaketen bila exekuzio-denboran"
 
 #: src/main.vala:302
 msgid "Don't display startup progress meter"
@@ -456,7 +480,8 @@ msgstr "[FILE]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Exekutatu '%s --help' komando-lerroko aukeren zerrenda osoa ikusteko.\n"
+msgstr ""
+"Exekutatu '%s --help' komando-lerroko aukeren zerrenda osoa ikusteko.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -637,8 +662,12 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Garatzaileak txandakatzeak argazki honi Shotwell-en egin dizkiozun aldaketa guztiak desegingo ditu"
-msgstr[1] "Garatzaileak txandakatzeak argazki hauei Shotwell-en egin dizkiezun aldaketa guztiak desegingo ditu"
+msgstr[0] ""
+"Garatzaileak txandakatzeak argazki honi Shotwell-en egin dizkiozun aldaketa "
+"guztiak desegingo ditu"
+msgstr[1] ""
+"Garatzaileak txandakatzeak argazki hauei Shotwell-en egin dizkiezun aldaketa "
+"guztiak desegingo ditu"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -653,20 +682,27 @@ msgstr "Esportatu bideoa"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell couldn't create a file for editing this photo because you do not have permission to write to %s."
+msgstr ""
+"Shotwell couldn't create a file for editing this photo because you do not "
+"have permission to write to %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Ezin izan da hurrengo argazkia esportatu fitxategi-errore baten erruz.\n\n"
+msgstr ""
+"Ezin izan da hurrengo argazkia esportatu fitxategi-errore baten erruz.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nEsportazioarekin jarraitu nahi al duzu?"
+msgstr ""
+"\n"
+"\n"
+"Esportazioarekin jarraitu nahi al duzu?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -749,28 +785,34 @@ msgid "error message:"
 msgstr "errore-mezua:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
-msgstr "Argazki edo bideo gisa ez ezagutzeagatik inportatu ez diren fitxategiak:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgstr ""
+"Argazki edo bideo gisa ez ezagutzeagatik inportatu ez diren fitxategiak:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Shotwell-ek ulertzen duen formatu batean ez egoteagatik inportatu ez diren argazkiak/bideoak:"
+msgstr ""
+"Shotwell-ek ulertzen duen formatu batean ez egoteagatik inportatu ez diren "
+"argazkiak/bideoak:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Shotwell-ek bere liburutegira kopiatu ezin izateagatik inportatu ez diren argazkiak/bideoak:"
+msgstr ""
+"Shotwell-ek bere liburutegira kopiatu ezin izateagatik inportatu ez diren "
+"argazkiak/bideoak:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "ezin kopiatu %s\n\thona: %s"
+msgstr ""
+"ezin kopiatu %s\n"
+"\thona: %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -805,52 +847,74 @@ msgstr[1] "Ez dira inportatu %d argazki/bideo bikoiztu:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "Argazki baten inportazioak huts egin du fitxategi- edo hardware-errore baten erruz:\n"
-msgstr[1] "%d argazkiren inportazioak huts egin du fitxategi- edo hardware-erroreen erruz:\n"
+msgstr[0] ""
+"Argazki baten inportazioak huts egin du fitxategi- edo hardware-errore baten "
+"erruz:\n"
+msgstr[1] ""
+"%d argazkiren inportazioak huts egin du fitxategi- edo hardware-erroreen "
+"erruz:\n"
 
 #: src/Dialogs.vala:686
 #, c-format
 msgid "1 video failed to import due to a file or hardware error:\n"
 msgid_plural "%d videos failed to import due to a file or hardware error:\n"
-msgstr[0] "Bideo baten inportazioak huts egin du fitxategi- edo hardware-errore baten erruz:\n"
-msgstr[1] "%d bideoren inportazioak huts egin du fitxategi- edo hardware-erroreen erruz:\n"
+msgstr[0] ""
+"Bideo baten inportazioak huts egin du fitxategi- edo hardware-errore baten "
+"erruz:\n"
+msgstr[1] ""
+"%d bideoren inportazioak huts egin du fitxategi- edo hardware-erroreen "
+"erruz:\n"
 
 #: src/Dialogs.vala:689
 #, c-format
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "Argazki/bideo baten inportazioak huts egin du fitxategi- edo hardware-errore baten erruz:\n"
-msgstr[1] "%d argazkiren/bideoren inportazioak huts egin du fitxategi- edo hardware-erroreen erruz:\n"
+msgstr[0] ""
+"Argazki/bideo baten inportazioak huts egin du fitxategi- edo hardware-errore "
+"baten erruz:\n"
+msgstr[1] ""
+"%d argazkiren/bideoren inportazioak huts egin du fitxategi- edo hardware-"
+"erroreen erruz:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
 msgid "1 file failed to import due to a file or hardware error:\n"
 msgid_plural "%d files failed to import due to a file or hardware error:\n"
-msgstr[0] "Ezin izan da fitxategi 1 inportatu fitxategian edo hardwarean errorea egon delako:\n"
-msgstr[1] "Ezin izan dira %d fitxategi inportatu fitxategian edo hardwarean errorea egon delako:\n"
+msgstr[0] ""
+"Ezin izan da fitxategi 1 inportatu fitxategian edo hardwarean errorea egon "
+"delako:\n"
+msgstr[1] ""
+"Ezin izan dira %d fitxategi inportatu fitxategian edo hardwarean errorea "
+"egon delako:\n"
 
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Argazki baten inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
-msgstr[1] "%d argazkiren inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
+msgstr[0] ""
+"Argazki baten inportazioak huts egin du argazki-liburutegiaren karpetan "
+"idazteko baimen ezagatik:\n"
+msgstr[1] ""
+"%d argazkiren inportazioak huts egin du argazki-liburutegiaren karpetan "
+"idazteko baimen ezagatik:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Bideo baten inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
-msgstr[1] "%d bideoren inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
+msgstr[0] ""
+"Bideo baten inportazioak huts egin du argazki-liburutegiaren karpetan "
+"idazteko baimen ezagatik:\n"
+msgstr[1] ""
+"%d bideoren inportazioak huts egin du argazki-liburutegiaren karpetan "
+"idazteko baimen ezagatik:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -860,8 +924,12 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Argazki/bideo baten inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
-msgstr[1] "%d bideo/argazkiren inportazioak huts egin du argazki-liburutegiaren karpetan idazteko baimen ezagatik:\n"
+msgstr[0] ""
+"Argazki/bideo baten inportazioak huts egin du argazki-liburutegiaren "
+"karpetan idazteko baimen ezagatik:\n"
+msgstr[1] ""
+"%d bideo/argazkiren inportazioak huts egin du argazki-liburutegiaren "
+"karpetan idazteko baimen ezagatik:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -870,15 +938,21 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Ezin izan da fitxategi 1 inportatu argazki-liburutegiaren karpetan ezin delako idatzi:\n"
-msgstr[1] "Ezin izan dira %d fitxategi inportatu argazki-liburutegiaren karpetan ezin delako idatzi:\n"
+msgstr[0] ""
+"Ezin izan da fitxategi 1 inportatu argazki-liburutegiaren karpetan ezin "
+"delako idatzi:\n"
+msgstr[1] ""
+"Ezin izan dira %d fitxategi inportatu argazki-liburutegiaren karpetan ezin "
+"delako idatzi:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
 msgid "1 photo failed to import due to a camera error:\n"
 msgid_plural "%d photos failed to import due to a camera error:\n"
-msgstr[0] "Argazki baten inportazioak huts egin du kamera-errore baten erruz:\n"
-msgstr[1] "%d argazkiren inportazioak huts egin du kamera-errore baten erruz:\n"
+msgstr[0] ""
+"Argazki baten inportazioak huts egin du kamera-errore baten erruz:\n"
+msgstr[1] ""
+"%d argazkiren inportazioak huts egin du kamera-errore baten erruz:\n"
 
 #: src/Dialogs.vala:732
 #, c-format
@@ -891,15 +965,18 @@ msgstr[1] "%d bideoren inportazioak huts egin du kamera-errore baten erruz:\n"
 #, c-format
 msgid "1 photo/video failed to import due to a camera error:\n"
 msgid_plural "%d photos/videos failed to import due to a camera error:\n"
-msgstr[0] "Argazki/bideo baten inportazioak huts egin du kamera-errore baten erruz:\n"
-msgstr[1] "%d argazkiren/bideoren inportazioak huts egin du kamera-errore baten erruz:\n"
+msgstr[0] ""
+"Argazki/bideo baten inportazioak huts egin du kamera-errore baten erruz:\n"
+msgstr[1] ""
+"%d argazkiren/bideoren inportazioak huts egin du kamera-errore baten erruz:\n"
 
 #: src/Dialogs.vala:738
 #, c-format
 msgid "1 file failed to import due to a camera error:\n"
 msgid_plural "%d files failed to import due to a camera error:\n"
 msgstr[0] "Ezin izan da fitxategi 1 inportatu kameran errorea egon delako:\n"
-msgstr[1] "Ezin izan dira %d fitxategi inportatu kameran errorea egon delako:\n"
+msgstr[1] ""
+"Ezin izan dira %d fitxategi inportatu kameran errorea egon delako:\n"
 
 #: src/Dialogs.vala:752
 #, c-format
@@ -948,28 +1025,35 @@ msgstr[1] "Irudiak ez diren %d fitxategi saltatu dira.\n"
 msgid "1 photo skipped due to user cancel:\n"
 msgid_plural "%d photos skipped due to user cancel:\n"
 msgstr[0] "Argazki bat saltatu da erabiltzaileak bertan behera utzi duelako:\n"
-msgstr[1] "%d argazki saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
+msgstr[1] ""
+"%d argazki saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
 
 #: src/Dialogs.vala:807
 #, c-format
 msgid "1 video skipped due to user cancel:\n"
 msgid_plural "%d videos skipped due to user cancel:\n"
 msgstr[0] "Bideo bat saltatu da erabiltzaileak bertan behera utzi duelako:\n"
-msgstr[1] "%d bideo saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
+msgstr[1] ""
+"%d bideo saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
 
 #: src/Dialogs.vala:810
 #, c-format
 msgid "1 photo/video skipped due to user cancel:\n"
 msgid_plural "%d photos/videos skipped due to user cancel:\n"
-msgstr[0] "Argazki/bideo bat saltatu da erabiltzaileak bertan behera utzi duelako:\n"
-msgstr[1] "%d argazki/bideo saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
+msgstr[0] ""
+"Argazki/bideo bat saltatu da erabiltzaileak bertan behera utzi duelako:\n"
+msgstr[1] ""
+"%d argazki/bideo saltatu dira erabiltzaileak bertan behera utzi dituelako:\n"
 
 #: src/Dialogs.vala:813
 #, c-format
 msgid "1 file skipped due to user cancel:\n"
 msgid_plural "%d file skipped due to user cancel:\n"
-msgstr[0] "Fitxategi 1 saltatu da erabiltzaileak ekintza bertan behera utzi duelako:\n"
-msgstr[1] "%d fitxategi saltatu dira erabiltzaileak ekintza bertan behera utzi duelako:\n"
+msgstr[0] ""
+"Fitxategi 1 saltatu da erabiltzaileak ekintza bertan behera utzi duelako:\n"
+msgstr[1] ""
+"%d fitxategi saltatu dira erabiltzaileak ekintza bertan behera utzi "
+"duelako:\n"
 
 #: src/Dialogs.vala:827
 #, c-format
@@ -1068,8 +1152,12 @@ msgstr "Leheneratu kanpo-edizioak?"
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Honek kanpoko fitxategian egindako aldaketa guztiak suntsituko ditu.  Jarraitu?"
-msgstr[1] "Honek %d kanpoko fitxategitan egindako aldaketa guztiak suntsituko ditu.  Jarraitu?"
+msgstr[0] ""
+"Honek kanpoko fitxategian egindako aldaketa guztiak suntsituko ditu.  "
+"Jarraitu?"
+msgstr[1] ""
+"Honek %d kanpoko fitxategitan egindako aldaketa guztiak suntsituko ditu.  "
+"Jarraitu?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1156,14 +1244,18 @@ msgstr "%Y/%m/%d, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Esposizio-data aurrera mugituko da\n%d %s, %d %s, %d %s, eta %d %s."
+msgstr ""
+"Esposizio-data aurrera mugituko da\n"
+"%d %s, %d %s, %d %s, eta %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Esposizio-data atzera mugituko da\n%d %s, %d %s, %d %s, eta %d %s."
+msgstr ""
+"Esposizio-data atzera mugituko da\n"
+"%d %s, %d %s, %d %s, eta %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1199,8 +1291,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nEta beste %d."
-msgstr[1] "\n\nEta beste %d."
+msgstr[0] ""
+"\n"
+"\n"
+"Eta beste %d."
+msgstr[1] ""
+"\n"
+"\n"
+"Eta beste %d."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1223,7 +1321,8 @@ msgstr "Hasteko, inportatu argazkiak honela:"
 #: src/Dialogs.vala:2044
 #, c-format
 msgid "Choose <span weight=\"bold\">File %s Import From Folder</span>"
-msgstr "Hautatu <span weight=\"bold\">Fitxategia %s Inportatu karpetatik</span>"
+msgstr ""
+"Hautatu <span weight=\"bold\">Fitxategia %s Inportatu karpetatik</span>"
 
 #: src/Dialogs.vala:2045
 msgid "Drag and drop photos onto the Shotwell window"
@@ -1286,7 +1385,9 @@ msgstr "Baliogabeko eredua"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell-ek argazkiak zure liburutegi-karpetan kopia ditzake edo haiek kopiatu gabe inporta ditzake."
+msgstr ""
+"Shotwell-ek argazkiak zure liburutegi-karpetan kopia ditzake edo haiek "
+"kopiatu gabe inporta ditzake."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1315,41 +1416,71 @@ msgstr "Argazkiak liburutegitik kentzen"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Honek argazkia/bideoa kenduko du zure Shotwell liburutegitik  Fitxategia zure mahaigaineko zakarrontzira ere mugitu nahi duzu?\n\nEkintza hau ezin da desegin."
-msgstr[1] "%d argazki/bideo zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n\nEkintza hau ezin da desegin."
+msgstr[0] ""
+"Honek argazkia/bideoa kenduko du zure Shotwell liburutegitik  Fitxategia "
+"zure mahaigaineko zakarrontzira ere mugitu nahi duzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
+msgstr[1] ""
+"%d argazki/bideo zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure "
+"mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Honek bideoa kenduko du zure Shotwell liburutegitik  Fitxategia zure mahaigaineko zakarrontzira ere mugitu nahi duzu?\n\nEkintza hau ezin da desegin."
-msgstr[1] "%d bideo zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n\nEkintza hau ezin da desegin."
+msgstr[0] ""
+"Honek bideoa kenduko du zure Shotwell liburutegitik  Fitxategia zure "
+"mahaigaineko zakarrontzira ere mugitu nahi duzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
+msgstr[1] ""
+"%d bideo zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure "
+"mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Argazkia zure Shotwell liburutegitik kenduko da.  Fitxategia zure mahaigaineko zakarrontzira ere mugitu nahi duzu?\n\nEkintza hau ezin da desegin."
-msgstr[1] "%d argazki zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n\nEkintza hau ezin da desegin."
+msgstr[0] ""
+"Argazkia zure Shotwell liburutegitik kenduko da.  Fitxategia zure "
+"mahaigaineko zakarrontzira ere mugitu nahi duzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
+msgstr[1] ""
+"%d argazki zure Shotwell liburutegitik kenduko dira.  Fitxategiak zure "
+"mahaigaineko zakarrontzira ere mugitu nahi dituzu?\n"
+"\n"
+"Ekintza hau ezin da desegin."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1357,8 +1488,12 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "Argazkia edo bideoa ezin da mugitu zure mahaigainaren zakarrontzira.  Fitxategi hau ezabatu nahi duzu?"
-msgstr[1] "%d argazki/bideo ezin dira mugitu zure mahaigainaren zakarrontzira.  Fitxategi hauek ezabatu nahi dituzu?"
+msgstr[0] ""
+"Argazkia edo bideoa ezin da mugitu zure mahaigainaren zakarrontzira.  "
+"Fitxategi hau ezabatu nahi duzu?"
+msgstr[1] ""
+"%d argazki/bideo ezin dira mugitu zure mahaigainaren zakarrontzira.  "
+"Fitxategi hauek ezabatu nahi dituzu?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1541,11 +1676,14 @@ msgstr "%s datu-basea"
 #: src/data_imports/DataImportsPluginHost.vala:294
 #, c-format
 msgid "Importing from %s can't continue because an error occurred:"
-msgstr "%s zerbitzutik egin nahi izan den inportazioak ezin du jarraitu errore bat gertatu delako:"
+msgstr ""
+"%s zerbitzutik egin nahi izan den inportazioak ezin du jarraitu errore bat "
+"gertatu delako:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Beste zerbitzu batetik inportatzen saiatzeko, hautatu bat goiko menutik."
+msgstr ""
+"Beste zerbitzu batetik inportatzen saiatzeko, hautatu bat goiko menutik."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1555,8 +1693,15 @@ msgstr "Datu-inportazioak"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Ez daukazu datuak inportatzeko pluginik gaituta.\n\n\"Inportatu aplikaziotik\" funtzionaltasuna erabiltzeko, datuak inportatzeko plugin bat gutxienez eduki behar duzu gaituta. Pluginak hobespenen leihoan gai daitezke."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Ez daukazu datuak inportatzeko pluginik gaituta.\n"
+"\n"
+"\"Inportatu aplikaziotik\" funtzionaltasuna erabiltzeko, datuak inportatzeko "
+"plugin bat gutxienez eduki behar duzu gaituta. Pluginak hobespenen leihoan "
+"gai daitezke."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1967,7 +2112,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Ezin izan da argazkia inprimatu:\n\n%s"
+msgstr ""
+"Ezin izan da argazkia inprimatu:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1979,7 +2127,9 @@ msgstr "Ezin izan da argazkien %s datu-basea ireki/sortu: %d errore-kodea"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Ezin izan da idatzi argazkiaren datu-basearen fitxategian:\n %s"
+msgstr ""
+"Ezin izan da idatzi argazkiaren datu-basearen fitxategian:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1989,7 +2139,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Errorea datu-basearen fitxategia atzitzean:\n %s\n\nErrorea hau da: \n%s"
+msgstr ""
+"Errorea datu-basearen fitxategia atzitzean:\n"
+" %s\n"
+"\n"
+"Errorea hau da: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2173,7 +2328,9 @@ msgstr "Zakarrontzia husten..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Shotwell zure direktorio nagusiko argazkiak inportatzeko konfiguratuta dago.\n"
+msgstr ""
+"Shotwell zure direktorio nagusiko argazkiak inportatzeko konfiguratuta "
+"dago.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2247,7 +2404,8 @@ msgstr "Gorde argazkia beste izen batekin"
 
 #: src/direct/DirectPhotoPage.vala:69
 msgid "Print the photo to a printer connected to your computer"
-msgstr "Inprimatu argazkia zure ordenagailuari konektatutako inprimagailu batean"
+msgstr ""
+"Inprimatu argazkia zure ordenagailuari konektatutako inprimagailu batean"
 
 #: src/direct/DirectPhotoPage.vala:223
 #, c-format
@@ -2736,7 +2894,8 @@ msgstr "Aurkitu"
 
 #: src/Resources.vala:300
 msgid "Find an image by typing text that appears in its name or tags"
-msgstr "Aurkitu irudi bat bere izenean edo etiketetan ageri den testuren bat idatziz"
+msgstr ""
+"Aurkitu irudi bat bere izenean edo etiketetan ageri den testuren bat idatziz"
 
 #: src/Resources.vala:302
 msgid "_Flag"
@@ -2844,12 +3003,16 @@ msgstr "Kendu \"%s\" etiketa argazkietatik"
 #: src/Resources.vala:367
 #, c-format
 msgid "Unable to rename tag to \"%s\" because the tag already exists."
-msgstr "Ezin izan da etiketaren izena aldatu eta \"%s\" jarri, etiketa hori jadanik existitzen delako."
+msgstr ""
+"Ezin izan da etiketaren izena aldatu eta \"%s\" jarri, etiketa hori jadanik "
+"existitzen delako."
 
 #: src/Resources.vala:371
 #, c-format
 msgid "Unable to rename search to \"%s\" because the search already exists."
-msgstr "Ezin izan zaio bilaketari \"%s\" izena jarri, izen hori jadanik existitzen baita."
+msgstr ""
+"Ezin izan zaio bilaketari \"%s\" izena jarri, izen hori jadanik existitzen "
+"baita."
 
 #: src/Resources.vala:374
 msgid "Saved Search"
@@ -3001,7 +3164,8 @@ msgstr "Ezarri argazki honen mozketa"
 
 #: src/editing_tools/EditingTools.vala:676
 msgid "Pivot the crop rectangle between portrait and landscape orientations"
-msgstr "Aldatu mozketa-laukizuzena orientazio horizontalaren eta bertikalaren artean"
+msgstr ""
+"Aldatu mozketa-laukizuzena orientazio horizontalaren eta bertikalaren artean"
 
 #: src/editing_tools/EditingTools.vala:749
 msgid "Unconstrained"
@@ -3158,10 +3322,15 @@ msgstr "_Jakinarazi akatsa..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Errore larria gertatu da Shotwell-en liburutegia atzitzean  Shotwell-ek ezin du jarraitu.\n\n%s"
+msgstr ""
+"Errore larria gertatu da Shotwell-en liburutegia atzitzean  Shotwell-ek ezin "
+"du jarraitu.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3273,7 +3442,9 @@ msgstr "Ordenatu argazkiak balorazioaren arabera"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell-ek ezin izan du erreproduzitu hautatutako bideoa:\n%s"
+msgstr ""
+"Shotwell-ek ezin izan du erreproduzitu hautatutako bideoa:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3476,7 +3647,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell-ek ezin ditu hautatutako elementuak argitaratu ez daukazulako gaituta bateragarririk den pluginik. Hau zuzentzeko, hautatu <b>Editatu %s Hobespenak</b> eta gaitu <b>Plugina</b> fitxan dagoen argitaratze-pluginetako bat edo gehiago."
+msgstr ""
+"Shotwell-ek ezin ditu hautatutako elementuak argitaratu ez daukazulako "
+"gaituta bateragarririk den pluginik. Hau zuzentzeko, hautatu <b>Editatu %s "
+"Hobespenak</b> eta gaitu <b>Plugina</b> fitxan dagoen argitaratze-"
+"pluginetako bat edo gehiago."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3501,28 +3676,43 @@ msgid "New _Tag..."
 msgstr "_Etiketa berria..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "Ezin izan da atzitu argitaratzerako beharrezkoa den behin-behineko fitxategi bat"
+msgstr ""
+"Argitaratzea gauzatzeko beharrezkoa den behin-behineko fitxategi bat ez dago "
+"eskuragarri"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "YouTube-n saioa hasi gabe zaude.\n\nGoogle-n kontu bat eduki behar duzu eta hura YouTube-n erabiltzeko konfiguratuta eduki behar duzu jarraitzeko. Kontu gehiago sor ditzakezu zure nabigatzailearekin YouTube-ra gutxienez behin sartuz."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"YouTube-n saioa hasi gabe zaude.\n"
+"\n"
+"Google-n kontu bat eduki behar duzu eta hura YouTube-n erabiltzeko "
+"konfiguratuta eduki behar duzu jarraitzeko. Kontu gehiago sor ditzakezu zure "
+"nabigatzailearekin YouTube-ra gutxienez behin sartuz."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Youtube-en argitaratzeak ezin du jarraitu."
+msgstr ""
+"Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Youtube-en "
+"argitaratzeak ezin du jarraitu."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3554,14 +3744,25 @@ msgstr "Oinarrizko argitaratze-zerbitzuak"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Flickr-en saioa hasi gabe zaude.\n\nEgin klik saioa hasteko aukeran, Flickr-en saioa hasteko zure web nabigatzailean.  Baimena eman beharko diozu Shotwell Connect-i zure Flickr kontuarekin lotura sortzeko."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Flickr-en saioa hasi gabe zaude.\n"
+"\n"
+"Egin klik saioa hasteko aukeran, Flickr-en saioa hasteko zure web "
+"nabigatzailean.  Baimena eman beharko diozu Shotwell Connect-i zure Flickr "
+"kontuarekin lotura sortzeko."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Dagoeneko hasi eta amaitu duzu Flickr-eko saioa Shotwell-en saio honetan zehar.\nFlickr-en argitaratzen jarraitzeko irten eta berrabiarazi Shotwell, eta gero saiatu berriro argitaratzen."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Dagoeneko hasi eta amaitu duzu Flickr-eko saioa Shotwell-en saio honetan "
+"zehar.\n"
+"Flickr-en argitaratzen jarraitzeko irten eta berrabiarazi Shotwell, eta gero "
+"saiatu berriro argitaratzen."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3572,7 +3773,9 @@ msgstr "Saioa hasteko prestatzen..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Flickr-en argitaratzeak ezin du jarraitu."
+msgstr ""
+"Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Flickr-en "
+"argitaratzeak ezin du jarraitu."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3583,14 +3786,19 @@ msgstr "Baimena egiaztatzen..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Flickr-en saioa hasita daukazu %s erabiltzaile-izenarekin.\n\n"
+msgstr ""
+"Flickr-en saioa hasita daukazu %s erabiltzaile-izenarekin.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Zure Flickr-eko doaneko kontuak mugatuta dauka hilero igo dezakezun datu-kopurua.\nHilabete honetan %d megabyte geratzen zaizkizu zure igotze-kuota betetzeko."
+msgstr ""
+"Zure Flickr-eko doaneko kontuak mugatuta dauka hilero igo dezakezun datu-"
+"kopurua.\n"
+"Hilabete honetan %d megabyte geratzen zaizkizu zure igotze-kuota betetzeko."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3633,11 +3841,13 @@ msgstr "Ni neu"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 pixel"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 pixel"
 
@@ -3658,23 +3868,31 @@ msgstr "%s albuma sortzen..."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:917
 msgid "An error message occurred when publishing to Piwigo. Please try again."
-msgstr "Errore-mezua agertu da Piwigo zerbitzuak argitaratzean. Saiatu berriro."
+msgstr ""
+"Errore-mezua agertu da Piwigo zerbitzuak argitaratzean. Saiatu berriro."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:998
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Sartu zure Piwigo argazki-liburutegiaren URLa eta zure Piwigo kontuari lotutako erabiltzaile-izena eta pasahitza."
+msgstr ""
+"Sartu zure Piwigo argazki-liburutegiaren URLa eta zure Piwigo kontuari "
+"lotutako erabiltzaile-izena eta pasahitza."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell-ek ezin du zure Piwigo argazki-liburutegiarekin kontaktatu. Egiaztatu sartu duzun URLa."
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell-ek ezin du zure Piwigo argazki-liburutegiarekin kontaktatu. "
+"Egiaztatu sartu duzun URLa."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "Baliogabeko erabiltzaile-izena eta/edo pasahitza. Saiatu berriro"
+msgstr ""
+"Erabiltzaile-izena edo pasahitz okerra. Saiatu berriro."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3682,6 +3900,7 @@ msgid "Invalid URL"
 msgstr "Baliogabeko URLa"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Erabiltzaile-izen edo pasahitz okerra"
@@ -3712,14 +3931,22 @@ msgstr "Administratzaileak"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Picasa-n saioa hasi gabe zaude.\n\nEgin klik saioa hasteko aukeran, Picasa Web Albums zerbitzuan saioa hasteko zure web-nabigatzailean. Baimena eman beharko diozu Shotwell Connect-i zure Picasa Web Albums kontuarekin lotura sortzeko."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Picasa-n saioa hasi gabe zaude.\n"
+"\n"
+"Egin klik saioa hasteko aukeran, Picasa Web Albums zerbitzuan saioa hasteko "
+"zure web-nabigatzailean. Baimena eman beharko diozu Shotwell Connect-i zure "
+"Picasa Web Albums kontuarekin lotura sortzeko."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Picasa-n argitaratzeak ezin du jarraitu."
+msgstr ""
+"Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Picasa-n "
+"argitaratzeak ezin du jarraitu."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3759,14 +3986,29 @@ msgstr "Google+ (2048 x 1536 pixel)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Facebook-en saioa hasi gabe zaude.\n\nOraindik Facebook-en konturik ez badaukazu, bat sor dezakezu saioa hasteko prozesuan. Saioa hastean, Shotwell Connect-ek zure baimena eska dezake argazkiak igotzeko eta zure jarioa argitaratzeko. Baimen hauek derrigorrezkoak dira Shotwell Connect-ek funtziona dezan."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Facebook-en saioa hasi gabe zaude.\n"
+"\n"
+"Oraindik Facebook-en konturik ez badaukazu, bat sor dezakezu saioa hasteko "
+"prozesuan. Saioa hastean, Shotwell Connect-ek zure baimena eska dezake "
+"argazkiak igotzeko eta zure jarioa argitaratzeko. Baimen hauek "
+"derrigorrezkoak dira Shotwell Connect-ek funtziona dezan."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Dagoeneko hasi eta amaitu duzu Facebook-eko saioa Shotwell-en saio honetan zehar.\nFacebook-en argitaratzen jarraitzeko irten eta berrabiarazi Shotwell, eta gero saiatu berriro argitaratzen."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Dagoeneko hasi eta amaitu duzu Facebook-eko saioa Shotwell-en saio honetan "
+"zehar.\n"
+"Facebook-en argitaratzen jarraitzeko irten eta berrabiarazi Shotwell, eta "
+"gero saiatu berriro argitaratzen."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3784,14 +4026,18 @@ msgstr "Facebook-erako konexioa probatzen..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Facebook-en argitaratzeak ezin du jarraitu."
+msgstr ""
+"Argitaratzeko beharrezkoa den fitxategi bat ez dago eskuragarri. Facebook-en "
+"argitaratzeak ezin du jarraitu."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Facebook-en saioa hasita daukazu %s erabiltzaile-izenarekin.\n\n"
+msgstr ""
+"Facebook-en saioa hasita daukazu %s erabiltzaile-izenarekin.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3861,51 +4107,76 @@ msgstr "Datuak inportatzeko oinarrizko zerbitzuak"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Ongi etorri F-Spot aplikazioaren liburutegiak inportatzeko zerbitzura.\n\nMesedez, hautatu liburutegi bat inportaziorako, bai Shotwellek aurkitu duen liburutegietako bat hautatuz bai F-Spot-en datu-base fitxategi bat hautatuz."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Ongi etorri F-Spot aplikazioaren liburutegiak inportatzeko zerbitzura.\n"
+"\n"
+"Mesedez, hautatu liburutegi bat inportaziorako, bai Shotwellek aurkitu duen "
+"liburutegietako bat hautatuz bai F-Spot-en datu-base fitxategi bat hautatuz."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Ongi etorri F-Spot aplikazioaren liburutegiak inportatzeko zerbitzura.\n\nHautatu F-Spot aplikazioaren datu-base fitxategi bat."
+msgstr ""
+"Ongi etorri F-Spot aplikazioaren liburutegiak inportatzeko zerbitzura.\n"
+"\n"
+"Hautatu F-Spot aplikazioaren datu-base fitxategi bat."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
-msgstr "Hautatu eskuz F-Spot aplikazioaren datu-base fitxategi bat inportazioa egiteko:"
+msgstr ""
+"Hautatu eskuz F-Spot aplikazioaren datu-base fitxategi bat inportazioa "
+"egiteko:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Ezin izan da hautatutako F-Spot-en datu-base fitxategia ireki: fitxategia ez da existitzen edo ez da F-Spot datu-basea"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Ezin izan da hautatutako F-Spot-en datu-base fitxategia ireki: fitxategia ez "
+"da existitzen edo ez da F-Spot datu-basea"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Ezin izan da hautatutako F-Spot-en datu-base fitxategia ireki: Shotwellek ez du F-Spot datu-baseen bertsio hau onartzen"
+msgstr ""
+"Ezin izan da hautatutako F-Spot-en datu-base fitxategia ireki: Shotwellek ez "
+"du F-Spot datu-baseen bertsio hau onartzen"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Ezin izan da hautatutako F-Spot-en datu-base fitxategia irakurri: errorea etiketen taula irakurtzean"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Ezin izan da hautatutako F-Spot-en datu-base fitxategia irakurri: errorea "
+"etiketen taula irakurtzean"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Ezin izan da hautatutako F-Spot-en datu-base fitxategia irakurri: errorea argazkien taula irakurtzean"
+msgstr ""
+"Ezin izan da hautatutako F-Spot-en datu-base fitxategia irakurri: errorea "
+"argazkien taula irakurtzean"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell-ek %d argazki aurkitu ditu F-Spot liburutegian eta haiek inportatzen ari da orain. Bikoiztuak automatikoki ezabatu eta kenduko dira.\n\nElkarrizketa-koadro hau itxi eta Shotwell erabiltzen has zaitezke inportazioa atzeko planoan gertatzen ari den bitartean."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell-ek %d argazki aurkitu ditu F-Spot liburutegian eta haiek "
+"inportatzen ari da orain. Bikoiztuak automatikoki ezabatu eta kenduko dira.\n"
+"\n"
+"Elkarrizketa-koadro hau itxi eta Shotwell erabiltzen has zaitezke "
+"inportazioa atzeko planoan gertatzen ari den bitartean."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3934,7 +4205,8 @@ msgstr "denbora-tartea"
 
 #: ui/set_background_dialog.glade:116
 msgid "How long each photo is shown on the desktop background"
-msgstr "Zenbat denboran erakutsiko den argazki bakoitza mahaigainaren atzeko planoan"
+msgstr ""
+"Zenbat denboran erakutsiko den argazki bakoitza mahaigainaren atzeko planoan"
 
 #: ui/shotwell.glade:7
 msgid "Search"
@@ -3994,6 +4266,7 @@ msgstr "pixel/hazbete"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "etiketa"
 
@@ -4019,7 +4292,8 @@ msgstr "Metadatuak"
 
 #: ui/shotwell.glade:920
 msgid "Write tags, titles, and other _metadata to photo files"
-msgstr "Idatzi etiketak, izenburuak eta beste _metadatu batzuk argazki-fitxategietan"
+msgstr ""
+"Idatzi etiketak, izenburuak eta beste _metadatu batzuk argazki-fitxategietan"
 
 #: ui/shotwell.glade:946
 msgid "Display"
@@ -4131,6 +4405,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "A_maitu saioa"
 
@@ -4138,6 +4414,8 @@ msgstr "A_maitu saioa"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Argitaratu"
 
@@ -4145,7 +4423,9 @@ msgstr "_Argitaratu"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Sartu Flickr-en saioa hasi ondoren zure nabigatzailean agertzen den baieztapen-zenbakia."
+msgstr ""
+"Sartu Flickr-en saioa hasi ondoren zure nabigatzailean agertzen den "
+"baieztapen-zenbakia."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4164,6 +4444,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Argazki-_tamaina:"
 
@@ -4205,6 +4486,7 @@ msgid "User _name"
 msgstr "Erabiltzaile-ize_na"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Pasahitza"
 
@@ -4213,6 +4495,7 @@ msgid "_Remember Password"
 msgstr "Gogo_ratu pasahitza"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Hasi saioa"
 
@@ -4251,3 +4534,91 @@ msgstr "Amaitu saioa"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Bideoaren _pribatutasun-ezarpena:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixel"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' ez da erantzun baliagarria OAuth autentifikazio-eskarietarako"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): ezin da hasi; argitaratzaile hau ezin da "
+"berrabiarazi."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Sartu zure Tumblr kontuaren erabiltzaile-izena eta pasahitza."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "Ezin izan da EIa kargatu: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Tumblr-en saioa hasi duzu %s erabiltzailearekin.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Bisitatu Yandex.Fotki webgunea"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Yandex.Fotki-n saioa hasi gabe zaude."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_Posta-helbidea"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Tumblr-en saioa hasi duzu (name) izenarekin.\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Blogak:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Albumak (edo idatzi berria):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Atzipen-_mota:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Desgaitu _iruzkinak"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "_Debekatu jatorrizko argazkia deskargatzea"

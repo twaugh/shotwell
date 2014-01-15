@@ -2,13 +2,15 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # boram <boramism@gmail.com>, 2011
 # boram <boramism@gmail.com>, 2013
 # boram <boramism@gmail.com>, 2011-2012
 # verayin <vera@yorba.org>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -16,7 +18,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-10-01 16:28+0000\n"
 "Last-Translator: boram <boramism@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/shotwell/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/projects/p/shotwell/language/"
+"ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,7 +49,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "카메라를 마운트 해제할 수 없습니다. 카메라를 파일 관리자에서 마운트 해제해 보십시오."
+msgstr ""
+"카메라를 마운트 해제할 수 없습니다. 카메라를 파일 관리자에서 마운트 해제해 보"
+"십시오."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -88,7 +93,9 @@ msgstr "모든 사진을 라이브러리로 가져옵니다"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "샷웰이 카메라에 접근하려면 파일 시스템에서 카메라를 마운트 해제해야 합니다. 계속하시겠습니까?"
+msgstr ""
+"샷웰이 카메라에 접근하려면 파일 시스템에서 카메라를 마운트 해제해야 합니다. "
+"계속하시겠습니까?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -103,7 +110,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "다른 프로그램이 카메라를 사용하고 있습니다. 다른 프로그램이 사용 중이면 샷웰이 카메라에 접근할 수 없습니다. 카메라를 사용 중인 다른 프로그램을 닫으신 후 다시 시도하십시오."
+msgstr ""
+"다른 프로그램이 카메라를 사용하고 있습니다. 다른 프로그램이 사용 중이면 샷웰"
+"이 카메라에 접근할 수 없습니다. 카메라를 사용 중인 다른 프로그램을 닫으신 후 "
+"다시 시도하십시오."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -114,7 +124,9 @@ msgstr "카메라를 사용 중인 다른 프로그램을 닫으세요."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "카메라에서 미리 보기를 가져올 수 없습니다:\n%s"
+msgstr ""
+"카메라에서 미리 보기를 가져올 수 없습니다:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -169,8 +181,7 @@ msgstr "카메라에서 사진/비디오에서 제거는 중입니다"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "오류로 인하여 사진/비디오 %d개를 카메라에서 지울 수 없습니다."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
@@ -396,7 +407,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "사진 라이브러리가 이 버전의 샷웰과는 호환되지 않습니다. 이 라이브러리는 샷웰 %s (schema %d)(으)로 만들어진 것으로 보이지만 이 프로그램의 버전은 %s (schema %d)입니다. 최신 버전의 샷웰을 사용하십시오."
+msgstr ""
+"사진 라이브러리가 이 버전의 샷웰과는 호환되지 않습니다. 이 라이브러리는 샷웰 "
+"%s (schema %d)(으)로 만들어진 것으로 보이지만 이 프로그램의 버전은 %s "
+"(schema %d)입니다. 최신 버전의 샷웰을 사용하십시오."
 
 #: src/main.vala:59
 #, c-format
@@ -404,7 +418,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "샷웰이 사진 라이브러리를 버전 %s (schema %d)에서 %s (schema %d)(으)로 업그레이드 할 수 없습니다. 더 많은 정보는 %s에 있는 샷웰 위키에서 찾을 수 있습니다."
+msgstr ""
+"샷웰이 사진 라이브러리를 버전 %s (schema %d)에서 %s (schema %d)(으)로 업그레"
+"이드 할 수 없습니다. 더 많은 정보는 %s에 있는 샷웰 위키에서 찾을 수 있습니다."
 
 #: src/main.vala:65
 #, c-format
@@ -413,7 +429,11 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "사진 라이브러리가 이 버전의 샷웰과는 호환되지 않습니다. 이 라이브러리는 샷웰 %s (schema %d)(으)로 만들어진 것으로 보이지만 이 프로그램의 버전은 %s (schema %d)입니다. %s(을)를 지우셔서 라이브러리를 지우신 후 사진을 다시 가져오십시오."
+msgstr ""
+"사진 라이브러리가 이 버전의 샷웰과는 호환되지 않습니다. 이 라이브러리는 샷웰 "
+"%s (schema %d)(으)로 만들어진 것으로 보이지만 이 프로그램의 버전은 %s "
+"(schema %d)입니다. %s(을)를 지우셔서 라이브러리를 지우신 후 사진을 다시 가져"
+"오십시오."
 
 #: src/main.vala:71
 #, c-format
@@ -451,7 +471,8 @@ msgstr "[파일]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "사용 가능한 명령 줄 옵션을 모두 보려면 '%s --help' 명령어를 실행하십시오.\n"
+msgstr ""
+"사용 가능한 명령 줄 옵션을 모두 보려면 '%s --help' 명령어를 실행하십시오.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -643,20 +664,27 @@ msgstr "비디오 내보내기"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "%s에 쓸 수 있는 권한이 없기 때문에 이 사진을 편집할 때 사용하는 파일을 만들 수 없습니다."
+msgstr ""
+"%s에 쓸 수 있는 권한이 없기 때문에 이 사진을 편집할 때 사용하는 파일을 만들 "
+"수 없습니다."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "파일 오류로 다음 사진을 내보낼 수 없습니다.\n\n"
+msgstr ""
+"파일 오류로 다음 사진을 내보낼 수 없습니다.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\n계속 내보내시겠습니까?"
+msgstr ""
+"\n"
+"\n"
+"계속 내보내시겠습니까?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -737,8 +765,7 @@ msgid "error message:"
 msgstr "오류 메시지:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "파일을 사진이나 비디오로 인식할 수 없어 가지고 오지 않았습니다:"
 
 #: src/Dialogs.vala:597
@@ -751,14 +778,18 @@ msgstr "샷웰이 파일 형식을 인식할 수 없어 가지고 오지 않았�
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "샷웰이 파일을 라이브러리로 복사할 수 없어 사진이나 비디오로 인식할 수 없어 가지고 오지 않았습니다:"
+msgstr ""
+"샷웰이 파일을 라이브러리로 복사할 수 없어 사진이나 비디오로 인식할 수 없어 가"
+"지고 오지 않았습니다:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "%s을(를)\n\t%s(으)로 복사할 수 없음"
+msgstr ""
+"%s을(를)\n"
+"\t%s(으)로 복사할 수 없음"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -803,7 +834,8 @@ msgstr[0] "파일 또는 하드웨어 오류로 비디오 %d편을 가져오지 
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "파일 또는 하드웨어 오류로 %d장의 사진/비디오를 가져오지 못했습니다:\n"
+msgstr[0] ""
+"파일 또는 하드웨어 오류로 %d장의 사진/비디오를 가져오지 못했습니다:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
@@ -814,22 +846,22 @@ msgstr[0] "하드웨어 오류로 파일 %d개를 가져올 수 없습니다:\n"
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "사진 라이브러리 폴더에 기록할 수 없어 사진 %d매를 가져오지 못했습니다:\n"
+msgstr[0] ""
+"사진 라이브러리 폴더에 기록할 수 없어 사진 %d매를 가져오지 못했습니다:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "사진 라이브러리 폴더에 기록할 수 없어 비디오 %d편을 가져오지 못했습니다:\n"
+msgstr[0] ""
+"사진 라이브러리 폴더에 기록할 수 없어 비디오 %d편을 가져오지 못했습니다:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -839,7 +871,9 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "사진 라이브러리 폴더에 기록할 수 없어 사진/비디오 %d개를 가져오지 못했습니다:\n"
+msgstr[0] ""
+"사진 라이브러리 폴더에 기록할 수 없어 사진/비디오 %d개를 가져오지 못했습니"
+"다:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -848,7 +882,8 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "사진 라이브러리 폴더에 기록할 수 없어 파일 %d개를 가져오지 못했습니다:\n"
+msgstr[0] ""
+"사진 라이브러리 폴더에 기록할 수 없어 파일 %d개를 가져오지 못했습니다:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
@@ -1024,7 +1059,8 @@ msgstr "외부 편집 프로그램으로 한 편집을 되돌리시겠습니까?
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "외부 파일에 적용한 바뀐 내용 %d개를 모두 취소합니다. 계속하시겠습니까?"
+msgstr[0] ""
+"외부 파일에 적용한 바뀐 내용 %d개를 모두 취소합니다. 계속하시겠습니까?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1110,14 +1146,18 @@ msgstr "%Y/%m/%d, %p %I:%M:%S"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "촬영 시간을 %d %s, %d %s, %d %s, %d %s\n전으로 바꿉니다."
+msgstr ""
+"촬영 시간을 %d %s, %d %s, %d %s, %d %s\n"
+"전으로 바꿉니다."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "촬영 시간을 %d %s, %d %s, %d %s, %d %s\n후로 바꿉니다."
+msgstr ""
+"촬영 시간을 %d %s, %d %s, %d %s, %d %s\n"
+"후로 바꿉니다."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1149,7 +1189,10 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\n그리고 다른 %d개."
+msgstr[0] ""
+"\n"
+"\n"
+"그리고 다른 %d개."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1235,7 +1278,9 @@ msgstr "부적절한 패턴"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "샷웰은 사진을 라이브러리 폴더로 복사할 수 있고 사진을 복사하지 않고 가져올 수도 있습니다."
+msgstr ""
+"샷웰은 사진을 라이브러리 폴더로 복사할 수 있고 사진을 복사하지 않고 가져올 수"
+"도 있습니다."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1264,38 +1309,55 @@ msgstr "사진을 라이브러리에서 제거하는 중"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "샷웰 라이브러리에서 사진/비디오 %d개를 제거합니다.제거한 후 파일도 데스크톱 휴지통으로 옮기시겠습니까?\n\n이 동작은 취소할 수 없습니다."
+msgstr[0] ""
+"샷웰 라이브러리에서 사진/비디오 %d개를 제거합니다.제거한 후 파일도 데스크톱 "
+"휴지통으로 옮기시겠습니까?\n"
+"\n"
+"이 동작은 취소할 수 없습니다."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "샷웰 라이브러리에서 비디오 %d편을 제거합니다.제거한 후 파일도 데스크톱 휴지통으로 옮기시겠습니까?\n\n이 동작은 취소할 수 없습니다."
+msgstr[0] ""
+"샷웰 라이브러리에서 비디오 %d편을 제거합니다.제거한 후 파일도 데스크톱 휴지통"
+"으로 옮기시겠습니까?\n"
+"\n"
+"이 동작은 취소할 수 없습니다."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "샷웰 라이브러리에서 사진 %d매를 제거합니다.제거한 후 파일도 데스크톱 휴지통으로 옮기시겠습니까?\n이 동작은 취소할 수 없습니다."
+msgstr[0] ""
+"샷웰 라이브러리에서 사진 %d매를 제거합니다.제거한 후 파일도 데스크톱 휴지통으"
+"로 옮기시겠습니까?\n"
+"이 동작은 취소할 수 없습니다."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1303,7 +1365,9 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "사진/비디오 %d개를 데스크톱 휴지통으로 옮길 수 없습니다.이 파일을 삭제하시겠습니까?"
+msgstr[0] ""
+"사진/비디오 %d개를 데스크톱 휴지통으로 옮길 수 없습니다.이 파일을 삭제하시겠"
+"습니까?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1499,8 +1563,15 @@ msgstr "데이터 가져오기"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "사용하고 있는 데이터 가져오기 플러그인이 없습니다.\n\n프로그램에서 가져오기 기능을 사용하려면 최소 하나 이상의 데이터 가져오기 플러그인을 사용해야 합니다. 플러그인은 기본 설정 대화 상자에서 사용하도록 설정할 수 있습니다."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"사용하고 있는 데이터 가져오기 플러그인이 없습니다.\n"
+"\n"
+"프로그램에서 가져오기 기능을 사용하려면 최소 하나 이상의 데이터 가져오기 플러"
+"그인을 사용해야 합니다. 플러그인은 기본 설정 대화 상자에서 사용하도록 설정할 "
+"수 있습니다."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1908,7 +1979,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "사진을 인쇄할 수 없습니다::\n\n%s"
+msgstr ""
+"사진을 인쇄할 수 없습니다::\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1920,7 +1994,9 @@ msgstr "사진 데이터 베이스 %s을(를) 만들 수 없습니다: 오류 �
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "사진 데이터베이스 파일에 쓸 수 없습니다:\n%s"
+msgstr ""
+"사진 데이터베이스 파일에 쓸 수 없습니다:\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1930,7 +2006,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "데이터베이스 파일에 접근할 수 없습니다:\n %s\n\n오류: \n%s"
+msgstr ""
+"데이터베이스 파일에 접근할 수 없습니다:\n"
+" %s\n"
+"\n"
+"오류: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2205,7 +2286,9 @@ msgstr "%s(은)는 파일이 아닙니다."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s(이)가 다음의 파일 형식을 지원하지 않습니다\n%s."
+msgstr ""
+"%s(이)가 다음의 파일 형식을 지원하지 않습니다\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -3099,10 +3182,15 @@ msgstr "문제 보고(_R)..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "샷웰 라이브러리에 접근하던 중 치명적인 오류가 발생했습니다.샷웰을 계속 실행할 수 없습니다.\n\n%s"
+msgstr ""
+"샷웰 라이브러리에 접근하던 중 치명적인 오류가 발생했습니다.샷웰을 계속 실행"
+"할 수 없습니다.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3214,7 +3302,9 @@ msgstr "평점 순으로 사진 정렬"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "샷웰이 선택한 비디오를 재생할 수 없습니다:\n%s"
+msgstr ""
+"샷웰이 선택한 비디오를 재생할 수 없습니다:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3416,7 +3506,10 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "알맞은 업로드 플러그인을 사용하고 있지 않아 선택한 항목을 업로드할 수 없습니다.이 문제를 해결하려면 <b>편접 %s 기본 설정</b>을 선택한 뒤 <b>플러그인</b> 탭에서사용할 플러그인을 선택해주십시오."
+msgstr ""
+"알맞은 업로드 플러그인을 사용하고 있지 않아 선택한 항목을 업로드할 수 없습니"
+"다.이 문제를 해결하려면 <b>편접 %s 기본 설정</b>을 선택한 뒤 <b>플러그인</b> "
+"탭에서사용할 플러그인을 선택해주십시오."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3441,28 +3534,45 @@ msgid "New _Tag..."
 msgstr "새 태그(_T)..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "업로드에 필요한 임시 파일을 사용할 수 없습니다"
+msgstr ""
+"업로드에 필요한 임시 파일을 사용할 수 없습니다 "
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
-msgstr "이 샷웰 세션 사용 중 이미 구글 서비스에 로그인 후 로그아웃 하셨습니다.\n계속 구글 서비스로 업로드하시려면, 샷웰을 끝낸 후 다시 시작한 후업로드하십시오."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
+msgstr ""
+"이 샷웰 세션 사용 중 이미 구글 서비스에 로그인 후 로그아웃 하셨습니다.\n"
+"계속 구글 서비스로 업로드하시려면, 샷웰을 끝낸 후 다시 시작한 후업로드하십시"
+"오."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "현재 유튜브에 로그인하지 않았습니다.\n\n계속 하시려면 구글 계정 등록이 되어있어야 하고 유튜브를 사용할 수 있도록 설정해야 합니다. 웹 브라우저를 이용하여 한번 이상 유튜브 사이트에 로그인 하시면 대부분의 계정을 설정할 수 있습니다."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"현재 유튜브에 로그인하지 않았습니다.\n"
+"\n"
+"계속 하시려면 구글 계정 등록이 되어있어야 하고 유튜브를 사용할 수 있도록 설정"
+"해야 합니다. 웹 브라우저를 이용하여 한번 이상 유튜브 사이트에 로그인 하시면 "
+"대부분의 계정을 설정할 수 있습니다."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "업로드에 필요한 파일을 사용할 수 없습니다. 유튜브로 계속 업로드할 수 없습니다."
+msgstr ""
+"업로드에 필요한 파일을 사용할 수 없습니다. 유튜브로 계속 업로드할 수 없습니"
+"다."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3494,14 +3604,22 @@ msgstr "핵심 업로드 서비스"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "플리커 서비스에 로그인하지 않았습니다.\n\n웹 브라우저로 Flickr 사이트를 여신 후 로그인을 클릭해주십시오. 샷웰이 플리커 계정 링크에 접근하는 것을 허용해야 합니다."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"플리커 서비스에 로그인하지 않았습니다.\n"
+"\n"
+"웹 브라우저로 Flickr 사이트를 여신 후 로그인을 클릭해주십시오. 샷웰이 플리커 "
+"계정 링크에 접근하는 것을 허용해야 합니다."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "이 샷웰 세션 사용 중 이미 Flickr에 로그인 후 로그아웃 하셨습니다.\n계속 플리커로 업로드하시려면, 샷웰을 끝낸 후 다시 시작하여 업로드하십시오."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"이 샷웰 세션 사용 중 이미 Flickr에 로그인 후 로그아웃 하셨습니다.\n"
+"계속 플리커로 업로드하시려면, 샷웰을 끝낸 후 다시 시작하여 업로드하십시오."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3512,7 +3630,9 @@ msgstr "로그인 준비 중..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "업로드에 필요한 파일을 사용할 수 없습니다. 플리커로 계속 업로드할 수 없습니다."
+msgstr ""
+"업로드에 필요한 파일을 사용할 수 없습니다. 플리커로 계속 업로드할 수 없습니"
+"다."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3523,14 +3643,18 @@ msgstr "인증 확인 중..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "플리커에 %s(으)로 로그인했습니다.\n\n"
+msgstr ""
+"플리커에 %s(으)로 로그인했습니다.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "플리커 무료 계정은 한 달에 업로드할 수 있는 데이터에 제한이 있습니다.\n이 달에 업로드할 수 있는 데이터는 %d 메가바이트가 남아있습니다."
+msgstr ""
+"플리커 무료 계정은 한 달에 업로드할 수 있는 데이터에 제한이 있습니다.\n"
+"이 달에 업로드할 수 있는 데이터는 %d 메가바이트가 남아있습니다."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3573,11 +3697,13 @@ msgstr "나만"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 픽셀"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 픽셀"
 
@@ -3598,23 +3724,31 @@ msgstr "앨범 %s 만드는 중..."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:917
 msgid "An error message occurred when publishing to Piwigo. Please try again."
-msgstr "피위고로 사진을 업로드 하던 중 오류가 발생했습니다. 다시 시도해주십시오."
+msgstr ""
+"피위고로 사진을 업로드 하던 중 오류가 발생했습니다. 다시 시도해주십시오."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:998
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "피위고 사진 라이브러리 주소와 이 계정의 라이브러리를 사용할 수 있는 사용자 이름 및 암호를 입력하십시오."
+msgstr ""
+"피위고 사진 라이브러리 주소와 이 계정의 라이브러리를 사용할 수 있는 사용자 이"
+"름 및 암호를 입력하십시오."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "샷웰이 피위고 사진 라이브러리에 접근할 수 없습니다. 입력한 주소를 확인하십시오."
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"샷웰이 피위고 사진 라이브러리에 접근할 수 없습니다. 입력한 주소를 확인하십시"
+"오."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "사용자 이름과 암호가 잘못되었습니다. 다시 시도해주십시오."
+msgstr ""
+"사용자 이름이나 암호 혹은 모든 항목이 올바르지 않습니다. 다시 시도해주십시오."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3622,6 +3756,7 @@ msgid "Invalid URL"
 msgstr "올바르지 않은 주소"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "사용자 이름 또는 암호가 올바르지 않습니다."
@@ -3652,14 +3787,21 @@ msgstr "관리자"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "현재 피카사 웹 앨범에 로그인하지 않았습니다.\n\n웹 브라우저에서 로그인을 클릭하여 피카사 웹 앨범으로 로그인합니다. 피카사 웹 앨범 계정에 연결하려면 샷웰 연결을 승인해야 합니다."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"현재 피카사 웹 앨범에 로그인하지 않았습니다.\n"
+"\n"
+"웹 브라우저에서 로그인을 클릭하여 피카사 웹 앨범으로 로그인합니다. 피카사 웹 "
+"앨범 계정에 연결하려면 샷웰 연결을 승인해야 합니다."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "업로드에 필요한 파일을 사용할 수 없습니다. 피카사로 계속 업로드할 수 없습니다."
+msgstr ""
+"업로드에 필요한 파일을 사용할 수 없습니다. 피카사로 계속 업로드할 수 없습니"
+"다."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3699,14 +3841,26 @@ msgstr "구글+(2048 x 1536 픽셀)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "현재 페이스 북에 로그인하지 않았습니다.\n\n페이스 북 계정이 아직 없는 경우 로그인 과정 중 만드실 수 있습니다. 로그인 중 샷웰 연결이 사진을 업로드하거나 피드에 업로드할 권한을 요구할 수 있습니다. 이 권한은 샷웰 연결이 동작하는데 필요합니다."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"현재 페이스 북에 로그인하지 않았습니다.\n"
+"\n"
+"페이스 북 계정이 아직 없는 경우 로그인 과정 중 만드실 수 있습니다. 로그인 중 "
+"샷웰 연결이 사진을 업로드하거나 피드에 업로드할 권한을 요구할 수 있습니다. "
+"이 권한은 샷웰 연결이 동작하는데 필요합니다."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "이 샷웰 세션에서는 이미 페이스 북에 로그인과 로그아웃을 하셨습니다.\n계속 페이스 북에 업로드하시려면, 샷웰을 다시 시작한 후 업로드하십시오."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"이 샷웰 세션에서는 이미 페이스 북에 로그인과 로그아웃을 하셨습니다.\n"
+"계속 페이스 북에 업로드하시려면, 샷웰을 다시 시작한 후 업로드하십시오."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3724,7 +3878,9 @@ msgstr "페이스북 연결을 확인하는 중..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "업로드에 필요한 파일을 사용할 수 없습니다. 페이스북으로 계속 업로드할 수 없습니다."
+msgstr ""
+"업로드에 필요한 파일을 사용할 수 없습니다. 페이스북으로 계속 업로드할 수 없습"
+"니다."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
@@ -3801,15 +3957,24 @@ msgstr "핵심 데이터 가져오기 서비스"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "F-Spot 라이브러리 가져오기 서비스 사용을 환영합니다.\n\n샷웰이 발견한 라이브러리를 선택하거나 F-Spot 데이터베이스 파일을 선택해주십시오."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"F-Spot 라이브러리 가져오기 서비스 사용을 환영합니다.\n"
+"\n"
+"샷웰이 발견한 라이브러리를 선택하거나 F-Spot 데이터베이스 파일을 선택해주십시"
+"오."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "F-Spot 라이브러리 가져오기 서비스 사용을 환영합니다.\n\nF-Spot 데이터베이스 파일을 선택해주십시오."
+msgstr ""
+"F-Spot 라이브러리 가져오기 서비스 사용을 환영합니다.\n"
+"\n"
+"F-Spot 데이터베이스 파일을 선택해주십시오."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3817,35 +3982,49 @@ msgstr "가져올 F-Spot 데이터베이스 파일 직접 선택:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "선택한 F-Spot 데이터베이스 파일을 열 수 없습니다: 파일이 존재하지 않거나 F-Spot 데이터베이스 파일이 아닙니다."
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"선택한 F-Spot 데이터베이스 파일을 열 수 없습니다: 파일이 존재하지 않거나 F-"
+"Spot 데이터베이스 파일이 아닙니다."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "선택한 F-Spot 데이터베이스 파일을 열 수 없습니다: 샷웰이 이 버전의 F-Spot 데이터베이스 파일을 지원하지 않습니다."
+msgstr ""
+"선택한 F-Spot 데이터베이스 파일을 열 수 없습니다: 샷웰이 이 버전의 F-Spot 데"
+"이터베이스 파일을 지원하지 않습니다."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "선택한 F-Spot 데이터베이스 파일을 읽을 수 없습니다: 태그 테이블을 읽던 중 오류가 발생했습니다."
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"선택한 F-Spot 데이터베이스 파일을 읽을 수 없습니다: 태그 테이블을 읽던 중 오"
+"류가 발생했습니다."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "선택한 F-Spot 데이터베이스 파일을 읽을 수 없습니다: 사진 테이블을 읽던 중 오류가 발생했습니다."
+msgstr ""
+"선택한 F-Spot 데이터베이스 파일을 읽을 수 없습니다: 사진 테이블을 읽던 중 오"
+"류가 발생했습니다."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "샷웰이 F-Spot 라이브러리에서 %d매의 사진을 발견했으며 지금 가져오고 있습니다. 중복된 파일은 자동으로 검출한 후 제거합니다.\n\n가져오기 작업은 백그라운드에서 계속되기 때문에 이 대화 상자를 닫은 후 샷웰을 계속 사용할 수 있습니다."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"샷웰이 F-Spot 라이브러리에서 %d매의 사진을 발견했으며 지금 가져오고 있습니"
+"다. 중복된 파일은 자동으로 검출한 후 제거합니다.\n"
+"\n"
+"가져오기 작업은 백그라운드에서 계속되기 때문에 이 대화 상자를 닫은 후 샷웰을 "
+"계속 사용할 수 있습니다."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3934,8 +4113,11 @@ msgstr "PPI"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
+#, fuzzy
 msgid "label"
-msgstr "라벨 "
+msgstr ""
+"이름표"
 
 #: ui/shotwell.glade:719
 msgid "Shotwell Preferences"
@@ -4045,7 +4227,9 @@ msgstr "로그인(_L)"
 msgid ""
 " (text depends on fb username and is modified in the app - \n"
 "anything put into this field won't display)"
-msgstr "(텍스트는 페이스북 사용자 이름에 의존하며 프로그램에서 수정했습니다 - \n이 항목에 입력하는 모든 내용은 표시하지 않습니다)"
+msgstr ""
+"(텍스트는 페이스북 사용자 이름에 의존하며 프로그램에서 수정했습니다 - \n"
+"이 항목에 입력하는 모든 내용은 표시하지 않습니다)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:39
 msgid "Publish to an e_xisting album:"
@@ -4071,6 +4255,8 @@ msgstr "업로드 전에 위치, 카메라 등의 개인을 식별할 수 있는
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "로그아웃(_L)"
 
@@ -4078,6 +4264,8 @@ msgstr "로그아웃(_L)"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "업로드(_P)"
 
@@ -4085,7 +4273,8 @@ msgstr "업로드(_P)"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "웹 브라우저로 플리커에 로그인한 후 나타나는 확인 번호를 입력해주십시오."
+msgstr ""
+"웹 브라우저로 플리커에 로그인한 후 나타나는 확인 번호를 입력해주십시오."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4097,13 +4286,18 @@ msgid ""
 "\n"
 "(this label's string is populated and set inside the code, \n"
 "so changes made here will not display)"
-msgstr "플리커에 (name)(으)로 로그인했습니다.\n\n(이 레이블의 문자열은 혼잡한 상태이며 코드 내부에 설정되어 있습니다, \n그러므로 여기서 만든 모든 바뀐 내용은 표시되지 않습니다)"
+msgstr ""
+"플리커에 (name)(으)로 로그인했습니다.\n"
+"\n"
+"(이 레이블의 문자열은 혼잡한 상태이며 코드 내부에 설정되어 있습니다, \n"
+"그러므로 여기서 만든 모든 바뀐 내용은 표시되지 않습니다)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:44
 msgid "_visibility label (populated in the code)"
 msgstr "사진 표시 라벨(_V)(코드가 혼잡합니다)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "사진 크기(_S):"
 
@@ -4111,7 +4305,9 @@ msgstr "사진 크기(_S):"
 msgid ""
 "'you are logged in as $name'\n"
 "(populated in the application code)"
-msgstr "$name(으)로 로그인했습니다.\n(프로그램 코드가 혼잡합니다)"
+msgstr ""
+"$name(으)로 로그인했습니다.\n"
+"(프로그램 코드가 혼잡합니다)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:75
 msgid "An _existing album:"
@@ -4130,7 +4326,9 @@ msgstr "공개 갤러리에 있는 앨범 목록 보이기(_I)"
 msgid ""
 "$mediatype will appear in\n"
 "(populated in code)"
-msgstr "$mediatype이(가) 잠시 후 나타납니다\n(코드가 혼잡합니다)"
+msgstr ""
+"$mediatype이(가) 잠시 후 나타납니다\n"
+"(코드가 혼잡합니다)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:150
 msgid "Photo _size preset:"
@@ -4145,6 +4343,7 @@ msgid "User _name"
 msgstr "사용자 이름(_N)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "암호(_P)"
 
@@ -4153,6 +4352,7 @@ msgid "_Remember Password"
 msgstr "암호 저장(_R)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "로그인"
 
@@ -4191,3 +4391,91 @@ msgstr "로그아웃"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "비디오 사생활 설정(_S):"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 픽셀"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s'이(가) OAuth 인증 요청에 올바른 응답을 보내지 않습니다 "
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): 시작할 수 없습니다; 이 업로드 도구를 다시 시작할 "
+"수 없습니다."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Tumblr 계정을 사용할 수 있는 사용자 이름과 암호를 입력해주십시오."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "UI를 불러올 수 없음: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"%s 계정으로 Tumblr에 로그인했습니다..\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Yandex.Fotki 웹사이트 방문"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Yandex.Fotki에 로그인하지 않았습니다."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "전자 메일 주소(_E)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"(name)으로 Tumblr에 로그인했습니다.\n"
+"\n"
+"(이 라벨의 문자열이 배치되어 코드 내부에 설정되기 때문에 \n"
+"여기에서 바꾼 내용은 표시하지 않습니다)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "블로그:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "앨범(또는 새 것 만들기)(_A):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "접근 형식(_T):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "설명 감추기(_C)"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "원본 사진 다운로드를 허용하지 않음(_F)"

@@ -2,8 +2,8 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Aron Xu <happyaron.xu@gmail.com>, 2012
 # b6i <baddogai@gmail.com>, 2011
@@ -21,6 +21,12 @@
 # xhacker <liu.dongyuan@gmail.com>, 2011
 # YunQiang Su <wzssyqa@gmail.com>, 2012
 # Yusuf Ma <yusufma77@yahoo.com>, 2004
+# Jason Lau <dotkrnl@gmail.com>, 2013
+# Tommy He <lovenemesis@gmail.com>, 2011
+# Tommy He <lovenemesis@gmail.com>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+# Tommy He <lovenemesis@gmail.com>, 2012
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -28,7 +34,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-27 12:40+0000\n"
 "Last-Translator: Jason Lau <dotkrnl@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/shotwell/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/shotwell/"
+"language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +122,9 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "该相机被其他程序锁定，仅在解锁后 Shotwell 才能访问。请关闭其他使用该相机的程序后重试。"
+msgstr ""
+"该相机被其他程序锁定，仅在解锁后 Shotwell 才能访问。请关闭其他使用该相机的程"
+"序后重试。"
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -126,7 +135,9 @@ msgstr "请关闭其他使用该相机的程序。"
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "无法从相机获取预览：\n%s"
+msgstr ""
+"无法从相机获取预览：\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -181,8 +192,7 @@ msgstr "正在从相机移除照片/视频"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "由于错误无法从相机中删除 %d 个照片/视频。"
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
@@ -408,7 +418,9 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "您的媒体库和当前版本的 Shotwell 不兼容。它似乎是由 Shotwell %s (schema %d)创建的，而当前版本是 %s (schema %d) 。请使用最新版本的 Shotwell。"
+msgstr ""
+"您的媒体库和当前版本的 Shotwell 不兼容。它似乎是由 Shotwell %s (schema %d)创"
+"建的，而当前版本是 %s (schema %d) 。请使用最新版本的 Shotwell。"
 
 #: src/main.vala:59
 #, c-format
@@ -416,7 +428,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell 无法将您的媒体库从 %s (schema %d)版本升级到 %s (schema %d)版本。更多的信息请查询 Shotwell 维基 %s"
+msgstr ""
+"Shotwell 无法将您的媒体库从 %s (schema %d)版本升级到 %s (schema %d)版本。更多"
+"的信息请查询 Shotwell 维基 %s"
 
 #: src/main.vala:65
 #, c-format
@@ -425,7 +439,9 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "您的媒体库和当前版本的 Shotwell 不兼容。它似乎是由 Shotwell %s (schema %d)创建的。当前版本是 %s (schema %d)。请删除 %s 来释放您的照片库然后重新导入照片。"
+msgstr ""
+"您的媒体库和当前版本的 Shotwell 不兼容。它似乎是由 Shotwell %s (schema %d)创"
+"建的。当前版本是 %s (schema %d)。请删除 %s 来释放您的照片库然后重新导入照片。"
 
 #: src/main.vala:71
 #, c-format
@@ -661,14 +677,19 @@ msgstr "Shotwell 无法为编辑此照片创建必需的文件，因为您没有
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "由于文件错误无法导出以下照片。\n\n"
+msgstr ""
+"由于文件错误无法导出以下照片。\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\n您想要继续导出吗?"
+msgstr ""
+"\n"
+"\n"
+"您想要继续导出吗?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -749,8 +770,7 @@ msgid "error message:"
 msgstr "错误信息:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "以下文件因为它们不被识别为照片或视频而未被导入:"
 
 #: src/Dialogs.vala:597
@@ -826,8 +846,7 @@ msgstr[0] "%d 文件导入失败由于文件或硬件错误：\n"
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
@@ -836,8 +855,7 @@ msgstr[0] "%d 个照片由于无法写入媒体库导入失败：\n"
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
@@ -1122,14 +1140,18 @@ msgstr "%Y/%m/%d %p%I:%M:%S"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "曝光时间将会向较早时改变 \n%d %s、%d %s、%d %s 和 %d %s。"
+msgstr ""
+"曝光时间将会向较早时改变 \n"
+"%d %s、%d %s、%d %s 和 %d %s。"
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "曝光时间将会向较晚时改变 \n%d %s、%d %s、%d %s 和 %d %s。"
+msgstr ""
+"曝光时间将会向较晚时改变 \n"
+"%d %s、%d %s、%d %s 和 %d %s。"
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1161,7 +1183,10 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\n和另外 %d 个。"
+msgstr[0] ""
+"\n"
+"\n"
+"和另外 %d 个。"
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1276,38 +1301,54 @@ msgstr "从照片库移除照片"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "将从 Shotwell 媒体库移除 %d 个照片/视频。你也想要从将这些文件移至桌面垃圾箱么？\n\n该操作将不可撤销。"
+msgstr[0] ""
+"将从 Shotwell 媒体库移除 %d 个照片/视频。你也想要从将这些文件移至桌面垃圾箱"
+"么？\n"
+"\n"
+"该操作将不可撤销。"
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "将从 Shotwell 媒体库移除 %d 个视频。你也想要从将这些文件移至桌面垃圾箱么？\n\n该操作将不可撤销。"
+msgstr[0] ""
+"将从 Shotwell 媒体库移除 %d 个视频。你也想要从将这些文件移至桌面垃圾箱么？\n"
+"\n"
+"该操作将不可撤销。"
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "将从 Shotwell 媒体库移除 %d 个照片。你也想要从将这些文件移至桌面垃圾箱么？\n\n该操作将不可撤销。"
+msgstr[0] ""
+"将从 Shotwell 媒体库移除 %d 个照片。你也想要从将这些文件移至桌面垃圾箱么？\n"
+"\n"
+"该操作将不可撤销。"
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1511,8 +1552,14 @@ msgstr "数据导入"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "您没有启用任何数据导入插件。\n\n要使用从应用程序导入数据的功能，您需要至少启用一个数据导入插件。您可在首选想对话框中启用插件。"
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"您没有启用任何数据导入插件。\n"
+"\n"
+"要使用从应用程序导入数据的功能，您需要至少启用一个数据导入插件。您可在首选想"
+"对话框中启用插件。"
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1920,7 +1967,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "无法打印照片：\n\n%s"
+msgstr ""
+"无法打印照片：\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1932,7 +1982,9 @@ msgstr "无法打开/创建照片数据库 %s：错误代码 %d"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "无法写入照片数据库文件：\n%s"
+msgstr ""
+"无法写入照片数据库文件：\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1942,7 +1994,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "访问数据库文件错误：\n%s\n\n错误是：\n%s"
+msgstr ""
+"访问数据库文件错误：\n"
+"%s\n"
+"\n"
+"错误是：\n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -3111,10 +3168,14 @@ msgstr "汇报问题(_R)…"
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "访问 Shotwell 媒体库时出现致命错误。Shotwell 无法继续。\n\n%s"
+msgstr ""
+"访问 Shotwell 媒体库时出现致命错误。Shotwell 无法继续。\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3122,7 +3183,29 @@ msgstr "访问 Yorba 网站"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr "Tommy He <tommy.he@linux.com>, 2011\nzheng7fu2 <zheng7fu2@gmail.com>, 2011\nXhacker Liu <liu.dongyuan@gmail.com>, 2011\nb6i <baddogai@gmail.com>, 2011\nYunQiang Su <wzssyqa@gmail.com>, 2012\nAron Xu <happyaron.xu@gmail.com>, 2012\nJason Lau, 刘家昌 <i@dotkrnl.com>, 2013\n\nLaunchpad Contributions:\n  Aron Xu https://launchpad.net/~happyaron\n  David Gao https://launchpad.net/~davidgao1001\n  H https://launchpad.net/~zheng7fu2\n  Meng Zhuo https://launchpad.net/~mengzhuo1203\n  Qiu Haoyu https://launchpad.net/~timothyqiu\n  Tommy He https://launchpad.net/~tommy-he\n  Vera Yin https://launchpad.net/~vera-yorba\n  Wylmer Wang https://launchpad.net/~wantinghard\n  Xhacker Liu https://launchpad.net/~xhacker\n  YunQiang Su https://launchpad.net/~wzssyqa\n  mike2718 https://launchpad.net/~mike2718\n  slgray https://launchpad.net/~chenlibinpeter-gmail\n  丁威扬 https://launchpad.net/~dingvyoung"
+msgstr ""
+"Tommy He <tommy.he@linux.com>, 2011\n"
+"zheng7fu2 <zheng7fu2@gmail.com>, 2011\n"
+"Xhacker Liu <liu.dongyuan@gmail.com>, 2011\n"
+"b6i <baddogai@gmail.com>, 2011\n"
+"YunQiang Su <wzssyqa@gmail.com>, 2012\n"
+"Aron Xu <happyaron.xu@gmail.com>, 2012\n"
+"Jason Lau, 刘家昌 <i@dotkrnl.com>, 2013\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Aron Xu https://launchpad.net/~happyaron\n"
+"  David Gao https://launchpad.net/~davidgao1001\n"
+"  H https://launchpad.net/~zheng7fu2\n"
+"  Meng Zhuo https://launchpad.net/~mengzhuo1203\n"
+"  Qiu Haoyu https://launchpad.net/~timothyqiu\n"
+"  Tommy He https://launchpad.net/~tommy-he\n"
+"  Vera Yin https://launchpad.net/~vera-yorba\n"
+"  Wylmer Wang https://launchpad.net/~wantinghard\n"
+"  Xhacker Liu https://launchpad.net/~xhacker\n"
+"  YunQiang Su https://launchpad.net/~wzssyqa\n"
+"  mike2718 https://launchpad.net/~mike2718\n"
+"  slgray https://launchpad.net/~chenlibinpeter-gmail\n"
+"  丁威扬 https://launchpad.net/~dingvyoung"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3226,7 +3309,9 @@ msgstr "按照评分排序"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell 无法播放选中视频：\n%s"
+msgstr ""
+"Shotwell 无法播放选中视频：\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3428,7 +3513,9 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell 无法发布选定项目，因为您尚未启用兼容的发布插件。要修复此问题，请选择<b>编辑 %s 首选项</b>，并且在<b>插件</b>标签页中启用一个或多个发布插件。"
+msgstr ""
+"Shotwell 无法发布选定项目，因为您尚未启用兼容的发布插件。要修复此问题，请选择"
+"<b>编辑 %s 首选项</b>，并且在<b>插件</b>标签页中启用一个或多个发布插件。"
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3453,22 +3540,35 @@ msgid "New _Tag..."
 msgstr "新建标签(_T)..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "发布所需要的临时文件不存在"
+msgstr ""
+"用于发布需要的临时文件不可用"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
-msgstr "您已经登录 Google 但在本次 Shotwell 进程中已离开。\n要继续发布到 Google，请退出并重新启动 Shotwell，然后再尝试发布。"
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
+msgstr ""
+"您已经登录 Google 但在本次 Shotwell 进程中已离开。\n"
+"要继续发布到 Google，请退出并重新启动 Shotwell，然后再尝试发布。"
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "您尚未登录 YouTube。\n\n您必须已经注册了一个 Google 帐号并设置为使用 YouTube 才能继续。您可以通过浏览器设置绝大多数帐号并至少登录 YouTube 一次。"
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"您尚未登录 YouTube。\n"
+"\n"
+"您必须已经注册了一个 Google 帐号并设置为使用 YouTube 才能继续。您可以通过浏览"
+"器设置绝大多数帐号并至少登录 YouTube 一次。"
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
@@ -3506,14 +3606,22 @@ msgstr "主要上传服务"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "您尚未登录 Flickr。\n\n您必需在注册一个 Flickr 帐号才能完成登录过程。在登录过程中您需要特别授权 Shotwell 连接到您的 Flickr 帐号。"
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"您尚未登录 Flickr。\n"
+"\n"
+"您必需在注册一个 Flickr 帐号才能完成登录过程。在登录过程中您需要特别授权 "
+"Shotwell 连接到您的 Flickr 帐号。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "您已经登录 Flickr 但在本次 Shotwell 进程中已离开。\n要继续发布到 Flickr，请退出并重新启动 Shotwell，然后再尝试发布。"
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"您已经登录 Flickr 但在本次 Shotwell 进程中已离开。\n"
+"要继续发布到 Flickr，请退出并重新启动 Shotwell，然后再尝试发布。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3535,14 +3643,18 @@ msgstr "校验认证信息..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "您已经作为 %s 登录到 Flickr。\n\n"
+msgstr ""
+"您已经作为 %s 登录到 Flickr。\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "您的 Flickr 免费帐号限制您每月可以上传的数据。\n本月您的流量限额还剩 %d MB。"
+msgstr ""
+"您的 Flickr 免费帐号限制您每月可以上传的数据。\n"
+"本月您的流量限额还剩 %d MB。"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3585,11 +3697,13 @@ msgstr "仅有我"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 像素"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 像素"
 
@@ -3620,13 +3734,16 @@ msgstr "输入您 Piwigo 照片库的 URL 以及对应 Piwigo 照片库相关的
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
 msgstr "Shotwell 无法连接至您的 Piwigo 照片库。请检查您输入的 URL。"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "无效的用户名或密码。请重试"
+msgstr ""
+"用户名或密码无效。请重试"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3634,6 +3751,7 @@ msgid "Invalid URL"
 msgstr "无效的 URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "无效的用户名或密码"
@@ -3664,8 +3782,13 @@ msgstr "管理员"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "您当前尚未登录 Picasa 网络相册。\n\n在您的浏览器中点击登录来完成 Picasa 网络相册等各路。您必须授权 Shotwell Connect 来连接至您的 Picasa 网络相册。"
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"您当前尚未登录 Picasa 网络相册。\n"
+"\n"
+"在您的浏览器中点击登录来完成 Picasa 网络相册等各路。您必须授权 Shotwell "
+"Connect 来连接至您的 Picasa 网络相册。"
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
@@ -3711,14 +3834,26 @@ msgstr "Google+ (2048 x 1536 像素)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "您尚未登录 Facebook.\n\n如果您没有 Facebook 帐号，可以在登录过程中创建一个。在登陆过程中， Shotwell Connect 将请求您上传照片和发布到订阅列表的权限。这些权限对于 Shotwell Connect 的工作是必须的。"
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"您尚未登录 Facebook.\n"
+"\n"
+"如果您没有 Facebook 帐号，可以在登录过程中创建一个。在登陆过程中， Shotwell "
+"Connect 将请求您上传照片和发布到订阅列表的权限。这些权限对于 Shotwell "
+"Connect 的工作是必须的。"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "您已经登录了 Facebook 但并不在当前 Shotwell 进程中。\n继续在 Facebook 上发布，退出并重新启动，然后再次尝试发布。"
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"您已经登录了 Facebook 但并不在当前 Shotwell 进程中。\n"
+"继续在 Facebook 上发布，退出并重新启动，然后再次尝试发布。"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3743,7 +3878,9 @@ msgstr "一个发布所需要的文件不存在。无法继续发布至 Facebook
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "您已经作为 %s 登录 Facebook。\n\n"
+msgstr ""
+"您已经作为 %s 登录 Facebook。\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3791,7 +3928,9 @@ msgstr "主要幻灯片变换"
 
 #: plugins/shotwell-transitions/shotwell-transitions.vala:75
 msgid "Copyright 2010 Maxim Kartashev, Copyright 2011-2013 Yorba Foundation"
-msgstr "Copyright 2010 Maxim Kartashev, Copyright 2011-2013 Yorba Foundation, Yorba 基金会版权所有"
+msgstr ""
+"Copyright 2010 Maxim Kartashev, Copyright 2011-2013 Yorba Foundation, Yorba "
+"基金会版权所有"
 
 #: plugins/shotwell-transitions/SlideEffect.vala:20
 msgid "Slide"
@@ -3813,15 +3952,24 @@ msgstr "核心数据导入服务"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "欢迎使用 F-Spot 媒体库导入服务。\n\n请选择一个要导入的数据，既可以是 Shotwell 自动找到的，也可以是手工制定的文件。"
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"欢迎使用 F-Spot 媒体库导入服务。\n"
+"\n"
+"请选择一个要导入的数据，既可以是 Shotwell 自动找到的，也可以是手工制定的文"
+"件。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "欢迎使用 F-Spot 媒体库导入服务。\n\n请选择一个 F-Spot 数据库文件。"
+msgstr ""
+"欢迎使用 F-Spot 媒体库导入服务。\n"
+"\n"
+"请选择一个 F-Spot 数据库文件。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3829,20 +3977,20 @@ msgstr "手工选择一个要导入的 F-Spot 数据库文件："
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
 msgstr "无法打开选定的 F-Spot 数据库文件：文件不存在或不是 F-Spot 数据库"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "无法打开选定的 F-Spot 数据库文件：Shotwell 不支持此版本的 F-Spot 数据库"
+msgstr ""
+"无法打开选定的 F-Spot 数据库文件：Shotwell 不支持此版本的 F-Spot 数据库"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
+"Cannot read the selected F-Spot database file: error while reading tags table"
 msgstr "无法读取选定的 F-Spot 数据库文件：读取标签列表出错"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
@@ -3854,10 +4002,16 @@ msgstr "无法读取选定的 F-Spot 数据库文件：读取照片出错"
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell 在 F-Spot 媒体库中找到 %d 个照片并正在导入它们。重复的文件会被自动去除。\n\n您可以关闭这个会话并开始使用 Shotwell，导入工作将在后台继续进行。"
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell 在 F-Spot 媒体库中找到 %d 个照片并正在导入它们。重复的文件会被自动去"
+"除。\n"
+"\n"
+"您可以关闭这个会话并开始使用 Shotwell，导入工作将在后台继续进行。"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3946,6 +4100,7 @@ msgstr "每英寸像素数"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "标签"
 
@@ -4057,7 +4212,9 @@ msgstr "登录(_L)"
 msgid ""
 " (text depends on fb username and is modified in the app - \n"
 "anything put into this field won't display)"
-msgstr "(文本依赖于 FB 用户名，已在程序中修改 -\n在此输入此框内的一切均不会显示)"
+msgstr ""
+"(文本依赖于 FB 用户名，已在程序中修改 -\n"
+"在此输入此框内的一切均不会显示)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:39
 msgid "Publish to an e_xisting album:"
@@ -4083,13 +4240,19 @@ msgstr "上传前去除照片的地理位置、相机型号和其他可供辨认
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
+#, fuzzy
 msgid "_Logout"
-msgstr "注销(_L)"
+msgstr ""
+"登出(_L)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:212
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "发布(_P)"
 
@@ -4109,13 +4272,18 @@ msgid ""
 "\n"
 "(this label's string is populated and set inside the code, \n"
 "so changes made here will not display)"
-msgstr "您已登录到 Flickr 的 (name) 用户。\n\n(这个标签串设定于代码中\n在此的改变不会被显示)"
+msgstr ""
+"您已登录到 Flickr 的 (name) 用户。\n"
+"\n"
+"(这个标签串设定于代码中\n"
+"在此的改变不会被显示)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:44
 msgid "_visibility label (populated in the code)"
 msgstr "可见度标签 (代码中)(_V)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "照片尺寸(_S)："
 
@@ -4123,7 +4291,9 @@ msgstr "照片尺寸(_S)："
 msgid ""
 "'you are logged in as $name'\n"
 "(populated in the application code)"
-msgstr "'您已登录为 $name'\n(程序代码中)"
+msgstr ""
+"'您已登录为 $name'\n"
+"(程序代码中)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:75
 msgid "An _existing album:"
@@ -4142,7 +4312,9 @@ msgstr "显示公开相片库里的相册(_I)"
 msgid ""
 "$mediatype will appear in\n"
 "(populated in code)"
-msgstr "$mediatype 会被显示于\n(代码中)"
+msgstr ""
+"$mediatype 会被显示于\n"
+"(代码中)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:150
 msgid "Photo _size preset:"
@@ -4157,6 +4329,7 @@ msgid "User _name"
 msgstr "用户名(_)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "密码(_)"
 
@@ -4165,6 +4338,7 @@ msgid "_Remember Password"
 msgstr "记住密码(_R)"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "登录"
 
@@ -4203,3 +4377,85 @@ msgstr "登出"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "视频隐私设置(_S)："
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "版权所有 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 像素"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' 不是一个有效的 OAuth 授权请求响应"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr "TumblrPublisher: start( ): 无法启动；无法重启该发布器。"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "输入和您 Tumblr 账户关联的用户名和密码。"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "无法载入 UI：%s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"您登录的 Tumblr 账户为 %s。\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "版权所有 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "访问 Yandex.Fotki 网站"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "您当前未登陆至 Yandex.Fotki。"
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "邮箱地址(_E)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr "您正在以 (name) 身份登录 Tumblr."
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "博客："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "已有或新相册(_A)："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "访问类型(_T)："
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "禁用评论(_C)"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "禁止下载原始照片(_F)"

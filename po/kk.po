@@ -2,11 +2,14 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2011-2013
 # verayin <vera@yorba.org>, 2011
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -14,7 +17,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-21 08:00+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh (http://www.transifex.com/projects/p/shotwell/language/kk/)\n"
+"Language-Team: Kazakh (http://www.transifex.com/projects/p/shotwell/language/"
+"kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +48,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Камераны тіркеуден босату мүмкін емес. Камераны файлдар басқарушысынан тіркеуден босатып көріңіз."
+msgstr ""
+"Камераны тіркеуден босату мүмкін емес. Камераны файлдар басқарушысынан "
+"тіркеуден босатып көріңіз."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -86,7 +92,9 @@ msgstr "Барлық фотоларды жинағыңызға импортта�
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell камераға қолын жеткізу үшін оны алдымен тіркеуден босату керек. Жалғастыру керек пе?"
+msgstr ""
+"Shotwell камераға қолын жеткізу үшін оны алдымен тіркеуден босату керек. "
+"Жалғастыру керек пе?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -101,7 +109,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Камераны басқа бір қолданба ұстап тұр. Shotwell камераға тек ол бос кезінде ғана қолын жеткізе алады. Камераны қолданып тұрған барлық қолданбалады жабыңыз да, әрекетті қайталап көріңіз."
+msgstr ""
+"Камераны басқа бір қолданба ұстап тұр. Shotwell камераға тек ол бос кезінде "
+"ғана қолын жеткізе алады. Камераны қолданып тұрған барлық қолданбалады "
+"жабыңыз да, әрекетті қайталап көріңіз."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -112,7 +123,9 @@ msgstr "Камераны қолданып тұрған барлық қолдан
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Камерадан алдын-ала қарауды алу мүмкін емес:\n%s"
+msgstr ""
+"Камерадан алдын-ала қарауды алу мүмкін емес:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -167,8 +180,7 @@ msgstr "Камерадан фотолар/видеоларды өшіру"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "Қателер салдарынан камерадан %d фото/видеоны өшіру мүмкін емес."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
@@ -394,7 +406,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Сіздегі фото жинағыңыз Shotwell-дың осы нұсқасымен үйлеспейді. Ол жинақ Shotwell %s нұсқасымен жасалған сияқты (схема %d). Қазіргі нұсқасы - %s (схема %d). Shotwell-дың соңғы нұсқасын қолданыңыз."
+msgstr ""
+"Сіздегі фото жинағыңыз Shotwell-дың осы нұсқасымен үйлеспейді. Ол жинақ "
+"Shotwell %s нұсқасымен жасалған сияқты (схема %d). Қазіргі нұсқасы - %s "
+"(схема %d). Shotwell-дың соңғы нұсқасын қолданыңыз."
 
 #: src/main.vala:59
 #, c-format
@@ -402,7 +417,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell сіздің фото жинағыңызды %s нұсқасынан (схема %d) %s нұсқасына (схема %d) дейін жаңарта алмады. Көбірек білу үшін Shotwell Wiki оқыңыз: %s"
+msgstr ""
+"Shotwell сіздің фото жинағыңызды %s нұсқасынан (схема %d) %s нұсқасына "
+"(схема %d) дейін жаңарта алмады. Көбірек білу үшін Shotwell Wiki оқыңыз: %s"
 
 #: src/main.vala:65
 #, c-format
@@ -411,7 +428,11 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Сіздегі фото жинағыңыз Shotwell-дың осы нұсқасымен үйлеспейді. Ол жинақ Shotwell %s нұсқасымен (схема %d) жасалған сияқты. Қазіргі нұсқасы - %s (схема %d). %s өшіру арқылы жинағыңызды өшіріңіз де, фотоларды қайта импорттаңыз."
+msgstr ""
+"Сіздегі фото жинағыңыз Shotwell-дың осы нұсқасымен үйлеспейді. Ол жинақ "
+"Shotwell %s нұсқасымен (схема %d) жасалған сияқты. Қазіргі нұсқасы - %s "
+"(схема %d). %s өшіру арқылы жинағыңызды өшіріңіз де, фотоларды қайта "
+"импорттаңыз."
 
 #: src/main.vala:71
 #, c-format
@@ -449,7 +470,8 @@ msgstr "[ФАЙЛ]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Командалық жолдың барлық опцияларын қарау үшін '%s --help' енгізіңіз.\n"
+msgstr ""
+"Командалық жолдың барлық опцияларын қарау үшін '%s --help' енгізіңіз.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -626,7 +648,9 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Өндірушіні ауыстыру әрекеті Shotwell ішінде бұл фотосуреттерге жасалған барлық өзгерістерді болдырмайды"
+msgstr[0] ""
+"Өндірушіні ауыстыру әрекеті Shotwell ішінде бұл фотосуреттерге жасалған "
+"барлық өзгерістерді болдырмайды"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -641,20 +665,27 @@ msgstr "Видеоны экспорттау"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell бұл фотосуретті түзету үшін керек файлды жасай алмады, өйткені сізде %s ішіне жазу құқығыңыз жоқ."
+msgstr ""
+"Shotwell бұл фотосуретті түзету үшін керек файлды жасай алмады, өйткені "
+"сізде %s ішіне жазу құқығыңыз жоқ."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Келесі фотоны файл қатесі нәтижесінен экспорттау мүмкін емес.\n\n"
+msgstr ""
+"Келесі фотоны файл қатесі нәтижесінен экспорттау мүмкін емес.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nЭкспорттауды жалғастыруды қалайсыз ба?"
+msgstr ""
+"\n"
+"\n"
+"Экспорттауды жалғастыруды қалайсыз ба?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -735,28 +766,32 @@ msgid "error message:"
 msgstr "қате хабарламасы:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "Файлдар фото не видео ретінде танылмағандықтан импортталмады:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Фото/видеолар Shotwell түсінетін пішімде емес болғандықтан импортталмады:"
+msgstr ""
+"Фото/видеолар Shotwell түсінетін пішімде емес болғандықтан импортталмады:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Фото/видеолар Shotwell оларды өз жинағына көшіре алмаған себебінен импортталмады:"
+msgstr ""
+"Фото/видеолар Shotwell оларды өз жинағына көшіре алмаған себебінен "
+"импортталмады:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "%s көшіру мүмкін емес\n\t%s ішіне"
+msgstr ""
+"%s көшіру мүмкін емес\n"
+"\t%s ішіне"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -812,22 +847,22 @@ msgstr[0] "%d файл файлдық не құрылғылық қате сал�
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d фотосуретті импорттау қате, өйткені фото жинақ бумасына жазу құқығы жоқ:\n"
+msgstr[0] ""
+"%d фотосуретті импорттау қате, өйткені фото жинақ бумасына жазу құқығы жоқ:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d видеоны импорттау қате, өйткені фото жинақ бумасына жазу құқығы жоқ:\n"
+msgstr[0] ""
+"%d видеоны импорттау қате, өйткені фото жинақ бумасына жазу құқығы жоқ:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -837,7 +872,9 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d фото/видеоны импорттау қате, өйткені фото жинақ бумасына жазу құқығы жоқ:\n"
+msgstr[0] ""
+"%d фото/видеоны импорттау қате, өйткені фото жинақ бумасына жазу құқығы "
+"жоқ:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -1108,14 +1145,18 @@ msgstr "%m/%d/%Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ұсталым уақыты алға келесі мәнге жылжытылады:\n%d %s, %d %s, %d %s, және %d %s."
+msgstr ""
+"Ұсталым уақыты алға келесі мәнге жылжытылады:\n"
+"%d %s, %d %s, %d %s, және %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ұсталым уақыты артқа келесі мәнге жылжытылады:\n%d %s, %d %s, %d %s, және %d %s."
+msgstr ""
+"Ұсталым уақыты артқа келесі мәнге жылжытылады:\n"
+"%d %s, %d %s, %d %s, және %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1147,7 +1188,10 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nЖәне %d басқа."
+msgstr[0] ""
+"\n"
+"\n"
+"Және %d басқа."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1233,7 +1277,9 @@ msgstr "Шаблон қате"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell фотоларды жинағыңызға көшіре алады, немесе көшірмесіз-ақ импорттай алады."
+msgstr ""
+"Shotwell фотоларды жинағыңызға көшіре алады, немесе көшірмесіз-ақ импорттай "
+"алады."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1262,38 +1308,56 @@ msgstr "Фотоларды жинақтан өшіру"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Бұл әрекет сіздің Shotwell жинағыңыздан %d фото/видеоны өшіреді. Оған қоса, файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n\nБұл әрекетті болдырмау мүмкін емес болады."
+msgstr[0] ""
+"Бұл әрекет сіздің Shotwell жинағыңыздан %d фото/видеоны өшіреді. Оған қоса, "
+"файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n"
+"\n"
+"Бұл әрекетті болдырмау мүмкін емес болады."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Бұл әрекет сіздің Shotwell жинағыңыздан %d видеоны өшіреді. Оған қоса, файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n\nБұл әрекетті болдырмау мүмкін емес болады."
+msgstr[0] ""
+"Бұл әрекет сіздің Shotwell жинағыңыздан %d видеоны өшіреді. Оған қоса, "
+"файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n"
+"\n"
+"Бұл әрекетті болдырмау мүмкін емес болады."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Бұл әрекет сіздің Shotwell жинағыңыздан %d фотоны өшіреді. Оған қоса, файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n\nБұл әрекетті болдырмау мүмкін емес болады."
+msgstr[0] ""
+"Бұл әрекет сіздің Shotwell жинағыңыздан %d фотоны өшіреді. Оған қоса, "
+"файлдарды қоқыс шелегіне тастауды қалайсыз ба?\n"
+"\n"
+"Бұл әрекетті болдырмау мүмкін емес болады."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1301,7 +1365,9 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "%d фото/видеоны қоқыс шелегіңізге тастауға мүмкін емес. Ол файл(дар)ды өшіру керек пе?"
+msgstr[0] ""
+"%d фото/видеоны қоқыс шелегіңізге тастауға мүмкін емес. Ол файл(дар)ды өшіру "
+"керек пе?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1487,7 +1553,8 @@ msgstr "%s ішінен импорттау мүмкін емес, өйткені
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Басқа қызметтен импорттауды көру үшін, оны жоғарыдағы мәзірден таңдаңыз."
+msgstr ""
+"Басқа қызметтен импорттауды көру үшін, оны жоғарыдағы мәзірден таңдаңыз."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1497,8 +1564,15 @@ msgstr "Мәлімет импорты"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Сізде іске қосулы мәліметтер импорттау плагиндері жоқ.\n\nҚолданбадан импорттау мүмкіндігін қолдану үшін, кем дегенде бір мәліметті импорттау плагинін іске қосыңыз. Плагиндерді Баптаулар сұхбатында іске қосуға болады."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Сізде іске қосулы мәліметтер импорттау плагиндері жоқ.\n"
+"\n"
+"Қолданбадан импорттау мүмкіндігін қолдану үшін, кем дегенде бір мәліметті "
+"импорттау плагинін іске қосыңыз. Плагиндерді Баптаулар сұхбатында іске "
+"қосуға болады."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1906,7 +1980,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Фотоны баспаға шығару мүмкін емес:\n\n%s"
+msgstr ""
+"Фотоны баспаға шығару мүмкін емес:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1918,7 +1995,9 @@ msgstr "%s фотодерекқорын ашу/жасау сәтсіз: қате
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Фотолар дерекқор файлына жазу мүмкін емес:\n %s"
+msgstr ""
+"Фотолар дерекқор файлына жазу мүмкін емес:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1928,7 +2007,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Дерекқор файлына қатынау қатесі:\n %s\n\nҚате: \n%s"
+msgstr ""
+"Дерекқор файлына қатынау қатесі:\n"
+" %s\n"
+"\n"
+"Қате: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2203,7 +2287,9 @@ msgstr "%s файл емес."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s келесі үшін файл пішімін қолдамайды:\n%s."
+msgstr ""
+"%s келесі үшін файл пішімін қолдамайды:\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -2783,12 +2869,15 @@ msgstr "Фотолардан \"%s\" тегін өшіру"
 #: src/Resources.vala:367
 #, c-format
 msgid "Unable to rename tag to \"%s\" because the tag already exists."
-msgstr "Тег үшін жаңа \"%s\" атауын орнату мүмкін емес, өйткені ондай тег бар болып тұр."
+msgstr ""
+"Тег үшін жаңа \"%s\" атауын орнату мүмкін емес, өйткені ондай тег бар болып "
+"тұр."
 
 #: src/Resources.vala:371
 #, c-format
 msgid "Unable to rename search to \"%s\" because the search already exists."
-msgstr "Іздеудің атын \"%s\" етіп ауыстыру сәтсіз, өйткені іздеу бар болып тұр."
+msgstr ""
+"Іздеудің атын \"%s\" етіп ауыстыру сәтсіз, өйткені іздеу бар болып тұр."
 
 #: src/Resources.vala:374
 msgid "Saved Search"
@@ -3097,10 +3186,15 @@ msgstr "Мә_селе жөнінде хабарлау..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Shotwell жинағына қатынау кезінде қатаң қате орын алған. Shotwell өз жұмысын жалғастыра алмайды.\n\n%s"
+msgstr ""
+"Shotwell жинағына қатынау кезінде қатаң қате орын алған. Shotwell өз жұмысын "
+"жалғастыра алмайды.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3212,7 +3306,9 @@ msgstr "Фотоларды рейтингі бойынша сұрыптау"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell таңдалған видеоны ойната алмады:\n%s"
+msgstr ""
+"Shotwell таңдалған видеоны ойната алмады:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3414,7 +3510,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell таңдалған нәрселерді жариялай алмайды, өйткені іске қосулы тұрған үйлесімді жариялау плагині жоқ. Осыны түзету үшін, <b>%s баптауларын түзету</b> таңдаңыз да, <b>Плагиндер</b> бетінде бір немесе бірнеше жариялау плагинін іске қосыңыз."
+msgstr ""
+"Shotwell таңдалған нәрселерді жариялай алмайды, өйткені іске қосулы тұрған "
+"үйлесімді жариялау плагині жоқ. Осыны түзету үшін, <b>%s баптауларын түзету</"
+"b> таңдаңыз да, <b>Плагиндер</b> бетінде бір немесе бірнеше жариялау "
+"плагинін іске қосыңыз."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3432,35 +3532,51 @@ msgstr "%s ішіне жариялау мүмкін емес, орын алға�
 
 #: src/publishing/PublishingPluginHost.vala:84
 msgid "To try publishing to another service, select one from the above menu."
-msgstr "Басқа қызметке жариялап көру үшін, үстіндегі мәзірден біреуін таңдаңыз."
+msgstr ""
+"Басқа қызметке жариялап көру үшін, үстіндегі мәзірден біреуін таңдаңыз."
 
 #: src/sidebar/Tree.vala:199
 msgid "New _Tag..."
 msgstr "Жаңа _тег..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr "Жариялау үшін керек уақытша файл қолжетерсіз"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
-msgstr "Сіз осы Shotwell сессиясы кезінде Google ішіне кіріп және шығып үлгердіңіз.\nGoogle ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан кейін жариялап көріңіз."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
+msgstr ""
+"Сіз осы Shotwell сессиясы кезінде Google ішіне кіріп және шығып үлгердіңіз.\n"
+"Google ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан кейін "
+"жариялап көріңіз."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Сіз YouTube ішіне кірген жоқсыз.\n\nСізде Google тіркелгісі болып, және оны YouTube-мен қолдануға баптауыңыз керек. Тіркелгіні осылай баптау үшін браузер көмегімен YouTube сайтына кем дегенде бір рет кіруіңіз керек."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Сіз YouTube ішіне кірген жоқсыз.\n"
+"\n"
+"Сізде Google тіркелгісі болып, және оны YouTube-мен қолдануға баптауыңыз "
+"керек. Тіркелгіні осылай баптау үшін браузер көмегімен YouTube сайтына кем "
+"дегенде бір рет кіруіңіз керек."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Жариялау үшін керек файл қолжетерсіз. Youtube-ге жариялауды жалғастыру мүмкін емес."
+msgstr ""
+"Жариялау үшін керек файл қолжетерсіз. Youtube-ге жариялауды жалғастыру "
+"мүмкін емес."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3492,14 +3608,23 @@ msgstr "Жариялау қызметтері"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Сіз Flickr ішіне кірген жоқсыз.\n\nFlickr ішіне веб браузеріңізбен кіру үшін Кіру батырмасын шертіңіз. Flickr тіркелгіңізге сілтеу үшін Shotwell Connect үшін авторизация беруіңіз керек."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Сіз Flickr ішіне кірген жоқсыз.\n"
+"\n"
+"Flickr ішіне веб браузеріңізбен кіру үшін Кіру батырмасын шертіңіз. Flickr "
+"тіркелгіңізге сілтеу үшін Shotwell Connect үшін авторизация беруіңіз керек."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Сіз осы сессия кезінде Flickr ішіне кіріп және шығып үлгердіңіз.\nFlickr ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан кейін жариялап көріңіз."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Сіз осы сессия кезінде Flickr ішіне кіріп және шығып үлгердіңіз.\n"
+"Flickr ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан кейін "
+"жариялап көріңіз."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3510,7 +3635,9 @@ msgstr "Кіру үшін дайындалу..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Жариялау үшін керек файл қолжетерсіз. Flickr-ге жариялауды жалғастыру мүмкін емес."
+msgstr ""
+"Жариялау үшін керек файл қолжетерсіз. Flickr-ге жариялауды жалғастыру мүмкін "
+"емес."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3521,14 +3648,19 @@ msgstr "Авторизацияны тексеру..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Сіз Flickr-ге %s ретінде кірдіңіз.\n\n"
+msgstr ""
+"Сіз Flickr-ге %s ретінде кірдіңіз.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Сіздің тегін Flickr тіркелгісі бір айда қанша мәліметті жүктеуге болатынын шектеп отыр.\nБұл айда, сізде шекке дейін қалған %d мегабайт бар."
+msgstr ""
+"Сіздің тегін Flickr тіркелгісі бір айда қанша мәліметті жүктеуге болатынын "
+"шектеп отыр.\n"
+"Бұл айда, сізде шекке дейін қалған %d мегабайт бар."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3571,11 +3703,13 @@ msgstr "Тек мен"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 пиксель"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 пиксель"
 
@@ -3602,17 +3736,24 @@ msgstr "Piwigo-ға жариялау кезінде қате хабарлама�
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Piwigo фото жинағыңыздың сілтемесін, және сіздің Piwigo тіркелгіңіздің пайдаланушы атыңыз бен парольді көрсетіңіз."
+msgstr ""
+"Piwigo фото жинағыңыздың сілтемесін, және сіздің Piwigo тіркелгіңіздің "
+"пайдаланушы атыңыз бен парольді көрсетіңіз."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell сіздің Piwigo фото жинағыңызбен байланыса алмады. Енгізілген сілтемені тексеріңіз"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell сіздің Piwigo фото жинағыңызбен байланыса алмады. Енгізілген "
+"сілтемені тексеріңіз"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "Пайдаланушы аты және/не пароль қате. Қайталап көріңіз"
+msgstr ""
+"Пайдаланушы аты мен/не пароль қате. Қайтадан енгізіп көріңіз."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3620,6 +3761,7 @@ msgid "Invalid URL"
 msgstr "Қате сілтеме"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Пайдаланушы аты не пароль қате"
@@ -3650,14 +3792,22 @@ msgstr "Әкімшілер"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Сіз Picasa Web Albums ішіне кірген жоқсыз.\n\nPicasa Web Albums ішіне веб браузеріңізбен кіру үшін Кіру батырмасын шертіңіз. Picasa Web Albums тіркелгіңізге сілтеу үшін Shotwell Connect үшін авторизация беруіңіз керек."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Сіз Picasa Web Albums ішіне кірген жоқсыз.\n"
+"\n"
+"Picasa Web Albums ішіне веб браузеріңізбен кіру үшін Кіру батырмасын "
+"шертіңіз. Picasa Web Albums тіркелгіңізге сілтеу үшін Shotwell Connect үшін "
+"авторизация беруіңіз керек."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Жариялау үшін керек файл қолжетерсіз. Picasa-ға жариялауды жалғастыру мүмкін емес."
+msgstr ""
+"Жариялау үшін керек файл қолжетерсіз. Picasa-ға жариялауды жалғастыру мүмкін "
+"емес."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3697,14 +3847,28 @@ msgstr "Google+ (2048 x 1536 пиксель)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Сіз Facebook  ішіне кірген жоқсыз.\n\nЕгер сізде Facebook тіркелгісі әлі жоқ болса, кіру үрдісі кезінде оны жасай аласыз. Кіру кезінде, Shotwell Connect сізден фотоларды жүктеу мен оларды сіздің таспаңызға жариялау үшін рұқсат сұрауы мүмкін. Ол рұқсаттар Shotwell Connect дұрыс жұмысы үшін керек."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Сіз Facebook  ішіне кірген жоқсыз.\n"
+"\n"
+"Егер сізде Facebook тіркелгісі әлі жоқ болса, кіру үрдісі кезінде оны жасай "
+"аласыз. Кіру кезінде, Shotwell Connect сізден фотоларды жүктеу мен оларды "
+"сіздің таспаңызға жариялау үшін рұқсат сұрауы мүмкін. Ол рұқсаттар Shotwell "
+"Connect дұрыс жұмысы үшін керек."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Сіз осы сессия кезінде Facebook ішіне кіріп және шығып үлгердіңіз.\nFacebook ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан кейін жариялап көріңіз."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Сіз осы сессия кезінде Facebook ішіне кіріп және шығып үлгердіңіз.\n"
+"Facebook ішіне жариялауды жалғастыру үшін, Shotwell қайта қосыңыз, одан "
+"кейін жариялап көріңіз."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3722,14 +3886,18 @@ msgstr "Facebook-пен байланысты сынау..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Жариялау үшін керек файл қолжетерсіз. Facebook-ке жариялауды жалғастыру мүмкін емес."
+msgstr ""
+"Жариялау үшін керек файл қолжетерсіз. Facebook-ке жариялауды жалғастыру "
+"мүмкін емес."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Сіз Facebook-ке %s ретінде кірдіңіз.\n\n"
+msgstr ""
+"Сіз Facebook-ке %s ретінде кірдіңіз.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3799,15 +3967,24 @@ msgstr "Өзек мәлімет импорттау қызметтері"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "F-Spot жинақтарын импорттау қызметіне қош келдіңіз.\n\nИмпорттау үшін жинақты таңдаңыз, Shotwell тапқан жинақтардың біреуін таңдап, немесе басқа F-Spot дерекқор файлын қолмен көрсетіңіз."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"F-Spot жинақтарын импорттау қызметіне қош келдіңіз.\n"
+"\n"
+"Импорттау үшін жинақты таңдаңыз, Shotwell тапқан жинақтардың біреуін таңдап, "
+"немесе басқа F-Spot дерекқор файлын қолмен көрсетіңіз."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "F-Spot жинақтарын импорттау қызметіне қош келдіңіз.\n\nF-Spot дерекқор файлын таңдаңыз."
+msgstr ""
+"F-Spot жинақтарын импорттау қызметіне қош келдіңіз.\n"
+"\n"
+"F-Spot дерекқор файлын таңдаңыз."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3815,35 +3992,49 @@ msgstr "Импорттау үшін F-Spot дерекқор файлын қол�
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Таңдалған F-Spot дерекқор файлын ашу мүмкін емес: файл жоқ болып тұр немесе ол файл F-Spot дерекқор файлы емес"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Таңдалған F-Spot дерекқор файлын ашу мүмкін емес: файл жоқ болып тұр немесе "
+"ол файл F-Spot дерекқор файлы емес"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Таңдалған F-Spot дерекқор файлын ашу мүмкін емес: F-Spot дерекқор нұсқасын Shotwell қолдамайды"
+msgstr ""
+"Таңдалған F-Spot дерекқор файлын ашу мүмкін емес: F-Spot дерекқор нұсқасын "
+"Shotwell қолдамайды"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Таңдалған F-Spot дерекқор файлын оқу мүмкін емес: тегтер кестесін оқу қатесі"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Таңдалған F-Spot дерекқор файлын оқу мүмкін емес: тегтер кестесін оқу қатесі"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Таңдалған F-Spot дерекқор файлын оқу мүмкін емес: фотосуреттер кестесін оқу қатесі"
+msgstr ""
+"Таңдалған F-Spot дерекқор файлын оқу мүмкін емес: фотосуреттер кестесін оқу "
+"қатесі"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell F-Spot жинағынан %d фотосуретті тапты, және оларды қазір импорттауда. Қайталанатын суреттер автоматты түрде анықталады және өшіріледі.\n\nБұл терезені жауып, Shotwell қолдана беруіңізге болады, импорт үрдісі соңына дейін фонда орындалады."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell F-Spot жинағынан %d фотосуретті тапты, және оларды қазір "
+"импорттауда. Қайталанатын суреттер автоматты түрде анықталады және "
+"өшіріледі.\n"
+"\n"
+"Бұл терезені жауып, Shotwell қолдана беруіңізге болады, импорт үрдісі соңына "
+"дейін фонда орындалады."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3932,6 +4123,7 @@ msgstr "дюймге пиксель"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "белгі"
 
@@ -4043,7 +4235,9 @@ msgstr "_Кіру"
 msgid ""
 " (text depends on fb username and is modified in the app - \n"
 "anything put into this field won't display)"
-msgstr " (мәтін fb пайдаланушы атына тәуелді және қолданбада түрлендіріледі - \nосында енгізген мәтін көрсетілмейді)"
+msgstr ""
+" (мәтін fb пайдаланушы атына тәуелді және қолданбада түрлендіріледі - \n"
+"осында енгізген мәтін көрсетілмейді)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:39
 msgid "Publish to an e_xisting album:"
@@ -4069,6 +4263,8 @@ msgstr "Жүктеу алдында орналасу, камера және ба
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Шығу"
 
@@ -4076,6 +4272,8 @@ msgstr "_Шығу"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "Жари_ялау"
 
@@ -4083,7 +4281,9 @@ msgstr "Жари_ялау"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Веб браузеріңізде Flickr ішіне кіргеннен кейін көрсетілген растау кодын енгізіңіз."
+msgstr ""
+"Веб браузеріңізде Flickr ішіне кіргеннен кейін көрсетілген растау кодын "
+"енгізіңіз."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4095,13 +4295,17 @@ msgid ""
 "\n"
 "(this label's string is populated and set inside the code, \n"
 "so changes made here will not display)"
-msgstr "Сіз Flickr-ге (name) ретінде кірдіңіз.\\n\n(бұл белгінің жолы код ішінде толтырылады және орнатылады, \nсондықтан осындағы өзгерістер көрсетілмейді)"
+msgstr ""
+"Сіз Flickr-ге (name) ретінде кірдіңіз.\\n\n"
+"(бұл белгінің жолы код ішінде толтырылады және орнатылады, \n"
+"сондықтан осындағы өзгерістер көрсетілмейді)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:44
 msgid "_visibility label (populated in the code)"
 msgstr "_көріну белгісі (кодта толтырылады)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Фотосурет өл_шемі:"
 
@@ -4109,7 +4313,9 @@ msgstr "Фотосурет өл_шемі:"
 msgid ""
 "'you are logged in as $name'\n"
 "(populated in the application code)"
-msgstr "'Сіз $name ретінде кірдіңіз'\n(қолданба коды ішінде толтырылады)"
+msgstr ""
+"'Сіз $name ретінде кірдіңіз'\n"
+"(қолданба коды ішінде толтырылады)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:75
 msgid "An _existing album:"
@@ -4128,7 +4334,9 @@ msgstr "Ор_тақ галереясындағы альбомдар тізімі
 msgid ""
 "$mediatype will appear in\n"
 "(populated in code)"
-msgstr "$mediatype қайда көрсетіледі\n(кодта толтырылады)"
+msgstr ""
+"$mediatype қайда көрсетіледі\n"
+"(кодта толтырылады)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:150
 msgid "Photo _size preset:"
@@ -4143,6 +4351,7 @@ msgid "User _name"
 msgstr "Па_йдаланушы аты"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "Пар_оль"
 
@@ -4151,6 +4360,7 @@ msgid "_Remember Password"
 msgstr "Парольді _сақтау"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Кіру"
 
@@ -4176,7 +4386,8 @@ msgstr "Альбом түсіндірмесі:"
 
 #: plugins/shotwell-publishing/piwigo_publishing_options_pane.glade:242
 msgid "_If a title is set and comment unset, use title as comment"
-msgstr "Егер а_тауы болса, ал түсіндірмесі болмаса, атауды түсіндірме ретінде қолдану"
+msgstr ""
+"Егер а_тауы болса, ал түсіндірмесі болмаса, атауды түсіндірме ретінде қолдану"
 
 #: plugins/shotwell-publishing/piwigo_publishing_options_pane.glade:258
 msgid "_Do no upload tags"
@@ -4189,3 +4400,90 @@ msgstr "Шығу"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Видео ж_екелік баптауы:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 пиксель"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' - OAuth аутентификация сұранымына дұрыс жауап емес"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): бастау мүмкін емес; бұл жарияланушыны іске қайта "
+"қосуға болмайды."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Tumblr тіркелгіңіздің пайдаланушы аты мен паролін енгізіңіз."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "UI жүктеу мүмкін емес: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Сіз Tumblr-ге %s ретінде кірдіңіз.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Яндекс.Фотки веб-сайтын шолу"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Сіз қазір Яндекс.Фотки ішіне кірмегенсіз."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_Эл. пошта адресі"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Сіз Tumblr-ге (name) ретінде кірдіңіз.\\n\n"
+"(бұл белгінің жолы код ішінде толтырылады және орнатылады, \n"
+"сондықтан осындағы өзгерістер көрсетілмейді)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Блогтар:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Альбомдар (не жаңасын жазыңыз):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Қатынау _түрі:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "_Пікірлерді сөндіру:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Бастапқы фото_ны жүктеп алуға тыйым салу"

@@ -2,13 +2,17 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Dovix Dovix <dovix2003@gmail.com>, 2012
 # verayin <vera@yorba.org>, 2011
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2011-2013
 # yoseforb <yoseforb@gmail.com>, 2013
+# lsbeeler <lucas@yorba.org>, 2011
+# Amiad B <amiad@hatul.info>, 2011
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011-2012
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -16,7 +20,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-24 20:50+0000\n"
 "Last-Translator: yoseforb <yoseforb@gmail.com>\n"
-"Language-Team: Hebrew (http://www.transifex.com/projects/p/shotwell/language/he/)\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/shotwell/language/"
+"he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -103,7 +108,9 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "המצלמה נעולה על ידי יישום אחר.  Shotwell יכולה לגשת למצלמה רק כאשר אינה נעולה.  נא לסגור כל יישום אחר המשתמש במצלמה ולנסות שוב."
+msgstr ""
+"המצלמה נעולה על ידי יישום אחר.  Shotwell יכולה לגשת למצלמה רק כאשר אינה "
+"נעולה.  נא לסגור כל יישום אחר המשתמש במצלמה ולנסות שוב."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -114,7 +121,9 @@ msgstr "נא לסגור כל יישום אחר המשתמש במצלמה."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "לא ניתן לקבל את התצוגות המקדימות מהמצלמה:\n%s"
+msgstr ""
+"לא ניתן לקבל את התצוגות המקדימות מהמצלמה:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -173,8 +182,7 @@ msgstr "התמונות/קטעי הווידאו מוסרים מהמצלמה"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "לא ניתן למחוק תמונה אחת/וידאו אחד מהמצלמה עקב שגיאות."
 msgstr[1] "לא ניתן למחוק %d תמונות/קטעי וידאו מהמצלמה עקב שגיאות."
 
@@ -401,7 +409,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "ספריית התמונות שלך אינה נתמכת בגרסה זו של Shotwell. נראה כי הספרייה נוצרה באמצעות Shotwell %s (סכמה %d). גרסה זו הנה %s (סכמה %d). נא להשתמש בגרסה העדכנית ביותר של Shotwell."
+msgstr ""
+"ספריית התמונות שלך אינה נתמכת בגרסה זו של Shotwell. נראה כי הספרייה נוצרה "
+"באמצעות Shotwell %s (סכמה %d). גרסה זו הנה %s (סכמה %d). נא להשתמש בגרסה "
+"העדכנית ביותר של Shotwell."
 
 #: src/main.vala:59
 #, c-format
@@ -409,7 +420,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "לא עלה בידי Shotwell לשדרג את ספריית התמונות שלך מגרסה %s (סכמה%d) לגרסה %s (סכמה %d).  למידע נוסף ניתן לבקר באתר הוויקי של Shotwell בכתובת %s"
+msgstr ""
+"לא עלה בידי Shotwell לשדרג את ספריית התמונות שלך מגרסה %s (סכמה%d) לגרסה %s "
+"(סכמה %d).  למידע נוסף ניתן לבקר באתר הוויקי של Shotwell בכתובת %s"
 
 #: src/main.vala:65
 #, c-format
@@ -418,7 +431,10 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "ספריית התמונות שלך אינה תואמת לגרסה זו של Shotwell.  נראה כי ספרייה זו נוצרה על ידי Shotwell %s (סכמה%d).  גרסה זו הנה %s (סכמה %d).  נא לפנות את ספריית התמונות שלך על ידי מחיקת %s ויבוא התמונות שלך מחדש."
+msgstr ""
+"ספריית התמונות שלך אינה תואמת לגרסה זו של Shotwell.  נראה כי ספרייה זו נוצרה "
+"על ידי Shotwell %s (סכמה%d).  גרסה זו הנה %s (סכמה %d).  נא לפנות את ספריית "
+"התמונות שלך על ידי מחיקת %s ויבוא התמונות שלך מחדש."
 
 #: src/main.vala:71
 #, c-format
@@ -456,7 +472,8 @@ msgstr "[FILE]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"Run '%s --help' to see a full list of available command line options.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -653,20 +670,27 @@ msgstr "יצוא וידאו"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "אין באפשרות Shotwell ליצור קובץ לעריכת תמונה זו כיוון שאין לך הרשאות לכתוב אל %s."
+msgstr ""
+"אין באפשרות Shotwell ליצור קובץ לעריכת תמונה זו כיוון שאין לך הרשאות לכתוב "
+"אל %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "לא ניתן לייצא את התמונה הבאה עקב שגיאת קובץ.\n\n"
+msgstr ""
+"לא ניתן לייצא את התמונה הבאה עקב שגיאת קובץ.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nהאם ברצונך להמשיך ביצוא?"
+msgstr ""
+"\n"
+"\n"
+"האם ברצונך להמשיך ביצוא?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -749,28 +773,32 @@ msgid "error message:"
 msgstr "הודעת שגיאה:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr "הקבצים לא יובאו כיוון שלא זוהו כתמונות או כסרטי וידאו:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "התמונות/סרטי הווידאו לא יובאו כיוון שהן במבנה שאין ל־Shotwell אפשרות להבין:"
+msgstr ""
+"התמונות/סרטי הווידאו לא יובאו כיוון שהן במבנה שאין ל־Shotwell אפשרות להבין:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "התמונות/סרטי הווידאו לא יובאו כיוון ש־Shotwell נכשל בהעתקתם לספרייה הפנימית שלו:"
+msgstr ""
+"התמונות/סרטי הווידאו לא יובאו כיוון ש־Shotwell נכשל בהעתקתם לספרייה הפנימית "
+"שלו:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "לא ניתן להעתיק את %s\n\tאל %s"
+msgstr ""
+"לא ניתן להעתיק את %s\n"
+"\tאל %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -813,14 +841,16 @@ msgstr[1] "אירע כשל ביבוא %d מהתמונות עקב שגיאת חו
 msgid "1 video failed to import due to a file or hardware error:\n"
 msgid_plural "%d videos failed to import due to a file or hardware error:\n"
 msgstr[0] "אירע כשל ביבוא אחד מקטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
-msgstr[1] "אירע כשל ביבוא %d מהתמונות או מקטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
+msgstr[1] ""
+"אירע כשל ביבוא %d מהתמונות או מקטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
 
 #: src/Dialogs.vala:689
 #, c-format
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "אירע כשל ביבוא אחת התמונות/אחד מקטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
+msgstr[0] ""
+"אירע כשל ביבוא אחת התמונות/אחד מקטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
 msgstr[1] "אירע כשל ביבוא %d מהתמונות/קטעי הווידאו עקב שגיאת חומרה או קובץ:\n"
 
 #: src/Dialogs.vala:692
@@ -833,24 +863,30 @@ msgstr[1] "יבוא של %d מהקבצים נכשל עקב שגיאה בקובץ
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "היבוא של אחת מהתמונות נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
-msgstr[1] "היבוא של %d התמונות נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
+msgstr[0] ""
+"היבוא של אחת מהתמונות נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת "
+"לכתיבה:\n"
+msgstr[1] ""
+"היבוא של %d התמונות נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת "
+"לכתיבה:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "היבוא של אחד מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
-msgstr[1] "היבוא של %d קטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
+msgstr[0] ""
+"היבוא של אחד מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה "
+"ניתנת לכתיבה:\n"
+msgstr[1] ""
+"היבוא של %d קטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה "
+"ניתנת לכתיבה:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -860,8 +896,12 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "היבוא של 1 מהתמונות/מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
-msgstr[1] "היבוא של %d מהתמונות/מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית התמונות אינה ניתנת לכתיבה:\n"
+msgstr[0] ""
+"היבוא של 1 מהתמונות/מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית "
+"התמונות אינה ניתנת לכתיבה:\n"
+msgstr[1] ""
+"היבוא של %d מהתמונות/מקטעי הווידאו נכשל כיוון שהתיקייה בה נמצאת ספריית "
+"התמונות אינה ניתנת לכתיבה:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -870,8 +910,10 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "יבוא אחד הקבצים נכשל כיוון שתיקיית ספריית התמונות סגורה בפני כתיבה:\n"
-msgstr[1] "יבוא %d מהקבצים נכשל כיוון שתיקיית ספריית התמונות סגורה בפני כתיבה:\n"
+msgstr[0] ""
+"יבוא אחד הקבצים נכשל כיוון שתיקיית ספריית התמונות סגורה בפני כתיבה:\n"
+msgstr[1] ""
+"יבוא %d מהקבצים נכשל כיוון שתיקיית ספריית התמונות סגורה בפני כתיבה:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
@@ -1156,14 +1198,18 @@ msgstr "%d/%m/%Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "זמן החשיפה יוארך ב־\n%d %s, %d %s, %d %sו־ %d %s."
+msgstr ""
+"זמן החשיפה יוארך ב־\n"
+"%d %s, %d %s, %d %sו־ %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "זמן החשיפה יוקדם ב־\n%d %s, %d %s, %d %sו־ %d %s."
+msgstr ""
+"זמן החשיפה יוקדם ב־\n"
+"%d %s, %d %s, %d %sו־ %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1199,8 +1245,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nואחד נוסף"
-msgstr[1] "\n\nו־%d נוספים."
+msgstr[0] ""
+"\n"
+"\n"
+"ואחד נוסף"
+msgstr[1] ""
+"\n"
+"\n"
+"ו־%d נוספים."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1286,7 +1338,9 @@ msgstr "התבנית שגויה"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "באפשרות Shotwell להעתיק את התמונות לספרייה שלך או לייבא את התמונות מבלי להעתיק אותן."
+msgstr ""
+"באפשרות Shotwell להעתיק את התמונות לספרייה שלך או לייבא את התמונות מבלי "
+"להעתיק אותן."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1315,41 +1369,71 @@ msgstr "התמונות מוסרות מהתיקייה"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "פעולה זו תסיר את התמונה/סרטון הווידאו מספריית ה־Shotwell שלך.  האם ברצונך להעביר את הקבצים לאשפה של שולחן העבודה שלך?\n\nלא ניתן לבטל פעולה זו. %d"
-msgstr[1] "פעולה זו תסיר %d תמונות/סרטוני וידאו מספריית ה־Shotwell שלך.  האם ברצונך להעביר את הקבצים לאשפה של שולחן העבודה שלך?\n\nלא ניתן לבטל פעולה זו."
+msgstr[0] ""
+"פעולה זו תסיר את התמונה/סרטון הווידאו מספריית ה־Shotwell שלך.  האם ברצונך "
+"להעביר את הקבצים לאשפה של שולחן העבודה שלך?\n"
+"\n"
+"לא ניתן לבטל פעולה זו. %d"
+msgstr[1] ""
+"פעולה זו תסיר %d תמונות/סרטוני וידאו מספריית ה־Shotwell שלך.  האם ברצונך "
+"להעביר את הקבצים לאשפה של שולחן העבודה שלך?\n"
+"\n"
+"לא ניתן לבטל פעולה זו."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "פעולה זו תסיר את סרטון הווידאו מספריית ה־Shotwell שלך.  האם בנוסף על כך ברצונך להעביר את הקובץ לאשפה?\n\nלא ניתן לבטל פעולה זו. %d"
-msgstr[1] "פעולה זו תסיר את %d סרטוני הווידאו מספריית ה־Shotwell שלך.  האם בנוסף על כך ברצונך להעביר את הקובץ לאשפה?\n\nלא ניתן לבטל פעולה זו."
+msgstr[0] ""
+"פעולה זו תסיר את סרטון הווידאו מספריית ה־Shotwell שלך.  האם בנוסף על כך "
+"ברצונך להעביר את הקובץ לאשפה?\n"
+"\n"
+"לא ניתן לבטל פעולה זו. %d"
+msgstr[1] ""
+"פעולה זו תסיר את %d סרטוני הווידאו מספריית ה־Shotwell שלך.  האם בנוסף על כך "
+"ברצונך להעביר את הקובץ לאשפה?\n"
+"\n"
+"לא ניתן לבטל פעולה זו."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "פעולה זו תסיר את התמונה מספריית ה־Shotwell שלך.\nהאם ברצונך להעביר את הקובץ לסל האשפה שלך?\n\nלא ניתן לבטל פעולה זו."
-msgstr[1] "פעולה זו תסיר %d תמונות מספריית ה־Shotwell שלך.\nהאם ברצונך להעביר את הקובץ לסל האשפה שלך?\n\nלא ניתן לבטל פעולה זו."
+msgstr[0] ""
+"פעולה זו תסיר את התמונה מספריית ה־Shotwell שלך.\n"
+"האם ברצונך להעביר את הקובץ לסל האשפה שלך?\n"
+"\n"
+"לא ניתן לבטל פעולה זו."
+msgstr[1] ""
+"פעולה זו תסיר %d תמונות מספריית ה־Shotwell שלך.\n"
+"האם ברצונך להעביר את הקובץ לסל האשפה שלך?\n"
+"\n"
+"לא ניתן לבטל פעולה זו."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1357,8 +1441,11 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "לא ניתן להעביר את התמונה/וידאו לאשפה של שולחן העבודה שלך.  האם למחוק קובץ זה?"
-msgstr[1] "לא ניתן להעביר %d תמונות/קטעי וידאו לאשפה של שולחן העבודה שלך.  האם למחוק קבצים אלו?"
+msgstr[0] ""
+"לא ניתן להעביר את התמונה/וידאו לאשפה של שולחן העבודה שלך.  האם למחוק קובץ זה?"
+msgstr[1] ""
+"לא ניתן להעביר %d תמונות/קטעי וידאו לאשפה של שולחן העבודה שלך.  האם למחוק "
+"קבצים אלו?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1555,8 +1642,14 @@ msgstr "יבוא נתונים"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "אין לך שום תוספי יבוא נתונים פעילים.\n\nעל מנת להשתמש בתכונת הייבוא מתוך יישום צריך שיהיה לך לפחות תוסף אחד של יבוא נתונים פעיל. ניתן להפעיל תוספים בדו־שיח ההעדפות."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"אין לך שום תוספי יבוא נתונים פעילים.\n"
+"\n"
+"על מנת להשתמש בתכונת הייבוא מתוך יישום צריך שיהיה לך לפחות תוסף אחד של יבוא "
+"נתונים פעיל. ניתן להפעיל תוספים בדו־שיח ההעדפות."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1967,7 +2060,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "לא ניתן להדפיס את התמונה:\n\n%s"
+msgstr ""
+"לא ניתן להדפיס את התמונה:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -1979,7 +2075,9 @@ msgstr "לא ניתן לפתוח/ליצור מסד נתוני תמונות %s: �
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "לא ניתן לכתוב אל קובץ מסד נתוני התמונות:\n %s"
+msgstr ""
+"לא ניתן לכתוב אל קובץ מסד נתוני התמונות:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1989,7 +2087,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "אירעה שגיאה במהלך הגישה לקובץ מסד הנתונים:\n %s\n\nהשגיאה הייתה: \n%s"
+msgstr ""
+"אירעה שגיאה במהלך הגישה לקובץ מסד הנתונים:\n"
+" %s\n"
+"\n"
+"השגיאה הייתה: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2264,7 +2367,9 @@ msgstr "%s אינו סוג קובץ."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "ל־%s אין תמיכה במבנה הקובץ\n%s."
+msgstr ""
+"ל־%s אין תמיכה במבנה הקובץ\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -3158,10 +3263,14 @@ msgstr "_דווח על בעיה..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "אירעה שגיאה קריטית בעת הגישה לספרייה של Shotwell. ‏Shotwell לא תוכל להמשיך.\n\n%s"
+msgstr ""
+"אירעה שגיאה קריטית בעת הגישה לספרייה של Shotwell. ‏Shotwell לא תוכל להמשיך.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3273,7 +3382,9 @@ msgstr "סידור התמונות לפי דירוג"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "לא הייתה באפשרות Shotwell לנגן את הווידאו הבא:\n%s"
+msgstr ""
+"לא הייתה באפשרות Shotwell לנגן את הווידאו הבא:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3476,7 +3587,10 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell אינו יכול להעלות את התכנים המבוקשים מאחר ואין תוסף טעינה מתאים לשרות הנדרש. על מנת לתקן זאת, בחר באפשרות <b>ערוך העדפות %s</b> והפעל את אחד או יותר מתוספי ההעלאה בלשונית <b>תוספים</b>."
+msgstr ""
+"Shotwell אינו יכול להעלות את התכנים המבוקשים מאחר ואין תוסף טעינה מתאים "
+"לשרות הנדרש. על מנת לתקן זאת, בחר באפשרות <b>ערוך העדפות %s</b> והפעל את אחד "
+"או יותר מתוספי ההעלאה בלשונית <b>תוספים</b>."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3501,28 +3615,41 @@ msgid "New _Tag..."
 msgstr "תגית _חדשה..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "קובץ זמני הנחוץ לצורכי פרסום אינו זמין"
+msgstr ""
+"קובץ זמני הנדרש להפקה אינו זמין"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "נכון לעכשיו לא נכנסת לשירות YouTube.\n\nכדי להמשיך אמור להיות ברשותך חשבון Google המוגדר לשימוש בשילוב YouTube. ניתן להגדיר את רוב החשבונות על ידי שימוש בדפדפן האינטרנט שלך כדי להיכנס ל־YouTube לפחות פעם אחת."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"נכון לעכשיו לא נכנסת לשירות YouTube.\n"
+"\n"
+"כדי להמשיך אמור להיות ברשותך חשבון Google המוגדר לשימוש בשילוב YouTube. ניתן "
+"להגדיר את רוב החשבונות על ידי שימוש בדפדפן האינטרנט שלך כדי להיכנס ל־YouTube "
+"לפחות פעם אחת."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Youtube לא תוכל להתבצע."
+msgstr ""
+"קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Youtube לא תוכל להתבצע."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3554,14 +3681,23 @@ msgstr "שירותי פרסום של הליבה"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "לא נכנסת ל־Flickr.\n\nיש ללחוץ על כניסה כדי להיכנס ל־Flickr בדפדפן שלך.  יהיה עליך לאמת את Shotwell Connect כדי לקשר אל חשבון ה־Flickr שלך."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"לא נכנסת ל־Flickr.\n"
+"\n"
+"יש ללחוץ על כניסה כדי להיכנס ל־Flickr בדפדפן שלך.  יהיה עליך לאמת את "
+"Shotwell Connect כדי לקשר אל חשבון ה־Flickr שלך."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "כבר נכנסת ויצאת מ־Flick במהלך הפעלה זו של Shotwell.\nכדי להמשיך לפרסם ל־Flickr, עליך לצאת ולהפעיל מחדש את Shotwell ואז לנסות לפרסם שוב."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"כבר נכנסת ויצאת מ־Flick במהלך הפעלה זו של Shotwell.\n"
+"כדי להמשיך לפרסם ל־Flickr, עליך לצאת ולהפעיל מחדש את Shotwell ואז לנסות "
+"לפרסם שוב."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3572,7 +3708,8 @@ msgstr "בהכנות לכניסה..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Flickr לא תוכל להתבצע."
+msgstr ""
+"קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Flickr לא תוכל להתבצע."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3583,14 +3720,18 @@ msgstr "האימות בווידוא..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "נכנסת ל־Flickr בשם %s.\n\n"
+msgstr ""
+"נכנסת ל־Flickr בשם %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "חשבונך הפטור מתשלום ב־Flickr מגביל את כמות המידע שניתן להעלות בחודש.\nהחודש, נותרו לך %d מגה בתים במכסת ההעלאה שלך."
+msgstr ""
+"חשבונך הפטור מתשלום ב־Flickr מגביל את כמות המידע שניתן להעלות בחודש.\n"
+"החודש, נותרו לך %d מגה בתים במכסת ההעלאה שלך."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3633,13 +3774,19 @@ msgstr "רק לי"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
+#, fuzzy
 msgid "500 x 375 pixels"
-msgstr "500 x‏ 375 פיקסלים"
+msgstr ""
+"500‎ × 375 פיקסלים"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
+#, fuzzy
 msgid "1024 x 768 pixels"
-msgstr "1024 x‏ 768 פיקסלים"
+msgstr ""
+"1024‎ × 768 פיקסלים"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1231
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1248
@@ -3664,17 +3811,24 @@ msgstr "אירעה שגיאה בעת הפרסום לפיוויגו. נא לנס�
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "הזן את כתובת האתר של ספריית התמונות Piwigo שלך וכן את שם המשתמש והסיסמה לגישה לחשבון -Piwigo שלך עבור ספריה זו."
+msgstr ""
+"הזן את כתובת האתר של ספריית התמונות Piwigo שלך וכן את שם המשתמש והסיסמה "
+"לגישה לחשבון -Piwigo שלך עבור ספריה זו."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell אינו יכול להתחבר לספריית התמונות Piwigo. אנא בדוק את כתובת האתר שהזנת"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell אינו יכול להתחבר לספריית התמונות Piwigo. אנא בדוק את כתובת האתר "
+"שהזנת"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
+#, fuzzy
 msgid "Username and/or password invalid. Please try again"
-msgstr "שם המשתמש ו/או הסיסמה אינם נכונים. אנא נסה שנית"
+msgstr ""
+"שם המשתמש ו/או הססמה אינם נכונים. נא לנסות שנית"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1032
 #, c-format
@@ -3682,9 +3836,11 @@ msgid "Invalid URL"
 msgstr "כתובת אתר לא תקינה"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
-#, c-format
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
+#, fuzzy, c-format
 msgid "Invalid User Name or Password"
-msgstr "שם משתמש או סיסמא אינם נכונים"
+msgstr ""
+"שם משתמש או ססמה שגויים"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1127
 #: plugins/shotwell-publishing/PicasaPublishing.vala:59
@@ -3712,14 +3868,20 @@ msgstr "מנהלי מערכת"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "אינך מחובר לאתר Picasa Web Albums.\n\nהקלק על התחבר בכדי להכנס לחשבונך ב-Picasa Web Albums בדפדפן שלך. תצטרך לאשר ל-Shotwell להתחבר על מנת לקשר לחשבון Picasa Web Albums שלך."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"אינך מחובר לאתר Picasa Web Albums.\n"
+"\n"
+"הקלק על התחבר בכדי להכנס לחשבונך ב-Picasa Web Albums בדפדפן שלך. תצטרך לאשר "
+"ל-Shotwell להתחבר על מנת לקשר לחשבון Picasa Web Albums שלך."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Picasa לא תוכל להתבצע."
+msgstr ""
+"קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Picasa לא תוכל להתבצע."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3759,14 +3921,27 @@ msgstr "Google+ (2048 x 1536 פיקסלים)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "נכון לעכשיו לא ביצעת כניסה לחשבון ה־Facebook שלך.\n\nאם עדיין אין לך חשבון Facebook, באפשרותך ליצור אחד במהלך הכניסה. במשך תהליך הכניסה, Shotwell Connect עלול לבקש את רשותך להעלות תמונות ולפרסם אותן בהזנה שלך. הרשאות אלו נחוצות כדי ש־Shotwell Connect יוכל לתפקד."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"נכון לעכשיו לא ביצעת כניסה לחשבון ה־Facebook שלך.\n"
+"\n"
+"אם עדיין אין לך חשבון Facebook, באפשרותך ליצור אחד במהלך הכניסה. במשך תהליך "
+"הכניסה, Shotwell Connect עלול לבקש את רשותך להעלות תמונות ולפרסם אותן בהזנה "
+"שלך. הרשאות אלו נחוצות כדי ש־Shotwell Connect יוכל לתפקד."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "כבר יצאת מ־Facebook במהלך הפעלה זו של Shotwell.\nכדי להמשיך לפרסם ל־Facebook, עליך לצאת ולהפעיל מחדש את Shotwell ואז לנסות לפרסם שוב."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"כבר יצאת מ־Facebook במהלך הפעלה זו של Shotwell.\n"
+"כדי להמשיך לפרסם ל־Facebook, עליך לצאת ולהפעיל מחדש את Shotwell ואז לנסות "
+"לפרסם שוב."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3784,14 +3959,17 @@ msgstr "החיבור ל־Facebook נבדק..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Facebook לא תוכל להתבצע."
+msgstr ""
+"קובץ הנדרש להעלאת התוכן אינו זמין. העלאת התוכן ל-Facebook לא תוכל להתבצע."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "נכנסת ל־Facebook בשם %s.\n\n"
+msgstr ""
+"נכנסת ל־Facebook בשם %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3839,7 +4017,8 @@ msgstr "מעברי ליבה של מצגות"
 
 #: plugins/shotwell-transitions/shotwell-transitions.vala:75
 msgid "Copyright 2010 Maxim Kartashev, Copyright 2011-2013 Yorba Foundation"
-msgstr "כל הזכויות שמורות 2010 למקסים קרטשב, כל הזכויות שמורות 2011-2013 לעמותת יורבה"
+msgstr ""
+"כל הזכויות שמורות 2010 למקסים קרטשב, כל הזכויות שמורות 2011-2013 לעמותת יורבה"
 
 #: plugins/shotwell-transitions/SlideEffect.vala:20
 msgid "Slide"
@@ -3861,15 +4040,24 @@ msgstr "שרותי ייבוא מידע בסיסי"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "ברוך בואך לשרות ייבוא הספריה של F-Spot.\n\nאנא בחר ספריה לייבוא, או ע\"י בחירת אחת הספריות שאותרו ע\"י Shotwell או ע\"י בחירת קובץ מסד נתונים של F-Spot."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"ברוך בואך לשרות ייבוא הספריה של F-Spot.\n"
+"\n"
+"אנא בחר ספריה לייבוא, או ע\"י בחירת אחת הספריות שאותרו ע\"י Shotwell או ע\"י "
+"בחירת קובץ מסד נתונים של F-Spot."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "ברוך בואך לשרות ייבוא הספריה של F-Spot.\n\nאנא בחר קובץ מסד נתונים של F-Spot."
+msgstr ""
+"ברוך בואך לשרות ייבוא הספריה של F-Spot.\n"
+"\n"
+"אנא בחר קובץ מסד נתונים של F-Spot."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3877,35 +4065,48 @@ msgstr "בחר באופן ידני קובץ מסד נתונים של F-Spot לט
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: הקובץ לא קיים או שאינו קובץ מסד נתונים"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: הקובץ לא קיים או שאינו קובץ "
+"מסד נתונים"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: גרסת הקובץ אינה נתמכת ע\"י Shotwell"
+msgstr ""
+"אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: גרסת הקובץ אינה נתמכת ע\"י "
+"Shotwell"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: חלה שגיאה בעת טעינת טבלת התגיות"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: חלה שגיאה בעת טעינת טבלת "
+"התגיות"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: חלה שגיאה בעת טעינת טבלת התמונות."
+msgstr ""
+"אין אפשרות לפתוח את קובץ מסד הנתונים של F-Spot: חלה שגיאה בעת טעינת טבלת "
+"התמונות."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell מצא %d תמונות בספריית F-Spot והן מיובאות כרגע.תמונות כפולות יזוהו ויוסרו באופן אוטומטי.\n\nבאפשרותך לסגור חלונית זו ולהתחיל להשתמש ב-Shotwell בזמן שהייבוא מתבצע ברקע."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell מצא %d תמונות בספריית F-Spot והן מיובאות כרגע.תמונות כפולות יזוהו "
+"ויוסרו באופן אוטומטי.\n"
+"\n"
+"באפשרותך לסגור חלונית זו ולהתחיל להשתמש ב-Shotwell בזמן שהייבוא מתבצע ברקע."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -3994,8 +4195,11 @@ msgstr "פיקסלים לאינטש"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
+#, fuzzy
 msgid "label"
-msgstr "תגית"
+msgstr ""
+"תווית"
 
 #: ui/shotwell.glade:719
 msgid "Shotwell Preferences"
@@ -4131,6 +4335,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "י_ציאה"
 
@@ -4138,6 +4344,8 @@ msgstr "י_ציאה"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_פרסום"
 
@@ -4164,6 +4372,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "_גודל תמונה:"
 
@@ -4205,6 +4414,7 @@ msgid "User _name"
 msgstr "_שם משתמש"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_ססמה"
 
@@ -4213,6 +4423,7 @@ msgid "_Remember Password"
 msgstr "_זכור ססמה"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "כניסה"
 
@@ -4251,3 +4462,91 @@ msgstr "התנתקות"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "הגדרות ה_פרטיות של הווידאו:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "כל הזכויות שמורות 2012 ל־BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280‎ × 853 פיקסלים"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' אינו פלט תקין לבקשת אימות מסוג OAuth"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( )‎: אינו ניתן לאתחול, כיוון שמנשק זה אינו ניתן לאתחול "
+"מחדש."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "נא להזין את שם המשתמש והססמה של חשבון ה־Tumblr שלך"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "טעינת המנשק נכשלה: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"נכנסת לחשבונך ב־Tumblr בשם %s.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "כל הזכויות שמורות 2010+ ל־Evgeniy Polyakov‏ <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "ביקור באתר Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "לא נכנסת לשירות Yandex.Fotki."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "כתובת _דוא״ל"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"נכנסת לחשבון ה־Tumblr בשם (name).\n"
+"\n"
+"(תווית זו נקבעת בתוך הקוד, \n"
+"ולכן שינויים כאן לא יוצגו)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "בלוגים:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_אלבומים (או כתיבת חדש):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "_סוג הגישה"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "נטרול הה_ערות"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "_איסור הורדת התמונה המקורית"

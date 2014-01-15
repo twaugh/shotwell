@@ -2,26 +2,29 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 # verayin <vera@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
 "Report-Msgid-Bugs-To: shotwell@yorba.org\n"
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-20 19:30+0000\n"
-"Last-Translator: yorbajim <jim@yorba.org>\n"
-"Language-Team: Latvian (http://www.transifex.com/projects/p/shotwell/language/lv/)\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/projects/p/shotwell/"
+"language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
 
 #: src/Event.vala:737
 #, c-format
@@ -46,7 +49,8 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Neizdevās nomonēt kameru. Mēģiniet nomontēt kameru no datņu pārvaldnieka."
+msgstr ""
+"Neizdevās nomonēt kameru. Mēģiniet nomontēt kameru no datņu pārvaldnieka."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -88,7 +92,8 @@ msgstr "Importēt visas fotogrāfijas savā bibliotēkā"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell ir jānomontē kamera no datņu sistēmas, lai tai piekļūtu. Turpināt?"
+msgstr ""
+"Shotwell ir jānomontē kamera no datņu sistēmas, lai tai piekļūtu. Turpināt?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -103,7 +108,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Kameru ir noslēgusi cita lietotne. Shotwell var piekļūt kamerai tikai tad, kad tā nav noslēgta. Lūdzu, aizveriet jebkuru citu lietotni, kas izmanto kameru, un mēģiniet vēlreiz."
+msgstr ""
+"Kameru ir noslēgusi cita lietotne. Shotwell var piekļūt kamerai tikai tad, "
+"kad tā nav noslēgta. Lūdzu, aizveriet jebkuru citu lietotni, kas izmanto "
+"kameru, un mēģiniet vēlreiz."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -114,7 +122,9 @@ msgstr "Lūdzu, aizveriet jebkuru citu lietotni, kas izmanto kameru."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Neizdevās iegūt priekšskatījumus no kameras:\n%s"
+msgstr ""
+"Neizdevās iegūt priekšskatījumus no kameras:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -177,8 +187,7 @@ msgstr "Izņem fotogrāfijas/video no kameras"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
 msgstr[0] "Neizdevās dzēst %d fotogrāfiju/video no kameras, jo bija kļūdas."
 msgstr[1] "Neizdevās dzēst %d fotogrāfijas/video no kameras, jo bija kļūdas."
 msgstr[2] "Neizdevās dzēst %d fotogrāfijas/video no kameras, jo bija kļūdas."
@@ -406,7 +415,10 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Šī fotogrāfiju bibliotēka nav savietojama ar šo Shotwell versiju. Izskatās, ka tā tika veidota ar Shotwell %s (shēma %d). Šī versija ir %s (shēma %d). Lūdzu, lietojiet jaunāko Shotwell versiju."
+msgstr ""
+"Šī fotogrāfiju bibliotēka nav savietojama ar šo Shotwell versiju. Izskatās, "
+"ka tā tika veidota ar Shotwell %s (shēma %d). Šī versija ir %s (shēma %d). "
+"Lūdzu, lietojiet jaunāko Shotwell versiju."
 
 #: src/main.vala:59
 #, c-format
@@ -414,7 +426,9 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell nevarēja uzlabot šo fotogrāfiju bibliotēku no versijas %s (shēma %d) uz %s (shēma %d). Lai uzzinātu vairāk, apskatiet Shotwell viki lapu %s"
+msgstr ""
+"Shotwell nevarēja uzlabot šo fotogrāfiju bibliotēku no versijas %s (shēma "
+"%d) uz %s (shēma %d). Lai uzzinātu vairāk, apskatiet Shotwell viki lapu %s"
 
 #: src/main.vala:65
 #, c-format
@@ -423,7 +437,10 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Šī fotogrāfiju bibliotēka nav savietojama ar šo Shotwell versiju. Izskatās, ka tā tika veidota ar Shotwell %s (shēma %d). Šī versija ir %s (shēma %d). Lūdzu, attīriet savu bibliotēku, dzēšot %s un atkal importējot fotogrāfijas."
+msgstr ""
+"Šī fotogrāfiju bibliotēka nav savietojama ar šo Shotwell versiju. Izskatās, "
+"ka tā tika veidota ar Shotwell %s (shēma %d). Šī versija ir %s (shēma %d). "
+"Lūdzu, attīriet savu bibliotēku, dzēšot %s un atkal importējot fotogrāfijas."
 
 #: src/main.vala:71
 #, c-format
@@ -461,7 +478,9 @@ msgstr "[DATNE]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Palaidiet “%s --help”, lai redzētu pilnu pieejamo komandrindas opciju sarakstu.\n"
+msgstr ""
+"Palaidiet “%s --help”, lai redzētu pilnu pieejamo komandrindas opciju "
+"sarakstu.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -646,9 +665,15 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šai fotogrāfijai ar Shotwell"
-msgstr[1] "Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šīm fotogrāfijām ar Shotwell"
-msgstr[2] "Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šīm fotogrāfijām ar Shotwell"
+msgstr[0] ""
+"Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šai fotogrāfijai "
+"ar Shotwell"
+msgstr[1] ""
+"Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šīm fotogrāfijām "
+"ar Shotwell"
+msgstr[2] ""
+"Attīstītāju pārslēgšana atsauks visas izmaiņas, ko veicāt šīm fotogrāfijām "
+"ar Shotwell"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -663,20 +688,27 @@ msgstr "Eksportēt video"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell nevar izveidot datni šīs fotogrāfijas rediģēšanai, jo jums nav tiesību rakstīt %s."
+msgstr ""
+"Shotwell nevar izveidot datni šīs fotogrāfijas rediģēšanai, jo jums nav "
+"tiesību rakstīt %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Nevar eksportēt sekojošo fotogrāfiju, jo gadījās datnes kļūda.\n\n"
+msgstr ""
+"Nevar eksportēt sekojošo fotogrāfiju, jo gadījās datnes kļūda.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nVai vēlaties turpināt eksportēšanu?"
+msgstr ""
+"\n"
+"\n"
+"Vai vēlaties turpināt eksportēšanu?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -761,8 +793,7 @@ msgid "error message:"
 msgstr ""
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
 msgstr ""
 
 #: src/Dialogs.vala:597
@@ -820,9 +851,12 @@ msgstr[2] "Netika importētas %d dublējošu fotogrāfijas/video:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "%d fotogrāfijas importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
-msgstr[1] "%d fotogrāfiju importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
-msgstr[2] "%d fotogrāfiju importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
+msgstr[0] ""
+"%d fotogrāfijas importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
+msgstr[1] ""
+"%d fotogrāfiju importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
+msgstr[2] ""
+"%d fotogrāfiju importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
 
 #: src/Dialogs.vala:686
 #, c-format
@@ -837,9 +871,15 @@ msgstr[2] "%d video importēšana neizdevās dēļ datnes vai aparatūras kļūd
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "%d fotogrāfijas/video importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
-msgstr[1] "%d fotogrāfiju/video importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
-msgstr[2] "%d fotogrāfiju/video importēšana neizdevās dēļ datnes vai aparatūras kļūdas:\n"
+msgstr[0] ""
+"%d fotogrāfijas/video importēšana neizdevās dēļ datnes vai aparatūras "
+"kļūdas:\n"
+msgstr[1] ""
+"%d fotogrāfiju/video importēšana neizdevās dēļ datnes vai aparatūras "
+"kļūdas:\n"
+msgstr[2] ""
+"%d fotogrāfiju/video importēšana neizdevās dēļ datnes vai aparatūras "
+"kļūdas:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
@@ -852,20 +892,21 @@ msgstr[2] "%d datņu importēšana neizdevās dēļ datnes vai aparatūras kļū
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fotogrāfijas importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
-msgstr[1] "%d fotogrāfiju importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
-msgstr[2] "%d fotogrāfiju importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
+msgstr[0] ""
+"%d fotogrāfijas importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
+msgstr[1] ""
+"%d fotogrāfiju importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
+msgstr[2] ""
+"%d fotogrāfiju importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
@@ -881,9 +922,15 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fotogrāfijas/video importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
-msgstr[1] "%d fotogrāfiju/video importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
-msgstr[2] "%d fotogrāfiju/video importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
+msgstr[0] ""
+"%d fotogrāfijas/video importēšana neizdevās, jo fotogrāfiju mape nav "
+"rakstāma:\n"
+msgstr[1] ""
+"%d fotogrāfiju/video importēšana neizdevās, jo fotogrāfiju mape nav "
+"rakstāma:\n"
+msgstr[2] ""
+"%d fotogrāfiju/video importēšana neizdevās, jo fotogrāfiju mape nav "
+"rakstāma:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -892,7 +939,8 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d datnes importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
+msgstr[0] ""
+"%d datnes importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
 msgstr[1] "%d datņu importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
 msgstr[2] "%d datņu importēšana neizdevās, jo fotogrāfiju mape nav rakstāma:\n"
 
@@ -1112,9 +1160,15 @@ msgstr "Atgriezt ārējās izmaiņas?"
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējo datni. Turpināt?"
-msgstr[1] "Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējām datnēm. Turpināt?"
-msgstr[2] "Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējām datnēm. Turpināt?"
+msgstr[0] ""
+"Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējo datni. "
+"Turpināt?"
+msgstr[1] ""
+"Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējām datnēm. "
+"Turpināt?"
+msgstr[2] ""
+"Šī darbība iznīcinās visas izmaiņas, kas ir veiktas ar %d ārējām datnēm. "
+"Turpināt?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1202,14 +1256,18 @@ msgstr "%d.%m.%Y, %H:%M:%S"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ekspozīcijas laiks tiks pabīdīts uz priekšu par\n%d %s, %d %s, %d %s un %d %s."
+msgstr ""
+"Ekspozīcijas laiks tiks pabīdīts uz priekšu par\n"
+"%d %s, %d %s, %d %s un %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ekspozīcijas laiks tiks pabīdīts atpakaļ par\n%d %s, %d %s, %d %s un %d %s."
+msgstr ""
+"Ekspozīcijas laiks tiks pabīdīts atpakaļ par\n"
+"%d %s, %d %s, %d %s un %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1249,9 +1307,18 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nUn %d cits."
-msgstr[1] "\n\nUn %d citi."
-msgstr[2] "\n\nUn %d citu."
+msgstr[0] ""
+"\n"
+"\n"
+"Un %d cits."
+msgstr[1] ""
+"\n"
+"\n"
+"Un %d citi."
+msgstr[2] ""
+"\n"
+"\n"
+"Un %d citu."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1337,7 +1404,9 @@ msgstr "Nederīgs raksts"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell var kopēt fotogrāfijas jūsu bibliotēkas mapē, vai tās var tikt importētas bez kopēšanas."
+msgstr ""
+"Shotwell var kopēt fotogrāfijas jūsu bibliotēkas mapē, vai tās var tikt "
+"importētas bez kopēšanas."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1366,44 +1435,86 @@ msgstr "Izņem fotogrāfijas no bibliotēkas"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Šī darbība izņems %d fotogrāfiju/video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šo datni uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[1] "Šī darbība izņems %d fotogrāfijas/video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[2] "Šī darbība izņems %d fotogrāfijas/video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
+msgstr[0] ""
+"Šī darbība izņems %d fotogrāfiju/video no jūsu Shotwell bibliotēkas. Vai "
+"vēlaties pārvietot šo datni uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[1] ""
+"Šī darbība izņems %d fotogrāfijas/video no jūsu Shotwell bibliotēkas. Vai "
+"vēlaties pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[2] ""
+"Šī darbība izņems %d fotogrāfijas/video no jūsu Shotwell bibliotēkas. Vai "
+"vēlaties pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šo datni uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[1] "Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[2] "Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
+msgstr[0] ""
+"Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šo datni uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[1] ""
+"Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[2] ""
+"Šī darbība izņems %d video no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Šī darbība izņems %d fotogrāfiju no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šo datni uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[1] "Šī darbība izņems %d fotogrāfijas no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
-msgstr[2] "Šī darbība izņems %d fotogrāfijas no jūsu Shotwell bibliotēkas. Vai vēlaties pārvietot šīs datnes uz miskasti?\n\nŠo darbību nevar atsaukt."
+msgstr[0] ""
+"Šī darbība izņems %d fotogrāfiju no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šo datni uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[1] ""
+"Šī darbība izņems %d fotogrāfijas no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
+msgstr[2] ""
+"Šī darbība izņems %d fotogrāfijas no jūsu Shotwell bibliotēkas. Vai vēlaties "
+"pārvietot šīs datnes uz miskasti?\n"
+"\n"
+"Šo darbību nevar atsaukt."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1411,9 +1522,12 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "Šo %d fotogrāfiju vai video nevar pārvietot uz miskasti. Dzēst šo datni?"
-msgstr[1] "Šīs %d fotogrāfijas vai video nevar pārvietot uz miskasti. Dzēst šīs datnes?"
-msgstr[2] "Šīs %d fotogrāfijas vai video nevar pārvietot uz miskasti. Dzēst šīs datnes?"
+msgstr[0] ""
+"Šo %d fotogrāfiju vai video nevar pārvietot uz miskasti. Dzēst šo datni?"
+msgstr[1] ""
+"Šīs %d fotogrāfijas vai video nevar pārvietot uz miskasti. Dzēst šīs datnes?"
+msgstr[2] ""
+"Šīs %d fotogrāfijas vai video nevar pārvietot uz miskasti. Dzēst šīs datnes?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1601,7 +1715,9 @@ msgstr "Nevar turpināt importēt no %s, jo gadījās kļūda:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Lai mēģinātu importēt no cita servisa, izvēlieties kādu no augšpusē esošās izvēlnes."
+msgstr ""
+"Lai mēģinātu importēt no cita servisa, izvēlieties kādu no augšpusē esošās "
+"izvēlnes."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1611,8 +1727,15 @@ msgstr "Datu imports"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Nav aktivētu datu importēšanas spraudņu.\n\nLai lietotu “Importēt no lietotnes” funkcionalitāti, jābūt aktivētam vismaz vienam datu importēšanas spraudnim. Spraudņus var aktivēt iestatījumu dialoglodziņā."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Nav aktivētu datu importēšanas spraudņu.\n"
+"\n"
+"Lai lietotu “Importēt no lietotnes” funkcionalitāti, jābūt aktivētam vismaz "
+"vienam datu importēšanas spraudnim. Spraudņus var aktivēt iestatījumu "
+"dialoglodziņā."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -2026,7 +2149,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Nevar izdrukāt fotogrāfiju:\n\n%s"
+msgstr ""
+"Nevar izdrukāt fotogrāfiju:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -2038,7 +2164,9 @@ msgstr "Nevar atvērt/izveidot fotogrāfiju datubāzi %s — kļūdas kods %d"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Nevar ierakstīt fotogrāfiju datubāzes datnē:\n %s"
+msgstr ""
+"Nevar ierakstīt fotogrāfiju datubāzes datnē:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -2048,7 +2176,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Kļūda, piekļūstot datubāzes datnei:\n %s\n\nKļūda bija: \n%s"
+msgstr ""
+"Kļūda, piekļūstot datubāzes datnei:\n"
+" %s\n"
+"\n"
+"Kļūda bija: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2232,7 +2365,8 @@ msgstr "Iztukšo miskasti..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Shotwell ir nokonfigurēts, lai importētu fotogrāfijas uz mājas direktoriju.\n"
+msgstr ""
+"Shotwell ir nokonfigurēts, lai importētu fotogrāfijas uz mājas direktoriju.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2383,7 +2517,8 @@ msgstr "Pagriezt pa labi"
 
 #: src/Resources.vala:147
 msgid "Rotate the photos right (press Ctrl to rotate left)"
-msgstr "Pagriezt fotogrāfijas pa labi (piespiediet Ctrl, lai pagrieztu pa kreisi)"
+msgstr ""
+"Pagriezt fotogrāfijas pa labi (piespiediet Ctrl, lai pagrieztu pa kreisi)"
 
 #: src/Resources.vala:149
 msgid "Rotate _Left"
@@ -3217,10 +3352,15 @@ msgstr "Ziņot par p_roblēmu..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Gadījās fatāla kļūda, piekļūstot Shotwell bibliotēkām. Shotwell nevar turpināt.\n\n%s"
+msgstr ""
+"Gadījās fatāla kļūda, piekļūstot Shotwell bibliotēkām. Shotwell nevar "
+"turpināt.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3228,7 +3368,9 @@ msgstr "Apmeklējiet Yorba tīmekļa vietni"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr "Pēteris Krišjānis <pecisk@gmail.com>\nRūdolfs Mazurs <rudolfs.mazurs@gmail.com>"
+msgstr ""
+"Pēteris Krišjānis <pecisk@gmail.com>\n"
+"Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3332,7 +3474,9 @@ msgstr "Kārtot fotogrāfijas pēc vērtējuma"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell nevar atskaņot izvēlēto video:\n%s"
+msgstr ""
+"Shotwell nevar atskaņot izvēlēto video:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3536,7 +3680,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell nevar publicēt izvēlētos vienumus, jo nav aktivēts savietojams publicēšanas spraudnis. Lai to labotu, izvelieties <b>Rediģēt %s Iestatījumi</b> un aktivējiet vienu vai vairākus publicēšanas spraudņus cilnē <b>Spraudņi</b>."
+msgstr ""
+"Shotwell nevar publicēt izvēlētos vienumus, jo nav aktivēts savietojams "
+"publicēšanas spraudnis. Lai to labotu, izvelieties <b>Rediģēt %s "
+"Iestatījumi</b> un aktivējiet vienu vai vairākus publicēšanas spraudņus "
+"cilnē <b>Spraudņi</b>."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3554,35 +3702,49 @@ msgstr "Nevar turpināt publicēšanu uz %s, jo gadījās kļūda:"
 
 #: src/publishing/PublishingPluginHost.vala:84
 msgid "To try publishing to another service, select one from the above menu."
-msgstr "Lai mēģinātu publicēt citā servisā, izvēlieties to no augstāk redzamās izvēlnes."
+msgstr ""
+"Lai mēģinātu publicēt citā servisā, izvēlieties to no augstāk redzamās "
+"izvēlnes."
 
 #: src/sidebar/Tree.vala:199
 msgid "New _Tag..."
 msgstr "Jauna _birka..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr "Publicēšanai nepieciešama pagaidu datne"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Jūs pašlaik neesat ierakstījies YouTube\n\nJums jau ir jābūt izveidotam Google kontam un tur ir jābūt iestatītai YouTube izmantošanai, lai turpinātu. Jūs varat iestatīt vairums kontu, izmantojot pārlūku un ierakstoties YouTube vismaz vienreiz."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Jūs pašlaik neesat ierakstījies YouTube\n"
+"\n"
+"Jums jau ir jābūt izveidotam Google kontam un tur ir jābūt iestatītai "
+"YouTube izmantošanai, lai turpinātu. Jūs varat iestatīt vairums kontu, "
+"izmantojot pārlūku un ierakstoties YouTube vismaz vienreiz."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Youtube."
+msgstr ""
+"Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz "
+"Youtube."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3614,14 +3776,24 @@ msgstr "Pamata publicēšanas servisi"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Jūs pašlaik neesat ierakstījies Flickr vietnē.\n\nSpiediet “Login”, lai ierakstītos Flickr vietnē tīmekļa pārlūkā. Jums vajadzēs pilnvarot Shotwell savienojumu, lai sasaistītu to ar Flickr kontu."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Jūs pašlaik neesat ierakstījies Flickr vietnē.\n"
+"\n"
+"Spiediet “Login”, lai ierakstītos Flickr vietnē tīmekļa pārlūkā. Jums "
+"vajadzēs pilnvarot Shotwell savienojumu, lai sasaistītu to ar Flickr kontu."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Jūs jau esat ierakstījies un izrakstījies no Flickr sistēmas Shotwell sesijas laikā.\nLai turpinātu publicēšanu Flickr sistēmā, izejiet no Shotwell un pārlaidiet to vēlreiz."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Jūs jau esat ierakstījies un izrakstījies no Flickr sistēmas Shotwell "
+"sesijas laikā.\n"
+"Lai turpinātu publicēšanu Flickr sistēmā, izejiet no Shotwell un pārlaidiet "
+"to vēlreiz."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3632,7 +3804,8 @@ msgstr "Gatavojas ierakstīties..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Flickr."
+msgstr ""
+"Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Flickr."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3643,14 +3816,18 @@ msgstr "Pārbauda pilnvarojumu..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Jūs esat ierakstījies Flickr kā %s.\n\n"
+msgstr ""
+"Jūs esat ierakstījies Flickr kā %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Jūsu bezmaksas Flickr konts ierobežo mēnesī augšupielādējamo datu apjomu.\nŠomēnes jums ir atlikuši %d megabaiti augšupielādēšanas kvotas."
+msgstr ""
+"Jūsu bezmaksas Flickr konts ierobežo mēnesī augšupielādējamo datu apjomu.\n"
+"Šomēnes jums ir atlikuši %d megabaiti augšupielādēšanas kvotas."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
@@ -3693,11 +3870,13 @@ msgstr "Tikai es"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 pikseļi"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 pikseļi"
 
@@ -3724,15 +3903,20 @@ msgstr ""
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Ievadiet savas fotogrāfiju bibliotēkas URL, kā arī lietotājvārdu un paroli, kas ir saistīta ar Piwigo kontu tai bibliotēkai."
+msgstr ""
+"Ievadiet savas fotogrāfiju bibliotēkas URL, kā arī lietotājvārdu un paroli, "
+"kas ir saistīta ar Piwigo kontu tai bibliotēkai."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell nevar sazināties ar jūsu Piwigo fotogrāfiju bibliotēku. Lūdzu, pārbaudiet ievadīto URL."
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell nevar sazināties ar jūsu Piwigo fotogrāfiju bibliotēku. Lūdzu, "
+"pārbaudiet ievadīto URL."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "Lietotājvārds un / vai parole nav pareiza. Lūdzu, mēģiniet vēlreiz"
 
@@ -3742,6 +3926,7 @@ msgid "Invalid URL"
 msgstr "Nederīgs URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Nederīgs lietotājvārds vai parole"
@@ -3772,14 +3957,21 @@ msgstr "Administratori"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Jūs pašlaik neesat ierakstījies Picasa Web Albums vietnē.\n\nSpiediet “Login”, lai ierakstītos Picasa Web Albums vietnē tīmekļa pārlūkā. Jums vajadzēs pilnvarot Shotwell savienojumu, lai sasaistītu to ar Picasa Web Albums kontu."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Jūs pašlaik neesat ierakstījies Picasa Web Albums vietnē.\n"
+"\n"
+"Spiediet “Login”, lai ierakstītos Picasa Web Albums vietnē tīmekļa pārlūkā. "
+"Jums vajadzēs pilnvarot Shotwell savienojumu, lai sasaistītu to ar Picasa "
+"Web Albums kontu."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Picasa."
+msgstr ""
+"Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Picasa."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3819,14 +4011,29 @@ msgstr "Google+ (2048 x 1536 pikseļi)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Jūs pašlaik neesat pieteicies Facebook.\n\nJa jums vēl nav Facebook konta, jūs to varat izveidot ierakstīšanās procesā. Tās laikā Shotwell Connect var jums prasīt atļauju augšupielādēt fotogrāfijas un publicēt tās jūsu plūsmā. Šīs atļaujas ir nepieciešamas, lai Shotwell Connect varētu darboties."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Jūs pašlaik neesat pieteicies Facebook.\n"
+"\n"
+"Ja jums vēl nav Facebook konta, jūs to varat izveidot ierakstīšanās procesā. "
+"Tās laikā Shotwell Connect var jums prasīt atļauju augšupielādēt "
+"fotogrāfijas un publicēt tās jūsu plūsmā. Šīs atļaujas ir nepieciešamas, lai "
+"Shotwell Connect varētu darboties."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Jūs jau esat ierakstījies un izrakstījies no Facebook sistēmas Shotwell sesijas laikā.\nLai turpinātu publicēšanu Facebook sistēmā, izejiet no Shotwell un pārlaidiet to vēlreiz."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Jūs jau esat ierakstījies un izrakstījies no Facebook sistēmas Shotwell "
+"sesijas laikā.\n"
+"Lai turpinātu publicēšanu Facebook sistēmā, izejiet no Shotwell un "
+"pārlaidiet to vēlreiz."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3844,14 +4051,18 @@ msgstr "Testē savienojumu ar Facebook..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz Facebook."
+msgstr ""
+"Nav pieejama publicēšanai vajadzīgā datne. Nevar turpināt publicēt uz "
+"Facebook."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Jūs esat ierakstījies Facebook kā %s.\n\n"
+msgstr ""
+"Jūs esat ierakstījies Facebook kā %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3921,15 +4132,25 @@ msgstr "Kodola datu importēšanas servisi"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Laipni lūdzam F-Spot bibliotēkas importēšanas servisā.\n\nLūdzu, izvēlieties bibliotēku, ko importēt, vai nu izvēloties kādu no bibliotēkām, ko ir atradis Shotwell, vai arī izvēloties alternatīvu F-Spot datubāzes datni."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Laipni lūdzam F-Spot bibliotēkas importēšanas servisā.\n"
+"\n"
+"Lūdzu, izvēlieties bibliotēku, ko importēt, vai nu izvēloties kādu no "
+"bibliotēkām, ko ir atradis Shotwell, vai arī izvēloties alternatīvu F-Spot "
+"datubāzes datni."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Laipni lūdzam F-Spot bibliotēkas importēšanas servisā.\n\nLūdzu, izvēlieties F-Spot datubāzes datni."
+msgstr ""
+"Laipni lūdzam F-Spot bibliotēkas importēšanas servisā.\n"
+"\n"
+"Lūdzu, izvēlieties F-Spot datubāzes datni."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3937,35 +4158,48 @@ msgstr "Manuāli izvēlieties F-Spot datubāzes datni, ko importēt:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Nevar atvērt izvēlēto F-Spot datubāzes datni — datne neeksistē vai nav F-Spot datubāze"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Nevar atvērt izvēlēto F-Spot datubāzes datni — datne neeksistē vai nav F-"
+"Spot datubāze"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Nevar atvērt izvēlēto F-Spot datubāzes datni — šo F-Sopt datubāzes datnes versiju Shotwell neatbalsta"
+msgstr ""
+"Nevar atvērt izvēlēto F-Spot datubāzes datni — šo F-Sopt datubāzes datnes "
+"versiju Shotwell neatbalsta"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Nevar nolasīt izvēlēto F-Spot datubāzes datni — kļūda, nolasot birku tabulu"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Nevar nolasīt izvēlēto F-Spot datubāzes datni — kļūda, nolasot birku tabulu"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Nevar nolasīt izvēlēto F-Spot datubāzes datni — kļūda, nolasot fotogrāfiju tabulu"
+msgstr ""
+"Nevar nolasīt izvēlēto F-Spot datubāzes datni — kļūda, nolasot fotogrāfiju "
+"tabulu"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell ir atradis %d fotogrāfijas F-Spot bibliotēkā un tās pašlaik importē. Dublikāti tiks automātiski atrasti un izņemti.\n\nJūs varat aizvērt šo dialoglodziņu un sākt lietot Shotwell, kamēr fonā notiek importēšana."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell ir atradis %d fotogrāfijas F-Spot bibliotēkā un tās pašlaik "
+"importē. Dublikāti tiks automātiski atrasti un izņemti.\n"
+"\n"
+"Jūs varat aizvērt šo dialoglodziņu un sākt lietot Shotwell, kamēr fonā "
+"notiek importēšana."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -4054,6 +4288,7 @@ msgstr "pikseļi uz collu"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "etiķete"
 
@@ -4191,6 +4426,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Izrakstīties"
 
@@ -4198,6 +4435,8 @@ msgstr "_Izrakstīties"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Publicēt"
 
@@ -4205,7 +4444,9 @@ msgstr "_Publicēt"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Ievadiet apstiprināšanas skaitli, kas parādīsies pēc tam, kad būsiet ierakstījies Flickr vietnē."
+msgstr ""
+"Ievadiet apstiprināšanas skaitli, kas parādīsies pēc tam, kad būsiet "
+"ierakstījies Flickr vietnē."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4224,6 +4465,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Fotogrāfiju izmēr_s:"
 
@@ -4265,6 +4507,7 @@ msgid "User _name"
 msgstr "_Lietotājvārds"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Parole"
 
@@ -4273,6 +4516,7 @@ msgid "_Remember Password"
 msgstr "Atce_rēties paroli"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Ierakstīties"
 
@@ -4311,3 +4555,91 @@ msgstr "Izrakstīties"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Video privātuma ie_statījumi:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Autortiesības 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pikseļi"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "“%s” nav derīga atbilde OAuth autentifikācijas pieprasījumam"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): nevar startēt; publicētājs nav pārstartējams."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr ""
+"Ievadiet lietotājvārdu un paroli, kas ir saistītas ar jūsu Tumblr kontu."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "Nevarēja ielādēt saskarni — %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Jūs esat ierakstījies Tumblr kā %s.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Autortiesības 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Apmeklējiet Yandex.Fotki tīmekļa vietni"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Jūs šobrīd neesat ierakstījies Yandex.Fotki."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_E-pasta adrese"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Jūs esat ierakstījies Tumblr kā (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Emuāri:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Albums (vai rakstīt jaunu):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Piekļuves _tips:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Deaktivēt _komentārus"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Aizliegt lejupielādēt sākotnējo _fotogrāfiju"

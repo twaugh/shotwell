@@ -2,13 +2,15 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # Pwnisher <ciprian420@gmail.com>, 2013
 # chodella <corneliu.dascalu@gmail.com>, 2013
 # Vasile Marian <marianvasile@upcmail.ro>, 2011
 # verayin <vera@yorba.org>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -16,12 +18,14 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-09-23 16:40+0000\n"
 "Last-Translator: chodella <corneliu.dascalu@gmail.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/shotwell/language/ro/)\n"
+"Language-Team: Romanian (http://www.transifex.com/projects/p/shotwell/"
+"language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 
 #: src/Event.vala:737
 #, c-format
@@ -46,7 +50,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Aparatul foto nu poate fi demontat. Încercați să demontați dispozitivul din administratorul de fișiere."
+msgstr ""
+"Aparatul foto nu poate fi demontat. Încercați să demontați dispozitivul din "
+"administratorul de fișiere."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -88,7 +94,9 @@ msgstr "Importați toate fotografiile în colecția dumneavoastră"
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Shotwell trebuie să demonteze aparatul foto din sistemul de fișiere pentru a-l accesa. Continuați?"
+msgstr ""
+"Shotwell trebuie să demonteze aparatul foto din sistemul de fișiere pentru a-"
+"l accesa. Continuați?"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -103,7 +111,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Aparatul foto este blocat de o altă aplicație. Shotwell poate accesa aparatul foto numai dacă acesta nu este blocat. Închideți orice altă aplicație care folosește aparatul foto și încercați din nou."
+msgstr ""
+"Aparatul foto este blocat de o altă aplicație. Shotwell poate accesa "
+"aparatul foto numai dacă acesta nu este blocat. Închideți orice altă "
+"aplicație care folosește aparatul foto și încercați din nou."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -114,7 +125,9 @@ msgstr "Închideți orice aplicație care folosește aparatul foto."
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Nu se poate realiza previzualizarea fotografiilor din aparatul foto:\n%s"
+msgstr ""
+"Nu se poate realiza previzualizarea fotografiilor din aparatul foto:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -177,11 +190,16 @@ msgstr "Se șterg fotografiile/clipurile din aparatul foto"
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
-msgstr[0] "O fotografie/un clip nu poate fi ștearsă/șters din aparatul foto din cauza unor erori."
-msgstr[1] "%d fotografii/clipuri nu pot fi șterse din aparatul foto din cauza unor erori."
-msgstr[2] "%d de fotografii/clipuri nu pot fi șterse din aparatul foto din cauza unor erori."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
+msgstr[0] ""
+"O fotografie/un clip nu poate fi ștearsă/șters din aparatul foto din cauza "
+"unor erori."
+msgstr[1] ""
+"%d fotografii/clipuri nu pot fi șterse din aparatul foto din cauza unor "
+"erori."
+msgstr[2] ""
+"%d de fotografii/clipuri nu pot fi șterse din aparatul foto din cauza unor "
+"erori."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
 msgid "S_lideshow"
@@ -406,7 +424,11 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Colecția dumneavoastră de fotografii nu este compatibilă cu această versiune de Shotwell. Se pare că a fost creată cu Shotwell %s (schema %d). Versiunea curentă este %s (schema %d). Vă rugăm să utilizați ultima veriune de Shotwell."
+msgstr ""
+"Colecția dumneavoastră de fotografii nu este compatibilă cu această versiune "
+"de Shotwell. Se pare că a fost creată cu Shotwell %s (schema %d). Versiunea "
+"curentă este %s (schema %d). Vă rugăm să utilizați ultima veriune de "
+"Shotwell."
 
 #: src/main.vala:59
 #, c-format
@@ -414,7 +436,10 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Shotwell nu poate actualiza colecția de fotografii, de la versiunea %s (schema %d) la %s (schema %d). Pentru mai multe informații, vă rugăm să consultați Shotwell Wiki la %s"
+msgstr ""
+"Shotwell nu poate actualiza colecția de fotografii, de la versiunea %s "
+"(schema %d) la %s (schema %d). Pentru mai multe informații, vă rugăm să "
+"consultați Shotwell Wiki la %s"
 
 #: src/main.vala:65
 #, c-format
@@ -423,7 +448,11 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Colecția de fotografii nu este compatibilă cu această versiune Shotwell. Se pare că a fost creată cu Shotwell %s (schema %d). Versiunea curentă este %s (schema %d). Actualizați colecția prin ștergerea %s și reluați importul fotografiilor."
+msgstr ""
+"Colecția de fotografii nu este compatibilă cu această versiune Shotwell. Se "
+"pare că a fost creată cu Shotwell %s (schema %d). Versiunea curentă este %s "
+"(schema %d). Actualizați colecția prin ștergerea %s și reluați importul "
+"fotografiilor."
 
 #: src/main.vala:71
 #, c-format
@@ -444,7 +473,9 @@ msgstr "DIRECTOR"
 
 #: src/main.vala:298
 msgid "Do not monitor library directory at runtime for changes"
-msgstr "Nu monitoriza directorul librăriei la inițializare pentru a detecta modificările"
+msgstr ""
+"Nu monitoriza directorul librăriei la inițializare pentru a detecta "
+"modificările"
 
 #: src/main.vala:302
 msgid "Don't display startup progress meter"
@@ -617,9 +648,12 @@ msgstr "Informații extinse"
 #, c-format
 msgid "This will remove the tag \"%s\" from one photo.  Continue?"
 msgid_plural "This will remove the tag \"%s\" from %d photos.  Continue?"
-msgstr[0] "Această acțiune va șterge eticheta \"%s\" din fotografie. Continuați?"
-msgstr[1] "Această acțiune va șterge eticheta \"%s\" din %d fotografii. Continuați?"
-msgstr[2] "Această acțiune va șterge eticheta \"%s\" din %d de fotografii. Continuați?"
+msgstr[0] ""
+"Această acțiune va șterge eticheta \"%s\" din fotografie. Continuați?"
+msgstr[1] ""
+"Această acțiune va șterge eticheta \"%s\" din %d fotografii. Continuați?"
+msgstr[2] ""
+"Această acțiune va șterge eticheta \"%s\" din %d de fotografii. Continuați?"
 
 #: src/Dialogs.vala:20 src/Dialogs.vala:28 src/Dialogs.vala:1361
 #: src/Dialogs.vala:1384 src/data_imports/DataImportsUI.vala:399
@@ -646,9 +680,15 @@ msgid ""
 msgid_plural ""
 "Switching developers will undo all changes you have made to these photos in "
 "Shotwell"
-msgstr[0] "Schimbarea developerilor va anula toate modificările pe care le-ai făcut acestei fotografii în Shotwell"
-msgstr[1] "Schimbarea developerilor va anula toate modificările pe care le-ai făcut acestor fotografii în Shotwell"
-msgstr[2] "Schimbarea programatorilor va anula toate modificările pe care le-ai făcut acestor fotografii în Shotwell"
+msgstr[0] ""
+"Schimbarea developerilor va anula toate modificările pe care le-ai făcut "
+"acestei fotografii în Shotwell"
+msgstr[1] ""
+"Schimbarea developerilor va anula toate modificările pe care le-ai făcut "
+"acestor fotografii în Shotwell"
+msgstr[2] ""
+"Schimbarea programatorilor va anula toate modificările pe care le-ai făcut "
+"acestor fotografii în Shotwell"
 
 #: src/Dialogs.vala:39
 msgid "_Switch Developer"
@@ -663,20 +703,27 @@ msgstr "Exportă clipul"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Shotwell nu poate crea un fișier pentru editarea acestei fotografii deoarece nu aveți drepturi de scriere pe %s."
+msgstr ""
+"Shotwell nu poate crea un fișier pentru editarea acestei fotografii deoarece "
+"nu aveți drepturi de scriere pe %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Fotografia următoare nu poate fi exportată din cauza unei erori în fișier.\n\n"
+msgstr ""
+"Fotografia următoare nu poate fi exportată din cauza unei erori în fișier.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nDoriți continuarea exportării?"
+msgstr ""
+"\n"
+"\n"
+"Doriți continuarea exportării?"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -753,7 +800,8 @@ msgstr "duplică item media existent"
 
 #: src/Dialogs.vala:568
 msgid "Photos/Videos Not Imported Due to Camera Errors:"
-msgstr "Forografii/Clipuri care nu au fost importate datorită erorilor ale camerei:"
+msgstr ""
+"Forografii/Clipuri care nu au fost importate datorită erorilor ale camerei:"
 
 #: src/Dialogs.vala:571 src/Dialogs.vala:586 src/Dialogs.vala:601
 #: src/Dialogs.vala:617 src/Dialogs.vala:632 src/Dialogs.vala:646
@@ -761,32 +809,40 @@ msgid "error message:"
 msgstr "mesaj de eroare:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
-msgstr "Fișiere care nu au fost importate deoarece nu au fost recunoscute ca fotografii sau clipuri video:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgstr ""
+"Fișiere care nu au fost importate deoarece nu au fost recunoscute ca "
+"fotografii sau clipuri video:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Fotografii/Clipuri care nu au fost importate din cauză ca erau într-un format pe care Shotwell nu îl recunoaște:"
+msgstr ""
+"Fotografii/Clipuri care nu au fost importate din cauză ca erau într-un "
+"format pe care Shotwell nu îl recunoaște:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Fotografii/Clipuri care nu au fost importate pentru că Shotwell nu le-a putut copia în librăria sa:"
+msgstr ""
+"Fotografii/Clipuri care nu au fost importate pentru că Shotwell nu le-a "
+"putut copia în librăria sa:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "nu s-a putut copia %s\n\tîn %s"
+msgstr ""
+"nu s-a putut copia %s\n"
+"\tîn %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
-msgstr "Fotografii/Clipuri care nu au fost importate deoarece fișierele sunt corupte:"
+msgstr ""
+"Fotografii/Clipuri care nu au fost importate deoarece fișierele sunt corupte:"
 
 #: src/Dialogs.vala:643
 msgid "Photos/Videos Not Imported for Other Reasons:"
@@ -820,58 +876,90 @@ msgstr[2] "%d de fotografii/clipuri duplicate nu au fost importate:\n"
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "O fotografie nu a fost importată din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[1] "%d fotografii nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[2] "%d de fotografii nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
+msgstr[0] ""
+"O fotografie nu a fost importată din cauza unei erori în fișier sau de "
+"natură hardware:\n"
+msgstr[1] ""
+"%d fotografii nu au fost importate din cauza unei erori în fișier sau de "
+"natură hardware:\n"
+msgstr[2] ""
+"%d de fotografii nu au fost importate din cauza unei erori în fișier sau de "
+"natură hardware:\n"
 
 #: src/Dialogs.vala:686
 #, c-format
 msgid "1 video failed to import due to a file or hardware error:\n"
 msgid_plural "%d videos failed to import due to a file or hardware error:\n"
-msgstr[0] "Un clip nu a fost importat din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[1] "%d clipuri nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[2] "%d de clipuri nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
+msgstr[0] ""
+"Un clip nu a fost importat din cauza unei erori în fișier sau de natură "
+"hardware:\n"
+msgstr[1] ""
+"%d clipuri nu au fost importate din cauza unei erori în fișier sau de natură "
+"hardware:\n"
+msgstr[2] ""
+"%d de clipuri nu au fost importate din cauza unei erori în fișier sau de "
+"natură hardware:\n"
 
 #: src/Dialogs.vala:689
 #, c-format
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "O fotografie/un clip nu a fost importat(ă) din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[1] "%d fotografii/clipuri nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[2] "%d de fotografii/clipuri nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
+msgstr[0] ""
+"O fotografie/un clip nu a fost importat(ă) din cauza unei erori în fișier "
+"sau de natură hardware:\n"
+msgstr[1] ""
+"%d fotografii/clipuri nu au fost importate din cauza unei erori în fișier "
+"sau de natură hardware:\n"
+msgstr[2] ""
+"%d de fotografii/clipuri nu au fost importate din cauza unei erori în fișier "
+"sau de natură hardware:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
 msgid "1 file failed to import due to a file or hardware error:\n"
 msgid_plural "%d files failed to import due to a file or hardware error:\n"
-msgstr[0] "1 fișier nu a fost importat din cauza unei erori în fișier sau de natură hardware:\n"
-msgstr[1] "%d fișiere nu au fost importate din cauza unei erori în fișier sau de natură hardware:\n"
+msgstr[0] ""
+"1 fișier nu a fost importat din cauza unei erori în fișier sau de natură "
+"hardware:\n"
+msgstr[1] ""
+"%d fișiere nu au fost importate din cauza unei erori în fișier sau de natură "
+"hardware:\n"
 msgstr[2] "%d de :\n"
 
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fotografie nu a fost importată deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[1] "%d fotografii nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[2] "%d de fotografii nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
+msgstr[0] ""
+"%d fotografie nu a fost importată deoarece dosarul colecției foto nu poate "
+"fi scris:\n"
+msgstr[1] ""
+"%d fotografii nu au fost importate deoarece dosarul colecției foto nu poate "
+"fi scris:\n"
+msgstr[2] ""
+"%d de fotografii nu au fost importate deoarece dosarul colecției foto nu "
+"poate fi scris:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d clip video nu a fost importat deoarece deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[1] "%d clipuri video nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[2] "%d de clipuri video nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
+msgstr[0] ""
+"%d clip video nu a fost importat deoarece deoarece dosarul colecției foto nu "
+"poate fi scris:\n"
+msgstr[1] ""
+"%d clipuri video nu au fost importate deoarece dosarul colecției foto nu "
+"poate fi scris:\n"
+msgstr[2] ""
+"%d de clipuri video nu au fost importate deoarece dosarul colecției foto nu "
+"poate fi scris:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -881,9 +969,15 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "%d fotografie/clip video nu a fost importat(ă) deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[1] "%d fotografii/clipuri nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
-msgstr[2] "%d de fotografii/clipuri nu au fost importate deoarece dosarul colecției foto nu poate fi scris:\n"
+msgstr[0] ""
+"%d fotografie/clip video nu a fost importat(ă) deoarece dosarul colecției "
+"foto nu poate fi scris:\n"
+msgstr[1] ""
+"%d fotografii/clipuri nu au fost importate deoarece dosarul colecției foto "
+"nu poate fi scris:\n"
+msgstr[2] ""
+"%d de fotografii/clipuri nu au fost importate deoarece dosarul colecției "
+"foto nu poate fi scris:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -892,40 +986,59 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "1 fișier nu a fost importat deoarece dosarul colecției foto nu permite scrierea:\n"
-msgstr[1] "%d fișiere nu au fost importate deoarece dosarul colecției foto nu permite scrierea:\n"
+msgstr[0] ""
+"1 fișier nu a fost importat deoarece dosarul colecției foto nu permite "
+"scrierea:\n"
+msgstr[1] ""
+"%d fișiere nu au fost importate deoarece dosarul colecției foto nu permite "
+"scrierea:\n"
 msgstr[2] "%d de :\n"
 
 #: src/Dialogs.vala:729
 #, c-format
 msgid "1 photo failed to import due to a camera error:\n"
 msgid_plural "%d photos failed to import due to a camera error:\n"
-msgstr[0] "O fotografie nu a fost importată din cauza unei erori a aparatului foto.\n"
-msgstr[1] "%d fotografii nu au fost importate din cauza unei erori a aparatului foto:\n"
-msgstr[2] "%d de fotografii nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[0] ""
+"O fotografie nu a fost importată din cauza unei erori a aparatului foto.\n"
+msgstr[1] ""
+"%d fotografii nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[2] ""
+"%d de fotografii nu au fost importate din cauza unei erori a aparatului "
+"foto:\n"
 
 #: src/Dialogs.vala:732
 #, c-format
 msgid "1 video failed to import due to a camera error:\n"
 msgid_plural "%d videos failed to import due to a camera error:\n"
-msgstr[0] "Un clip nu a fost importat din cauza unei erori a aparatului foto:\n"
-msgstr[1] "%d clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
-msgstr[2] "%d de clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[0] ""
+"Un clip nu a fost importat din cauza unei erori a aparatului foto:\n"
+msgstr[1] ""
+"%d clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[2] ""
+"%d de clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
 
 #: src/Dialogs.vala:735
 #, c-format
 msgid "1 photo/video failed to import due to a camera error:\n"
 msgid_plural "%d photos/videos failed to import due to a camera error:\n"
-msgstr[0] "O fotografie/un clip nu a fost importat(ă) din cauza unei erori a aparatului foto:\n"
-msgstr[1] "%d fotografii/clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
-msgstr[2] "%d de fotografii/clipuri nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[0] ""
+"O fotografie/un clip nu a fost importat(ă) din cauza unei erori a aparatului "
+"foto:\n"
+msgstr[1] ""
+"%d fotografii/clipuri nu au fost importate din cauza unei erori a aparatului "
+"foto:\n"
+msgstr[2] ""
+"%d de fotografii/clipuri nu au fost importate din cauza unei erori a "
+"aparatului foto:\n"
 
 #: src/Dialogs.vala:738
 #, c-format
 msgid "1 file failed to import due to a camera error:\n"
 msgid_plural "%d files failed to import due to a camera error:\n"
-msgstr[0] "1 fișier nu a fost importat din cauza unei erori a aparatului foto:\n"
-msgstr[1] "%d fișiere nu au fost importate din cauza unei erori a aparatului foto:\n"
+msgstr[0] ""
+"1 fișier nu a fost importat din cauza unei erori a aparatului foto:\n"
+msgstr[1] ""
+"%d fișiere nu au fost importate din cauza unei erori a aparatului foto:\n"
 msgstr[2] "%d de :\n"
 
 #: src/Dialogs.vala:752
@@ -948,9 +1061,12 @@ msgstr[2] "%d clipuri video nu au putut fi importate deoarece sunt corupte:\n"
 #, c-format
 msgid "1 photo/video failed to import because it was corrupt:\n"
 msgid_plural "%d photos/videos failed to import because they were corrupt:\n"
-msgstr[0] "1 fotografie/clip video nu a putut fi importat(ă) deoarece este corupt(ă):\n"
-msgstr[1] "%d fotografii/clipuri video nu au putut fi importate deoarece sunt corupte:\n"
-msgstr[2] "%d fotografii/clipuri video nu au putut fi importate deoarece sunt corupte:\n"
+msgstr[0] ""
+"1 fotografie/clip video nu a putut fi importat(ă) deoarece este corupt(ă):\n"
+msgstr[1] ""
+"%d fotografii/clipuri video nu au putut fi importate deoarece sunt corupte:\n"
+msgstr[2] ""
+"%d fotografii/clipuri video nu au putut fi importate deoarece sunt corupte:\n"
 
 #: src/Dialogs.vala:761
 #, c-format
@@ -980,33 +1096,50 @@ msgstr[2] "%d de fișiere non-imagine au fost omise.\n"
 #, c-format
 msgid "1 photo skipped due to user cancel:\n"
 msgid_plural "%d photos skipped due to user cancel:\n"
-msgstr[0] "A fost omisă o fotografie din cauza anulării operației de către utilizator:\n"
-msgstr[1] "Au fost omise %d fotografii din cauza anulării operației de către utilizator:\n"
-msgstr[2] "Au fost omise %d de fotografii din cauza anulării operației de către utilizator:\n"
+msgstr[0] ""
+"A fost omisă o fotografie din cauza anulării operației de către utilizator:\n"
+msgstr[1] ""
+"Au fost omise %d fotografii din cauza anulării operației de către "
+"utilizator:\n"
+msgstr[2] ""
+"Au fost omise %d de fotografii din cauza anulării operației de către "
+"utilizator:\n"
 
 #: src/Dialogs.vala:807
 #, c-format
 msgid "1 video skipped due to user cancel:\n"
 msgid_plural "%d videos skipped due to user cancel:\n"
-msgstr[0] "A fost omis un clip din cauza anulării operației de către utilizator:\n"
-msgstr[1] "Au fost omise %d clipuri din cauza anulării operației de către utilizator:\n"
-msgstr[2] "Au fost omise %d de clipuri din cauza anulării operației de către utilizator:\n"
+msgstr[0] ""
+"A fost omis un clip din cauza anulării operației de către utilizator:\n"
+msgstr[1] ""
+"Au fost omise %d clipuri din cauza anulării operației de către utilizator:\n"
+msgstr[2] ""
+"Au fost omise %d de clipuri din cauza anulării operației de către "
+"utilizator:\n"
 
 #: src/Dialogs.vala:810
 #, c-format
 msgid "1 photo/video skipped due to user cancel:\n"
 msgid_plural "%d photos/videos skipped due to user cancel:\n"
-msgstr[0] "A fost omis(ă) o fotografie/un clip din cauza anulării operației de către utilizator:\n"
-msgstr[1] "Au fost omise %d fotografii/clipuri din cauza anulării operației de către utilizator:\n"
-msgstr[2] "Au fost omise %d de fotografii/clipuri din cauza anulării operației de către utilizator:\n"
+msgstr[0] ""
+"A fost omis(ă) o fotografie/un clip din cauza anulării operației de către "
+"utilizator:\n"
+msgstr[1] ""
+"Au fost omise %d fotografii/clipuri din cauza anulării operației de către "
+"utilizator:\n"
+msgstr[2] ""
+"Au fost omise %d de fotografii/clipuri din cauza anulării operației de către "
+"utilizator:\n"
 
 #: src/Dialogs.vala:813
 #, c-format
 msgid "1 file skipped due to user cancel:\n"
 msgid_plural "%d file skipped due to user cancel:\n"
 msgstr[0] "1 fișier a fost omis, deoarece utilizatorul a anulat acțiunea:\n"
-msgstr[1] "%d fișiere au fost omise, deoarece utilizatorul a anulat acțiunea:\n"
-msgstr[2] "%d de fișiere au fost omise, deoarece utilizatorul a anulat acțiunea:\n"
+msgstr[1] ""
+"%d fișiere au fost omise, deoarece utilizatorul a anulat acțiunea:\n"
+msgstr[2] ""
+"%d de fișiere au fost omise, deoarece utilizatorul a anulat acțiunea:\n"
 
 #: src/Dialogs.vala:827
 #, c-format
@@ -1112,9 +1245,13 @@ msgstr "Anulați editările externe?"
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Veți pierde toate modificările aplicate fișierului extern. Continuați?"
-msgstr[1] "Veți pierde toate modificările aplicate celor %d fișiere externe. Continuați?"
-msgstr[2] "Veți pierde toate modificările aplicate celor %d de fișiere externe. Continuați?"
+msgstr[0] ""
+"Veți pierde toate modificările aplicate fișierului extern. Continuați?"
+msgstr[1] ""
+"Veți pierde toate modificările aplicate celor %d fișiere externe. Continuați?"
+msgstr[2] ""
+"Veți pierde toate modificările aplicate celor %d de fișiere externe. "
+"Continuați?"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1130,7 +1267,8 @@ msgid "This will remove the photo from the library.  Continue?"
 msgid_plural "This will remove %d photos from the library.  Continue?"
 msgstr[0] "Această acțiune va șterge fotografia din colecție. Continuați?"
 msgstr[1] "Această acțiune va șterge %d fotografii din colecție. Continuați?"
-msgstr[2] "Această acțiune va șterge %d de fotografii din colecție. Continuați?"
+msgstr[2] ""
+"Această acțiune va șterge %d de fotografii din colecție. Continuați?"
 
 #: src/Dialogs.vala:1385
 msgid "_Remove"
@@ -1202,14 +1340,18 @@ msgstr "%d/%m/%Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Data expunerii va fi modificată în avans cu\n%d %s, %d %s, %d %s, și %d %s."
+msgstr ""
+"Data expunerii va fi modificată în avans cu\n"
+"%d %s, %d %s, %d %s, și %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Data expunerii va fi modificată în devans cu\n%d %s, %d %s, %d %s, și %d %s."
+msgstr ""
+"Data expunerii va fi modificată în devans cu\n"
+"%d %s, %d %s, %d %s, și %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1249,9 +1391,18 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nȘi %d în plus."
-msgstr[1] "\n\nȘi %d în plus."
-msgstr[2] "\n\nȘi %d în plus."
+msgstr[0] ""
+"\n"
+"\n"
+"Și %d în plus."
+msgstr[1] ""
+"\n"
+"\n"
+"Și %d în plus."
+msgstr[2] ""
+"\n"
+"\n"
+"Și %d în plus."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1337,7 +1488,9 @@ msgstr "Model nevalid"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Shotwell poate copia fotografiile în dosarul colecție sau le poate importa fără a le copia. "
+msgstr ""
+"Shotwell poate copia fotografiile în dosarul colecție sau le poate importa "
+"fără a le copia. "
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1366,44 +1519,86 @@ msgstr "Se șterg fotografiile din colecție"
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Această acțiune va șterge fotografia/clipul din colecția Shotwell. Doriți, de asemenea, trimiterea fișierului la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[1] "Această acțiune va șterge %d fotografii/clipuri din colecția Shotwell. Doriți, de asemenea, trimiterea fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[2] "Această acțiune va șterge %d de fotografii/clipuri din colecția Shotwell. Doriți, de asemenea, trimiterea fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
+msgstr[0] ""
+"Această acțiune va șterge fotografia/clipul din colecția Shotwell. Doriți, "
+"de asemenea, trimiterea fișierului la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[1] ""
+"Această acțiune va șterge %d fotografii/clipuri din colecția Shotwell. "
+"Doriți, de asemenea, trimiterea fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[2] ""
+"Această acțiune va șterge %d de fotografii/clipuri din colecția Shotwell. "
+"Doriți, de asemenea, trimiterea fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Această acțiune va șterge clipul din colecția Shotwell. Doriți, de asemena, să trimiteți fișierul la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[1] "Această acțiune va șterge %d clipuri din colecția Shotwell. Doriți, de asemena, să trimiteți fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[2] "Această acțiune va șterge %d de clipuri din colecția Shotwell. Doriți, de asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
+msgstr[0] ""
+"Această acțiune va șterge clipul din colecția Shotwell. Doriți, de asemena, "
+"să trimiteți fișierul la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[1] ""
+"Această acțiune va șterge %d clipuri din colecția Shotwell. Doriți, de "
+"asemena, să trimiteți fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[2] ""
+"Această acțiune va șterge %d de clipuri din colecția Shotwell. Doriți, de "
+"asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Această acțiune va șterge fotografia din colecția Shotwell. Doriți, de asemenea, să trimiteți fișierul la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[1] "Această acțiune va șterge %d fotografii din colecția Shotwell. Doriți, de asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
-msgstr[2] "Această acțiune va șterge %d de fotografii din colecția Shotwell. Doriți, de asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n\nNu veți putea reveni asupra acestei acțiuni."
+msgstr[0] ""
+"Această acțiune va șterge fotografia din colecția Shotwell. Doriți, de "
+"asemenea, să trimiteți fișierul la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[1] ""
+"Această acțiune va șterge %d fotografii din colecția Shotwell. Doriți, de "
+"asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
+msgstr[2] ""
+"Această acțiune va șterge %d de fotografii din colecția Shotwell. Doriți, de "
+"asemenea, să trimiteți fișierele la coșul de gunoi al sistemului?\n"
+"\n"
+"Nu veți putea reveni asupra acestei acțiuni."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1411,9 +1606,15 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "Fotografia sau clipul nu poate fi trimis(ă) la coșul de gunoi al sistemului. Ștergeți definitiv fișierul?"
-msgstr[1] "%d fotografii/clipuri nu pot fi trimise la coșul de gunoi al sistemului. Ștergeți definitiv fișierele?"
-msgstr[2] "%d de fotografii/clipuri nu pot fi trimise la coșul de gunoi al sistemului. Ștergeți definitiv fișierele?"
+msgstr[0] ""
+"Fotografia sau clipul nu poate fi trimis(ă) la coșul de gunoi al sistemului. "
+"Ștergeți definitiv fișierul?"
+msgstr[1] ""
+"%d fotografii/clipuri nu pot fi trimise la coșul de gunoi al sistemului. "
+"Ștergeți definitiv fișierele?"
+msgstr[2] ""
+"%d de fotografii/clipuri nu pot fi trimise la coșul de gunoi al sistemului. "
+"Ștergeți definitiv fișierele?"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1601,7 +1802,9 @@ msgstr "Importarea din %s nu poate continua din cauza unei erori:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Pentru a încerca importarea din alt serviciu, alegeți unul din meniul de mai jos."
+msgstr ""
+"Pentru a încerca importarea din alt serviciu, alegeți unul din meniul de mai "
+"jos."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1611,8 +1814,15 @@ msgstr "Importare date"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Nu ați activat niciun modul pentru importarea datelor.\n\nPentru a utiliza funcția de importare din aplicație, trebuie să activați cel puțin un modul pentru importarea datelor. Modulele pot fi activate din dialogul Preferințe. "
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Nu ați activat niciun modul pentru importarea datelor.\n"
+"\n"
+"Pentru a utiliza funcția de importare din aplicație, trebuie să activați cel "
+"puțin un modul pentru importarea datelor. Modulele pot fi activate din "
+"dialogul Preferințe. "
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -2026,7 +2236,10 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Fotografia nu poate fi tipărită:\n\n%s"
+msgstr ""
+"Fotografia nu poate fi tipărită:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
@@ -2038,7 +2251,9 @@ msgstr "Nu se poate deschide/crea baza de date %s cu fotografii: cod eroare %d"
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Nu se poate scrie în baza de date a fotografiilor:\n %s"
+msgstr ""
+"Nu se poate scrie în baza de date a fotografiilor:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -2048,7 +2263,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Eroare la accesarea fișierului bazei de date:\n %s\n\nEroarea a fost: \n%s"
+msgstr ""
+"Eroare la accesarea fișierului bazei de date:\n"
+" %s\n"
+"\n"
+"Eroarea a fost: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2232,7 +2452,8 @@ msgstr "Se golește coșul de gunoi..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Shotwell este configurat să importe fotografiile în directorul personal.\n"
+msgstr ""
+"Shotwell este configurat să importe fotografiile în directorul personal.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2323,7 +2544,9 @@ msgstr "%s nu este un fișier."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "%s nu recunoaște formatul fișierului\n%s."
+msgstr ""
+"%s nu recunoaște formatul fișierului\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -2383,7 +2606,8 @@ msgstr "Rotește la dreapta"
 
 #: src/Resources.vala:147
 msgid "Rotate the photos right (press Ctrl to rotate left)"
-msgstr "Rotește fotografiile către dreapta (apăsați Ctrl pentru a roti către stânga)"
+msgstr ""
+"Rotește fotografiile către dreapta (apăsați Ctrl pentru a roti către stânga)"
 
 #: src/Resources.vala:149
 msgid "Rotate _Left"
@@ -3217,10 +3441,15 @@ msgstr "_Raportează o Problemă..."
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "În timpul accesării colecției Shotwell a apărut o eroare majoră. Shotwell nu poate continua.\n\n%s"
+msgstr ""
+"În timpul accesării colecției Shotwell a apărut o eroare majoră. Shotwell nu "
+"poate continua.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3228,7 +3457,9 @@ msgstr "Vizitați site-ul web Yorba"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr " Marian Vasile <marianvasile@upcmail.ro>, Corneliu Dascălu <corneliu.dascalu@gmail.com>"
+msgstr ""
+" Marian Vasile <marianvasile@upcmail.ro>, Corneliu Dascălu <corneliu."
+"dascalu@gmail.com>"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3332,7 +3563,9 @@ msgstr "Sortează fotografiile după apreciere"
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Shotwell nu poate reda clipul selectat:\n%s"
+msgstr ""
+"Shotwell nu poate reda clipul selectat:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3536,7 +3769,11 @@ msgid ""
 "compatible publishing plugin enabled. To correct this, choose <b>Edit %s "
 "Preferences</b> and enable one or more of the publishing plugins on the "
 "<b>Plugins</b> tab."
-msgstr "Shotwell nu poate publica obiectele selectate deoarece nu ai nici un plugin de publicare compatibil activat. Pentru a corecta acest lucru, alege <b>Editare %s Preferințe</b> și activează unul sau mai multe din plugin-urile de publicare din tab-ul <b>Plugins</b>."
+msgstr ""
+"Shotwell nu poate publica obiectele selectate deoarece nu ai nici un plugin "
+"de publicare compatibil activat. Pentru a corecta acest lucru, alege "
+"<b>Editare %s Preferințe</b> și activează unul sau mai multe din plugin-"
+"urile de publicare din tab-ul <b>Plugins</b>."
 
 #: src/publishing/PublishingPluginHost.vala:11
 msgid "Preparing for upload"
@@ -3561,28 +3798,45 @@ msgid "New _Tag..."
 msgstr "E_tichetă nouă..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
 msgid "A temporary file needed for publishing is unavailable"
 msgstr "Un fișier temporar necesar pentru publicare nu este disponibil"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
-msgstr "V-ați autentificat și ați ieșit deja dintr-un serviciu Google pe parcursul acestei sesiuni\n\nPentru a continua publicarea pe serviciile Google, ieșiți din Shotwell și reporniți programul, apoi încercați din nou să publicați."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
+msgstr ""
+"V-ați autentificat și ați ieșit deja dintr-un serviciu Google pe parcursul "
+"acestei sesiuni\n"
+"\n"
+"Pentru a continua publicarea pe serviciile Google, ieșiți din Shotwell și "
+"reporniți programul, apoi încercați din nou să publicați."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Nu sunteți autentificat pe YouTube.\n\nTrebuie să aveți un cont Google configurat deja pentru a fi utilizat cu YouTube pentru a continua. Puteți configura conturile utilizând navigatorul de Internet, autentificându-vă apoi pe YouTube."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Nu sunteți autentificat pe YouTube.\n"
+"\n"
+"Trebuie să aveți un cont Google configurat deja pentru a fi utilizat cu "
+"YouTube pentru a continua. Puteți configura conturile utilizând navigatorul "
+"de Internet, autentificându-vă apoi pe YouTube."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
 "A file required for publishing is unavailable. Publishing to Youtube can't "
 "continue."
-msgstr "Un fișier necesar pentru publicare este indisponibil. Publicare către Youtube nu poate continua."
+msgstr ""
+"Un fișier necesar pentru publicare este indisponibil. Publicare către "
+"Youtube nu poate continua."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:461
 #, c-format
@@ -3614,14 +3868,25 @@ msgstr "Servicii de bază pentru publicare"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Acum nu sunteți autentificat pe Flickr.\n\nEfectuați clic pe Flickr pentru a vă autentifica în navigatorul de Internet. Va trebui să autorizați Shotwell pentru a se conecta la contul dumneavoastră Flickr."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Acum nu sunteți autentificat pe Flickr.\n"
+"\n"
+"Efectuați clic pe Flickr pentru a vă autentifica în navigatorul de Internet. "
+"Va trebui să autorizați Shotwell pentru a se conecta la contul dumneavoastră "
+"Flickr."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "V-ați autentificat și ați ieșit din Flickr deja pe parcursul acestei sesiuni\nPentru a continua publicarea pe Flickr, ieșiți din Shotwell și reporniți programul, apoi încercați din nou să publicați."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"V-ați autentificat și ați ieșit din Flickr deja pe parcursul acestei "
+"sesiuni\n"
+"Pentru a continua publicarea pe Flickr, ieșiți din Shotwell și reporniți "
+"programul, apoi încercați din nou să publicați."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3632,7 +3897,9 @@ msgstr "Pregătire pentru autentificare..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Flickr can't "
 "continue."
-msgstr "Un fișier necesar pentru publicare este indisponibil. Publicare către Flickr nu poate continua."
+msgstr ""
+"Un fișier necesar pentru publicare este indisponibil. Publicare către Flickr "
+"nu poate continua."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:457
 msgid "Verifying authorization..."
@@ -3643,18 +3910,24 @@ msgstr "Se verifică autorizarea..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Sunteți autentificat pe Flickr ca %s.\n\n"
+msgstr ""
+"Sunteți autentificat pe Flickr ca %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Contul gratuit Flickr limitează cantitatea de date pe care o puteți încărca.\nPentru această lună mai aveți la dispoziție %d MO."
+msgstr ""
+"Contul gratuit Flickr limitează cantitatea de date pe care o puteți "
+"încărca.\n"
+"Pentru această lună mai aveți la dispoziție %d MO."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
-msgstr "Contul Flickr Pro vă permite încărcarea a cât de multe fotografii doriți."
+msgstr ""
+"Contul Flickr Pro vă permite încărcarea a cât de multe fotografii doriți."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1162
 msgid "Photos _visible to:"
@@ -3693,11 +3966,13 @@ msgstr "Numai pentru mine"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
 msgid "500 x 375 pixels"
 msgstr "500 x 375 pixeli"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
 msgid "1024 x 768 pixels"
 msgstr "1024 x 768 pixeli"
 
@@ -3718,21 +3993,28 @@ msgstr "Se creează albumul %s..."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:917
 msgid "An error message occurred when publishing to Piwigo. Please try again."
-msgstr "A fost întâmpinată o problemă încercând publicarea către Piwigo. Vă rugăm să încercați din nou."
+msgstr ""
+"A fost întâmpinată o problemă încercând publicarea către Piwigo. Vă rugăm să "
+"încercați din nou."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:998
 msgid ""
 "Enter the URL of your Piwigo photo library as well as the username and "
 "password associated with your Piwigo account for that library."
-msgstr "Introdu URL-ul librăriei foto Piwigo, precum si username-ul și parola asociate cu contul Piwigo pentru această librărie."
+msgstr ""
+"Introdu URL-ul librăriei foto Piwigo, precum si username-ul și parola "
+"asociate cu contul Piwigo pentru această librărie."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
-msgstr "Shotwell nu poate contacta librăria ta foto Piwigo. Te rog verifică URL-ul pe care l-ai introdus"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
+msgstr ""
+"Shotwell nu poate contacta librăria ta foto Piwigo. Te rog verifică URL-ul "
+"pe care l-ai introdus"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "Username și/sau parolă invalide. Te rog încearcă din nou"
 
@@ -3742,6 +4024,7 @@ msgid "Invalid URL"
 msgstr "URL invalid"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Utilizator sau parolă invalide"
@@ -3772,14 +4055,22 @@ msgstr "Admini"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
-msgstr "Momentan nu ești autentificat în Picasa Web Albums.\n\nApasă Login pentru a te autentifica în Picasa Web Albums în browserul web. Va trebui să autorizezi Shotwell Connect pentru a se conecta la contul tău Picasa Web Albums."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
+msgstr ""
+"Momentan nu ești autentificat în Picasa Web Albums.\n"
+"\n"
+"Apasă Login pentru a te autentifica în Picasa Web Albums în browserul web. "
+"Va trebui să autorizezi Shotwell Connect pentru a se conecta la contul tău "
+"Picasa Web Albums."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
 msgid ""
 "A file required for publishing is unavailable. Publishing to Picasa can't "
 "continue."
-msgstr "Un fișier necesar pentru publicare este indisponibil. Publicare către Picasa nu poate continua."
+msgstr ""
+"Un fișier necesar pentru publicare este indisponibil. Publicare către Picasa "
+"nu poate continua."
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:379
 #: plugins/shotwell-publishing/FacebookPublishing.vala:347
@@ -3819,14 +4110,29 @@ msgstr "Google+ (2048 x 1536 pixels)"
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Acum nu sunteți autentificat pe Facebook.\n\nDacă nu aveți un cont Facebook, puteți crea unul în timpul procesului de autentificare. La conectare, Shotwell Connect poate cere permisiunea de a publica fotografiile. Permisiunea este necesară pentru funcționarea Shotwell Connect."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Acum nu sunteți autentificat pe Facebook.\n"
+"\n"
+"Dacă nu aveți un cont Facebook, puteți crea unul în timpul procesului de "
+"autentificare. La conectare, Shotwell Connect poate cere permisiunea de a "
+"publica fotografiile. Permisiunea este necesară pentru funcționarea Shotwell "
+"Connect."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "V-ați autentificat și ați ieșit din Facebook deja pe parcursul acestei sesiuni Shotwell.\nPentru a continua publicarea pe Facebook, ieșiți din Shotwell și reporniți programul, apoi încercați din nou să publicați."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"V-ați autentificat și ați ieșit din Facebook deja pe parcursul acestei "
+"sesiuni Shotwell.\n"
+"Pentru a continua publicarea pe Facebook, ieșiți din Shotwell și reporniți "
+"programul, apoi încercați din nou să publicați."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3844,14 +4150,18 @@ msgstr "Se testează conexiunea la Facebook..."
 msgid ""
 "A file required for publishing is unavailable. Publishing to Facebook can't "
 "continue."
-msgstr "Un fișier necesar pentru publicare este indisponibil. Publicare către Facebook nu poate continua."
+msgstr ""
+"Un fișier necesar pentru publicare este indisponibil. Publicare către "
+"Facebook nu poate continua."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1019
 #, c-format
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Sunteți autentificat pe Flickr ca %s.\n\n"
+msgstr ""
+"Sunteți autentificat pe Flickr ca %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3921,15 +4231,25 @@ msgstr "Servicii de import de date centrale"
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
-msgstr "Bine ai venit la serviciul de import din libraria F-Spot\n\nTe rog selectează o librărie pentru import, fie selectând una din librăriile deja existente găsite de Shotwell sau selectând o bază de date F-Spot alternativă"
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
+msgstr ""
+"Bine ai venit la serviciul de import din libraria F-Spot\n"
+"\n"
+"Te rog selectează o librărie pentru import, fie selectând una din librăriile "
+"deja existente găsite de Shotwell sau selectând o bază de date F-Spot "
+"alternativă"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
 "Please select an F-Spot database file."
-msgstr "Bine ai venit la serviciul de import din libraria F-Spot\n\nTe rog selectează o bază de date F-Spot."
+msgstr ""
+"Bine ai venit la serviciul de import din libraria F-Spot\n"
+"\n"
+"Te rog selectează o bază de date F-Spot."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:60
 msgid "Manually select an F-Spot database file to import:"
@@ -3937,35 +4257,49 @@ msgstr "Selectează manual o bază de date F-Spot pentru import:"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Nu poate fi deschisă baza de date F-Spot selectată: fișierul nu există sau nu este o bază de date F-Spot"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Nu poate fi deschisă baza de date F-Spot selectată: fișierul nu există sau "
+"nu este o bază de date F-Spot"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Nu poate fi deschisă baza de date F-Spot selectată: această versiune a bazei de date F-Spot nu este suportată de Shotwell"
+msgstr ""
+"Nu poate fi deschisă baza de date F-Spot selectată: această versiune a bazei "
+"de date F-Spot nu este suportată de Shotwell"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
-msgstr "Nu poate fi citită baza de date F-Spot: eroare în timpul citirii tabelul cu etichete"
+"Cannot read the selected F-Spot database file: error while reading tags table"
+msgstr ""
+"Nu poate fi citită baza de date F-Spot: eroare în timpul citirii tabelul cu "
+"etichete"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
 msgid ""
 "Cannot read the selected F-Spot database file: error while reading photos "
 "table"
-msgstr "Nu poate fi citită baza de date F-Spot selectată: eroare în timpul citirii tabelului cu fotografii"
+msgstr ""
+"Nu poate fi citită baza de date F-Spot selectată: eroare în timpul citirii "
+"tabelului cu fotografii"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
-msgstr "Shotwell a găsit %d fotografii în librăria F-Spot și le importează. Duplicatele vor fi detectate automat și șterse.\n\nPoți închide acest dialog și începe să folosești Shotwell cât timp import-ul are loc în fundal."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
+msgstr ""
+"Shotwell a găsit %d fotografii în librăria F-Spot și le importează. "
+"Duplicatele vor fi detectate automat și șterse.\n"
+"\n"
+"Poți închide acest dialog și începe să folosești Shotwell cât timp import-ul "
+"are loc în fundal."
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
 #, c-format
@@ -4054,6 +4388,7 @@ msgstr "pixeli pe inch"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "etichetă"
 
@@ -4165,7 +4500,9 @@ msgstr "_Autentificare"
 msgid ""
 " (text depends on fb username and is modified in the app - \n"
 "anything put into this field won't display)"
-msgstr " (textul depinde de username-ul fb și este modificat în aplicație - \norice puneți în acest câmp nu va fi afișat)"
+msgstr ""
+" (textul depinde de username-ul fb și este modificat în aplicație - \n"
+"orice puneți în acest câmp nu va fi afișat)"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:39
 msgid "Publish to an e_xisting album:"
@@ -4185,12 +4522,16 @@ msgstr "Albumele noi cu fotografii și clipuri _vizibile pentru: "
 #: plugins/shotwell-publishing/piwigo_publishing_options_pane.glade:226
 msgid ""
 "_Remove location, camera, and other identifying information before uploading"
-msgstr "Elimină locația, tipul camerei sau alte informații care pot fi folosite pentru identificare, înainte de upload"
+msgstr ""
+"Elimină locația, tipul camerei sau alte informații care pot fi folosite "
+"pentru identificare, înainte de upload"
 
 #: plugins/shotwell-publishing/facebook_publishing_options_pane.glade:197
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "Înc_hidere sesiune"
 
@@ -4198,6 +4539,8 @@ msgstr "Înc_hidere sesiune"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Publică"
 
@@ -4205,7 +4548,9 @@ msgstr "_Publică"
 msgid ""
 "Enter the confirmation number which appears after you log into Flickr in "
 "your Web browser."
-msgstr "Introduceți numărul de confirmare care apare imediat după autentificarea pe Flicker în navigatorul de Internet."
+msgstr ""
+"Introduceți numărul de confirmare care apare imediat după autentificarea pe "
+"Flicker în navigatorul de Internet."
 
 #: plugins/shotwell-publishing/flickr_pin_entry_pane.glade:37
 msgid "Authorization _Number:"
@@ -4217,13 +4562,18 @@ msgid ""
 "\n"
 "(this label's string is populated and set inside the code, \n"
 "so changes made here will not display)"
-msgstr "Ești conectat în Flickr ca (nume).\n\n(această etichetă este populată în interiorul codului, \nașa că modficările făcute aici nu vor fi afișate)"
+msgstr ""
+"Ești conectat în Flickr ca (nume).\n"
+"\n"
+"(această etichetă este populată în interiorul codului, \n"
+"așa că modficările făcute aici nu vor fi afișate)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:44
 msgid "_visibility label (populated in the code)"
 msgstr "etichetă _vizibilitate (populată în cod)"
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "_Dimensiune fotografie:"
 
@@ -4231,7 +4581,9 @@ msgstr "_Dimensiune fotografie:"
 msgid ""
 "'you are logged in as $name'\n"
 "(populated in the application code)"
-msgstr "'ești conectat ca $nume'\n(populat în codul aplicației)"
+msgstr ""
+"'ești conectat ca $nume'\n"
+"(populat în codul aplicației)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:75
 msgid "An _existing album:"
@@ -4250,7 +4602,9 @@ msgstr "L_istează albumele în galeria publică"
 msgid ""
 "$mediatype will appear in\n"
 "(populated in code)"
-msgstr "$mediatype va apărea în\n(populat în cod)"
+msgstr ""
+"$mediatype va apărea în\n"
+"(populat în cod)"
 
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:150
 msgid "Photo _size preset:"
@@ -4265,6 +4619,7 @@ msgid "User _name"
 msgstr "_Nume utilizator"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Parolă"
 
@@ -4273,6 +4628,7 @@ msgid "_Remember Password"
 msgstr "_Reține parola"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Autentificare"
 
@@ -4298,7 +4654,8 @@ msgstr "Comentariu album:"
 
 #: plugins/shotwell-publishing/piwigo_publishing_options_pane.glade:242
 msgid "_If a title is set and comment unset, use title as comment"
-msgstr "Dacă un titlu este setat și comentariul nu, folosește titlul drept comentariu"
+msgstr ""
+"Dacă un titlu este setat și comentariul nu, folosește titlul drept comentariu"
 
 #: plugins/shotwell-publishing/piwigo_publishing_options_pane.glade:258
 msgid "_Do no upload tags"
@@ -4311,3 +4668,91 @@ msgstr "Deconectare"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "Configurări acce_s pentru clipuri:"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Copyright 2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixeli"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "'%s' nu este un răspuns valid pentru un request de autentificare OAuth"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): nu se poate porni; acest publisher nu poate fi "
+"repornit"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr "Introdu username-ul și parola asociate cu contul tău Tumblr"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "Nu a putut fi încărcat UI-ul: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Ești conectat pe Tumblr ca %s.\n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Vizitați site-ul web Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Nu sunteți autentificat pe Yandex.Fotki."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "Adresă _email"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Ești conectat la Tumblr ca (nume).\n"
+"\n"
+"(această etichetă este populată în interiorul codului,\n"
+"deci modificările făcute aici nu vor fi afișate)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Bloguri:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Albume (sau scrieți nou):"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "_Tip acces:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Dezactivează _comentarii"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Interzice descărcarea _fotografiilor originale"

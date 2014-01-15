@@ -2,8 +2,8 @@
 # PO message string template file for Shotwell Core Components
 # Copyright (C) 2009-2013 Yorba Foundation
 # See COPYING for license.
-# 
-# 
+#
+#
 # Translators:
 # kkypris <kcypre@gmail.com>, 2013
 # Petros Dias <petrosdias@gmail.com>, 2012
@@ -13,6 +13,8 @@
 # anestv <varsamidis7-etc@yahoo.gr>, 2011
 # verayin <vera@yorba.org>, 2011
 # Γιάννης Κασκαμανίδης <kiolalis@gmail.com>, 2011
+# lsbeeler <lucas@yorba.org>, 2011
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: shotwell-0.15\n"
@@ -20,7 +22,8 @@ msgstr ""
 "POT-Creation-Date: 2013-09-20 11:55-0700\n"
 "PO-Revision-Date: 2013-10-01 16:28+0000\n"
 "Last-Translator: kkypris <kcypre@gmail.com>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/shotwell/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/shotwell/language/"
+"el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,7 +53,9 @@ msgstr "RAW+JPEG"
 #: src/camera/ImportPage.vala:459
 msgid ""
 "Unable to unmount camera.  Try unmounting the camera from the file manager."
-msgstr "Αδυναμία αποπροσάρτησης κάμερας. Προσπαθήστε ν' αποπροσαρτήσετε την κάμερα από τη διαχείριση αρχείων."
+msgstr ""
+"Αδυναμία αποπροσάρτησης κάμερας. Προσπαθήστε ν' αποπροσαρτήσετε την κάμερα "
+"από τη διαχείριση αρχείων."
 
 #: src/camera/ImportPage.vala:776
 msgid "Hide photos already imported"
@@ -92,7 +97,9 @@ msgstr "Εισαγωγή όλων των φωτογραφιών στην βιβ�
 msgid ""
 "Shotwell needs to unmount the camera from the filesystem in order to access "
 "it.  Continue?"
-msgstr "Το Shotwell πρέπει ν' αποπροσαρτήσει την κάμερα από το σύστημα αρχείων για να έχει πρόσβαση σ' αυτήν. Συνέχεια;"
+msgstr ""
+"Το Shotwell πρέπει ν' αποπροσαρτήσει την κάμερα από το σύστημα αρχείων για "
+"να έχει πρόσβαση σ' αυτήν. Συνέχεια;"
 
 #: src/camera/ImportPage.vala:1018
 msgid "_Unmount"
@@ -107,7 +114,10 @@ msgid ""
 "The camera is locked by another application.  Shotwell can only access the "
 "camera when it's unlocked.  Please close any other application using the "
 "camera and try again."
-msgstr "Η κάμερα είναι κλειδωμένη από κάποια άλλη εφαρμογή. Το Shotwell μπορεί να έχει πρόσβαση στη κάμερα μόνο όταν είναι ξεκλείδωτη. Παρακαλώ κλείστε κάθε άλλη εφαρμογή που χρησιμοποιεί την κάμερα και προσπαθήστε ξανά."
+msgstr ""
+"Η κάμερα είναι κλειδωμένη από κάποια άλλη εφαρμογή. Το Shotwell μπορεί να "
+"έχει πρόσβαση στη κάμερα μόνο όταν είναι ξεκλείδωτη. Παρακαλώ κλείστε κάθε "
+"άλλη εφαρμογή που χρησιμοποιεί την κάμερα και προσπαθήστε ξανά."
 
 #: src/camera/ImportPage.vala:1038
 msgid "Please close any other application using the camera."
@@ -118,7 +128,9 @@ msgstr "Παρακαλώ κλείστε κάθε άλλη εφαρμογή πο�
 msgid ""
 "Unable to fetch previews from the camera:\n"
 "%s"
-msgstr "Αδυναμία μεταφοράς προεπισκοπήσεων από την κάμερα:\n%s"
+msgstr ""
+"Αδυναμία μεταφοράς προεπισκοπήσεων από την κάμερα:\n"
+"%s"
 
 #: src/camera/ImportPage.vala:1060
 msgid "Unmounting..."
@@ -177,10 +189,11 @@ msgstr "Απομάκρυνση των φωτογραφιών/βίντεο από
 #: src/camera/ImportPage.vala:1762
 #, c-format
 msgid "Unable to delete %d photo/video from the camera due to errors."
-msgid_plural ""
-"Unable to delete %d photos/videos from the camera due to errors."
-msgstr[0] "Αδυναμία διαγραφής %d φωτογραφίας/βίντεο από την κάμερα εξαιτίας σφαλμάτων."
-msgstr[1] "Αδυναμία διαγραφής %d φωτογραφιών/βίντεο από την κάμερα εξαιτίας σφαλμάτων."
+msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
+msgstr[0] ""
+"Αδυναμία διαγραφής %d φωτογραφίας/βίντεο από την κάμερα εξαιτίας σφαλμάτων."
+msgstr[1] ""
+"Αδυναμία διαγραφής %d φωτογραφιών/βίντεο από την κάμερα εξαιτίας σφαλμάτων."
 
 #: src/CollectionPage.vala:230 src/PhotoPage.vala:2623
 msgid "S_lideshow"
@@ -405,7 +418,11 @@ msgid ""
 "Your photo library is not compatible with this version of Shotwell.  It "
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please use the latest version of Shotwell."
-msgstr "Η βιβλιοθήκη φωτογραφιών σας δεν είναι συμβατή με αυτή την έκδοση του Shotwell. Φαίνεται να δημιουργήθηκε με το Shotwell %s (schema %d). Η έκδοση αυτή είναι η %s (schema %d). Παρακαλώ χρησιμοποιήστε την τελευταία έκδοση του Shotwell."
+msgstr ""
+"Η βιβλιοθήκη φωτογραφιών σας δεν είναι συμβατή με αυτή την έκδοση του "
+"Shotwell. Φαίνεται να δημιουργήθηκε με το Shotwell %s (schema %d). Η έκδοση "
+"αυτή είναι η %s (schema %d). Παρακαλώ χρησιμοποιήστε την τελευταία έκδοση "
+"του Shotwell."
 
 #: src/main.vala:59
 #, c-format
@@ -413,7 +430,10 @@ msgid ""
 "Shotwell was unable to upgrade your photo library from version %s (schema "
 "%d) to %s (schema %d).  For more information please check the Shotwell Wiki "
 "at %s"
-msgstr "Το Shotwell δεν κατάφερε ν' αναβαθμίσει τη βιβλιοθήκη φωτογραφιών σας από την έκδοση %s (schema %d)  στη %s (schema %d) . Για περισσότερες πληροφορίες παρακαλούμε ελέγξτε το Shotwell Wiki στο %s"
+msgstr ""
+"Το Shotwell δεν κατάφερε ν' αναβαθμίσει τη βιβλιοθήκη φωτογραφιών σας από "
+"την έκδοση %s (schema %d)  στη %s (schema %d) . Για περισσότερες πληροφορίες "
+"παρακαλούμε ελέγξτε το Shotwell Wiki στο %s"
 
 #: src/main.vala:65
 #, c-format
@@ -422,12 +442,18 @@ msgid ""
 "appears it was created by Shotwell %s (schema %d).  This version is %s "
 "(schema %d).  Please clear your library by deleting %s and re-import your "
 "photos."
-msgstr "Η βιβλιοθήκη των φωτογραφιών σας δεν είναι συμβατή με αυτή την έκδοση του Shotwell. Φαίνεται πως δημιουργήθηκε με το Shotwell %s (schema %d). Η έκδοση αυτή είναι η %s (schema %d). Παρακαλώ εκκαθαρίστε τη βιβλιοθήκη σας διαγράφοντας το %s και εισάγοντας ξανά τις φωτογραφίες σας."
+msgstr ""
+"Η βιβλιοθήκη των φωτογραφιών σας δεν είναι συμβατή με αυτή την έκδοση του "
+"Shotwell. Φαίνεται πως δημιουργήθηκε με το Shotwell %s (schema %d). Η έκδοση "
+"αυτή είναι η %s (schema %d). Παρακαλώ εκκαθαρίστε τη βιβλιοθήκη σας "
+"διαγράφοντας το %s και εισάγοντας ξανά τις φωτογραφίες σας."
 
 #: src/main.vala:71
 #, c-format
 msgid "Unknown error attempting to verify Shotwell's database: %s"
-msgstr "Άγνωστο σφάλμα κατά την προσπάθεια επαλήθευσης της βάσης δεδομένων του Shotwell: %s"
+msgstr ""
+"Άγνωστο σφάλμα κατά την προσπάθεια επαλήθευσης της βάσης δεδομένων του "
+"Shotwell: %s"
 
 #: src/main.vala:104
 msgid "Loading Shotwell"
@@ -443,7 +469,8 @@ msgstr ""
 
 #: src/main.vala:298
 msgid "Do not monitor library directory at runtime for changes"
-msgstr "Μη παρακολούθηση του φακέλου της βιβλιοθήκης κατά την εκτέλεση για αλλαγές"
+msgstr ""
+"Μη παρακολούθηση του φακέλου της βιβλιοθήκης κατά την εκτέλεση για αλλαγές"
 
 #: src/main.vala:302
 msgid "Don't display startup progress meter"
@@ -460,7 +487,9 @@ msgstr "[ΑΡΧΕΙΟ]"
 #: src/main.vala:342
 #, c-format
 msgid "Run '%s --help' to see a full list of available command line options.\n"
-msgstr "Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα με τα διαθέσιμα ορίσματα γραμμής εντολών.\n"
+msgstr ""
+"Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα με τα διαθέσιμα ορίσματα "
+"γραμμής εντολών.\n"
 
 #: src/Properties.vala:84
 msgid "Today"
@@ -613,8 +642,11 @@ msgstr "Εκτενείς πληροφορίες"
 #, c-format
 msgid "This will remove the tag \"%s\" from one photo.  Continue?"
 msgid_plural "This will remove the tag \"%s\" from %d photos.  Continue?"
-msgstr[0] "Αυτή η ενέργεια θ' αφαιρέσει την ετικέτα \"%s\" από μια φωτογραφία. Συνέχεια;"
-msgstr[1] "Αυτή η ενέργεια θ'  αφαιρέσει την ετικέτα \"%s\" από %d φωτογραφίες. Συνέχεια;"
+msgstr[0] ""
+"Αυτή η ενέργεια θ' αφαιρέσει την ετικέτα \"%s\" από μια φωτογραφία. Συνέχεια;"
+msgstr[1] ""
+"Αυτή η ενέργεια θ'  αφαιρέσει την ετικέτα \"%s\" από %d φωτογραφίες. "
+"Συνέχεια;"
 
 #: src/Dialogs.vala:20 src/Dialogs.vala:28 src/Dialogs.vala:1361
 #: src/Dialogs.vala:1384 src/data_imports/DataImportsUI.vala:399
@@ -657,20 +689,27 @@ msgstr "Εξαγωγή βίντεο"
 msgid ""
 "Shotwell couldn't create a file for editing this photo because you do not "
 "have permission to write to %s."
-msgstr "Το Shotwell δεν κατάφερε να δημιουργήσει ένα αρχείο για επεξεργασία της φωτογραφίας επειδή δεν έχετε άδεια να γράψετε στο %s."
+msgstr ""
+"Το Shotwell δεν κατάφερε να δημιουργήσει ένα αρχείο για επεξεργασία της "
+"φωτογραφίας επειδή δεν έχετε άδεια να γράψετε στο %s."
 
 #: src/Dialogs.vala:124
 msgid ""
 "Unable to export the following photo due to a file error.\n"
 "\n"
-msgstr "Δεν ήταν δυνατή η εξαγωγή της φωτογραφίας εξαιτίας ενός σφάλματος αρχείου.\n\n"
+msgstr ""
+"Δεν ήταν δυνατή η εξαγωγή της φωτογραφίας εξαιτίας ενός σφάλματος αρχείου.\n"
+"\n"
 
 #: src/Dialogs.vala:130
 msgid ""
 "\n"
 "\n"
 "Would you like to continue exporting?"
-msgstr "\n\nΘέλετε να συνεχιστεί η εξαγωγή;"
+msgstr ""
+"\n"
+"\n"
+"Θέλετε να συνεχιστεί η εξαγωγή;"
 
 #: src/Dialogs.vala:131
 msgid "Con_tinue"
@@ -753,28 +792,34 @@ msgid "error message:"
 msgstr "μήνυμα λάθους:"
 
 #: src/Dialogs.vala:582
-msgid ""
-"Files Not Imported Because They Weren't Recognized as Photos or Videos:"
-msgstr "Αρχεία που δεν Εισήχθησαν Επειδή δεν Αναγνωρίστηκαν ως Φωτογραφίες ή Βίντεο:"
+msgid "Files Not Imported Because They Weren't Recognized as Photos or Videos:"
+msgstr ""
+"Αρχεία που δεν Εισήχθησαν Επειδή δεν Αναγνωρίστηκαν ως Φωτογραφίες ή Βίντεο:"
 
 #: src/Dialogs.vala:597
 msgid ""
 "Photos/Videos Not Imported Because They Weren't in a Format Shotwell "
 "Understands:"
-msgstr "Αρχεία που δεν Εισήχθησαν Επειδή δεν ήταν σε Μορφή που Αναγνωρίζει το Shotwell:"
+msgstr ""
+"Αρχεία που δεν Εισήχθησαν Επειδή δεν ήταν σε Μορφή που Αναγνωρίζει το "
+"Shotwell:"
 
 #: src/Dialogs.vala:612
 msgid ""
 "Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its "
 "Library:"
-msgstr "Αρχεία που δεν Εισήχθησαν Επειδή το Shotwell δε Μπόρεσε να Αντιγράψει στη Βιβλιοθήκη:"
+msgstr ""
+"Αρχεία που δεν Εισήχθησαν Επειδή το Shotwell δε Μπόρεσε να Αντιγράψει στη "
+"Βιβλιοθήκη:"
 
 #: src/Dialogs.vala:616
 #, c-format
 msgid ""
 "couldn't copy %s\n"
 "\tto %s"
-msgstr "Αδυναμία αντιγραφής  %s⏎\n⇥εώς %s"
+msgstr ""
+"Αδυναμία αντιγραφής  %s⏎\n"
+"⇥εώς %s"
 
 #: src/Dialogs.vala:628
 msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
@@ -809,52 +854,73 @@ msgstr[1] "%d διπλές φωτογραφίες/βίντεο δεν εισήχ
 #, c-format
 msgid "1 photo failed to import due to a file or hardware error:\n"
 msgid_plural "%d photos failed to import due to a file or hardware error:\n"
-msgstr[0] "1 φωτογραφία απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
-msgstr[1] "%d φωτογραφίες απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
+msgstr[0] ""
+"1 φωτογραφία απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή σφάλματος "
+"του υλικού:\n"
+msgstr[1] ""
+"%d φωτογραφίες απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου ή "
+"σφάλματος του υλικού:\n"
 
 #: src/Dialogs.vala:686
 #, c-format
 msgid "1 video failed to import due to a file or hardware error:\n"
 msgid_plural "%d videos failed to import due to a file or hardware error:\n"
-msgstr[0] "1 βίντεο απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
-msgstr[1] "%d βίντεο απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
+msgstr[0] ""
+"1 βίντεο απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του "
+"υλικού:\n"
+msgstr[1] ""
+"%d βίντεο απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου ή σφάλματος "
+"του υλικού:\n"
 
 #: src/Dialogs.vala:689
 #, c-format
 msgid "1 photo/video failed to import due to a file or hardware error:\n"
 msgid_plural ""
 "%d photos/videos failed to import due to a file or hardware error:\n"
-msgstr[0] "1 φωτογραφία/βίντεο απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
-msgstr[1] "%d φωτογραφίες/βίντεο απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου ή σφάλματος του υλικού:\n"
+msgstr[0] ""
+"1 φωτογραφία/βίντεο απέτυχε να εισαχθεί εξαιτίας ενός σφάλματος αρχείου ή "
+"σφάλματος του υλικού:\n"
+msgstr[1] ""
+"%d φωτογραφίες/βίντεο απέτυχαν να εισαχθούν εξαιτίας ενός σφάλματος αρχείου "
+"ή σφάλματος του υλικού:\n"
 
 #: src/Dialogs.vala:692
 #, c-format
 msgid "1 file failed to import due to a file or hardware error:\n"
 msgid_plural "%d files failed to import due to a file or hardware error:\n"
-msgstr[0] "Απέτυχε η εισαγωγή 1 αρχείου λόγω σφάλματος αρχείου ή σφάλματος του υλικού:\n"
-msgstr[1] "Απέτυχε η εισαγωγή %d αρχείων λόγω σφάλματος αρχείου ή σφάλματος του υλικού:\n"
+msgstr[0] ""
+"Απέτυχε η εισαγωγή 1 αρχείου λόγω σφάλματος αρχείου ή σφάλματος του υλικού:\n"
+msgstr[1] ""
+"Απέτυχε η εισαγωγή %d αρχείων λόγω σφάλματος αρχείου ή σφάλματος του "
+"υλικού:\n"
 
 #: src/Dialogs.vala:706
 #, c-format
 msgid ""
-"1 photo failed to import because the photo library folder was not "
-"writable:\n"
+"1 photo failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d photos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Απέτυχε η εισαγωγή 1 φωτογραφίας επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
-msgstr[1] "Απέτυχε η εισαγωγή %d φωτογραφιών επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
+msgstr[0] ""
+"Απέτυχε η εισαγωγή 1 φωτογραφίας επειδή ο φάκελος της βιβλιοθήκης δεν είναι "
+"εγγράψιμος:\n"
+msgstr[1] ""
+"Απέτυχε η εισαγωγή %d φωτογραφιών επειδή ο φάκελος της βιβλιοθήκης δεν είναι "
+"εγγράψιμος:\n"
 
 #: src/Dialogs.vala:709
 #, c-format
 msgid ""
-"1 video failed to import because the photo library folder was not "
-"writable:\n"
+"1 video failed to import because the photo library folder was not writable:\n"
 msgid_plural ""
 "%d videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Απέτυχε η εισαγωγή 1 βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
-msgstr[1] "Απέτυχε η εισαγωγή %d βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
+msgstr[0] ""
+"Απέτυχε η εισαγωγή 1 βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι "
+"εγγράψιμος:\n"
+msgstr[1] ""
+"Απέτυχε η εισαγωγή %d βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι "
+"εγγράψιμος:\n"
 
 #: src/Dialogs.vala:712
 #, c-format
@@ -864,8 +930,12 @@ msgid ""
 msgid_plural ""
 "%d photos/videos failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Απέτυχε η εισαγωγή 1 φωτογραφίας/βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
-msgstr[1] "Απέτυχε η εισαγωγή %d φωτογραφιών/βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν είναι εγγράψιμος:\n"
+msgstr[0] ""
+"Απέτυχε η εισαγωγή 1 φωτογραφίας/βίντεο επειδή ο φάκελος της βιβλιοθήκης δεν "
+"είναι εγγράψιμος:\n"
+msgstr[1] ""
+"Απέτυχε η εισαγωγή %d φωτογραφιών/βίντεο επειδή ο φάκελος της βιβλιοθήκης "
+"δεν είναι εγγράψιμος:\n"
 
 #: src/Dialogs.vala:715
 #, c-format
@@ -874,29 +944,42 @@ msgid ""
 msgid_plural ""
 "%d files failed to import because the photo library folder was not "
 "writable:\n"
-msgstr[0] "Απέτυχε η εισαγωγή 1 αρχείου επειδή ο φάκελος της βιβλιοθήκης δεν ήταν εγγράψιμος:\n"
-msgstr[1] "Απέτυχε η εισαγωγή %d αρχείων επειδή ο φάκελος της βιβλιοθήκης δεν ήταν εγγράψιμος:\n"
+msgstr[0] ""
+"Απέτυχε η εισαγωγή 1 αρχείου επειδή ο φάκελος της βιβλιοθήκης δεν ήταν "
+"εγγράψιμος:\n"
+msgstr[1] ""
+"Απέτυχε η εισαγωγή %d αρχείων επειδή ο φάκελος της βιβλιοθήκης δεν ήταν "
+"εγγράψιμος:\n"
 
 #: src/Dialogs.vala:729
 #, c-format
 msgid "1 photo failed to import due to a camera error:\n"
 msgid_plural "%d photos failed to import due to a camera error:\n"
-msgstr[0] "1 φωτογραφία απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της κάμερας:\n"
-msgstr[1] "%d φωτογραφίες απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της κάμερας:\n"
+msgstr[0] ""
+"1 φωτογραφία απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της κάμερας:\n"
+msgstr[1] ""
+"%d φωτογραφίες απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της "
+"κάμερας:\n"
 
 #: src/Dialogs.vala:732
 #, c-format
 msgid "1 video failed to import due to a camera error:\n"
 msgid_plural "%d videos failed to import due to a camera error:\n"
-msgstr[0] "1 βίντεο απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της κάμερας:\n"
-msgstr[1] "%d βίντεο απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της κάμερας:\n"
+msgstr[0] ""
+"1 βίντεο απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της κάμερας:\n"
+msgstr[1] ""
+"%d βίντεο απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της κάμερας:\n"
 
 #: src/Dialogs.vala:735
 #, c-format
 msgid "1 photo/video failed to import due to a camera error:\n"
 msgid_plural "%d photos/videos failed to import due to a camera error:\n"
-msgstr[0] "1 φωτογραφία/βίντεο απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της κάμερας:\n"
-msgstr[1] "%d φωτογραφίες/βίντεο απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της κάμερας:\n"
+msgstr[0] ""
+"1 φωτογραφία/βίντεο απέτυχε να εισαχθεί εξαιτίας κάποιου σφάλματος της "
+"κάμερας:\n"
+msgstr[1] ""
+"%d φωτογραφίες/βίντεο απέτυχαν να εισαχθούν εξαιτίας κάποιου σφάλματος της "
+"κάμερας:\n"
 
 #: src/Dialogs.vala:738
 #, c-format
@@ -1072,8 +1155,12 @@ msgstr "Να Αναιρεθούν οι Εξωτερικές Επεξεργασί
 msgid "This will destroy all changes made to the external file.  Continue?"
 msgid_plural ""
 "This will destroy all changes made to %d external files.  Continue?"
-msgstr[0] "Αυτή η ενέργεια θα καταστρέψει όλες τις αλλαγές που έγιναν στο εξωτερικό αρχείο. Να συνεχιστεί;"
-msgstr[1] "Αυτή η ενέργεια θα καταστρέψει όλες τις αλλαγές που έγιναν στα %d εξωτερικά αρχεία. Να συνεχιστεί;"
+msgstr[0] ""
+"Αυτή η ενέργεια θα καταστρέψει όλες τις αλλαγές που έγιναν στο εξωτερικό "
+"αρχείο. Να συνεχιστεί;"
+msgstr[1] ""
+"Αυτή η ενέργεια θα καταστρέψει όλες τις αλλαγές που έγιναν στα %d εξωτερικά "
+"αρχεία. Να συνεχιστεί;"
 
 #: src/Dialogs.vala:1357
 msgid "Re_vert External Edit"
@@ -1087,8 +1174,10 @@ msgstr "_Αναίρεση Εξωτερικών Επεξεργασιών "
 #, c-format
 msgid "This will remove the photo from the library.  Continue?"
 msgid_plural "This will remove %d photos from the library.  Continue?"
-msgstr[0] "Αυτή η ενέργεια θ' αφαιρέσει τη φωτογραφία από τη βιβλιοθήκη. Συνέχεια;"
-msgstr[1] "Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες από τη βιβλιοθήκη. Συνέχεια;"
+msgstr[0] ""
+"Αυτή η ενέργεια θ' αφαιρέσει τη φωτογραφία από τη βιβλιοθήκη. Συνέχεια;"
+msgstr[1] ""
+"Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες από τη βιβλιοθήκη. Συνέχεια;"
 
 #: src/Dialogs.vala:1385
 msgid "_Remove"
@@ -1160,14 +1249,18 @@ msgstr "%m/%d/%Y, %I:%M:%S %p"
 msgid ""
 "Exposure time will be shifted forward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ο χρόνος έκθεσης θα μετατοπιστεί προς τα εμπρός κατά\n%d %s, %d %s, %d %s, και %d %s."
+msgstr ""
+"Ο χρόνος έκθεσης θα μετατοπιστεί προς τα εμπρός κατά\n"
+"%d %s, %d %s, %d %s, και %d %s."
 
 #: src/Dialogs.vala:1836
 #, c-format
 msgid ""
 "Exposure time will be shifted backward by\n"
 "%d %s, %d %s, %d %s, and %d %s."
-msgstr "Ο χρόνος έκθεσης θα μετατοπιστεί προς τα πίσω κατά\n%d %s, %d %s, %d %s, και %d %s."
+msgstr ""
+"Ο χρόνος έκθεσης θα μετατοπιστεί προς τα πίσω κατά\n"
+"%d %s, %d %s, %d %s, και %d %s."
 
 #: src/Dialogs.vala:1838
 msgid "day"
@@ -1203,8 +1296,14 @@ msgid_plural ""
 "\n"
 "\n"
 "And %d others."
-msgstr[0] "\n\nΚαι %d άλλο."
-msgstr[1] "\n\nΚαι %d άλλα."
+msgstr[0] ""
+"\n"
+"\n"
+"Και %d άλλο."
+msgstr[1] ""
+"\n"
+"\n"
+"Και %d άλλα."
 
 #: src/Dialogs.vala:1907 src/Dialogs.vala:1934
 msgid "Tags (separated by commas):"
@@ -1222,7 +1321,8 @@ msgstr "Καλωσορίσατε στο Shotwell!"
 #: src/Dialogs.vala:2025
 #, c-format
 msgid "To get started, import photos in any of these ways:"
-msgstr "Για να ξεκινήσετε, εισάγετε φωτογραφίες με κάποιον από αυτούς τους τρόπους:"
+msgstr ""
+"Για να ξεκινήσετε, εισάγετε φωτογραφίες με κάποιον από αυτούς τους τρόπους:"
 
 #: src/Dialogs.vala:2044
 #, c-format
@@ -1231,7 +1331,8 @@ msgstr "Επιλέξτε <span weight=\"bold\">Εισαγωγή %s αρχείω�
 
 #: src/Dialogs.vala:2045
 msgid "Drag and drop photos onto the Shotwell window"
-msgstr "Σύρετε και αφήστε (drag and drop) φωτογραφίες στο παράθυρο του Shotwell"
+msgstr ""
+"Σύρετε και αφήστε (drag and drop) φωτογραφίες στο παράθυρο του Shotwell"
 
 #: src/Dialogs.vala:2046
 msgid "Connect a camera to your computer and import"
@@ -1244,7 +1345,8 @@ msgstr "_Εισαγωγή φωτογραφιών από το φάκελο %s"
 
 #: src/Dialogs.vala:2063
 msgid "You can also import photos in any of these ways:"
-msgstr "Μπορείτε επίσης να εισάγετε φωτογραφίες με κάποιον από αυτούς τους τρόπους:"
+msgstr ""
+"Μπορείτε επίσης να εισάγετε φωτογραφίες με κάποιον από αυτούς τους τρόπους:"
 
 #: src/Dialogs.vala:2073
 msgid "_Don't show this message again"
@@ -1290,7 +1392,9 @@ msgstr "Μη έγκυρο πρότυπο"
 msgid ""
 "Shotwell can copy the photos into your library folder or it can import them "
 "without copying."
-msgstr "Το Shotwell μπορεί ν' αντιγράψει τις φωτογραφίες στο φάκελο της βιβλιοθήκης ή μπορεί να τις εισάγει χωρίς να τις αντιγράψει."
+msgstr ""
+"Το Shotwell μπορεί ν' αντιγράψει τις φωτογραφίες στο φάκελο της βιβλιοθήκης "
+"ή μπορεί να τις εισάγει χωρίς να τις αντιγράψει."
 
 #: src/Dialogs.vala:2617
 msgid "Co_py Photos"
@@ -1319,41 +1423,77 @@ msgstr "Αφαίρεση των φωτογραφιών από τη Βιβλιο�
 #: src/Dialogs.vala:2644
 #, c-format
 msgid ""
-"This will remove the photo/video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo/video from your Shotwell library.  Would you also "
+"like to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos/videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos/videos from your Shotwell library.  Would you "
+"also like to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Αυτή η ενέργεια θ' αφαιρέσει την επιλεγμένη φωτογραφία από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
-msgstr[1] "Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες/βίντεο από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[0] ""
+"Αυτή η ενέργεια θ' αφαιρέσει την επιλεγμένη φωτογραφία από τη βιβλιοθήκη του "
+"Shotwell. Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της "
+"επιφάνειας εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[1] ""
+"Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες/βίντεο από τη βιβλιοθήκη του "
+"Shotwell. Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της "
+"επιφάνειας εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
 
 #: src/Dialogs.vala:2648
 #, c-format
 msgid ""
-"This will remove the video from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the video from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d videos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d videos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Αυτή η ενέργεια θ' αφαιρέσει το βίντεο από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
-msgstr[1] "Αυτή η ενέργεια θ' αφαιρέσει %d βίντεο από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[0] ""
+"Αυτή η ενέργεια θ' αφαιρέσει το βίντεο από τη βιβλιοθήκη του Shotwell. "
+"Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της επιφάνειας "
+"εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[1] ""
+"Αυτή η ενέργεια θ' αφαιρέσει %d βίντεο από τη βιβλιοθήκη του Shotwell. "
+"Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της επιφάνειας "
+"εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
 
 #: src/Dialogs.vala:2652
 #, c-format
 msgid ""
-"This will remove the photo from your Shotwell library.  Would you also like to move the file to your desktop trash?\n"
+"This will remove the photo from your Shotwell library.  Would you also like "
+"to move the file to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
 msgid_plural ""
-"This will remove %d photos from your Shotwell library.  Would you also like to move the files to your desktop trash?\n"
+"This will remove %d photos from your Shotwell library.  Would you also like "
+"to move the files to your desktop trash?\n"
 "\n"
 "This action cannot be undone."
-msgstr[0] "Αυτή η ενέργεια θ' αφαιρέσει την επιλεγμένη φωτογραφία από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
-msgstr[1] "Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες από τη βιβλιοθήκη του Shotwell. Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της επιφάνειας εργασίας;\n\nΑυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[0] ""
+"Αυτή η ενέργεια θ' αφαιρέσει την επιλεγμένη φωτογραφία από τη βιβλιοθήκη του "
+"Shotwell. Θέλετε επίσης να μεταφέρετε το αρχείο στα απορρίμματα της "
+"επιφάνειας εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
+msgstr[1] ""
+"Αυτή η ενέργεια θ' αφαιρέσει %d φωτογραφίες από τη βιβλιοθήκη του Shotwell. "
+"Θέλετε επίσης να μεταφέρετε τα αρχεία στα απορρίμματα της επιφάνειας "
+"εργασίας;\n"
+"\n"
+"Αυτή η κίνηση δεν μπορεί να αναιρεθεί."
 
 #: src/Dialogs.vala:2684
 #, c-format
@@ -1361,8 +1501,12 @@ msgid ""
 "The photo or video cannot be moved to your desktop trash.  Delete this file?"
 msgid_plural ""
 "%d photos/videos cannot be moved to your desktop trash.  Delete these files?"
-msgstr[0] "Δεν είναι δυνατή η μετακίνηση της φωτογραφίας/βίντεο στα απορρίμματα της επιφάνειας εργασίας. Να διαγραφεί αυτό το αρχείο;"
-msgstr[1] "Δεν είναι δυνατή η μετακίνηση %d φωτογραφιών/βίντεο στα απορρίμματα της επιφάνειας εργασίας. Να διαγραφούν αυτά τα αρχεία;"
+msgstr[0] ""
+"Δεν είναι δυνατή η μετακίνηση της φωτογραφίας/βίντεο στα απορρίμματα της "
+"επιφάνειας εργασίας. Να διαγραφεί αυτό το αρχείο;"
+msgstr[1] ""
+"Δεν είναι δυνατή η μετακίνηση %d φωτογραφιών/βίντεο στα απορρίμματα της "
+"επιφάνειας εργασίας. Να διαγραφούν αυτά τα αρχεία;"
 
 #: src/Dialogs.vala:2701
 #, c-format
@@ -1545,11 +1689,14 @@ msgstr "%s Βάση δεδομένων"
 #: src/data_imports/DataImportsPluginHost.vala:294
 #, c-format
 msgid "Importing from %s can't continue because an error occurred:"
-msgstr "Η εισαγωγή από το %s δεν μπορεί να συνεχίσει επειδή παρουσιάστηκε ενα σφάλμα:"
+msgstr ""
+"Η εισαγωγή από το %s δεν μπορεί να συνεχίσει επειδή παρουσιάστηκε ενα σφάλμα:"
 
 #: src/data_imports/DataImportsPluginHost.vala:151
 msgid "To try importing from another service, select one from the above menu."
-msgstr "Για να επιχειρήσετε την εισαγωγή από κάποια άλλη υπηρεσία, επιλέξτε μια από το μενού πιο πάνω."
+msgstr ""
+"Για να επιχειρήσετε την εισαγωγή από κάποια άλλη υπηρεσία, επιλέξτε μια από "
+"το μενού πιο πάνω."
 
 #: src/data_imports/DataImports.vala:22
 msgid "Data Imports"
@@ -1559,8 +1706,14 @@ msgstr "Εισαγωγή Δεδομένων"
 msgid ""
 "You do not have any data imports plugins enabled.\n"
 "\n"
-"In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
-msgstr "Δεν έχετε ενεργοποιήσει τις πρόσθετες λειτουργίας εισαγωγής δεδομένων. \\n\\n. Για να χρησιμοποιήσετε τη λειτουργία Εισαγωγής από Εφαρμογή, πρέπει να έχετε ενεργοποιήσει τουλάχιστο μια πρόσθετη λειτουργία εισαγωγής. Μπορείτε να ενεργοποιήσετε τις πρόσθετες λειτουργίες στις Ρυθμίσεις."
+"In order to use the Import From Application functionality, you need to have "
+"at least one data imports plugin enabled. Plugins can be enabled in the "
+"Preferences dialog."
+msgstr ""
+"Δεν έχετε ενεργοποιήσει τις πρόσθετες λειτουργίας εισαγωγής δεδομένων. \\n"
+"\\n. Για να χρησιμοποιήσετε τη λειτουργία Εισαγωγής από Εφαρμογή, πρέπει να "
+"έχετε ενεργοποιήσει τουλάχιστο μια πρόσθετη λειτουργία εισαγωγής. Μπορείτε "
+"να ενεργοποιήσετε τις πρόσθετες λειτουργίες στις Ρυθμίσεις."
 
 #: src/data_imports/DataImportsUI.vala:100
 msgid "Database file:"
@@ -1691,8 +1844,12 @@ msgstr "Αφαίρεση διπλών αντιγράφων φωτογραφιώ�
 #, c-format
 msgid "Unable to duplicate one photo due to a file error"
 msgid_plural "Unable to duplicate %d photos due to file errors"
-msgstr[0] "Δεν ήταν δυνατή η δημιουργία αντιγράφου της φωτογραφίας εξαιτίας κάποιου σφάλματος αρχείου"
-msgstr[1] "Δεν ήταν δυνατή η δημιουργία αντιγράφου %d φωτογραφιών εξαιτίας κάποιου σφάλματος αρχείου"
+msgstr[0] ""
+"Δεν ήταν δυνατή η δημιουργία αντιγράφου της φωτογραφίας εξαιτίας κάποιου "
+"σφάλματος αρχείου"
+msgstr[1] ""
+"Δεν ήταν δυνατή η δημιουργία αντιγράφου %d φωτογραφιών εξαιτίας κάποιου "
+"σφάλματος αρχείου"
 
 #: src/Commands.vala:1183
 msgid "Restoring previous rating"
@@ -1744,8 +1901,10 @@ msgstr "Σφάλμα ρύθμισης ώρας"
 msgid "Time adjustments could not be undone on the following photo file."
 msgid_plural ""
 "Time adjustments could not be undone on the following photo files."
-msgstr[0] "Δεν ήταν δυνατή η αναίρεση των ρυθμίσεων ώρας για το παρακάτω αρχείο εικόνας."
-msgstr[1] "Δεν ήταν δυνατή η αναίρεση των ρυθμίσεων ώρας για τα παρακάτω αρχεία εικόνας."
+msgstr[0] ""
+"Δεν ήταν δυνατή η αναίρεση των ρυθμίσεων ώρας για το παρακάτω αρχείο εικόνας."
+msgstr[1] ""
+"Δεν ήταν δυνατή η αναίρεση των ρυθμίσεων ώρας για τα παρακάτω αρχεία εικόνας."
 
 #: src/Commands.vala:1625 src/Commands.vala:1648
 msgid "Create Tag"
@@ -1971,19 +2130,26 @@ msgid ""
 "Unable to print photo:\n"
 "\n"
 "%s"
-msgstr "Αδυναμία εκτύπωσης της φωτογραφίας:\n\n%s"
+msgstr ""
+"Αδυναμία εκτύπωσης της φωτογραφίας:\n"
+"\n"
+"%s"
 
 #: src/db/DatabaseTable.vala:37
 #, c-format
 msgid "Unable to open/create photo database %s: error code %d"
-msgstr "Αδυναμία ανοίγματος/δημιουργίας βάσης δεδομένων φωτογραφιών %s: κωδικός σφάλματος %d"
+msgstr ""
+"Αδυναμία ανοίγματος/δημιουργίας βάσης δεδομένων φωτογραφιών %s: κωδικός "
+"σφάλματος %d"
 
 #: src/db/DatabaseTable.vala:46
 #, c-format
 msgid ""
 "Unable to write to photo database file:\n"
 " %s"
-msgstr "Δεν ήταν δυνατή η εγγραφή στη βάση δεδομένων φωτογραφιών:\n %s"
+msgstr ""
+"Δεν ήταν δυνατή η εγγραφή στη βάση δεδομένων φωτογραφιών:\n"
+" %s"
 
 #: src/db/DatabaseTable.vala:48
 #, c-format
@@ -1993,7 +2159,12 @@ msgid ""
 "\n"
 "Error was: \n"
 "%s"
-msgstr "Σφάλμα κατά την πρόσβαση στη βάση δεδομένων:\n %s\n\nΤο σφάλμα ήταν: \n%s"
+msgstr ""
+"Σφάλμα κατά την πρόσβαση στη βάση δεδομένων:\n"
+" %s\n"
+"\n"
+"Το σφάλμα ήταν: \n"
+"%s"
 
 #: src/VideoSupport.vala:464
 msgid "Export Videos"
@@ -2177,7 +2348,9 @@ msgstr "Άδειασμα κάδου..."
 
 #: src/library/LibraryWindow.vala:896
 msgid "Shotwell is configured to import photos to your home directory.\n"
-msgstr "Το Shotwell είναι ρυθμισμένο ώστε να εισάγει φωτογραφίες στον προσωπικό σας φάκελο.\n"
+msgstr ""
+"Το Shotwell είναι ρυθμισμένο ώστε να εισάγει φωτογραφίες στον προσωπικό σας "
+"φάκελο.\n"
 
 #: src/library/LibraryWindow.vala:899
 msgid "Library Location"
@@ -2251,7 +2424,8 @@ msgstr "Αποθήκευση φωτογραφίας με διαφορετικό 
 
 #: src/direct/DirectPhotoPage.vala:69
 msgid "Print the photo to a printer connected to your computer"
-msgstr "Εκτυπώστε την φωτογραφία σε έναν εκτυπωτή συνδεδεμένο στον υπολογιστή σας"
+msgstr ""
+"Εκτυπώστε την φωτογραφία σε έναν εκτυπωτή συνδεδεμένο στον υπολογιστή σας"
 
 #: src/direct/DirectPhotoPage.vala:223
 #, c-format
@@ -2268,7 +2442,9 @@ msgstr "Το %s δεν είναι αρχείο."
 msgid ""
 "%s does not support the file format of\n"
 "%s."
-msgstr "Το %s δεν υποστηρίζει τη μορφή αρχείου του\n%s."
+msgstr ""
+"Το %s δεν υποστηρίζει τη μορφή αρχείου του\n"
+"%s."
 
 #: src/direct/DirectPhotoPage.vala:413
 msgid "_Save a Copy"
@@ -2328,7 +2504,8 @@ msgstr "Περιστροφή δεξιά"
 
 #: src/Resources.vala:147
 msgid "Rotate the photos right (press Ctrl to rotate left)"
-msgstr "Περιστροφή των εικόνων δεξιά (πατήστε Ctrl για να περιστρέψετε αριστερά)"
+msgstr ""
+"Περιστροφή των εικόνων δεξιά (πατήστε Ctrl για να περιστρέψετε αριστερά)"
 
 #: src/Resources.vala:149
 msgid "Rotate _Left"
@@ -2428,7 +2605,8 @@ msgstr "Φαινόμενο κόκκινων ματιών"
 
 #: src/Resources.vala:182
 msgid "Reduce or eliminate any red-eye effects in the photo"
-msgstr "Μείωση ή εξαφάνιση επιδράσεων φαινομένου κόκκινων-ματιών στη φωτογραφία"
+msgstr ""
+"Μείωση ή εξαφάνιση επιδράσεων φαινομένου κόκκινων-ματιών στη φωτογραφία"
 
 #: src/Resources.vala:184
 msgid "_Adjust"
@@ -2464,7 +2642,8 @@ msgstr "Ορισμός ως _παρασκηνίου επιφάνειας εργ�
 
 #: src/Resources.vala:195
 msgid "Set selected image to be the new desktop background"
-msgstr "Ορισμός της επιλεγμένης φωτογραφίας σαν νέο παρασκήνιο επιφάνειας εργασίας"
+msgstr ""
+"Ορισμός της επιλεγμένης φωτογραφίας σαν νέο παρασκήνιο επιφάνειας εργασίας"
 
 #: src/Resources.vala:196
 msgid "Set as _Desktop Slideshow..."
@@ -2740,7 +2919,9 @@ msgstr "Εύρεση"
 
 #: src/Resources.vala:300
 msgid "Find an image by typing text that appears in its name or tags"
-msgstr "Βρείτε μια φωτογραφία γράφοντας κείμενο που εμφανίζεται στο όνομα της ή στις ετικέτες της"
+msgstr ""
+"Βρείτε μια φωτογραφία γράφοντας κείμενο που εμφανίζεται στο όνομα της ή στις "
+"ετικέτες της"
 
 #: src/Resources.vala:302
 msgid "_Flag"
@@ -2848,12 +3029,15 @@ msgstr "Αφαίρεση της ετικέτας \"%s\" από τις φωτογ
 #: src/Resources.vala:367
 #, c-format
 msgid "Unable to rename tag to \"%s\" because the tag already exists."
-msgstr "Αδυναμία μετονομασίας της ετικέτας \"%s\" επειδή η ετικέτα υπάρχει ήδη."
+msgstr ""
+"Αδυναμία μετονομασίας της ετικέτας \"%s\" επειδή η ετικέτα υπάρχει ήδη."
 
 #: src/Resources.vala:371
 #, c-format
 msgid "Unable to rename search to \"%s\" because the search already exists."
-msgstr "Δεν ήταν δυνατή η μετονομασία της αναζήτησης σε \"%s\" γιατί η αναζήτηση αυτή υπάρχει ήδη."
+msgstr ""
+"Δεν ήταν δυνατή η μετονομασία της αναζήτησης σε \"%s\" γιατί η αναζήτηση "
+"αυτή υπάρχει ήδη."
 
 #: src/Resources.vala:374
 msgid "Saved Search"
@@ -3005,7 +3189,8 @@ msgstr "Ορισμός κοπής της φωτογραφίας"
 
 #: src/editing_tools/EditingTools.vala:676
 msgid "Pivot the crop rectangle between portrait and landscape orientations"
-msgstr "Στρέψτε το τετράγωνο κοπής μεταξύ προσανατολισμού πορτραίτου και τοπίου"
+msgstr ""
+"Στρέψτε το τετράγωνο κοπής μεταξύ προσανατολισμού πορτραίτου και τοπίου"
 
 #: src/editing_tools/EditingTools.vala:749
 msgid "Unconstrained"
@@ -3061,7 +3246,9 @@ msgstr "Κλείσιμο του εργαλείου αφαίρεσης κόκκι
 
 #: src/editing_tools/EditingTools.vala:1868
 msgid "Remove any red-eye effects in the selected region"
-msgstr "Αφαίρεση κάθε επίδρασης του φαινομένου κόκκινων ματιών στην επιλεγμένη περιοχή"
+msgstr ""
+"Αφαίρεση κάθε επίδρασης του φαινομένου κόκκινων ματιών στην επιλεγμένη "
+"περιοχή"
 
 #: src/editing_tools/EditingTools.vala:2226
 msgid "Saturation:"
@@ -3162,10 +3349,15 @@ msgstr ""
 #: src/AppWindow.vala:663
 #, c-format
 msgid ""
-"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot continue.\n"
+"A fatal error occurred when accessing Shotwell's library.  Shotwell cannot "
+"continue.\n"
 "\n"
 "%s"
-msgstr "Ένα σφάλμα προέκυψε κατά την πρόσβαση στη βιβλιοθήκη του Shotwell. Το Shotwell δεν μπορεί να συνεχίσει.\n\n%s"
+msgstr ""
+"Ένα σφάλμα προέκυψε κατά την πρόσβαση στη βιβλιοθήκη του Shotwell. Το "
+"Shotwell δεν μπορεί να συνεχίσει.\n"
+"\n"
+"%s"
 
 #: src/AppWindow.vala:683 plugins/common/Resources.vala:9
 msgid "Visit the Yorba web site"
@@ -3173,7 +3365,12 @@ msgstr "Επισκεφθείτε την ιστοσελίδα του Yorba"
 
 #: src/AppWindow.vala:686 plugins/common/Resources.vala:28
 msgid "translator-credits"
-msgstr "Dimitris Glezos <dimitris@glezos.com>\nThalia Papoutsaki <saliyath@gmail.com>\nSterios Prosiniklis <steriosprosiniklis@gmail.com>\nPetros Dias <petrosdias@gmail.com>\nKonstantinos Kypris <kcypre@gmail.com>"
+msgstr ""
+"Dimitris Glezos <dimitris@glezos.com>\n"
+"Thalia Papoutsaki <saliyath@gmail.com>\n"
+"Sterios Prosiniklis <steriosprosiniklis@gmail.com>\n"
+"Petros Dias <petrosdias@gmail.com>\n"
+"Konstantinos Kypris <kcypre@gmail.com>"
 
 #: src/AppWindow.vala:695
 #, c-format
@@ -3234,7 +3431,8 @@ msgstr "_Αναπαραγωγή βίντεο"
 
 #: src/MediaPage.vala:409
 msgid "Open the selected videos in the system video player"
-msgstr "Άνοιγμα των επιλεγμένων βίντεο με την εφαρμογή αναπαραγωγής του συστήματος"
+msgstr ""
+"Άνοιγμα των επιλεγμένων βίντεο με την εφαρμογή αναπαραγωγής του συστήματος"
 
 #: src/MediaPage.vala:442 src/events/EventsDirectoryPage.vala:130
 msgid "_Comments"
@@ -3277,7 +3475,9 @@ msgstr "Ταξινόμηση των φωτογραφιών βάσει αξιολ
 msgid ""
 "Shotwell was unable to play the selected video:\n"
 "%s"
-msgstr "Το Shotwell απέτυχε να παίξει το επιλεγμένο βίντεο:\n%s"
+msgstr ""
+"Το Shotwell απέτυχε να παίξει το επιλεγμένο βίντεο:\n"
+"%s"
 
 #: src/events/EventDirectoryItem.vala:83
 #, c-format
@@ -3498,29 +3698,44 @@ msgstr "Η δημοσίευση στο %s δεν μπορεί να συνεχι�
 
 #: src/publishing/PublishingPluginHost.vala:84
 msgid "To try publishing to another service, select one from the above menu."
-msgstr "Προσπαθήστε να δημοσιεύσετε σε άλλη υπηρεσία, επιλέγοντας κάποια από το μενού παρακάτω."
+msgstr ""
+"Προσπαθήστε να δημοσιεύσετε σε άλλη υπηρεσία, επιλέγοντας κάποια από το "
+"μενού παρακάτω."
 
 #: src/sidebar/Tree.vala:199
 msgid "New _Tag..."
 msgstr "Καινούρια _Καρτέλα..."
 
 #: plugins/common/RESTSupport.vala:424
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:971
+#, fuzzy
 msgid "A temporary file needed for publishing is unavailable"
-msgstr "Ένα προσωρινό αρχείο απαραίτητο για τη δημοσίευση δεν είναι διαθέσιμο"
+msgstr ""
+"Το απαραίτητο προσωπικό αρχείο για την κοινοποίηση δεν είναι διαθέσιμο"
 
 #: plugins/common/RESTSupport.vala:1138
 msgid ""
-"You have already logged in and out of a Google service during this Shotwell session.\n"
+"You have already logged in and out of a Google service during this Shotwell "
+"session.\n"
 "\n"
-"To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+"To continue publishing to Google services, quit and restart Shotwell, then "
+"try publishing again."
 msgstr ""
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:57
 msgid ""
 "You are not currently logged into YouTube.\n"
 "\n"
-"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
-msgstr "Δεν είστε ακόμα συνδεδεμένος στο YouTube.\n\nΘα πρέπει να έχετε ήδη εγγραφεί για έναν λογαριασμό Google και να τον έχετε ρυθμίσει για χρήση με το YouTube για να συνεχίσετε. Μπορείτε να ρυθμίσετε τους περισσότερους λογαριασμούς χρησιμοποιώντας το πρόγραμμα πλοήγησης για να συνδεθείτε με το YouTube τουλάχιστον μια φορά."
+"You must have already signed up for a Google account and set it up for use "
+"with YouTube to continue. You can set up most accounts by using your browser "
+"to log into the YouTube site at least once."
+msgstr ""
+"Δεν είστε ακόμα συνδεδεμένος στο YouTube.\n"
+"\n"
+"Θα πρέπει να έχετε ήδη εγγραφεί για έναν λογαριασμό Google και να τον έχετε "
+"ρυθμίσει για χρήση με το YouTube για να συνεχίσετε. Μπορείτε να ρυθμίσετε "
+"τους περισσότερους λογαριασμούς χρησιμοποιώντας το πρόγραμμα πλοήγησης για "
+"να συνδεθείτε με το YouTube τουλάχιστον μια φορά."
 
 #: plugins/shotwell-publishing/YouTubePublishing.vala:362
 msgid ""
@@ -3558,14 +3773,24 @@ msgstr "Core Publishing Services"
 msgid ""
 "You are not currently logged into Flickr.\n"
 "\n"
-"Click Login to log into Flickr in your Web browser.  You will have to authorize Shotwell Connect to link to your Flickr account."
-msgstr "Δεν είστε συνδεδεμένοι με το Flickr. \\n\\n Πατήστε στο Σύνδεση για να συνδεθείτε με το Flickr στον περιηγητή ιστού σας. Θα πρέπει να εξουσιοδοτήσετε το Shotwell Connect για σύνδεση στο λογαριασμό του Flickr σας."
+"Click Login to log into Flickr in your Web browser.  You will have to "
+"authorize Shotwell Connect to link to your Flickr account."
+msgstr ""
+"Δεν είστε συνδεδεμένοι με το Flickr. \\n\\n Πατήστε στο Σύνδεση για να "
+"συνδεθείτε με το Flickr στον περιηγητή ιστού σας. Θα πρέπει να "
+"εξουσιοδοτήσετε το Shotwell Connect για σύνδεση στο λογαριασμό του Flickr "
+"σας."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:63
 msgid ""
 "You have already logged in and out of Flickr during this Shotwell session.\n"
-"To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
-msgstr "Έχετε ήδη συνδεθεί και αποσυνδεθεί από το Flickr κατά τη διάρκεια της εργασίας στο Shotwell.\nΓια να συνεχίσετε τη δημοσίευση στο Flickr, βγείτε από το Shotwell, εκκινήστε το πάλι και προσπαθήστε να δημοσιεύσετε ξανά."
+"To continue publishing to Flickr, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Έχετε ήδη συνδεθεί και αποσυνδεθεί από το Flickr κατά τη διάρκεια της "
+"εργασίας στο Shotwell.\n"
+"Για να συνεχίσετε τη δημοσίευση στο Flickr, βγείτε από το Shotwell, "
+"εκκινήστε το πάλι και προσπαθήστε να δημοσιεύσετε ξανά."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:375
 msgid "Preparing for login..."
@@ -3587,18 +3812,24 @@ msgstr "Επικύρωση εξουσιοδότησης..."
 msgid ""
 "You are logged into Flickr as %s.\n"
 "\n"
-msgstr "Είστε συνδεδεμένος στο Flickr ως %s.\n\n"
+msgstr ""
+"Είστε συνδεδεμένος στο Flickr ως %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1155
 #, c-format
 msgid ""
 "Your free Flickr account limits how much data you can upload per month.\n"
 "This month, you have %d megabytes remaining in your upload quota."
-msgstr "Ο δωρεάν λογαριασμός Flickr περιορίζει τον όγκο δεδομένων που μπορείτε ν' ανεβάσετε κάθε μήνα.\nΑυτόν τον μήνα, έχετε %d megabytes ακόμα μέχρι το ανώτατο όριο."
+msgstr ""
+"Ο δωρεάν λογαριασμός Flickr περιορίζει τον όγκο δεδομένων που μπορείτε ν' "
+"ανεβάσετε κάθε μήνα.\n"
+"Αυτόν τον μήνα, έχετε %d megabytes ακόμα μέχρι το ανώτατο όριο."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1157
 msgid "Your Flickr Pro account entitles you to unlimited uploads."
-msgstr "Ο λογαριασμός Flickr Pro σας δίνει το δικαίωμα για απεριόριστα ανεβάσματα."
+msgstr ""
+"Ο λογαριασμός Flickr Pro σας δίνει το δικαίωμα για απεριόριστα ανεβάσματα."
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1162
 msgid "Photos _visible to:"
@@ -3637,13 +3868,19 @@ msgstr "Μόνο εγώ"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1229
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1246
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:107
+#, fuzzy
 msgid "500 x 375 pixels"
-msgstr "500 x 375 εικονοστοιχεία"
+msgstr ""
+"500 x 375 εικονοστοιχεία"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1230
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1247
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:108
+#, fuzzy
 msgid "1024 x 768 pixels"
-msgstr "1024 x 768 εικονοστοιχεία"
+msgstr ""
+"1024 x 768 εικονοστοιχεία"
 
 #: plugins/shotwell-publishing/FlickrPublishing.vala:1231
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1248
@@ -3662,7 +3899,9 @@ msgstr "Δημιουργία λευκώματος %s..."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:917
 msgid "An error message occurred when publishing to Piwigo. Please try again."
-msgstr "Ένα μήνυμα λάθους εμφανίστηκε κατά τη δημοσίευση στο Piwigo. Παρακαλώ δοκιμάστε ξανά."
+msgstr ""
+"Ένα μήνυμα λάθους εμφανίστηκε κατά τη δημοσίευση στο Piwigo. Παρακαλώ "
+"δοκιμάστε ξανά."
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:998
 msgid ""
@@ -3672,11 +3911,12 @@ msgstr ""
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:999
 msgid ""
-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
-" entered"
+"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+"entered"
 msgstr ""
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1000
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:590
 msgid "Username and/or password invalid. Please try again"
 msgstr "Το όνομα χρήστη/κωδικός δεν είναι έγκυρα. Παρακαλώ δοκιμάστε ξανά."
 
@@ -3686,6 +3926,7 @@ msgid "Invalid URL"
 msgstr "Άκυρο URL"
 
 #: plugins/shotwell-publishing/PiwigoPublishing.vala:1037
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:620
 #, c-format
 msgid "Invalid User Name or Password"
 msgstr "Μη έγκυρο Όνομα Χρήστη ή Κωδικός"
@@ -3716,7 +3957,8 @@ msgstr "Διαχειριστές"
 msgid ""
 "You are not currently logged into Picasa Web Albums.\n"
 "\n"
-"Click Login to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
+"Click Login to log into Picasa Web Albums in your Web browser. You will have "
+"to authorize Shotwell Connect to link to your Picasa Web Albums account."
 msgstr ""
 
 #: plugins/shotwell-publishing/PicasaPublishing.vala:361
@@ -3763,14 +4005,30 @@ msgstr ""
 msgid ""
 "You are not currently logged into Facebook.\n"
 "\n"
-"If you don't yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
-msgstr "Δεν είστε ακόμα συνδεδεμένος στο Facebook.\n\nΑν δεν έχετε ακόμα λογαριασμό στο Facebook, μπορείτε να δημιουργήσετε έναν κατά τη διαδικασία σύνδεσης. Κατά τη διάρκεια της σύνδεσης το Shotwell Connect μπορεί να σας ζητήσει την άδεια να φορτώσει φωτογραφίες και να τις δημοσιοποιήσει στη τροφοδοσία σας (feed). Τα δικαιώματα αυτά είναι απαραίτητα για τη λειτουργία του Shotwell Connect."
+"If you don't yet have a Facebook account, you can create one during the "
+"login process. During login, Shotwell Connect may ask you for permission to "
+"upload photos and publish to your feed. These permissions are required for "
+"Shotwell Connect to function."
+msgstr ""
+"Δεν είστε ακόμα συνδεδεμένος στο Facebook.\n"
+"\n"
+"Αν δεν έχετε ακόμα λογαριασμό στο Facebook, μπορείτε να δημιουργήσετε έναν "
+"κατά τη διαδικασία σύνδεσης. Κατά τη διάρκεια της σύνδεσης το Shotwell "
+"Connect μπορεί να σας ζητήσει την άδεια να φορτώσει φωτογραφίες και να τις "
+"δημοσιοποιήσει στη τροφοδοσία σας (feed). Τα δικαιώματα αυτά είναι "
+"απαραίτητα για τη λειτουργία του Shotwell Connect."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:65
 msgid ""
-"You have already logged in and out of Facebook during this Shotwell session.\n"
-"To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
-msgstr "Έχετε ήδη συνδεθεί και αποσυνδεθεί από το Facebook κατά τη διάρκεια της εργασίας στο Shotwell.\nΓια να συνεχίσετε τη δημοσίευση στο Facebook, βγείτε από το Shotwell, εκκινήστε το πάλι και προσπαθήστε να δημοσιεύσετε ξανά."
+"You have already logged in and out of Facebook during this Shotwell "
+"session.\n"
+"To continue publishing to Facebook, quit and restart Shotwell, then try "
+"publishing again."
+msgstr ""
+"Έχετε ήδη συνδεθεί και αποσυνδεθεί από το Facebook κατά τη διάρκεια της "
+"εργασίας στο Shotwell.\n"
+"Για να συνεχίσετε τη δημοσίευση στο Facebook, βγείτε από το Shotwell, "
+"εκκινήστε το πάλι και προσπαθήστε να δημοσιεύσετε ξανά."
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:86
 msgid "Standard (720 pixels)"
@@ -3795,7 +4053,9 @@ msgstr ""
 msgid ""
 "You are logged into Facebook as %s.\n"
 "\n"
-msgstr "Είστε συνδεδεμένος στο Facebook ως %s.\n\n"
+msgstr ""
+"Είστε συνδεδεμένος στο Facebook ως %s.\n"
+"\n"
 
 #: plugins/shotwell-publishing/FacebookPublishing.vala:1020
 msgid "Where would you like to publish the selected photos?"
@@ -3865,7 +4125,9 @@ msgstr ""
 msgid ""
 "Welcome to the F-Spot library import service.\n"
 "\n"
-"Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
+"Please select a library to import, either by selecting one of the existing "
+"libraries found by Shotwell or by selecting an alternative F-Spot database "
+"file."
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:58
@@ -3881,20 +4143,23 @@ msgstr "Επιλέξτε χειροκίνητα μια βάση δεδομένω
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:62
 msgid ""
-"Cannot open the selected F-Spot database file: the file does not exist or is"
-" not an F-Spot database"
-msgstr "Δεν είναι εφικτό το άνοιγμα της επιλεγμένης βάσης δεδομένων του F-Spot: το αρχείο δεν υπάρχει ή δεν είναι βάση δεδομένων του F-Spot"
+"Cannot open the selected F-Spot database file: the file does not exist or is "
+"not an F-Spot database"
+msgstr ""
+"Δεν είναι εφικτό το άνοιγμα της επιλεγμένης βάσης δεδομένων του F-Spot: το "
+"αρχείο δεν υπάρχει ή δεν είναι βάση δεδομένων του F-Spot"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:64
 msgid ""
 "Cannot open the selected F-Spot database file: this version of the F-Spot "
 "database is not supported by Shotwell"
-msgstr "Δεν είναι εφικτό το άνοιγμα της επιλεγμένης βάσης δεδομένων του F-Spot: αυτη η έκδοση της βάση δεδομένων του F-Spot δεν υποστηρίζεται από το Shotwell"
+msgstr ""
+"Δεν είναι εφικτό το άνοιγμα της επιλεγμένης βάσης δεδομένων του F-Spot: αυτη "
+"η έκδοση της βάση δεδομένων του F-Spot δεν υποστηρίζεται από το Shotwell"
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:66
 msgid ""
-"Cannot read the selected F-Spot database file: error while reading tags "
-"table"
+"Cannot read the selected F-Spot database file: error while reading tags table"
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:68
@@ -3906,9 +4171,11 @@ msgstr ""
 #: plugins/shotwell-data-imports/FSpotImporter.vala:70
 #, c-format
 msgid ""
-"Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+"Shotwell has found %d photos in the F-Spot library and is currently "
+"importing them. Duplicates will be automatically detected and removed.\n"
 "\n"
-"You can close this dialog and start using Shotwell while the import is taking place in the background."
+"You can close this dialog and start using Shotwell while the import is "
+"taking place in the background."
 msgstr ""
 
 #: plugins/shotwell-data-imports/FSpotImporter.vala:84
@@ -3938,7 +4205,9 @@ msgstr "περίοδος χρόνου"
 
 #: ui/set_background_dialog.glade:116
 msgid "How long each photo is shown on the desktop background"
-msgstr "Το χρονικό διάστημα κατά το οποίο μια φωτογραφία παραμένει στην επιφάνεια εργασίας"
+msgstr ""
+"Το χρονικό διάστημα κατά το οποίο μια φωτογραφία παραμένει στην επιφάνεια "
+"εργασίας"
 
 #: ui/shotwell.glade:7
 msgid "Search"
@@ -3998,6 +4267,7 @@ msgstr "εικονοστοιχεία ανά ίντσα"
 
 #: ui/shotwell.glade:581 ui/shotwell.glade:623
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:27
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:27
 msgid "label"
 msgstr "ετικέτα"
 
@@ -4023,7 +4293,8 @@ msgstr "Μεταδεδομένα"
 
 #: ui/shotwell.glade:920
 msgid "Write tags, titles, and other _metadata to photo files"
-msgstr "Εγγραφή ετικετών, τίτλων και λοιπών _μεταδεδομένων στα αρχεία φωτογραφιών"
+msgstr ""
+"Εγγραφή ετικετών, τίτλων και λοιπών _μεταδεδομένων στα αρχεία φωτογραφιών"
 
 #: ui/shotwell.glade:946
 msgid "Display"
@@ -4135,6 +4406,8 @@ msgstr ""
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:137
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:229
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:99
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:116
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:115
 msgid "_Logout"
 msgstr "_Αποσύνδεση"
 
@@ -4142,6 +4415,8 @@ msgstr "_Αποσύνδεση"
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:153
 #: plugins/shotwell-publishing/picasa_publishing_options_pane.glade:243
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:115
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:134
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:129
 msgid "_Publish"
 msgstr "_Δημοσίευση"
 
@@ -4168,6 +4443,7 @@ msgid "_visibility label (populated in the code)"
 msgstr ""
 
 #: plugins/shotwell-publishing/flickr_publishing_options_pane.glade:61
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:60
 msgid "Photo _size:"
 msgstr "Μέγεθος_εικόνας:"
 
@@ -4209,6 +4485,7 @@ msgid "User _name"
 msgstr "Όνομα _Χρήστη"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:73
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:59
 msgid "_Password"
 msgstr "_Κωδικός"
 
@@ -4217,6 +4494,7 @@ msgid "_Remember Password"
 msgstr "_Απομνημόνευση Κωδικού"
 
 #: plugins/shotwell-publishing/piwigo_authentication_pane.glade:151
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:107
 msgid "Login"
 msgstr "Σύνδεση"
 
@@ -4255,3 +4533,92 @@ msgstr "Αποσύνδεση"
 #: plugins/shotwell-publishing/youtube_publishing_options_pane.glade:55
 msgid "Video privacy _setting:"
 msgstr "_Ρυθμίσεις ιδιωτικότητας βίντεο"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:38
+msgid "Copyright 2012 BJA Electronics"
+msgstr "Π2012 BJA Electronics"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:109
+msgid "1280 x 853 pixels"
+msgstr "1280 x 853 pixels"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:313
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:323
+#, c-format
+msgid "'%s' isn't a valid response to an OAuth authentication request"
+msgstr "το '%s' δεν είναι έγκυρη ανταπόκριση στο αίτημα πιστοποίησης OAuth"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:561
+msgid ""
+"TumblrPublisher: start( ): can't start; this publisher is not restartable."
+msgstr ""
+"TumblrPublisher: start( ): δεν μπορεί να εκκινήσει; ο μηχανισμός "
+"κοινοποίησης δεν είναι διαθέσιμος."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:589
+msgid "Enter the username and password associated with your Tumblr account."
+msgstr ""
+"Εισάγετε το όνομα χρήστη και κωδικό που είναι συσχετισμένα με το λογαριασμό "
+"του Tumblr σας."
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:639
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:760
+#, c-format
+msgid "Could not load UI: %s"
+msgstr "Δεν ήταν δυνατή η φόρτωση της διεπιφάνειας εργασίας: %s"
+
+#: plugins/shotwell-publishing-extras/TumblrPublishing.vala:742
+#, c-format
+msgid ""
+"You are logged into Tumblr as %s.\n"
+"\n"
+msgstr ""
+"Είστε συνδεδεμένοι στο Tumblr ως %s. \n"
+"\n"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:24
+msgid "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+msgstr "Copyright 2010+ Evgeniy Polyakov <zbr@ioremap.net>"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:27
+msgid "Visit the Yandex.Fotki web site"
+msgstr "Επισκεφθείτε τον ιστοχώρο του Yandex.Fotki"
+
+#: plugins/shotwell-publishing-extras/YandexPublishing.vala:635
+msgid "You are not currently logged into Yandex.Fotki."
+msgstr "Δεν είστε συνδεδεμένος αυτή τη στιγμή στο Yandex.Fotki."
+
+#: plugins/shotwell-publishing-extras/tumblr_authentication_pane.glade:49
+msgid "_Email address"
+msgstr "_Ηλεκτρονικό ταχυδρομείο"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:19
+msgid ""
+"You are logged into Tumblr as (name).\n"
+"\n"
+"(this label's string is populated and set inside the code, \n"
+"so changes made here will not display)"
+msgstr ""
+"Είστε συνδεδεμένοι στο Tumblr ως (name). \\n\\n (το κείμενο αυτής της "
+"καρτέλας είναι συμπληρωμένο και περιέχεται στον κώδικα \\n έτσι οι αλλαγές "
+"που γίνονται σε αυτό το σημείο δεν θα παρουσιάζονται)"
+
+#: plugins/shotwell-publishing-extras/tumblr_publishing_options_pane.glade:43
+msgid "Blogs:"
+msgstr "Ιστολόγια:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:24
+msgid "_Albums (or write new):"
+msgstr "_Άλμπουμ (ή εγγράψτε νέο);"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:38
+msgid "Access _type:"
+msgstr "Τύπος _Πρόσβασης:"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:81
+msgid "Disable _comments"
+msgstr "Απενεργοποίηση _σχολίων"
+
+#: plugins/shotwell-publishing-extras/yandex_publish_model.glade:96
+msgid "_Forbid downloading original photo"
+msgstr "Απαγόρευση _λήψης πρωτότυπης φωτογραφίας"
